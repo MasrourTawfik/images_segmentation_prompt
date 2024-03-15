@@ -1,7 +1,7 @@
-Welcome to Chat2IA's documentation!
+Welcome to image segmentation prompt  documentation!
 ====================================
 
-.. figure:: /Documentation/images/logo.jpeg
+.. figure:: /Documentation/images/logo.jpg
    :width: 80%
    :align: left
    :alt: Alternative text for the image
