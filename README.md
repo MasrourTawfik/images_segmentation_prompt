@@ -16,13 +16,7 @@ Make sure you have Python installed on your system.
    git clone https://github.com/MasrourTawfik/GIA-LLM-Documentation.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd image_segmentation_prompt-Documentation
-   ```
-
-3. Install the required dependencies using pip:
+1. Install the required dependencies using pip:
 
    ```bash
    pip install -r requirements.txt
