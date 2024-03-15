@@ -1,3 +1,5 @@
+
+
 Welcome to image segmentation prompt  documentation!
 ====================================
 
@@ -15,3 +17,9 @@ Welcome to image segmentation prompt  documentation!
 
    Documentation/scripts/1_Pipeline
 
+Indices and Tables
+=================
+* :ref:'genindex'
+* :ref: '
+* modindex'
+* :ref: 'search'
