@@ -1,6 +1,8 @@
 
 
-Welcome to image segmentation prompt  documentation!
+Welcome to Weakly Supervised Image Prompt
+Segmentation with Foundation
+Models documentation!
 ====================================
 
 .. figure:: /Documentation/images/logo.jpg
@@ -13,8 +15,7 @@ Welcome to image segmentation prompt  documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Table of Content:
+   :hidden:
+   :caption: Documentation
 
    Documentation/scripts/1_Pipeline
-
-   
