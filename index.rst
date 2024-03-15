@@ -14,4 +14,4 @@ Welcome to Chat2IA's documentation!
    :caption: Table of Content:
 
    Documentation/scripts/1_Pipeline
-   Documentation/scripts/2_Group_Members
+
