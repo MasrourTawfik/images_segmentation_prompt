@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ChatG2IA'
-copyright = '2023, GIIA'
+project = 'image segmmetation prompt'
+copyright = '2024, GIIA'
 author = 'GIIA'
 
 # -- General configuration ---------------------------------------------------
