@@ -21,8 +21,15 @@ Make sure you have Python installed on your system.
    ```bash
    pip install -r requirements.txt
    ```
+1. Here is the link to the documentation.:
 
+   ```bash
+   https://images-segmmentation-prompt.readthedocs.io/fr/latest/index.html
+   ```
 Now you're ready to start working on the documentation!
+
+
+
 
 ## Accessing the Documentation Online
 
