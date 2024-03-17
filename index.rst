@@ -1,9 +1,7 @@
 
 
-Welcome to Weakly Supervised Image Prompt
-Segmentation with Foundation
-Models documentation!
-====================================
+Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
+===============================================================================================
 
 .. figure:: /Documentation/images/logo.jpg
    :width: 80%
@@ -19,4 +17,6 @@ Models documentation!
    :caption: Documentation
 
    Documentation/scripts/1_Pipeline
-   
+   Documentation/scripts/Architecture
+
+
