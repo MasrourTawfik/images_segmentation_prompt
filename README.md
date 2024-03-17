@@ -1,6 +1,4 @@
-# Chat2IA Documentation
-
-Welcome to the documentation repository for Chat2IA, a project focused on fine-tuning open-source language models on domain-specific datasets. This repository contains documentation related to various aspects of the project.
+# image segmentation prompt Documentation
 
 ## Getting Started with Documentation Development
 
@@ -18,13 +16,7 @@ Make sure you have Python installed on your system.
    git clone https://github.com/MasrourTawfik/GIA-LLM-Documentation.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd GIA-LLM-Documentation
-   ```
-
-3. Install the required dependencies using pip:
+1. Install the required dependencies using pip:
 
    ```bash
    pip install -r requirements.txt

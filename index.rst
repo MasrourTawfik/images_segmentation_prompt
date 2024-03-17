@@ -1,7 +1,9 @@
-Welcome to Chat2IA's documentation!
-====================================
 
-.. figure:: /Documentation/images/logo.jpeg
+
+Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
+===============================================================================================
+
+.. figure:: /Documentation/images/logo.jpg
    :width: 80%
    :align: left
    :alt: Alternative text for the image
@@ -11,7 +13,10 @@ Welcome to Chat2IA's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Table of Content:
+   :hidden:
+   :caption: Documentation
 
    Documentation/scripts/1_Pipeline
+   Documentation/scripts/Architecture
+
 
