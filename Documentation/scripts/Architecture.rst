@@ -10,7 +10,7 @@ has had a significant impact on the field
 of natural language processing (NLP).
 
 - It laid the foundation for the
-development of large language models
+d evelopment of large language models
 (LLMs) such as GPT, Palm, and others,
 marking a departure from traditional
 neural network approaches.

@@ -1,4 +1,4 @@
-1_Pipeline
+Pipeline
 =============================
 
 * Transformer Architecture
