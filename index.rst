@@ -17,14 +17,6 @@ Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models do
    :caption: Documentation
 
    Documentation/scripts/1_Pipeline
-   .. toctree::
-      :maxdepth: 2
-      :hidden:
-      :caption:
-               * Transformer Architecture
-               * Visual Transformer (Vit)
-               * Detection Transformer
-               * DeTR
    Documentation/scripts/Architecture
 
 
