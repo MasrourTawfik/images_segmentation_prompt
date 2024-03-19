@@ -36,14 +36,8 @@ Le Transformer est une architecture révolutionnaire dans le domaine du traiteme
 ----------------------------
 Expliquer le fonctionnement et l'utilisation du Visual Transformer.
 
-.. _detection_transformer:
+.. _detection_transformer(DeTR):
 
 3. Detection Transformer
 -------------------------
-Expliquer le fonctionnement et l'utilisation du Detection Transformer.
-
-.. _detr:
-
-4. DeTR
--------
-Expliquer le fonctionnement et l'utilisation de DeTR (DEtection TRansformer).
+Expliquer le fonctionnement et l'utilisation du Detection Transformer(DeTR).
