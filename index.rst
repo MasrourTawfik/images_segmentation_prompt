@@ -13,10 +13,7 @@ Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models do
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Documentation
 
    Documentation/scripts/1_Pipeline
    Documentation/scripts/Architecture
-
-

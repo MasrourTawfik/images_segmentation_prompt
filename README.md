@@ -13,13 +13,13 @@ Make sure you have Python installed on your system.
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/MasrourTawfik/GIA-LLM-Documentation.git
+  
    ```
 
 1. Install the required dependencies using pip:
 
    ```bash
-   pip install -r requirements.txt
+
    ```
 1. Here is the link to the documentation.:
 
