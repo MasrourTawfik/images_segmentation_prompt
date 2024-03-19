@@ -10,19 +10,40 @@ Pipeline
 1. Transformer Architecture Explained
 -------------------------------------
 
-      * introduction (Attention is All You Need)
-      * Tokenization
-      * Embedding
-      * Positional encoding
-      * Transformer block (several of these)
-      * Softmax
+Le Transformer est une architecture révolutionnaire dans le domaine du traitement du langage naturel. Dans ce contexte, nous allons expliquer les différents aspects de cette architecture.
+
+    * Introduction (Attention is All You Need)
+      Cette introduction met en lumière les bases du Transformer, telles que décrites dans le papier "Attention is All You Need".
+
+    * Tokenization
+      La tokenization est le processus de conversion du texte en jetons, les unités de base sur lesquelles le modèle opère.
+
+    * Embedding
+      L'embedding transforme les jetons en vecteurs denses, qui représentent numériquement les mots.
+
+    * Positional encoding
+      L'encodage de position ajoute des informations sur l'ordre des mots dans la séquence.
+
+    * Transformer block (several of these)
+      Le bloc Transformer est la pièce maîtresse de cette architecture, comprenant des couches d'attention et des réseaux de neurones entièrement connectés.
+
+    * Softmax
+      Softmax est une fonction d'activation utilisée pour calculer les scores de probabilité sur la sortie du modèle.
+
 .. _visual_transformer:
 
-1. Visual Transformer (ViT)
----------------------------
-1. Detection Transformer
-------------------------
-1. DeTR
+2. Visual Transformer (ViT)
+----------------------------
+Expliquer le fonctionnement et l'utilisation du Visual Transformer.
+
+.. _detection_transformer:
+
+3. Detection Transformer
+-------------------------
+Expliquer le fonctionnement et l'utilisation du Detection Transformer.
+
+.. _detr:
+
+4. DeTR
 -------
-
-
+Expliquer le fonctionnement et l'utilisation de DeTR (DEtection TRansformer).
