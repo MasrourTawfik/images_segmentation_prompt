@@ -1,5 +1,5 @@
-INTRODUCTION
-=====================
+Transformer Architecture
+========================
 
 - In 2017, Google researchers published a groundbreaking research paper titled "Attention is All You Need" This paper introduced the Transformer model, an innovative architecture that has had a significant impact on the field of natural language processing (NLP).
 
@@ -7,6 +7,6 @@ INTRODUCTION
 
 .. figure:: /Documentation/images/arch.png
    :width: 100%
-   :align: left
+   :align: center
    :alt: Alternative text for the image
    :name: Architecture
