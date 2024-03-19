@@ -65,6 +65,7 @@ Expliquer le fonctionnement et l'utilisation du Visual Transformer.
 -------------------------
 
 https://arxiv.org/pdf/2005.12872.pdf
+
 Expliquer le fonctionnement et l'utilisation du Detection Transformer (DeTR).
 
 .. figure:: /Documentation/images/DTR.jpg
