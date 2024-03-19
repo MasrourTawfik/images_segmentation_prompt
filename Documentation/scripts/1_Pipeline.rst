@@ -9,7 +9,7 @@ Pipeline
 -------------------------------------
 
 .. figure:: /Documentation/images/arch1.png
-    :width: 200
+    :width: 200%
     :alt: Alternative Text
 
 
@@ -49,7 +49,7 @@ Le Transformer est une architecture révolutionnaire dans le domaine du traiteme
 ----------------------------
 
 .. figure:: /Documentation/images/ViT.png
-    :width: 200
+    :width: 200%
     :alt: Alternative Text
 
 <https://arxiv.org/pdf/2010.11929v2.pdf>
@@ -63,8 +63,8 @@ Expliquer le fonctionnement et l'utilisation du Visual Transformer.
 -------------------------
 
 .. figure:: /Documentation/images/detr.jpg
-   :width: 200
-   :align: left
+   :width: 200%
+   :align: model
    :alt: Alternative text 
 
 

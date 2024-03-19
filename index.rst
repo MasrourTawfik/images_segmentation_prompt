@@ -4,8 +4,7 @@ Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models do
 ===============================================================================================
 
 .. figure:: /Documentation/images/logo.jpg
-   :width: 80%
-   :align: left
+   :width: 100%
    :alt: Alternative text for the image
    :name: logo
 
