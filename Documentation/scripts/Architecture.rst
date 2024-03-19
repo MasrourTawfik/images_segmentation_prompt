@@ -6,7 +6,7 @@ INTRODUCTION
 - It laid the foundation for the development of large language models (LLMs) such as GPT, Palm, and others, marking a departure from traditionalneural network approaches.
 
 .. figure:: /Documentation/images/arch.png
-   :width: 80%
+   :width: 100%
    :align: left
    :alt: Alternative text for the image
    :name: Architecture
