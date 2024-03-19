@@ -2,7 +2,7 @@ Transformer Architecture
 ========================
 
 .. _Introduction:
-
+.. raw:: html
  <div style="text-align: justify;">
 Introduced in 2017 and first presented in the groundbreaking paper "Attention is All You Need" (Vaswani et al. 2017), the Transformer model has been a revolutionary contribution to deep learning and, some argue, to computing as a whole. Born as a tool for automatic neural machine translation, it has proven to be of much greater scope, extending its applicability beyond natural language processing (NLP) and solidifying its position as a versatile and generalized neural network architecture.
 
@@ -15,6 +15,8 @@ Without frills or fanfare, let's dive in!
    :align: center
    :alt: Alternative text for the image
    :name: Architecture
+
+
 
 
 
