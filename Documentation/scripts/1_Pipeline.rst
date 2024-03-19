@@ -64,10 +64,10 @@ Expliquer le fonctionnement et l'utilisation du Visual Transformer.
 3. Detection Transformer
 -------------------------
 
-Expliquer le fonctionnement et l'utilisation du Detection Transformer(DeTR).
+Expliquer le fonctionnement et l'utilisation du Detection Transformer (DeTR).
 
-.. figure:: /Documentation\images\detr.png
-   :width:  100
+.. figure:: /Documentation/images/detr.png
+   :width: 100
    :align: center
    :alt: Alternative Text 
 
