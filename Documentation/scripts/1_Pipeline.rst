@@ -63,7 +63,9 @@ Expliquer le fonctionnement et l'utilisation du Visual Transformer.
 -------------------------
 
 .. figure:: /Documentation/images/detr.jpg
-    :width: 200
-    :alt: Alternative Text
+   :width: 200
+   :align: left
+   :alt: Alternative text 
+
 
 Expliquer le fonctionnement et l'utilisation du Detection Transformer(DeTR).
