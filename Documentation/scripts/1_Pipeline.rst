@@ -9,8 +9,9 @@ Pipeline
 -------------------------------------
 
 .. figure:: /Documentation/images/arch1.png
-    :width: 200%
-    :alt: Alternative Text
+   :width: 400
+   :align: center
+   :alt: Alternative Text
 
 
 Le Transformer est une architecture révolutionnaire dans le domaine du traitement du langage naturel. Dans ce contexte, nous allons expliquer les différents aspects de cette architecture.
@@ -49,7 +50,8 @@ Le Transformer est une architecture révolutionnaire dans le domaine du traiteme
 ----------------------------
 
 .. figure:: /Documentation/images/ViT.png
-    :width: 200%
+    :width: 400
+    :align: center
     :alt: Alternative Text
 
 <https://arxiv.org/pdf/2010.11929v2.pdf>
@@ -63,9 +65,9 @@ Expliquer le fonctionnement et l'utilisation du Visual Transformer.
 -------------------------
 
 .. figure:: /Documentation/images/detr.jpg
-   :width: 200%
-   :align: model
-   :alt: Alternative text 
+   :width: 400
+   :align: center
+   :alt: Alternative Text 
 
 
 Expliquer le fonctionnement et l'utilisation du Detection Transformer(DeTR).
