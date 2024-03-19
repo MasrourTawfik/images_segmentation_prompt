@@ -19,8 +19,7 @@ Le Transformer est une architecture révolutionnaire dans le domaine du traiteme
     * *Introduction (Attention is All You Need)*
 
 
-       
-       * *`attention is All You Need <https://arxiv.org/pdf/1706.03762.pdf>`_*
+       <https://arxiv.org/pdf/1706.03762.pdf>
 
 
       Cette introduction met en lumière les bases du Transformer, telles que décrites dans le papier "Attention is All You Need".
@@ -50,7 +49,7 @@ Le Transformer est une architecture révolutionnaire dans le domaine du traiteme
 2. Visual Transformer (ViT)
 ----------------------------
 
-* *`VIT <https://arxiv.org/pdf/2010.11929v2.pdf>`_*
+<https://arxiv.org/pdf/2010.11929v2.pdf>
 
 Expliquer le fonctionnement et l'utilisation du Visual Transformer.
 
@@ -67,7 +66,7 @@ Expliquer le fonctionnement et l'utilisation du Visual Transformer.
 
 Expliquer le fonctionnement et l'utilisation du Detection Transformer(DeTR).
 
-.. figure:: /Documentation\images\detr.jpg
+.. figure:: /Documentation\images\detr.png
    :width: 400
    :align: center
    :alt: Alternative Text 
