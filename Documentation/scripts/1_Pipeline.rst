@@ -9,16 +9,17 @@ Pipeline
 -------------------------------------
 
 .. figure:: /Documentation/images/arch1.png
-   :width: 100%
-   :align: left
-   :alt: Alternative text for the image
-   :name: logo
+    :width: 200
+    :alt: Alternative Text
+
 
 Le Transformer est une architecture révolutionnaire dans le domaine du traitement du langage naturel. Dans ce contexte, nous allons expliquer les différents aspects de cette architecture.
 
     * *Introduction (Attention is All You Need)*
 
+
        <https://arxiv.org/pdf/1706.03762.pdf>
+
 
       Cette introduction met en lumière les bases du Transformer, telles que décrites dans le papier "Attention is All You Need".
 
@@ -48,10 +49,8 @@ Le Transformer est une architecture révolutionnaire dans le domaine du traiteme
 ----------------------------
 
 .. figure:: /Documentation/images/ViT.png
-   :width: 100%
-   :align: left
-   :alt: Alternative text for the image
-   :name: logo
+    :width: 200
+    :alt: Alternative Text
 
 <https://arxiv.org/pdf/2010.11929v2.pdf>
 
@@ -64,9 +63,7 @@ Expliquer le fonctionnement et l'utilisation du Visual Transformer.
 -------------------------
 
 .. figure:: /Documentation/images/detr.jpg
-   :width: 80%
-   :align: left
-   :alt: Alternative text for the image
-   :name: logo
+    :width: 200
+    :alt: Alternative Text
 
 Expliquer le fonctionnement et l'utilisation du Detection Transformer(DeTR).
