@@ -70,5 +70,8 @@ Expliquer le fonctionnement et l'utilisation du Detection Transformer (DeTR).
     :width: 400
     :align: center
     :alt: Alternative Text
+
+
+    
 end  
 
