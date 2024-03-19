@@ -16,3 +16,5 @@ Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models do
 
    Documentation/scripts/1_Pipeline
    Documentation/scripts/Architecture
+   Documentation\scripts\ViT.rst
+   Documentation\scripts\DeTR.rst
