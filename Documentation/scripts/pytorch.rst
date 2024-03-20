@@ -145,6 +145,9 @@ This allows for smooth integration between PyTorch and NumPy, facilitating work 
     print(tensor)
 
 
+**For more practice and to learn more, we can visit this tutorial.** `lienk <https://github.com/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
+
+
 
 3. Datasets & DataLoaders
 ---------------------------
