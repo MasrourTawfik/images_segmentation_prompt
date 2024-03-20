@@ -4,10 +4,14 @@ Pipeline
 1. Introduction to pytorch
 ---------------------------
 
+
+
 .. figure:: /Documentation/images/log.png
-   :width: 400
+   :width: 50
    :align: center
    :alt: Alternative Text
+
+
 
 
 .. raw:: html
