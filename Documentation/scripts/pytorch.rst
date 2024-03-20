@@ -12,9 +12,9 @@ Open the Anaconda prompt or terminal.
 
 Create a new conda environment for PyTorch by running the following command:
 
-``
+```
 conda create --name pytorch_env
-``
+```
 
 This will create a new environment named `pytorch_env`.
 
