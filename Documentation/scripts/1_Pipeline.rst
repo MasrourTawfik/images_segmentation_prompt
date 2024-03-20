@@ -16,7 +16,8 @@ The Transformer is a groundbreaking architecture in the field of natural languag
 
     * **Introduction (Attention is All You Need)**
 
-       <https://arxiv.org/pdf/1706.03762.pdf>
+       
+       `paper Attention is all you need <https://arxiv.org/pdf/1706.03762.pdf>`__
 
       This introduction highlights the basics of the Transformer, as described in the paper "Attention is All You Need".
 
@@ -44,8 +45,8 @@ The Transformer is a groundbreaking architecture in the field of natural languag
 
 2. Visual Transformer (ViT)
 ----------------------------
+`AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE  <https://arxiv.org/pdf/2010.11929v2.pdf>`__
 
-<https://arxiv.org/pdf/2010.11929v2.pdf>
 
 Explain the functioning and usage of the Visual Transformer.
 
