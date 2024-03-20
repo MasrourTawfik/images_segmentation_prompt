@@ -13,7 +13,9 @@ Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models do
 .. toctree::
    :maxdepth: 2
    :caption: Documentation
+   
 
+   Documentation\scripts\pytorch.rst
    Documentation/scripts/1_Pipeline
    Documentation/scripts/Architecture
    Documentation\scripts\ViT.rst
