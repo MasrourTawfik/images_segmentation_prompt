@@ -347,4 +347,7 @@ This code segment outputs a batch of training features and their corresponding l
    :alt: Alternative Text
 
 
-**For more practice and to learn more, we can visit this tutorial.** `lienk <https://github.com/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/data.ipynb>`__
+**For more practice and to learn more, we can visit this tutorial.** `find the link to Github repository<https://github.com/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/data.ipynb>`__
+ 
+ 
+ `the link to colab <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
