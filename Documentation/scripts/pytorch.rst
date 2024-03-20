@@ -224,12 +224,11 @@ To create a custom Dataset class, you must implement three functions: __init__, 
             return image, label
 
 __init__
---------
-
+---
 The `__init__` function is called once when instantiating the Dataset object. It initializes the directory containing the images, the annotations file, and both transforms.
 
 __len__
-------
+---
 
 The `__len__` function returns the number of samples in the dataset.
 
