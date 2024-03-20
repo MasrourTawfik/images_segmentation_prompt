@@ -4,6 +4,8 @@ Pipeline
 1. Introduction to pytorch
 ---------------------------
 
+
+
 .. figure:: /Documentation/images/log.png
    :width:  100
    :align: center
@@ -18,7 +20,7 @@ Pipeline
 
   PyTorch is a powerful open-source machine learning library developed by Facebook's AI Research lab (FAIR). It provides a flexible and intuitive framework for building, training, and deploying deep learning models. PyTorch stands out for its dynamic computation graph mechanism, allowing for efficient gradient computation and enabling users to define and modify models on-the-fly.
   </p>
-  
+
   <p style="text-align: justify;">
   With PyTorch, developers can easily create various types of neural networks, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformers, among others. Its extensive collection of pre-built modules and utilities simplifies the process of building complex architectures for tasks such as image classification, object detection, natural language processing, and more.
   </p>
