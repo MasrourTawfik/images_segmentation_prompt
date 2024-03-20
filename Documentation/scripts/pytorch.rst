@@ -129,6 +129,7 @@ For example, to load the Fashion-MNIST dataset using TorchVision:
 
 
 .. code-block:: python
+
     import torch
     from torch.utils.data import Dataset
     from torchvision import datasets
@@ -150,9 +151,14 @@ For example, to load the Fashion-MNIST dataset using TorchVision:
         transform=ToTensor()
     )
 
+
+
 * **Iterating and Visualizing the Dataset**
 
-.. code-block::python
+We can index Datasets manually like a list: training_data[index]. We use matplotlib to visualize some samples in our training data.
+
+.. code-block:: python
+
     labels_map = {
         0: "T-Shirt",
         1: "Trouser",
