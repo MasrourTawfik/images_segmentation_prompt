@@ -182,3 +182,10 @@ We can index Datasets manually like a list: training_data[index]. We use matplot
         plt.imshow(img.squeeze(), cmap="gray")
     plt.show()
 
+* output
+This code generates a grid of images with their corresponding labels from the Fashion-MNIST dataset. Each image represents a clothing item, and the labels indicate the category of the clothing.
+
+.. figure:: /Documentation/images/output.jpg
+   :width: 400
+   :align: center
+   :alt: Alternative Text
