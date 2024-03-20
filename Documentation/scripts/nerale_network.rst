@@ -159,6 +159,6 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 
 
 
-`Find the link to colab <https://colab.research.google.com/github/imadmlf/Neural_Network_Wrapper/blob/main/NereulNe.ipynb>`__
+`Find the link to colab <https://colab.research.google.com/drive/11tDTtz7Zs_RbStvIMVLJTByEGL0Dg7AW>`__
 
 
