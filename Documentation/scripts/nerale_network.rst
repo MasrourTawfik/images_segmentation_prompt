@@ -143,6 +143,8 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
     explorer.DisplayCorrelationWithColumn('benign_0__mal_1')
 
 `DisplayHeatMap()`_ :Displays a heatmap of the correlation matrix.
+
+
 .. code-block:: python
     print("\nHeatMap")
     explorer.DisplayHeatMap()
