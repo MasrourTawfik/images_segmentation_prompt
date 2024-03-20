@@ -1,4 +1,4 @@
-Introduction to Tensors in PyTorch
+Introduction to  PyTorch
 ===================================
 
 The purpose of this documentation is to provide a comprehensive introduction to tensors in PyTorch,
@@ -18,8 +18,8 @@ parameters of a model in PyTorch. They are optimized for computation on GPUs and
     x = torch.tensor([[1, 2], [3, 4]])
     print(x)
 
-2. Initializing Tensors
--------------------------
+* **Initializing Tensors**
+
 
 Tensors can be initialized in various ways, including directly from data, from NumPy arrays, or from other tensors.
 Initializing tensors is flexible and intuitive, simplifying the process of tensor creation.
@@ -40,8 +40,8 @@ Initializing tensors is flexible and intuitive, simplifying the process of tenso
     print(x_data)
     print(x_np)
 
-3. Attributes of Tensors
---------------------------
+* **Attributes of Tensors**
+
 
 Tensor attributes include their shape, data type, and the device on which they are stored. These attributes are useful
 for understanding and manipulating tensors effectively.
@@ -58,8 +58,9 @@ for understanding and manipulating tensors effectively.
     print(f"Datatype of tensor: {tensor.dtype}")
     print(f"Device tensor is stored on: {tensor.device}")
 
-4. Operations on Tensors
---------------------------
+* **Operations on Tensors**
+
+
 
 PyTorch offers a wide range of tensor operations, including arithmetic operations, linear algebra, matrix manipulation,
 sampling, and more. Tensors can also be used for operations in GPU mode, providing optimized performance.
@@ -79,8 +80,8 @@ sampling, and more. Tensors can also be used for operations in GPU mode, providi
     print(z1)
     print(z2)
 
-5. Bridge with NumPy
-----------------------
+* **Bridge with NumPy**
+
 
 Tensors in PyTorch can share their underlying memory with NumPy arrays, enabling seamless conversion between the two.
 This allows for smooth integration between PyTorch and NumPy, facilitating work with data.
@@ -99,3 +100,83 @@ This allows for smooth integration between PyTorch and NumPy, facilitating work 
     tensor = torch.from_numpy(numpy_array)
 
     print(tensor)
+
+
+
+2. Datasets & DataLoaders
+---------------------------
+
+
+
+PyTorch provides two important primitives for working with datasets: torch.utils.data.Dataset and torch.utils.data.DataLoader. These enable us to decouple dataset processing from model training code, enhancing readability and modularity.
+
+* Dataset:
+
+    Stores samples and their corresponding labels.
+    Allows for custom transformations.
+    Subclasses can be created for specific datasets.
+
+* DataLoader:
+
+    Wraps an iterable around the dataset.
+    Facilitates easy access to samples during training.
+
+
+* **Loading a Dataset**
+
+PyTorch also offers pre-loaded datasets, such as FashionMNIST, for prototyping and benchmarking models. These datasets subclass torch.utils.data.Dataset and implement specific functions for handling the data.
+For example, to load the Fashion-MNIST dataset using TorchVision:
+
+
+.. code-block:: python
+    import torch
+    from torch.utils.data import Dataset
+    from torchvision import datasets
+    from torchvision.transforms import ToTensor
+    import matplotlib.pyplot as plt
+
+
+    training_data = datasets.FashionMNIST(
+        root="data",
+        train=True,
+        download=True,
+        transform=ToTensor()
+    )
+
+    test_data = datasets.FashionMNIST(
+        root="data",
+        train=False,
+        download=True,
+        transform=ToTensor()
+    )
+
+* **Iterating and Visualizing the Dataset**
+
+.. code-block::python
+    labels_map = {
+        0: "T-Shirt",
+        1: "Trouser",
+        2: "Pullover",
+        3: "Dress",
+        4: "Coat",
+        5: "Sandal",
+        6: "Shirt",
+        7: "Sneaker",
+        8: "Bag",
+        9: "Ankle Boot",
+        }
+    figure = plt.figure(figsize=(8, 8))
+    cols, rows = 3, 3
+    for i in range(1, cols * rows + 1):
+        sample_idx = torch.randint(len(training_data), size=(1,)).item()
+        img, label = training_data[sample_idx]
+        figure.add_subplot(rows, cols, i)
+        plt.title(labels_map[label])
+        plt.axis("off")
+        plt.imshow(img.squeeze(), cmap="gray")
+    plt.show()
+
+.. figure:: /Documentation/images/output.jpg
+   :width: 400
+   :align: center
+   :alt: Alternative Text
