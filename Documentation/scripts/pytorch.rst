@@ -223,12 +223,12 @@ To create a custom Dataset class, you must implement three functions: __init__, 
                 label = self.target_transform(label)
             return image, label
 
+
 __init__
----
+
 The `__init__` function is called once when instantiating the Dataset object. It initializes the directory containing the images, the annotations file, and both transforms.
 
 __len__
----
 
 The `__len__` function returns the number of samples in the dataset.
 
@@ -240,7 +240,6 @@ Example:
         return len(self.img_labels)
 
 __getitem__
------------
 
 The `__getitem__` function loads and returns a sample from the dataset at the given index `idx`. It identifies the image’s location on disk based on the index, converts that to a tensor using `read_image`, retrieves the corresponding label from the CSV data, applies transform functions (if applicable), and returns the tensor image and corresponding label in a tuple.
 
