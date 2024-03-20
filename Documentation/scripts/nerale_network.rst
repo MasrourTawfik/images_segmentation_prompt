@@ -81,7 +81,7 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
 4. test the `DataExploration <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ class:
 ------------------------------------------------------------------------------------------------------------------------
 
-`DisplayData()`_ :Displays the head of the DataFrame.
+DisplayData(): Displays the head of the DataFrame.
 
 
 .. code-block:: python
@@ -91,7 +91,7 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
     explorer.DisplayData()
 
 
-`DisplayDataTypes()`_ : Displays the data types of columns in the DataFrame.
+DisplayDataTypes(): Displays the data types of columns in the DataFrame.
 
 .. code-block:: python
 
@@ -99,20 +99,20 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
     explorer.DisplayDataTypes()
 
 
-`DisplayDataInfo()`_ : Displays general information about the DataFrame.
+DisplayDataInfo() : Displays general information about the DataFrame.
 
 .. code-block:: python
     print("\nData Info")
     explorer.DisplayDataInfo()
 
-`DisplayDataDescription()`_ : Displays statistical descriptions of the data.
+DisplayDataDescription() : Displays statistical descriptions of the data.
 
 .. code-block:: python
 
     print("\nData Description")
     explorer.DisplayDataDescription()
 
-`DisplayDataShape()`_ :Displays the shape of the DataFrame.
+DisplayDataShape() :Displays the shape of the DataFrame.
 
 .. code-block:: python
 
@@ -120,7 +120,7 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
     explorer.DisplayDataShape()
 
 
-`DisplayMissingValues()`_ :Displays information about missing values in the DataFrame.
+DisplayMissingValues():Displays information about missing values in the DataFrame.
 
 
 .. code-block:: python
@@ -128,21 +128,21 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
     print("\nMissing Values")
     explorer.DisplayMissingValues()    
 
-`DisplayCorrelationMatrix()`_ :Displays the correlation matrix of numerical features in the DataFrame.
+DisplayCorrelationMatrix() :Displays the correlation matrix of numerical features in the DataFrame.
 
 
 .. code-block:: python
     print("\nCorrelation Matrix")
     explorer.DisplayCorrelationMatrix()
 
-`DisplayCorrelationWithColumn('benign_0__mal_1')`_ :Displays the correlation of all features with the target column named 'benign_0__mal_1'.
+DisplayCorrelationWithColumn('benign_0__mal_1') :Displays the correlation of all features with the target column named 'benign_0__mal_1'.
 
 .. code-block:: python
     
     print("\nCorrelation with 'target' column:")
     explorer.DisplayCorrelationWithColumn('benign_0__mal_1')
 
-`DisplayHeatMap()`_ :Displays a heatmap of the correlation matrix.
+DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 
 
 .. code-block:: python
@@ -151,14 +151,3 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
 
 end-to-end
 
-
-
-.. _`DisplayData()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
-.. _`DisplayDataTypes()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
-.. _`DisplayDataInfo()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
-.. _`DisplayDataDescription()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
-.. _`DisplayDataShape()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
-.. _`DisplayMissingValues()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
-.. _`DisplayCorrelationMatrix()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
-.. _`DisplayCorrelationWithColumn('benign_0__mal_1')`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
-.. _`DisplayHeatMap()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
