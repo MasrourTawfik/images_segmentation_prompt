@@ -75,3 +75,86 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
 .. _`split_data()`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
 .. _`normalize_data()`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
 .. _`tensorize_data()`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
+
+
+
+4. test the `DataExploration <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ class:
+------------------------------------------------------------------------------------------------------------------------
+
+`DisplayData()`_ :Displays the head of the DataFrame.
+
+
+.. code-block:: python
+
+    explorer = DataExploration(df)
+    print("DataFrame Head")
+    explorer.DisplayData()
+
+
+`DisplayDataTypes()`_ : Displays the data types of columns in the DataFrame.
+
+.. code-block:: python
+
+    print("\nData Types")
+    explorer.DisplayDataTypes()
+
+
+`DisplayDataInfo()`_ : Displays general information about the DataFrame.
+
+.. code-block:: python
+    print("\nData Info")
+    explorer.DisplayDataInfo()
+
+`DisplayDataDescription()`_ : Displays statistical descriptions of the data.
+
+.. code-block:: python
+
+    print("\nData Description")
+    explorer.DisplayDataDescription()
+
+`DisplayDataShape()`_ :Displays the shape of the DataFrame.
+
+.. code-block:: python
+
+    print("\nData Shape")
+    explorer.DisplayDataShape()
+
+
+`DisplayMissingValues()`_ :Displays information about missing values in the DataFrame.
+
+
+.. code-block:: python
+
+    print("\nMissing Values")
+    explorer.DisplayMissingValues()    
+
+`DisplayCorrelationMatrix()`_ :Displays the correlation matrix of numerical features in the DataFrame.
+
+
+.. code-block:: python
+    print("\nCorrelation Matrix")
+    explorer.DisplayCorrelationMatrix()
+
+`DisplayCorrelationWithColumn('benign_0__mal_1')`_ :Displays the correlation of all features with the target column named 'benign_0__mal_1'.
+
+.. code-block:: python
+    
+    print("\nCorrelation with 'target' column:")
+    explorer.DisplayCorrelationWithColumn('benign_0__mal_1')
+
+`DisplayHeatMap()`_ :Displays a heatmap of the correlation matrix.
+.. code-block:: python
+    print("\nHeatMap")
+    explorer.DisplayHeatMap()
+
+
+
+.. _`DisplayData()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
+.. _`DisplayDataTypes()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
+.. _`DisplayDataInfo()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
+.. _`DisplayDataDescription()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
+.. _`DisplayDataShape()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
+.. _`DisplayMissingValues()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
+.. _`DisplayCorrelationMatrix()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
+.. _`DisplayCorrelationWithColumn('benign_0__mal_1')`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
+.. _`DisplayHeatMap()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
