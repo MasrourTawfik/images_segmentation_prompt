@@ -189,3 +189,117 @@ This code generates a grid of images with their corresponding labels from the Fa
    :width: 400
    :align: center
    :alt: Alternative Text
+
+
+* **Creating a Custom Dataset for Your Files**
+
+
+To create a custom Dataset class, you must implement three functions: __init__, __len__, and __getitem__. Below is an implementation example where the FashionMNIST images are stored in a directory (`img_dir`), and their labels are stored separately in a CSV file (`annotations_file`).
+
+.. code-block:: python
+
+    import os
+    import pandas as pd
+    from torchvision.io import read_image
+    from torch.utils.data import Dataset
+
+    class CustomImageDataset(Dataset):
+        def __init__(self, annotations_file, img_dir, transform=None, target_transform=None):
+            self.img_labels = pd.read_csv(annotations_file)
+            self.img_dir = img_dir
+            self.transform = transform
+            self.target_transform = target_transform
+
+        def __len__(self):
+            return len(self.img_labels)
+
+        def __getitem__(self, idx):
+            img_path = os.path.join(self.img_dir, self.img_labels.iloc[idx, 0])
+            image = read_image(img_path)
+            label = self.img_labels.iloc[idx, 1]
+            if self.transform:
+                image = self.transform(image)
+            if self.target_transform:
+                label = self.target_transform(label)
+            return image, label
+
+__init__
+--------
+
+The `__init__` function is called once when instantiating the Dataset object. It initializes the directory containing the images, the annotations file, and both transforms.
+
+__len__
+------
+
+The `__len__` function returns the number of samples in the dataset.
+
+Example:
+
+.. code-block:: python
+
+    def __len__(self):
+        return len(self.img_labels)
+
+__getitem__
+-----------
+
+The `__getitem__` function loads and returns a sample from the dataset at the given index `idx`. It identifies the image’s location on disk based on the index, converts that to a tensor using `read_image`, retrieves the corresponding label from the CSV data, applies transform functions (if applicable), and returns the tensor image and corresponding label in a tuple.
+
+Example:
+
+.. code-block:: python
+
+    def __getitem__(self, idx):
+        img_path = os.path.join(self.img_dir, self.img_labels.iloc[idx, 0])
+        image = read_image(img_path)
+        label = self.img_labels.iloc[idx, 1]
+        if self.transform:
+            image = self.transform(image)
+        if self.target_transform:
+            label = self.target_transform(label)
+        return image, label
+
+
+* **Preparing Your Data for Training with DataLoaders**
+
+
+The Dataset retrieves features and labels one sample at a time. When training a model, it's common to pass samples in minibatches, reshuffle the data at every epoch to reduce model overfitting, and use multiprocessing to speed up data retrieval.
+
+`DataLoader` is an iterable that abstracts this complexity for us in an easy API.
+
+.. code-block:: python
+
+    from torch.utils.data import DataLoader
+
+    train_dataloader = DataLoader(training_data, batch_size=64, shuffle=True)
+    test_dataloader = DataLoader(test_data, batch_size=64, shuffle=True)
+
+* **Iterate Through the DataLoader**
+
+
+After loading the dataset into the DataLoader, you can iterate through the dataset as needed. Each iteration returns a batch of `train_features` and `train_labels`. Since `shuffle=True`, the data is shuffled after iterating over all batches.
+
+Example:
+
+.. code-block:: python
+
+    # Display image and label.
+    train_features, train_labels = next(iter(train_dataloader))
+    print(f"Feature batch shape: {train_features.size()}")
+    print(f"Labels batch shape: {train_labels.size()}")
+    img = train_features[0].squeeze()
+    label = train_labels[0]
+    plt.imshow(img, cmap="gray")
+    plt.show()
+    print(f"Label: {label}")
+
+* output
+
+This code segment outputs a batch of training features and their corresponding labels from the train_dataloader.
+
+.. figure:: /Documentation/images/output1.jpg
+   :width: 400
+   :align: center
+   :alt: Alternative Text
+
+
