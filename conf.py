@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'image segmetation prompt'
-copyright = '2024, GIIA'
-author = 'GIIA'
+copyright = '2024, GIIADS'
+author = 'image_segmentation_prompt'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
