@@ -60,3 +60,18 @@ You can view the code and access the link by clicking on `link to the ModelTrain
 
 3. Test the `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__  class
 -------------------------------------------------------------------------------------------------------------------------
+
+
+The `preprocessor` object is created using the `DataPreprocessing`_ class, which prepares the data for training a machine learning model. After splitting the data into training and testing sets using the `split_data()`_ method, it normalizes the data with `normalize_data()`_. Finally, it converts the data into tensors with `tensorize_data()`_, ready for model training and evaluation.
+
+.. code-block:: python
+
+    preprocessor = DataPreprocessing(df)
+    x_train, x_test, y_train, y_test = preprocessor.split_data(test_size=0.2, random_state=42)
+    x_train, x_test = preprocessor.normalize_data()
+    x_train_tensor, x_test_tensor, y_train_tensor, y_test_tensor = preprocessor.tensorize_data()
+
+.. _`DataPreprocessing`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py
+.. _`split_data()`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
+.. _`normalize_data()`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
+.. _`tensorize_data()`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
