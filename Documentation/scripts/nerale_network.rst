@@ -6,7 +6,7 @@ dataset:
 
 `link to the dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__
 
-Training on a simple dataset
+1. Training on a simple dataset
 -----------------------------
 
 1. `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__ : 
@@ -47,12 +47,13 @@ You can view the code and access the link by clicking on `link to the ModelTrain
     import torch
 
 
-Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__
+2. Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__
 -----------------------------------------------------------------------------------------------
 
 
 .. code-block::python
     df = pd.read_csv('cancer_classification.csv')
 
-Test the `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__  class
+
+3. Test the `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__  class
 -------------------------------------------------------------------------------------------------------------------------
