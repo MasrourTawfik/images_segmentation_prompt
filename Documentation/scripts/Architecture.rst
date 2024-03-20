@@ -21,7 +21,14 @@ Transformer Architecture
 
 
 .. _Attention is All You Need:
+.. raw:: html
 
+   <p style="text-align: justify;">
+      Attention is all you need is a paper from google brain and google research, which was initially proposed as a replacement for RNN networks in natural language processing. In this blog, we will understand the theoretical idea behind the transformer and later implement it in PyTorch.
+
+      This section gives some basic ideas about how we get feature vectors from the words. If you are familiar with any tokenizer or word2vector you can directly go to the next section.
+   </p>
+   
 
 
 
