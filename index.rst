@@ -3,12 +3,16 @@
 Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
 ===============================================================================================
 
-.. figure:: /Documentation/images/logo.jpg
+.. figure:: /Documentation/images/prompt.png
    :width: 100%
    :alt: Alternative text for the image
-   :name: logo
+   :name: Weakly Supervised image prompt segment
 
    ..
+
+
+ paper : `Weakly Supervised Image Prompt Segmentation <https://arxiv.org/html/2312.03585v2>`__
+ 
 
 .. toctree::
    :maxdepth: 2
@@ -22,3 +26,11 @@ Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models do
    Documentation/scripts/Architecture
    Documentation/scripts/ViT.rst
    Documentation/scripts/DeTR.rst
+
+
+.. figure:: /Documentation/images/logo.jpg
+   :width: 100%
+   :alt: Alternative text for the image
+   :name: logo
+
+   ..
