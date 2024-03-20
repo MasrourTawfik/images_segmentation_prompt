@@ -158,7 +158,6 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 `Find the link to github repository <https://github.com/imadmlf/Neural_Network_Wrapper>`__
 
 
-
 `Find the link to colab <https://colab.research.google.com/drive/11tDTtz7Zs_RbStvIMVLJTByEGL0Dg7AW>`__
 
 
