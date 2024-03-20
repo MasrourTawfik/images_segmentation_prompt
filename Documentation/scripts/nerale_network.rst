@@ -6,6 +6,8 @@ Neural Network Wrapper
 
 `link to the dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__
 
+Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__ :
+
 To read data from a CSV file using pandas (pd), you can use the read_csv function:
 
 .. code-block::python
@@ -53,12 +55,6 @@ You can view the code and access the link by clicking on `link to the ModelTrain
     import torch
 
 
-3. Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__
------------------------------------------------------------------------------------------------
 
-
-
-
-
-4. Test the `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__  class
--------------------------------------------------------------------------------------------------------------------------
+3. Test the `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__  class
+---------------------------------------------------------------------------------------------------------------------------
