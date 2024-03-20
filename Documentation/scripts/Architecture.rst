@@ -25,7 +25,7 @@ Transformer Architecture
 
 .. _Attention is All You Need:
 
-1. Attention is all you need
+2. Attention is all you need
 ------------------------------
 
 
