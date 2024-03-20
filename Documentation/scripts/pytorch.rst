@@ -182,7 +182,3 @@ We can index Datasets manually like a list: training_data[index]. We use matplot
         plt.imshow(img.squeeze(), cmap="gray")
     plt.show()
 
-.. figure:: /Documentation/images/output.jpg
-   :width: 400
-   :align: center
-   :alt: Alternative Text
