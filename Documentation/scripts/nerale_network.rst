@@ -132,6 +132,7 @@ DisplayCorrelationMatrix() :Displays the correlation matrix of numerical feature
 
 
 .. code-block:: python
+    
     print("\nCorrelation Matrix")
     explorer.DisplayCorrelationMatrix()
 
@@ -146,6 +147,7 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 
 
 .. code-block:: python
+
     print("\nHeatMap")
     explorer.DisplayHeatMap()
 
