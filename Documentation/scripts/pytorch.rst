@@ -1,7 +1,3 @@
-Learn the Basics
-=====================
-- pytorch basic
-- pytorch neural network
 
 Quickstart
 =====================
