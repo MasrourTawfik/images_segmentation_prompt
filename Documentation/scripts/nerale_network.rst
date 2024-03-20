@@ -149,6 +149,8 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
     print("\nHeatMap")
     explorer.DisplayHeatMap()
 
+end-to-end
+
 
 
 .. _`DisplayData()`:https://github.com/imadmlf/taskes/Neural_Network_Wrapper/main/DataExploration.py#LX
