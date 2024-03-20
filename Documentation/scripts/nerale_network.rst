@@ -151,5 +151,14 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
     print("\nHeatMap")
     explorer.DisplayHeatMap()
 
-end-to-end
+
+
+**For more practice and to learn more, we can visit this tutorial.**
+
+`Find the link to github repository <https://github.com/imadmlf/Neural_Network_Wrapper>`__
+
+
+
+`Find the link to colab <https://colab.research.google.com/github/imadmlf/Neural_Network_Wrapper/blob/main/NereulNe.ipynb>`__
+
 
