@@ -11,10 +11,6 @@ Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models do
    ..
 
 
-
- Weakly Supervised image prompt Segmentation `paper <https://arxiv.org/html/2312.03585v2>`__
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Documentation
