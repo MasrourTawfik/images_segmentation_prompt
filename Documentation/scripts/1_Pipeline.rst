@@ -59,7 +59,9 @@ Explain the functioning and usage of the Visual Transformer.
 3. Detection Transformer
 -------------------------
 
-https://arxiv.org/pdf/2005.12872.pdf
+DEtection TRansformer (DETR) model trained end-to-end on COCO 2017 object detection (118k annotated images). It was introduced in the paper `End-to-End Object Detection with Transformers <https://arxiv.org/abs/2005.12872>`__
+ by Carion et al. and first released in this repository. `repository <https://github.com/facebookresearch/detr>`__
+
 
 Explain the functioning and usage of the Detection Transformer (DeTR).
 
