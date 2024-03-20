@@ -2,6 +2,9 @@ Transformer Architecture
 ========================
 
 .. _Introduction:
+
+1. introduction
+-----------------
 .. raw:: html
 
    <p style="text-align: justify;">
@@ -21,6 +24,11 @@ Transformer Architecture
 
 
 .. _Attention is All You Need:
+
+1. Attention is all you need
+------------------------------
+
+
 .. raw:: html
 
    <p style="text-align: justify;">
@@ -28,7 +36,8 @@ Transformer Architecture
 
       This section gives some basic ideas about how we get feature vectors from the words. If you are familiar with any tokenizer or word2vector you can directly go to the next section.
    </p>
-   
+
+
 
 
 
