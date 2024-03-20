@@ -4,7 +4,53 @@ Introduction to  PyTorch
 The purpose of this documentation is to provide a comprehensive introduction to tensors in PyTorch,
 emphasizing their importance and usage within the context of machine learning models.
 
-1. Introduction to Tensors
+
+1. Installing PyTorch with Anaconda
+---------------------------------
+
+
+```plaintext
+Open the Anaconda prompt or terminal.
+
+Create a new conda environment for PyTorch by running the following command:
+
+```bash
+conda create --name pytorch_env
+```
+
+This will create a new environment named `pytorch_env`.
+
+Activate the new environment by running the following command:
+
+```bash
+conda activate pytorch_env
+```
+
+Install PyTorch using conda. The following command installs the CPU version of PyTorch:
+
+```bash
+conda install pytorch torchvision cpuonly -c pytorch
+```
+
+If you have a GPU and want to install the GPU version of PyTorch, replace `cpuonly` with `cudatoolkit`. For example:
+
+```bash
+conda install pytorch torchvision cudatoolkit -c pytorch
+```
+
+This will install the necessary packages for PyTorch to run on your system.
+
+Verify that PyTorch is installed correctly by running the following command:
+
+```bash
+python -c "import torch; print(torch.__version__)"
+```
+
+This should print the version number of PyTorch that you just installed.
+```
+
+
+2. Introduction to Tensors
 ---------------------------
 
 Tensors are specialized data structures similar to arrays and matrices, used to encode the inputs, outputs, and
@@ -103,7 +149,7 @@ This allows for smooth integration between PyTorch and NumPy, facilitating work 
 
 
 
-2. Datasets & DataLoaders
+3. Datasets & DataLoaders
 ---------------------------
 
 

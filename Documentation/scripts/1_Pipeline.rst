@@ -4,14 +4,19 @@ Pipeline
 1. Introduction to pytorch
 ---------------------------
 
+.. raw:: html
 
-PyTorch is a powerful open-source machine learning library developed by Facebook's AI Research lab (FAIR). It provides a flexible and intuitive framework for building, training, and deploying deep learning models. PyTorch stands out for its dynamic computation graph mechanism, allowing for efficient gradient computation and enabling users to define and modify models on-the-fly.
+   <p style="text-align: justify;">
 
-With PyTorch, developers can easily create various types of neural networks, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformers, among others. Its extensive collection of pre-built modules and utilities simplifies the process of building complex architectures for tasks such as image classification, object detection, natural language processing, and more.
+    PyTorch is a powerful open-source machine learning library developed by Facebook's AI Research lab (FAIR). It provides a flexible and intuitive framework for building, training, and deploying deep learning models. PyTorch stands out for its dynamic computation graph mechanism, allowing for efficient gradient computation and enabling users to define and modify models on-the-fly.
 
-One of PyTorch's key strengths lies in its seamless integration with Python and NumPy, facilitating data manipulation and experimentation. Additionally, PyTorch provides support for GPU acceleration, enabling faster computation and training of deep learning models on compatible hardware.
+    With PyTorch, developers can easily create various types of neural networks, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformers, among others. Its extensive collection of pre-built modules and utilities simplifies the process of building complex architectures for tasks such as image classification, object detection, natural language processing, and more.
 
-Whether you're a beginner exploring deep learning concepts or an experienced researcher developing cutting-edge models, PyTorch offers a rich ecosystem of tools, resources, and community support to accelerate your journey in the field of artificial intelligence.
+    One of PyTorch's key strengths lies in its seamless integration with Python and NumPy, facilitating data manipulation and experimentation. Additionally, PyTorch provides support for GPU acceleration, enabling faster computation and training of deep learning models on compatible hardware.
+
+    Whether you're a beginner exploring deep learning concepts or an experienced researcher developing cutting-edge models, PyTorch offers a rich ecosystem of tools, resources, and community support to accelerate your journey in the field of artificial intelligence.
+
+  </p>
 
 .. _transformer_architecture:
 
