@@ -18,11 +18,9 @@ learn pytorch
 
 * **Initializing a Tensor**
 
-.. raw:: html
 
-   <p style="text-align: justify;">
-      Tensors in PyTorch can be initialized directly from data, allowing for easy creation without specifying the data type explicitly. The data type of the tensor is automatically inferred based on the provided data. This flexibility simplifies the tensor creation process and makes it more intuitive, especially when working with diverse data types.
-   </p>
+Tensors in PyTorch can be initialized directly from data, allowing for easy creation without specifying the data type explicitly. The data type of the tensor is automatically inferred based on the provided data. This flexibility simplifies the tensor creation process and makes it more intuitive, especially when working with diverse data types.
+
 
 
 .. code-block:: python
@@ -31,4 +29,5 @@ learn pytorch
     # Initialize a PyTorch tensor directly from the data
     x_data = torch.tensor(data)
     print(x_data)
+
 
