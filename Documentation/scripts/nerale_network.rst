@@ -304,6 +304,7 @@ plot train_losses and test_losses
 
 
 .. figure:: /Documentation\images\training.jpg
+   :width: 100%
    :alt: Alternative text for the image
 
 
@@ -332,7 +333,7 @@ plot train_losses and test_losses
 
 
 .. figure:: /Documentation/images/conf.jpg
-   :width: 100%
+   :width: 50%
    :alt: Alternative text for the image
    :name: logo
 
