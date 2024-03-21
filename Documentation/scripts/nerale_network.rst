@@ -283,7 +283,6 @@ plot train_losses and test_losses
 .. figure:: /Documentation/images/Training.jpg
    :width: 80%
    :alt: Alternative text for the image
-   :name: logo
 
 
 6. test the `ModelEvaluation <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__  class 
@@ -291,10 +290,12 @@ plot train_losses and test_losses
 
 
 .. code-block:: python
+
     evaluator = ModelEvaluation(model, criterion, optimizer)
 
 
 .. code-block:: python
+
         model.eval()
         with torch.no_grad():
             y_pred = model(x_test_tensor)
@@ -303,8 +304,8 @@ plot train_losses and test_losses
 
 
 .. code-block:: python
-    evaluator.confusion_matrix(y_test_tensor, y_pred)
 
+    evaluator.confusion_matrix(y_test_tensor, y_pred)
 
 
 
