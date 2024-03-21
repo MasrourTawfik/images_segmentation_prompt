@@ -91,7 +91,7 @@ information_help(): Their role is to display the methods existing in the DataExp
 
 
 
-* *output:*
+ *output:*
 
 * `DisplayData()`                       :Display the first few rows of the DataFrame.
 
@@ -199,18 +199,22 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 
 
 .. code-block::python
+
     input_features = len(df.columns) - 1
     out_features = df['benign_0__mal_1'].unique().sum()
     neural_net = NeuralNetwork(input_features, out_features)
     print("Neural Network Architecture:")
     print(neural_net)
  
+
+
 `output`:
 
 
 
 Neural Network Architecture:
 
+```
 NeuralNetwork(
 
   (fc1): Linear(in_features=30, out_features=30, bias=True)
@@ -226,6 +230,7 @@ NeuralNetwork(
 )
 
 
+```
 Here's the explanation:
 
 - `input_features = len(df.columns) - 1`: This line calculates the number of input features for the neural network. It subtracts 1 from the total number of columns in the DataFrame `df` to exclude the target column (assuming the target column is named `'benign_0__mal_1'`).
@@ -242,7 +247,9 @@ Here's the explanation:
 5. Testing the  class `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__
 --------------------------------------------------------------------------------------------------------------------
 
+
 .. code-block::python
+
     from torch import nn
     model = neural_net
     criterion = nn.BCELoss() 
