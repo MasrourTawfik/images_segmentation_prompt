@@ -235,7 +235,7 @@ This code snippet demonstrates setting up the neural network model, defining the
 
 
 
-.. code-block::python
+.. code-block:: python
 
     from torch import nn
     model = neural_net
@@ -247,7 +247,14 @@ This code snippet demonstrates setting up the neural network model, defining the
 
 
 
-end 
+plot train_losses and test_losses
+
+
+.. code-block:: python
+    trainer.plot_loss(train_losses, test_losses)
+
+
+
 
 
 
