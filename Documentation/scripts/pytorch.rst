@@ -152,6 +152,7 @@ This allows for smooth integration between PyTorch and NumPy, facilitating work 
 `Find the link to colab <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
 
 
+
 3. Datasets & DataLoaders
 ---------------------------
 
