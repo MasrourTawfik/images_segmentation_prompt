@@ -338,6 +338,6 @@ Link  to github repository and colab applications:
 `Link to Colab notebook <https://colab.research.google.com/github/imadmlf/Neural_Network/blob/main/test.ipynb>`__
 
 
-`Link to Colab notebook  <https://colab.research.google.com/github/imadmlf/Neural_Network/blob/main/NereulNe.ipynb>`__ 
+`Link to Colab notebook  <https://github.com/imadmlf/Neural_Network/commit/97f1a614d89a8566c1ff997bebbca1a144dd3c19>`__ 
 
 
