@@ -92,6 +92,8 @@ information_help(): Their role is to display the methods existing in the DataExp
 
 
 `output`:
+
+
 *DisplayData()                       :Display the first few rows of the DataFrame.
 DisplayDataTypes()                  :Display the data types of each column in the DataFrame.
 DisplayDataInfo()                   :Display information about the DataFrame, including number of rows, columns, and data types.
@@ -185,5 +187,7 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 
 
 `Find the link to colab <https://colab.research.google.com/drive/11tDTtz7Zs_RbStvIMVLJTByEGL0Dg7AW>`__
+
+
 
 
