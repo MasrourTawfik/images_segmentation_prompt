@@ -280,8 +280,8 @@ plot train_losses and test_losses
 * output
 
 
+
 .. figure:: /Documentation/images/Training.jpg
-   :width: 80%
    :alt: Alternative text for the image
 
 
