@@ -241,7 +241,7 @@ Here's the explanation:
 5. Testing the  class `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__
 --------------------------------------------------------------------------------------------------------------------
 
-
+This code snippet demonstrates setting up the neural network model, defining the loss function and optimizer, and then training the model using a ModelTrainer class. During training, it collects the training and testing losses for each epoch.
 
 
 
@@ -259,7 +259,7 @@ Here's the explanation:
 
 
 
-This code snippet demonstrates setting up the neural network model, defining the loss function and optimizer, and then training the model using a ModelTrainer class. During training, it collects the training and testing losses for each epoch.
+
 
 
 
