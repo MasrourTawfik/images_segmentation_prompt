@@ -294,12 +294,7 @@ plot train_losses and test_losses
    :name: logo
 
 
-.. figure:: /Documentation\images\training.jpg
-   :width: 50%
-   :alt: Alternative text for the image
-   :name: logo
 
-end
 
 6. test the `ModelEvaluation <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__  class 
 ------------------------------------------------------------------------------------------------------------------------
