@@ -215,17 +215,23 @@ Neural Network Architecture:
 
 ``` 
 NeuralNetwork(
+
 (fc1): Linear(in_features=30, out_features=30, bias=True)
+
 (fc2): Linear(in_features=30, out_features=15, bias=True)
+
 (fc3): Linear(in_features=15, out_features=1, bias=True)
+
 (relu): ReLU()
+
 (sigmoid): Sigmoid()
 )
 ```
 
 
 
-Here's the explanation:
+
+*Here's the explanation:
 
 - `input_features = len(df.columns) - 1`: This line calculates the number of input features for the neural network. It subtracts 1 from the total number of columns in the DataFrame `df` to exclude the target column (assuming the target column is named `'benign_0__mal_1'`).
 
@@ -247,11 +253,8 @@ Here's the explanation:
     from torch import nn
     model = neural_net
     criterion = nn.BCELoss() 
+
     optimizer = torch.optim.SGD(model.parameters(), lr=0.01) 
-
-
-
-.. code-block::python
 
     from modeltrainer import ModelTrainer
     trainer = ModelTrainer(model, criterion, optimizer)
