@@ -93,30 +93,32 @@ information_help(): Their role is to display the methods existing in the DataExp
 
 `output`:
 
+.. role:: redtext
+   :class: redtext
 
-DisplayData()                       :Display the first few rows of the DataFrame.
+:redtext: `DisplayData()`                       :Display the first few rows of the DataFrame.
 
-DisplayDataTypes()                  :Display the data types of each column in the DataFrame.
+:redtext: `DisplayDataTypes() `                 :Display the data types of each column in the DataFrame.
 
-DisplayDataInfo()                   :Display information about the DataFrame, including number of rows, columns, and data types.
+:redtext: `DisplayDataInfo() `                  :Display information about the DataFrame, including number of rows, columns, and data types.
 
-DisplayDataDescription()            :Display descriptive statistics for each column of the DataFrame.
+:redtext: `DisplayDataDescription()`            :Display descriptive statistics for each column of the DataFrame.
 
-DisplayCorrelationMatrix()          :Display the correlation matrix between all numeric columns of the DataFrame.
+:redtext: `DisplayCorrelationMatrix()  `        :Display the correlation matrix between all numeric columns of the DataFrame.
 
-DisplayCorrelationWithColumn(column):correletion with a specific column
+:redtext: `DisplayCorrelationWithColumn(column)`:correletion with a specific column
 
-DisplayHeatMap()                    :Displays a heatmap of the correlation matrix.
+:redtext: `DisplayHeatMap()  `                  :Displays a heatmap of the correlation matrix.
 
-DisplayPairPlot()                   :This method creates a pairplot, also known as a scatterplot matrix, which shows pairwise relationships between numerical columns 
+:redtext: `DisplayPairPlot() `                  :This method creates a pairplot, also known as a scatterplot matrix, which shows pairwise relationships between numerical columns 
 
-DisplayCountPlot()                  :This method generates a countplot, which is a type of bar plot that shows the frequency of each category in a categorical column of the DataFrame
+:redtext: `DisplayCountPlot() `                 :This method generates a countplot, which is a type of bar plot that shows the frequency of each category in a categorical column of the DataFrame
 
-DisplayBoxPlot()                    :This method creates a boxplot for a numerical column in the DataFrame.
+:redtext: `DisplayBoxPlot() `                   :This method creates a boxplot for a numerical column in the DataFrame.
 
-DisplayScatterPlot()                :This method generates a scatter plot between two numerical columns in the DataFrame
+:redtext: `DisplayScatterPlot() `               :This method generates a scatter plot between two numerical columns in the DataFrame
 
-DisplayHistogram()                  :This method creates a histogram for a numerical column in the DataFrame
+:redtext: `DisplayHistogram()`                  :This method creates a histogram for a numerical column in the DataFrame
 
 
 
@@ -192,13 +194,6 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 
 
 
-**For more practice and to learn more, we can visit this tutorial.**
-
-`Find the link to github repository <https://github.com/imadmlf/Neural_Network_Wrapper>`__
-
-
-`Find the link to colab <https://colab.research.google.com/drive/11tDTtz7Zs_RbStvIMVLJTByEGL0Dg7AW>`__
-
 
 
 4. test `the NeuralNetwork <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__
@@ -245,3 +240,47 @@ Here's the explanation:
 - `print("Neural Network Architecture:")`: This line simply prints a message indicating that the following print statement will display the architecture of the neural network.
 
 - `print(neural_net)`: This line prints the architecture of the neural network instance `neural_net`. The architecture of the neural network is typically defined by the layers and their configurations, which are specified within the `NeuralNetwork` class. Therefore, printing `neural_net` will display its architecture, including the layers, activation functions, and other configurations specified during its initialization.
+
+
+5. Testing the  class `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__
+--------------------------------------------------------------------------------------------------------------------
+
+.. code-block::python
+    from torch import nn
+    model = neural_net
+    criterion = nn.BCELoss() 
+    optimizer = torch.optim.SGD(model.parameters(), lr=0.01) 
+
+
+
+.. code-block::python
+
+    from modeltrainer import ModelTrainer
+    trainer = ModelTrainer(model, criterion, optimizer)
+    train_losses, test_losses = trainer.train(x_train_tensor, y_train_tensor, x_test_tensor, y_test_tensor, epochs=600)
+
+
+
+This code snippet demonstrates setting up the neural network model, defining the loss function and optimizer, and then training the model using a ModelTrainer class. During training, it collects the training and testing losses for each epoch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**For more practice and to learn more, we can visit this tutorial.**
+
+`Find the link to github repository <https://github.com/imadmlf/Neural_Network_Wrapper>`__
+
+
+`Find the link to colab <https://colab.research.google.com/drive/11tDTtz7Zs_RbStvIMVLJTByEGL0Dg7AW>`__
+
