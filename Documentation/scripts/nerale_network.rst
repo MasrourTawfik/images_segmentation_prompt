@@ -222,6 +222,9 @@ NeuralNetwork(
 (sigmoid): Sigmoid()
 )
 ```
+
+
+
 Here's the explanation:
 
 - `input_features = len(df.columns) - 1`: This line calculates the number of input features for the neural network. It subtracts 1 from the total number of columns in the DataFrame `df` to exclude the target column (assuming the target column is named `'benign_0__mal_1'`).
