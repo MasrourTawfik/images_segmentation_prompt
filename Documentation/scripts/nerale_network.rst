@@ -335,9 +335,9 @@ Link  to github repository and colab applications:
 `Find the link to github repository <https://github.com/imadmlf/Neural_Network_Wrapper>`__
 
 
-`Link to Colab notebook <https://colab.research.google.com/github/imadmlf/Neural_Network/blob/main/test.ipynb>`__
+`Link to Colab notebook <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/test.ipynb>`__
 
 
-`Link to Colab notebook  <https://github.com/imadmlf/Neural_Network/commit/97f1a614d89a8566c1ff997bebbca1a144dd3c19>`__ 
+`Link to Colab notebook  <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/NereulNe.ipynb>`__ 
 
 
