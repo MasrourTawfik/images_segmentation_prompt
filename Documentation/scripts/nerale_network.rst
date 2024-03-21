@@ -94,19 +94,30 @@ information_help(): Their role is to display the methods existing in the DataExp
 `output`:
 
 
-*DisplayData()                       :Display the first few rows of the DataFrame.
+DisplayData()                       :Display the first few rows of the DataFrame.
+
 DisplayDataTypes()                  :Display the data types of each column in the DataFrame.
+
 DisplayDataInfo()                   :Display information about the DataFrame, including number of rows, columns, and data types.
+
 DisplayDataDescription()            :Display descriptive statistics for each column of the DataFrame.
+
 DisplayCorrelationMatrix()          :Display the correlation matrix between all numeric columns of the DataFrame.
+
 DisplayCorrelationWithColumn(column):correletion with a specific column
+
 DisplayHeatMap()                    :Displays a heatmap of the correlation matrix.
+
 DisplayPairPlot()                   :This method creates a pairplot, also known as a scatterplot matrix, which shows pairwise relationships between numerical columns 
+
 DisplayCountPlot()                  :This method generates a countplot, which is a type of bar plot that shows the frequency of each category in a categorical column of the DataFrame
+
 DisplayBoxPlot()                    :This method creates a boxplot for a numerical column in the DataFrame.
+
 DisplayScatterPlot()                :This method generates a scatter plot between two numerical columns in the DataFrame
+
 DisplayHistogram()                  :This method creates a histogram for a numerical column in the DataFrame
-*
+
 
 
 DisplayData(): Displays the head of the DataFrame.
@@ -190,4 +201,47 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 
 
 
+4. test `the NeuralNetwork <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__
+-------------------------------------------------------------------------------------------------------------
 
+
+
+.. code-block::python
+    input_features = len(df.columns) - 1
+    out_features = df['benign_0__mal_1'].unique().sum()
+    neural_net = NeuralNetwork(input_features, out_features)
+    print("Neural Network Architecture:")
+    print(neural_net)
+ 
+`output`:
+
+
+
+Neural Network Architecture:
+
+NeuralNetwork(
+
+  (fc1): Linear(in_features=30, out_features=30, bias=True)
+
+  (fc2): Linear(in_features=30, out_features=15, bias=True)
+
+  (fc3): Linear(in_features=15, out_features=1, bias=True)
+
+  (relu): ReLU()
+
+  (sigmoid): Sigmoid()
+
+)
+
+
+Here's the explanation:
+
+- `input_features = len(df.columns) - 1`: This line calculates the number of input features for the neural network. It subtracts 1 from the total number of columns in the DataFrame `df` to exclude the target column (assuming the target column is named `'benign_0__mal_1'`).
+
+- `out_features = df['benign_0__mal_1'].unique().sum()`: This line calculates the number of output features for the neural network. It first extracts the unique values from the target column `'benign_0__mal_1'` using the `unique()` method. Then, it sums up these unique values, which would typically represent the number of classes or categories in a classification task.
+
+- `neural_net = NeuralNetwork(input_features, out_features)`: This line creates an instance of the `NeuralNetwork` class with the calculated number of input and output features.
+
+- `print("Neural Network Architecture:")`: This line simply prints a message indicating that the following print statement will display the architecture of the neural network.
+
+- `print(neural_net)`: This line prints the architecture of the neural network instance `neural_net`. The architecture of the neural network is typically defined by the layers and their configurations, which are specified within the `NeuralNetwork` class. Therefore, printing `neural_net` will display its architecture, including the layers, activation functions, and other configurations specified during its initialization.
