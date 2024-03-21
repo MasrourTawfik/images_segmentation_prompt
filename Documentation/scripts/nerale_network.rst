@@ -242,17 +242,20 @@ Here's the explanation:
 --------------------------------------------------------------------------------------------------------------------
 
 
+
+
+
 .. code-block::python
 
     from torch import nn
     model = neural_net
-    criterion = nn.BCELoss() 
-    
+    criterion = nn.BCELoss()   
     optimizer = torch.optim.SGD(model.parameters(), lr=0.01) 
-
     from modeltrainer import ModelTrainer
     trainer = ModelTrainer(model, criterion, optimizer)
     train_losses, test_losses = trainer.train(x_train_tensor, y_train_tensor, x_test_tensor, y_test_tensor, epochs=600)
+
+
 
 
 
