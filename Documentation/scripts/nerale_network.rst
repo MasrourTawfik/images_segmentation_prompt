@@ -183,7 +183,7 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 
 
 
-4. test `the NeuralNetwork <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__
+4. test `the NeuralNetwork <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__  class
 -------------------------------------------------------------------------------------------------------------
 
 
@@ -228,7 +228,7 @@ Here's the explanation:
 - `print(neural_net)`: This line prints the architecture of the neural network instance `neural_net`. The architecture of the neural network is typically defined by the layers and their configurations, which are specified within the `NeuralNetwork` class. Therefore, printing `neural_net` will display its architecture, including the layers, activation functions, and other configurations specified during its initialization.
 
 
-5. Testing the  class `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__
+5. Testing the  `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__  class
 --------------------------------------------------------------------------------------------------------------------
 
 This code snippet demonstrates setting up the neural network model, defining the loss function and optimizer, and then training the model using a ModelTrainer class. During training, it collects the training and testing losses for each epoch.
@@ -264,16 +264,32 @@ plot train_losses and test_losses
    :name: logo
 
 
+6. test the `ModelEvaluation <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__  class 
+------------------------------------------------------------------------------------------------------------------------
+
+
+.. code-block:: python
+    evaluator = ModelEvaluation(model, criterion, optimizer)
+
+
+.. code-block:: python
+        model.eval()
+        with torch.no_grad():
+            y_pred = model(x_test_tensor)
+            y_pred = (y_pred > 0.5).float()    
+
+
+
+.. code-block:: python
+    evaluator.confusion_matrix(y_test_tensor, y_pred)
 
 
 
 
-
-
-
-
-
-
+.. figure:: /Documentation/images/conf.jpg
+   :width: 100%
+   :alt: Alternative text for the image
+   :name: logo
 
 
 
