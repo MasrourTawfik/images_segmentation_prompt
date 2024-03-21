@@ -198,7 +198,7 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 
 
 
-.. code-block::python
+.. code-block:: python
 
     input_features = len(df.columns) - 1
     out_features = df['benign_0__mal_1'].unique().sum()
@@ -211,25 +211,16 @@ DisplayHeatMap() :Displays a heatmap of the correlation matrix.
 `output`:
 
 
-
 Neural Network Architecture:
 
-```
+``` 
 NeuralNetwork(
-
-  (fc1): Linear(in_features=30, out_features=30, bias=True)
-
-  (fc2): Linear(in_features=30, out_features=15, bias=True)
-
-  (fc3): Linear(in_features=15, out_features=1, bias=True)
-
-  (relu): ReLU()
-
-  (sigmoid): Sigmoid()
-
+(fc1): Linear(in_features=30, out_features=30, bias=True)
+(fc2): Linear(in_features=30, out_features=15, bias=True)
+(fc3): Linear(in_features=15, out_features=1, bias=True)
+(relu): ReLU()
+(sigmoid): Sigmoid()
 )
-
-
 ```
 Here's the explanation:
 
