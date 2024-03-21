@@ -97,56 +97,45 @@ information_help(): Their role is to display the methods existing in the DataExp
 * `DisplayData()`:Display the first few rows of the DataFrame.
 ``` 
 
-
 ``` 
 * `DisplayDataTypes() `:Display the data types of each column in the DataFrame.
 ``` 
-
 
 ``` 
 * `DisplayDataInfo() ` :Display information about the DataFrame, including number of rows, columns, and data types.
 ``` 
 
-
 ``` 
 * `DisplayDataDescription()`:Display descriptive statistics for each column of the DataFrame.
 ``` 
-
 
 ``` 
 * `DisplayCorrelationMatrix()  `:Display the correlation matrix between all numeric columns of the DataFrame.
 ``` 
 
-
 ``` 
 * `DisplayCorrelationWithColumn(column)`:correletion with a specific column
 ``` 
-
 
 ``` 
 * `DisplayHeatMap()  `:Displays a heatmap of the correlation matrix.
 ``` 
 
-
 ``` 
 * `DisplayPairPlot() `:This method creates a pairplot, also known as a scatterplot matrix, which shows pairwise relationships between numerical columns 
 ``` 
-
 
 ``` 
 * `DisplayCountPlot() `:This method generates a countplot, which is a type of bar plot that shows the frequency of each category in a categorical column of the DataFrame
 ``` 
 
-
 ``` 
 * `DisplayBoxPlot() `:This method creates a boxplot for a numerical column in the DataFrame.
 ``` 
 
-
 ``` 
 * `DisplayScatterPlot() `:This method generates a scatter plot between two numerical columns in the DataFrame
 ``` 
-
 
 ``` 
 * `DisplayHistogram()`:This method creates a histogram for a numerical column in the DataFrame
