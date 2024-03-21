@@ -281,7 +281,7 @@ plot train_losses and test_losses
 
 
 
-.. figure:: /Documentation/images/Training.jpg
+.. figure:: /Documentation\images\training.jpg
    :alt: Alternative text for the image
 
 
