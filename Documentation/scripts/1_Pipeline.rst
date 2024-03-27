@@ -33,11 +33,33 @@ Pipeline
   Whether you're a beginner exploring deep learning concepts or an experienced researcher developing cutting-edge models, PyTorch offers a rich ecosystem of tools, resources, and community support to accelerate your journey in the field of artificial intelligence.
  </p>
 
-  
+
+.. _Neural_Network:
+
+2. Neural Networks wrapper
+----------------------------
+
+
+In this article, we will build a neural network from scratch and use it to classify
+
+.. raw:: html
+  <p style="text-align: justify;">
+    A neural network is a type of machine learning algorithm that forms the foundation of various artificial intelligence applications such as computer vision, forecasting, and speech recognition. It consists of multiple layers of neurons, with each layer being activated based on inputs from the previous layer. These layers are interconnected by weights and biases, which determine how information flows through the network. While neural networks are often compared to biological neural networks found in the brain, it's important to exercise caution when making such comparisons, as artificial neural networks are simplified representations designed for specific computational tasks.
+  </p>
+
+
+.. figure:: /Documentation/images/neral.webp
+   :width:  100
+   :align: center
+   :alt: Alternative Text
+
+
+
+
 
 .. _transformer_architecture:
 
-2. Transformer Architecture Explained
+3. Transformer Architecture Explained
 -------------------------------------
 
 .. figure:: /Documentation/images/arch1.png
@@ -76,7 +98,7 @@ The Transformer is a groundbreaking architecture in the field of natural languag
 
 .. _visual_transformer:
 
-3. Visual Transformer (ViT)
+4. Visual Transformer (ViT)
 ----------------------------
 `AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE  <https://arxiv.org/pdf/2010.11929v2.pdf>`__
 
@@ -90,7 +112,7 @@ Explain the functioning and usage of the Visual Transformer.
 
 .. _detection_transformer(DeTR):
 
-4. Detection Transformer
+5. Detection Transformer
 -------------------------
 
 DEtection TRansformer (DETR) model trained end-to-end on COCO 2017 object detection (118k annotated images). It was introduced in the paper `End-to-End Object Detection with Transformers <https://arxiv.org/abs/2005.12872>`__
