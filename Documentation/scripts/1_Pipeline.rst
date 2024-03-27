@@ -55,6 +55,11 @@ In this article, we will build a neural network from scratch and use it to class
 
 
 
+.. raw:: html
+  <p style="text-align: justify;">
+    The first layer is the input layer. Input layer activations come from the input to the neural network. The final layer is the output layer. The activations in the output layer are the output of the neural network. The layers in between are called hidden layers.
+  </p>
+
 
 
 .. _transformer_architecture:
