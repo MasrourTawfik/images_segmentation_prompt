@@ -64,7 +64,7 @@ In this article, we will build a neural network from scratch and use it to class
 
 .. _transformer_architecture:
 
-3. Transformer Architecture Explained
+3. Transformer Architecture
 -------------------------------------
 
 .. figure:: /Documentation/images/arch1.png
