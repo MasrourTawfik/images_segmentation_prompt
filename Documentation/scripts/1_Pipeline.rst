@@ -43,6 +43,8 @@ Pipeline
 In this article, we will build a neural network from scratch and use it to classify
 
 .. raw:: html
+
+
   <p style="text-align: justify;">
     A neural network is a type of machine learning algorithm that forms the foundation of various artificial intelligence applications such as computer vision, forecasting, and speech recognition. It consists of multiple layers of neurons, with each layer being activated based on inputs from the previous layer. These layers are interconnected by weights and biases, which determine how information flows through the network. While neural networks are often compared to biological neural networks found in the brain, it's important to exercise caution when making such comparisons, as artificial neural networks are simplified representations designed for specific computational tasks.
   </p>
@@ -54,8 +56,9 @@ In this article, we will build a neural network from scratch and use it to class
    :alt: Alternative Text
 
 
-
 .. raw:: html
+
+
   <p style="text-align: justify;">
     The first layer is the input layer. Input layer activations come from the input to the neural network. The final layer is the output layer. The activations in the output layer are the output of the neural network. The layers in between are called hidden layers.
   </p>
