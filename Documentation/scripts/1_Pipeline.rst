@@ -49,7 +49,7 @@ In this article, we will build a neural network from scratch and use it to class
 
 
 .. figure:: /Documentation/images/neral.webp
-   :width:  100
+   :width:  700
    :align: center
    :alt: Alternative Text
 
