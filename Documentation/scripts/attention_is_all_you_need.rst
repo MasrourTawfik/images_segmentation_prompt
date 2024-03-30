@@ -2,10 +2,10 @@ Attention Is All You Need
 ============================
 .. raw:: html
 
-    <p style="text-align: justify;">
+    <p style="text-align: justify;"><span style="color:#333333;">
       "Attention Is All You Need"  is a research paper by Ashish Vaswani et al. that introduces the Transformer model, a neural network architecture for sequence-to-sequence tasks. The paper challenges the conventional use of recurrence and convolution in such tasks and advocates for self-attention mechanisms instead.
     
-    </p>
+    </span></p>
 
 
 
