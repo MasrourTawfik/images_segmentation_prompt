@@ -9,17 +9,15 @@ Attention Is All You Need
 
 
 
-.. raw:: html
-
-    <p><span style="color:blue;font-size:20px;">Introduction</span></p>
+Introduction
 --------------------------------------------------------------
 
 .. raw:: html
 
-    <p style="text-align: justify;">
+    <p style="text-align: justify;"><span style="color:blue;">
     The paper begins by discussing the limitations of traditional sequence-to-sequence models, which rely on recurrence and convolution. It highlights the need for better handling of long-range dependencies and contextual understanding in tasks like machine translation and text summarization.
     
-    </p>
+    </span></p>
 
 
 
@@ -40,7 +38,7 @@ Attention Is All You Need
 .. raw:: html
 
     <p><span style="color:blue;font-size:20px;">Self-Attention Mechanism</span></p>
-----------------------------------------------------------------------
+------------------------------------------------------------
 
 .. raw:: html
 
