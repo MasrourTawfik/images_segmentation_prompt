@@ -11,7 +11,7 @@ Attention Is All You Need
 
 .. raw:: html
 
-    <p><span style="color:blue;">Introduction</span></p>
+    <p><span style="color:blue;font-size:20px;">Introduction</span></p>
 --------------------------------------------------------------
 
 .. raw:: html
@@ -25,7 +25,7 @@ Attention Is All You Need
 
 .. raw:: html
 
-    <p><span style="color:blue;">Background</span></p>
+    <p><span style="color:blue;font-size:20px;">Background</span></p>
 --------------------------------------------------------------
 
 .. raw:: html
@@ -39,7 +39,7 @@ Attention Is All You Need
 
 .. raw:: html
 
-    <p><span style="color:blue;">Self-Attention Mechanism</span></p>
+    <p><span style="color:blue;font-size:20px;">Self-Attention Mechanism</span></p>
 ----------------------------------------------------------------------
 
 .. raw:: html
@@ -53,7 +53,7 @@ Attention Is All You Need
 
 .. raw:: html
 
-    <p><span style="color:blue;">Multi-Head Self-Attention</span></p>
+    <p><span style="color:blue;font-size:20px;">Multi-Head Self-Attention</span></p>
 ------------------------------------------------------------------------
 
 .. raw:: html
@@ -68,7 +68,7 @@ Attention Is All You Need
 
     
     
-    <p><span style="color:blue;">Position-Wise Feed-Forward Networks</span></p>
+    <p><span style="color:blue;font-size:20px;">Position-Wise Feed-Forward Networks</span></p>
 --------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 
@@ -83,7 +83,7 @@ Attention Is All You Need
 
 .. raw:: html
 
-    <p><span style="color:blue;">Transformer Model</span></p>
+    <p><span style="color:blue;font-size:20px;">Transformer Model</span></p>
 --------------------------------------------------------------
 
 .. raw:: html
@@ -96,7 +96,7 @@ Attention Is All You Need
 
 .. raw:: html
 
-    <p><span style="color:blue;">Attention Visualization</span></p>
+    <p><span style="color:blue;font-size:20px;">Attention Visualization</span></p>
 ---------------------------------------------------------------------
 
 .. raw:: html
@@ -110,7 +110,7 @@ Attention Is All You Need
 
 .. raw:: html
 
-    <p><span style="color:blue;">Experimental Results</span></p>
+    <p><span style="color:blue;font-size:20px;">Experimental Results</span></p>
 ------------------------------------------------------------------
 
 
@@ -125,7 +125,7 @@ Attention Is All You Need
 
 .. raw:: html
 
-    <p><span style="color:blue;">Conclusion</span></p>
+    <p><span style="color:blue;font-size:20px;">Conclusion</span></p>
 --------------------------------------------------------------
 
 
