@@ -40,7 +40,7 @@ Attention Is All You Need
 .. raw:: html
 
     <p><span style="color:blue;">Self-Attention Mechanism</span></p>
---------------------------------------------------------------
+----------------------------------------------------------------------
 
 .. raw:: html
 
@@ -54,7 +54,7 @@ Attention Is All You Need
 .. raw:: html
 
     <p><span style="color:blue;">Multi-Head Self-Attention</span></p>
---------------------------------------------------------------
+------------------------------------------------------------------------
 
 .. raw:: html
 
@@ -69,7 +69,8 @@ Attention Is All You Need
     
     
     <p><span style="color:blue;">Position-Wise Feed-Forward Networks</span></p>
---------------------------------------------------------------
+--------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 .. raw:: html
 
@@ -96,7 +97,7 @@ Attention Is All You Need
 .. raw:: html
 
     <p><span style="color:blue;">Attention Visualization</span></p>
---------------------------------------------------------------
+---------------------------------------------------------------------
 
 .. raw:: html
 
@@ -110,7 +111,7 @@ Attention Is All You Need
 .. raw:: html
 
     <p><span style="color:blue;">Experimental Results</span></p>
---------------------------------------------------------------
+------------------------------------------------------------------
 
 
 .. raw:: html
@@ -147,7 +148,7 @@ Attention Is All You Need
 .. raw:: html
 
     <p><span style="color:blue;font-size:20px;">Summary</span></p>
----------------------------------------------------
+----------------------------------------------------------------------
 .. raw:: html
 
     <p style="text-align: justify;">
