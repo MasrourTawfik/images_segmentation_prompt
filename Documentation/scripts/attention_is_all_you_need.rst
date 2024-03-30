@@ -146,7 +146,7 @@ Attention Is All You Need
 
 .. raw:: html
 
-    <p><span style="color:blue;">Summary</span></p>
+    <p><span style="color:blue;font-size:20px;">Summary</span></p>
 ---------------------------------------------------
 .. raw:: html
 
