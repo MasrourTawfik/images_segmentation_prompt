@@ -7,8 +7,11 @@ Attention Is All You Need
     </p>
 
 
-Introduction
-------------
+
+.. raw:: html
+
+    <p><span style="color:blue;">Introduction</span></p>
+--------------------------------------------------------------
 
 .. raw:: html
 
@@ -17,8 +20,11 @@ Introduction
     </p>
 
 
-Background
-----------
+
+.. raw:: html
+
+    <p><span style="color:blue;">Background</span></p>
+--------------------------------------------------------------
 
 .. raw:: html
 
@@ -27,8 +33,11 @@ Background
     </p>
 
 
-Self-Attention Mechanism
-------------------------
+
+.. raw:: html
+
+    <p><span style="color:blue;">Self-Attention Mechanism</span></p>
+--------------------------------------------------------------
 
 .. raw:: html
 
@@ -37,8 +46,11 @@ Self-Attention Mechanism
     </p>
 
 
-Multi-Head Self-Attention
---------------------------
+
+.. raw:: html
+
+    <p><span style="color:blue;">Multi-Head Self-Attention</span></p>
+--------------------------------------------------------------
 
 .. raw:: html
 
@@ -47,8 +59,11 @@ Multi-Head Self-Attention
     </p>
 
 
-Position-Wise Feed-Forward Networks
-------------------------------------
+
+.. raw:: html
+
+    <p><span style="color:blue;">Position-Wise Feed-Forward Networks</span></p>
+--------------------------------------------------------------
 
 .. raw:: html
 
@@ -57,8 +72,11 @@ Position-Wise Feed-Forward Networks
     </p>
 
 
-Transformer Model
-------------------
+
+.. raw:: html
+
+    <p><span style="color:blue;">Transformer Model</span></p>
+--------------------------------------------------------------
 
 .. raw:: html
 
@@ -67,8 +85,10 @@ Transformer Model
     </p>
 
 
-Attention Visualization
-------------------------
+.. raw:: html
+
+    <p><span style="color:blue;">Attention Visualization</span></p>
+--------------------------------------------------------------
 
 .. raw:: html
 
@@ -77,8 +97,12 @@ Attention Visualization
     </p>
 
 
-Experimental Results
----------------------
+
+.. raw:: html
+
+    <p><span style="color:blue;">Experimental Results</span></p>
+--------------------------------------------------------------
+
 
 .. raw:: html
 
@@ -87,8 +111,11 @@ Experimental Results
     </p>
 
 
-Conclusion
------------
+
+.. raw:: html
+
+    <p><span style="color:blue;">Conclusion</span></p>
+--------------------------------------------------------------
 
 
 .. figure:: /Documentation/images/attention.webp
@@ -106,8 +133,10 @@ Conclusion
     </p>
 
 
-Summary
----------
+.. raw:: html
+
+    <p><span style="color:blue;">Summary</span></p>
+---------------------------------------------------
 .. raw:: html
 
     <p style="text-align: justify;">
