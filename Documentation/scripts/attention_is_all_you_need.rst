@@ -2,10 +2,12 @@ Attention Is All You Need
 ============================
 
 
-.. figure:: /Documentation/images/attention2.webp
-   :width:  200
+.. figure:: /Documentation/images/attention1.webp
+   :width: 700
+   :height: 200   
    :align: center
    :alt: Alternative Text
+
 
    
    
@@ -155,7 +157,11 @@ You can view more by clicking the  `link to the paper "Attention is all you need
 
 
 
-.. figure:: /Documentation/images/attention1.webp
-   :width:  500
+
+.. figure:: /Documentation/images/attention2.webp
+   :width: 700
+   :height: 200   
    :align: center
    :alt: Alternative Text
+
+
