@@ -151,7 +151,7 @@ Attention Is All You Need
     </span></p>
 
 
-* **You can view more by clicking the **
+* You can view more by clicking the 
 
 
 + `link to the paper "Attention is all you need" <https://arxiv.org/pdf/1706.03762.pdf>`__
@@ -159,10 +159,11 @@ Attention Is All You Need
 
 
 
-.. figure:: /Documentation/images/attention2.webp
+.. image:: /Documentation/images/attention2.webp
    :width: 700
-   :height: 200   
+   :height: 200
    :align: center
    :alt: Alternative Text
+   :target: https://arxiv.org/pdf/1706.03762.pdf
 
 
