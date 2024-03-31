@@ -18,15 +18,12 @@ Attention Is All You Need
    :height: 200   
    :align: center
    :alt: Alternative Text.
-   
+
 
 
 
 Introduction
 -------------
-
-
-
 
 .. raw:: html
 
