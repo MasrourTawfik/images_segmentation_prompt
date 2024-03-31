@@ -22,7 +22,7 @@ Attention Is All You Need
 
 
 
-Introduction
+1. Introduction
 -------------
 
 .. raw:: html
@@ -34,7 +34,7 @@ Introduction
 
 
 
-Background
+2. Background
 -------------
 
 .. raw:: html
@@ -46,7 +46,7 @@ Background
 
 
 
-Self-Attention Mechanism
+3. Self-Attention Mechanism
 ------------------------------
 
 .. raw:: html
@@ -58,7 +58,7 @@ Self-Attention Mechanism
 
 
 
-Multi-Head Self-Attention
+4. Multi-Head Self-Attention
 -----------------------------------
 
 .. raw:: html
@@ -70,7 +70,7 @@ Multi-Head Self-Attention
 
 
     
-Position-Wise Feed-Forward Networks
+5. Position-Wise Feed-Forward Networks
 --------------------------------------
 
 .. raw:: html
@@ -82,7 +82,7 @@ Position-Wise Feed-Forward Networks
 
 
 
-Transformer Model
+6. Transformer Model
 ---------------------
 .. raw:: html
 
@@ -93,7 +93,7 @@ Transformer Model
 
 
 
-Attention Visualization
+7. Attention Visualization
 ----------------------------
 
 .. raw:: html
@@ -106,7 +106,7 @@ Attention Visualization
 
 
 
-Experimental Results
+8. Experimental Results
 --------------------
 
 
@@ -120,7 +120,7 @@ Experimental Results
 
 
 
-Conclusion
+9. Conclusion
 -----------
 
 
@@ -139,7 +139,7 @@ Conclusion
     </span></p>
 
 
-Summary
+10. Summary
 ----------------
 
 
