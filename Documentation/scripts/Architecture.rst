@@ -111,12 +111,3 @@ Transformer Architecture
 
 .. note::
    At each step the model is auto-regressive, consuming the previously generated symbols as additional input when generating the next.
-
-
-.. toctree::
-   :maxdepth: 3
-   :caption: architecture
-
-   scripts/Architecture/Encoder.rst
-   scripts/Architecture/Decoder.rst
-   
