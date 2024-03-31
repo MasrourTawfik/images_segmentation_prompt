@@ -28,9 +28,21 @@ Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models do
    Documentation/scripts/ViT.rst
    Documentation/scripts/DeTR.rst
 
+
+
+.. toctree::
+   :maxdepth: 3
+   :caption: architecture
+
+   Documentation/scripts/Architecture/Encoder.rst
+   Documentation/scripts/Architecture/Decoder.rst
+   
+
+
 .. figure:: /Documentation/images/logo.jpg
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
 
    ..
+
