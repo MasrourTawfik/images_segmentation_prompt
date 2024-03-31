@@ -76,6 +76,47 @@ Transformer Architecture
      </span></p>
 
 
+3.  The Transformer Architecture
+------------------------------------
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+      
+      The Transformer architecture follows an encoder-decoder structure but does not rely on recurrence and convolutions in order to generate an output. 
+   </span></p>
 
 
 
+.. figure:: /Documentation/images/transf_arch.webp
+   :width: 700
+   :height: 500
+   :align: center
+   :alt: Alternative text for the image
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+      
+      In a nutshell, the task of the encoder, on the left half of the Transformer architecture, is to map an input sequence to a sequence of continuous representations, which is then fed into a decoder. 
+    </span></p>
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+     
+     The decoder, on the right half of the architecture, receives the output of the encoder together with the decoder output at the previous time step to generate an output sequence.
+   </span></p>
+
+
+.. note::
+   At each step the model is auto-regressive, consuming the previously generated symbols as additional input when generating the next.
+
+
+.. toctree::
+   :maxdepth: 3
+   :caption: architecture
+
+   scripts/Architecture/Encoder.rst
+   scripts/Architecture/Decoder.rst
+   
