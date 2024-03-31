@@ -17,7 +17,8 @@ Attention Is All You Need
    :width: 700
    :height: 200   
    :align: center
-   :alt: Alternative Text
+   :alt: Alternative Text.
+   
 
 
 
