@@ -47,7 +47,7 @@ Transformer Architecture
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:#00008B;">
+    <p style="text-align: justify;"><span style="color:#000080;">
       
       '
 
