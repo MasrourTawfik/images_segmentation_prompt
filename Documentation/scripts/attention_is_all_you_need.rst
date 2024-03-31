@@ -49,6 +49,13 @@ Attention Is All You Need
 3. Self-Attention Mechanism
 ------------------------------
 
+
+.. figure:: /Documentation/images/self_att.webp
+   :width: 700
+   :height: 200   
+   :align: center
+   :alt: Alternative Text.
+
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#00008B;">
@@ -139,7 +146,7 @@ Attention Is All You Need
     </span></p>
 
 
-10. Summary
+Summary
 ----------------
 
 
