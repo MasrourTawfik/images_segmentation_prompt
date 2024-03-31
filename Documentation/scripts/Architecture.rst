@@ -24,7 +24,44 @@ Transformer Architecture
 
 
 
+2. The purpose of Transformer networks
+----------------------------------------
 
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#00008B;">
+      In order to understand how Transformer networks work, it's important to understand the concept of attention. When translating a sentence from one language to another, rather than looking at each word individually, you consider the sentence as a whole and the context in which it is used. Some words are given more importance as they help to better understand the sentence. This is what we call attention.
+    
+     </span></p>
+
+.. figure:: /Documentation/images/english_french.jpg
+   :width: 700
+   :height: 200
+   :align: center
+   :alt: Alternative text for the image
+
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#00008B;">
+      Consider another example. Imagine that you are watching a movie and trying to understand a particular scene. Instead of focusing on a single frame, you pay attention to the sequence of frames and the actions of the characters in order to understand the overall story. This approach helps you understand the context.
+
+      In Transformer networks, attention is used to assign different levels of importance to different parts of the input sequence, which helps the model better understand and generate a coherent output sequence.
+      
+      The Transformer Network is powerful for tasks such as language understanding, due to its ability to capture long-range dependencies between elements that may be far apart from each other. This means that the relationships and dependencies between words in a sentence can be captured, even if they appear earlier or later in that sentence. This is important because the meaning of a word can depend on the words that appear before or after it.
+     
+     </span></p>
+
+
+
+.. figure:: /Documentation/images/translation.png
+   :width: 700
+   :height: 200
+   :align: center
+   :alt: Alternative text for the image
 
 
 
