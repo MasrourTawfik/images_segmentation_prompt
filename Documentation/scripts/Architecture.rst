@@ -47,6 +47,8 @@ Transformer Architecture
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#00008B;">
+      
+      
       Consider another example. Imagine that you are watching a movie and trying to understand a particular scene. Instead of focusing on a single frame, you pay attention to the sequence of frames and the actions of the characters in order to understand the overall story. This approach helps you understand the context.
 
       In Transformer networks, attention is used to assign different levels of importance to different parts of the input sequence, which helps the model better understand and generate a coherent output sequence.
@@ -59,7 +61,7 @@ Transformer Architecture
 
 .. figure:: /Documentation/images/translation.png
    :width: 700
-   :height: 200
+   :height: 500
    :align: center
    :alt: Alternative text for the image
 
