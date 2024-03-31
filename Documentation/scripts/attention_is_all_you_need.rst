@@ -153,7 +153,10 @@ Summary
     </span></p>
 
 
-You can view more by clicking the  `link to the paper "Attention is all you need" <https://arxiv.org/pdf/1706.03762.pdf>`__
+* **You can view more by clicking the **
+
+
++ `link to the paper "Attention is all you need" <https://arxiv.org/pdf/1706.03762.pdf>`__
 
 
 
