@@ -24,10 +24,6 @@ Introduction
 
 
 
-.. figure:: /Documentation/images/attention1.webp
-   :width:  200
-   :align: center
-   :alt: Alternative Text
 
 .. raw:: html
 
@@ -155,4 +151,11 @@ Summary
     </span></p>
 
 
-You can view more by clicking the  `link to the paper "Attention is all you need" <https://arxiv.org/pdf/1706.03762.pdf>`__ 
+You can view more by clicking the  `link to the paper "Attention is all you need" <https://arxiv.org/pdf/1706.03762.pdf>`__
+
+
+
+.. figure:: /Documentation/images/attention1.webp
+   :width:  500
+   :align: center
+   :alt: Alternative Text
