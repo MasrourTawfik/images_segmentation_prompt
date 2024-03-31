@@ -79,7 +79,7 @@ The Transformer is a groundbreaking architecture in the field of natural languag
 
     * **Introduction (Attention is All You Need)**
 
-       
+    .. note::     
        `paper Attention is all you need <https://arxiv.org/pdf/1706.03762.pdf>`__ 
 
       This introduction highlights the basics of the Transformer, as described in the paper "Attention is All You Need".
@@ -108,7 +108,7 @@ The Transformer is a groundbreaking architecture in the field of natural languag
 
 4. Visual Transformer (ViT)
 ----------------------------
-.. source::
+.. note::
   paper:  
   `AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE  <https://arxiv.org/pdf/2010.11929v2.pdf>`__
 
@@ -126,7 +126,10 @@ Explain the functioning and usage of the Visual Transformer.
 -------------------------
 
 DEtection TRansformer (DETR) model trained end-to-end on COCO 2017 object detection (118k annotated images). It was introduced in the paper `End-to-End Object Detection with Transformers <https://arxiv.org/abs/2005.12872>`__
- by Carion et al. and first released in this repository. `repository <https://github.com/facebookresearch/detr>`__
+ by Carion et al.
+
+.. note::
+  The  first released in this repository. `repository <https://github.com/facebookresearch/detr>`__
 
 
 Explain the functioning and usage of the Detection Transformer (DeTR).
