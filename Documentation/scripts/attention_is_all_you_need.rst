@@ -1,5 +1,15 @@
 Attention Is All You Need
 ============================
+
+
+.. figure:: /Documentation/images/attention2.webp
+   :width:  700
+   :align: center
+   :alt: Alternative Text
+
+
+
+
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#00008B;">
@@ -11,6 +21,13 @@ Attention Is All You Need
 
 Introduction
 -------------
+
+
+
+.. figure:: /Documentation/images/attention1.webp
+   :width:  700
+   :align: center
+   :alt: Alternative Text
 
 .. raw:: html
 
@@ -115,7 +132,6 @@ Conclusion
    :width:  700
    :align: center
    :alt: Alternative Text
-
 
 
 
