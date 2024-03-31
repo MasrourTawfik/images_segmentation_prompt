@@ -331,7 +331,7 @@ Link  to github repository and colab applications:
 -----------------------------------------------------
 
 .. note::
-
+    
     **For more practice and to learn more, we can visit this tutorial.**
 
     `Find the link to github repository <https://github.com/imadmlf/Neural_Network_Wrapper>`__

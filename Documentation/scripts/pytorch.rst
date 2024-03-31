@@ -144,12 +144,13 @@ This allows for smooth integration between PyTorch and NumPy, facilitating work 
 
     print(tensor)
 
+.. note::
 
-**For more practice and to learn more, we can visit this tutorial.**
+    **For more practice and to learn more, we can visit this tutorial.**
 
-`Find the link to github repository <https://github.com/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
+    `Find the link to github repository <https://github.com/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
 
-`Find the link to colab <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
+    `Find the link to colab <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
 
 
 
@@ -350,12 +351,13 @@ This code segment outputs a batch of training features and their corresponding l
    :align: center
    :alt: Alternative Text
 
+.. note::
 
-**For more practice and to learn more, we can visit this tutorial.** 
+    **For more practice and to learn more, we can visit this tutorial.** 
 
-`Find the link to Github repository <https://github.com/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/data.ipynb>`__
- 
-`Find the link to colab <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/data.ipynb>`__
+    `Find the link to Github repository <https://github.com/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/data.ipynb>`__
+    
+    `Find the link to colab <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/data.ipynb>`__
 
 
  

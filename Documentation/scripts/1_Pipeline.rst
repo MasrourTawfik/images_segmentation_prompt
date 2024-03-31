@@ -79,10 +79,12 @@ The Transformer is a groundbreaking architecture in the field of natural languag
 
     * **Introduction (Attention is All You Need)**
 
-    .. note::     
+    .. note::  
+      This introduction highlights the basics of the Transformer, as described in the paper "Attention is All You Need".
+         
        `paper Attention is all you need <https://arxiv.org/pdf/1706.03762.pdf>`__ 
 
-      This introduction highlights the basics of the Transformer, as described in the paper "Attention is All You Need".
+      
 
     * **Tokenization**
 
