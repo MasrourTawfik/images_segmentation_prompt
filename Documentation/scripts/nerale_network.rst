@@ -330,14 +330,16 @@ plot train_losses and test_losses
 Link  to github repository and colab applications:
 -----------------------------------------------------
 
-**For more practice and to learn more, we can visit this tutorial.**
+.. note::
 
-`Find the link to github repository <https://github.com/imadmlf/Neural_Network_Wrapper>`__
+    **For more practice and to learn more, we can visit this tutorial.**
+
+    `Find the link to github repository <https://github.com/imadmlf/Neural_Network_Wrapper>`__
 
 
-`Link to Colab notebook <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/test.ipynb>`__
+    `Link to Colab notebook <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/test.ipynb>`__
 
 
-`Link to Colab notebook  <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/NereulNe.ipynb>`__ 
+    `Link to Colab notebook  <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/NereulNe.ipynb>`__ 
 
 

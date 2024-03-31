@@ -108,7 +108,9 @@ The Transformer is a groundbreaking architecture in the field of natural languag
 
 4. Visual Transformer (ViT)
 ----------------------------
-`AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE  <https://arxiv.org/pdf/2010.11929v2.pdf>`__
+.. note::
+  paper:  
+  `AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE  <https://arxiv.org/pdf/2010.11929v2.pdf>`__
 
 
 Explain the functioning and usage of the Visual Transformer.
