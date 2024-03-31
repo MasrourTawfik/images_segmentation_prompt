@@ -3,7 +3,7 @@ Attention Is All You Need
 
 
 .. figure:: /Documentation/images/attention2.webp
-   :width:  700
+   :width:  200
    :align: center
    :alt: Alternative Text
 
@@ -25,7 +25,7 @@ Introduction
 
 
 .. figure:: /Documentation/images/attention1.webp
-   :width:  700
+   :width:  200
    :align: center
    :alt: Alternative Text
 
