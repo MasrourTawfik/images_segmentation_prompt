@@ -446,4 +446,87 @@ The Encoder
       The feedforward layer plays a crucial role in capturing complex patterns and relationships in the input data, allowing the model to learn and represent hierarchical features effectively.
       </p>
 
-8. 
+8. Residual Connections
+-------------------------
+
+.. raw:: html
+
+   <p style="text-align: justify;">
+   Another point is that the encoder block uses residual connections, which is simply an element-wise addition:
+   </p>
+
+.. note::   
+
+   .. raw:: html
+
+      <p style="text-align: justify;">
+      Sublayer is either multi-head attention or point-wise feed-forward network.
+      </p>
+
+   
+.. figure:: /Documentation/images/residual.jpg
+   :width: 500
+   :height: 100
+   :align: center
+   :alt: Alternative Text
+
+
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+   
+   Residual connections carry over the previous embeddings to the subsequent layers. As such, the encoder blocks enrich the embedding vectors with additional information obtained from the multi-head self-attention calculations and position-wise feed-forward networks.
+   </span></p>
+
+
+9. Conclusion
+---------------
+
+
+.. figure:: /Documentation/images/conc_encoder.png
+   :width: 500
+   :height: 100
+   :align: center
+   :alt: Alternative Text
+
+
+
+
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+      
+   The document provides a detailed overview of the Transformer model encoder and the different stages and mechanisms used in data processing. 
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+   
+   First, the tokenization process is explained, which involves dividing a text into smaller units called "tokens". These tokens are then converted into numerical identifiers that correspond to the model's vocabulary. 
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   Next, input embedding is described, where tokens are converted into continuous vectors for processing by the model. These vectors are randomly initialized and optimized during training to better represent the meaning of the tokens. 
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   Positional encoding is discussed to account for the order of tokens in the sequence, which is crucial for capturing dependencies between words. 
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   The self-attention mechanism is introduced as a method for calculating attention weights between tokens, allowing the model to focus on different parts of the sequence depending on the context. 
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+   Next, multi-head attention is explained, which is an extension of self-attention that allows the model to combine knowledge from different attention heads to capture dependencies across different ranges within a sequence. 
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   The addition and normalization layer, as well as the feed-forward layer are discussed to improve stability and the model's ability to learn complex hierarchical representations. 
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   Finally, residual connections are introduced to facilitate the flow of information through the encoder's layers. 
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+   In conclusion, the document provides a comprehensive understanding of the internal workings of the Transformer encoder and highlights the importance of the various stages and mechanisms in effective data processing.
+   </span></p>
+
+
