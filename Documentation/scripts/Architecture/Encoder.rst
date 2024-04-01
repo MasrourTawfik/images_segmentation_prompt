@@ -177,7 +177,9 @@ The Encoder
    :alt: Alternative Text
 
 .. raw:: html
+   
    <ul class="circle-list">
+
    <p style="text-align: justify;"><span style="color:#000080;">
    
    <li> d: The dimension of the embedding vector. This is the length or number of components in each vector that represents a token or position in the input sequence.
