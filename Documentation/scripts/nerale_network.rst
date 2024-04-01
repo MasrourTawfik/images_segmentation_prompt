@@ -287,30 +287,37 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
 
 Neural Network Architecture:
 
-``` 
-NeuralNetwork(
-(fc1): Linear(in_features=30, out_features=30, bias=True)
-(fc2): Linear(in_features=30, out_features=15, bias=True)
-(fc3): Linear(in_features=15, out_features=1, bias=True)
-(relu): ReLU()
-(sigmoid): Sigmoid()
-)
-```
 
+.. figure:: /Documentation/images/neuralnetwork_output.jpg
+   :width: 100%
+   :align: center
+   :alt: Alternative text for the image
+   :name: Architecture
 
 
 Here's the explanation:
+ .. raw:: html
 
-- `input_features = len(df.columns) - 1`: This line calculates the number of input features for the neural network. It subtracts 1 from the total number of columns in the DataFrame `df` to exclude the target column (assuming the target column is named `'benign_0__mal_1'`).
+   <p style="text-align: justify;"><span style="color:#000080;">
 
-- `out_features = df['benign_0__mal_1'].unique().sum()`: This line calculates the number of output features for the neural network. It first extracts the unique values from the target column `'benign_0__mal_1'` using the `unique()` method. Then, it sums up these unique values, which would typically represent the number of classes or categories in a classification task.
+    <span style="color:blue;">input_features = len(df.columns) - 1</span>: This line calculates the number of input features for the neural network. It subtracts 1 from the total number of columns in the DataFrame `df` to exclude the target column (assuming the target column is named `'benign_0__mal_1'`).
+    </span></p>   
+   <p style="text-align: justify;"><span style="color:#000080;">
 
-- `neural_net = NeuralNetwork(input_features, out_features)`: This line creates an instance of the `NeuralNetwork` class with the calculated number of input and output features.
+    <span style="color:blue;">out_features = df['benign_0__mal_1'].unique().sum()</span>: This line calculates the number of output features for the neural network. It first extracts the unique values from the target column `'benign_0__mal_1'` using the `unique()` method. Then, it sums up these unique values, which would typically represent the number of classes or categories in a classification task.
+    </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
 
-- `print("Neural Network Architecture:")`: This line simply prints a message indicating that the following print statement will display the architecture of the neural network.
+    <span style="color:blue;">neural_net = NeuralNetwork(input_features, out_features)</span>: This line creates an instance of the `NeuralNetwork` class with the calculated number of input and output features.
+    </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
 
-- `print(neural_net)`: This line prints the architecture of the neural network instance `neural_net`. The architecture of the neural network is typically defined by the layers and their configurations, which are specified within the `NeuralNetwork` class. Therefore, printing `neural_net` will display its architecture, including the layers, activation functions, and other configurations specified during its initialization.
+    <span style="color:blue;">print("Neural Network Architecture") </span>: This line simply prints a message indicating that the following print statement will display the architecture of the neural network.
+    </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
 
+    <span style="color:blue;">print(neural_net)</span>: This line prints the architecture of the neural network instance `neural_net`. The architecture of the neural network is typically defined by the layers and their configurations, which are specified within the `NeuralNetwork` class. Therefore, printing `neural_net` will display its architecture, including the layers, activation functions, and other configurations specified during its initialization.
+    </span></p>
 
 5. Testing the  `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__  class
 --------------------------------------------------------------------------------------------------------------------
