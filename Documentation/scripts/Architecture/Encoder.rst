@@ -285,7 +285,7 @@ The Encoder
    &#10003;  The use of multiple heads allows the model to focus on different parts of the input sequence for different aspects or patterns, providing more flexibility and expressiveness.
    </span></p>
 .. figure:: /Documentation/images/multical.jpg
-   :width: 700
+   :width: 500
    :height: 100
    :align: center
    :alt: Alternative Text
@@ -410,6 +410,8 @@ The Encoder
 
 
 **Mathematical Intuition**
+
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -418,7 +420,7 @@ The Encoder
    </span></p>
 
 .. figure:: /Documentation/images/mathsfeed.jpg
-   :width: 700
+   :width: 500
    :height: 100
    :align: center
    :alt: Alternative Text
