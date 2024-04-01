@@ -148,7 +148,7 @@ The Encoder
 ------------------------
 
 .. figure:: /Documentation/images/position.jpg
-   :width:  500
+   :width:  600
    :align: center
    :alt: Alternative Text
 .. raw:: html
@@ -172,23 +172,23 @@ The Encoder
    </span></p>
 
 .. figure:: /Documentation/images/position2.jpg
-   :width:  500
+   :width:  600
    :align: center
    :alt: Alternative Text
 
 .. raw:: html
 
 
-   
-   <ul class="circle-list"><span style="color:#006400;"><strong><li> d:</strong></span>
-   <p style="text-align: justify;"><span style="color:#000080;">The dimension of the embedding vector. This is the length or number of components in each vector that represents a token or position in the input sequence.</span></p>
+   <ul class="circle-list"><span style="color:#006400;"><strong><li> d: </strong> </span> The dimension of the embedding vector. This is the length or number of components in each vector that represents a token or position in the input sequence.</span></p>
    </ul> 
 
+.. raw:: html
    
    <ul class="circle-list"><span style="color:#006400;"><strong><li> pos:</strong></span> The position of the token in the sequence. It represents the index or order of the token in the input sequence.
    </ul> 
 
-   
+.. raw:: html
+
    <ul class="circle-list"><span style="color:#006400;"><strong><li> i:</strong></span>he position along the dimension of the embedding vector. For each dimension i, there is a corresponding sine term (for even indices) and cosine term (for odd indices) in the formula.
    </ul> 
   
