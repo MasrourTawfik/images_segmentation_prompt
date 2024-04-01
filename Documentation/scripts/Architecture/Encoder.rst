@@ -286,7 +286,7 @@ The Encoder
    </span></p>
 .. figure:: /Documentation/images/multical.jpg
    :width: 700
-   :height: 200
+   :height: 100
    :align: center
    :alt: Alternative Text
 
@@ -419,7 +419,7 @@ The Encoder
 
 .. figure:: /Documentation/images/mathsfeed.jpg
    :width: 700
-   :height: 200
+   :height: 100
    :align: center
    :alt: Alternative Text
 
