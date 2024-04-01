@@ -223,7 +223,7 @@ The Encoder
 
 .. note:: 
 
-   self-attention (sometimes KQV-attention) layer is central mechanism in transformer architecture introduced in `Attention Is All You Need paper <https://arxiv.org/pdf/1706.03762.pdf>`__ 
+   self-attention (sometimes KQV-attention) layer is central mechanism in transformer architecture introduced in `Attention Is All You Need paper<https://arxiv.org/pdf/1706.03762.pdf>`__ 
 
 .. figure:: /Documentation/images/cal.jpg
    :width:  700
@@ -237,19 +237,19 @@ The Encoder
    <span style="color:#000080;">Self-Attention compares all input sequence members with each other, and modifies the corresponding output sequence positions. In other words, self-attention layer differentiably key-value searches the input sequence for each inputs, and adds results to the output sequence.</span>
    
    </p>
-   <span style="color:blue;font-size: em;">Key, Query, and Value:</span>
+   <span style="color:blue;font-size: px;">Key</span>, <span style="color:blue;font-size: px;">Query</span>, and <span style="color:blue;font-size: px;">Value:</span>
 
    <p style="text-align: justify;">
    <span style="color:#000080;">Each word in the input sequence is associated with three vectors: </span><span style="color:red;"><strong>Key (K)</strong></span>,<span style="color:red;"><strong> Query (Q)</strong></span>,<span style="color:#000080;"> and</span> <span style="color:red;"><strong>Value (V)</strong></span><span style="color:#000080;">. These vectors are learned parameters for each word. Vectors are used to compute attention scores, determining how much focus should be given to other words in the sequence.</span>
    
    </p>
-   <span style="color:blue;font-size: em;">Attention Scores:</span>
+   <span style="color:blue;font-size: px;">Attention Scores:</span>
 
    <p style="text-align: justify;">
    <span style="color:#000080;"> For each word, the attention score with respect to other words is calculated by taking the dot product of the Query vector of the current word with the Key vectors of all other words. The scores are then scaled and passed through a softmax function to obtain a probability distribution, ensuring that the weights add up to 1.</span>
    
    </p>
-   <span style="color:blue; font-size: em;">Weighted Sum:</span>
+   <span style="color:blue; font-size: px;">Weighted Sum:</span>
 
    <p style="text-align: justify;">
 
@@ -273,20 +273,19 @@ The Encoder
 .. raw:: html
       
    <p style="text-align: justify;"><span style="color:#000080;">
-   &#10003;In multi-head attention, the attention mechanism is applied multiple times in parallel, with each instance referred to as a "head." 
+   &#10003;  In multi-head attention, the attention mechanism is applied multiple times in parallel, with each instance referred to as a "head." 
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
-   &#10003;For each head, three learnable linear projections (matrices) are applied to the input sequence to obtain separate projections for the query (Q), key (K), and value (V) vectors.
+   &#10003;  For each head, three learnable linear projections (matrices) are applied to the input sequence to obtain separate projections for the query (Q), key (K), and value (V) vectors.
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
-   &#10003;The attention mechanism is then applied independently to each of these query, key, and value projections. The resulting outputs from all heads are concatenated and linearly transformed to produce the final multi-head attention output.
+   &#10003;  The attention mechanism is then applied independently to each of these query, key, and value projections. The resulting outputs from all heads are concatenated and linearly transformed to produce the final multi-head attention output.
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
-   &#10003;The use of multiple heads allows the model to focus on different parts of the input sequence for different aspects or patterns, providing more flexibility and expressiveness.
+   &#10003;  The use of multiple heads allows the model to focus on different parts of the input sequence for different aspects or patterns, providing more flexibility and expressiveness.
    </span></p>
 
 .. figure:: /Documentation/images/multii.png
-   :width:  700
+   :width:  400
    :align: center
    :alt: Alternative Text
-
