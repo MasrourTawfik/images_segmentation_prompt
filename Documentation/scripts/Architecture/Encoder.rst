@@ -423,5 +423,17 @@ The Encoder
    :align: center
    :alt: Alternative Text
 
+.. raw:: html
+
+   <span style="color:#000080;font-size: larger;">W1​, b1​ </span>:<span style="color:#000080;"> the weights and bias for the first linear transformation.</span>
+   <span style="color:#000080;font-size: larger;">W2​, b2​ </span>: <span style="color:#000080;">the weights and bias for the second linear transformation.</span>
+   <span style="color:#000080;font-size: larger;">ReLU</span> : <span style="color:#000080;">the rectified linear unit activation function.</span>
+
+
+.. note::
+   .. raw:: html
+      <p style="text-align: justify;"><span style="color:#000080;">
+      The feedforward layer plays a crucial role in capturing complex patterns and relationships in the input data, allowing the model to learn and represent hierarchical features effectively.
+      </span></p>
 
 
