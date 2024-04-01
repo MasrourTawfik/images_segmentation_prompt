@@ -529,4 +529,5 @@ The Encoder
    In conclusion, the document provides a comprehensive understanding of the internal workings of the Transformer encoder and highlights the importance of the various stages and mechanisms in effective data processing.
    </span></p>
 
-
+.. note::  
+    * You can view more by clicking the  `"Transformer’s Encoder" <https://kikaben.com/transformers-encoder-decoder/#conclusion>`__ 

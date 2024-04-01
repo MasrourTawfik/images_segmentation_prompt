@@ -158,9 +158,10 @@ Summary
     The paper presents the Transformer model as a novel approach to sequence-to-sequence tasks, achieving impressive results without using recurrence or convolution. It demonstrates the effectiveness of attention mechanisms in capturing complex relationships in sequential data.
     </span></p>
 
-
-* You can view more by clicking the  `link to the paper "Attention is all you need" <https://arxiv.org/pdf/1706.03762.pdf>`__ 
- or simply clicking the picture
+.. note::  
+    
+    * You can view more by clicking the  `link to the paper "Attention is all you need" <https://arxiv.org/pdf/1706.03762.pdf>`__ 
+    or simply clicking the picture
 
 
 .. image:: /Documentation/images/attention2.webp
