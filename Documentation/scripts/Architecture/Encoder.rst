@@ -284,10 +284,69 @@ The Encoder
    <p style="text-align: justify;"><span style="color:#000080;">
    &#10003;  The use of multiple heads allows the model to focus on different parts of the input sequence for different aspects or patterns, providing more flexibility and expressiveness.
    </span></p>
+.. figure:: /Documentation/images/multical.jpg
+   :width:  100
+   :align: center
+   :alt: Alternative Text
+
+
 
 .. figure:: /Documentation/images/multii.png
    :width:  400
    :align: center
    :alt: Alternative Text
+
+
+.. figure:: /Documentation/images/multi_head.png
+   :width:  400
+   :align: center
+   :alt: Alternative Text
+
+.. raw:: html
+      
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   In practice, to enhance the capability of attention mechanisms to capture dependencies of various ranges within a sequence, a technique called multi-head attention is employed. Instead of a single attention pooling operation, multi-head attention utilizes independently learned linear projections for queries, keys, and values. These projected queries, keys, and values are then simultaneously processed through attention pooling in parallel. Subsequently, the outputs from each attention pooling operation, referred to as heads, are concatenated and transformed using another learned linear projection to generate the final output. Multi-head attention allows the model to combine knowledge from different behaviors of the attention mechanism, thereby improving its ability to capture dependencies across different ranges within a sequence. This approach is illustrated in Figure 11.5.1, where fully connected layers are employed for learnable linear transformations.
+   </span></p>
+
+
+.. figure:: /Documentation/images/multi_head_3.jpg
+   :width:  400
+   :align: center
+   :alt: Alternative Text
+
+
+
+
+6. Add and norm - Norm
+------------------------
+
+
+.. figure:: /Documentation/images/add_norm.jpg
+   :width:  400
+   :align: center
+   :alt: Alternative Text
+
+
+.. raw:: html
+      
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   Following the addition operation, layer normalization is applied to normalize the combined result. Layer normalization normalizes the activations across the feature dimension (e.g., the dimension of the embedding vectors) for each position in the sequence.
+   </span></p>
+   
+   <p style="text-align: justify;"><span style="color:#000080;">
+   The layer normalization operation is typically expressed as  LayerNorm(Output) 
+   </span></p>
+   
+   <p style="text-align: justify;"><span style="color:#000080;">   
+   where is a learnable normalization function.
+   </span></p>
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+   This normalization step helps stabilize the training process by ensuring that the model's inputs and outputs have similar magnitudes, which can be beneficial for convergence and generalization.
+   </span></p>
+
+
 
 
