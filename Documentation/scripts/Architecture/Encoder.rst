@@ -180,18 +180,13 @@ The Encoder
 
 
    
-   <ul class="circle-list"><span style="color:#006400;"><strong><li> d:</strong></span></ul> 
-   <p style="text-align: justify;"><span style="color:#000080;">The dimension of the embedding vector. This is the length or number of components in each vector that represents a token or position in the input sequence.</span></p>
+   <ul class="circle-list"><span style="color:#006400;"><strong><li> d:</strong></span></ul> The dimension of the embedding vector. This is the length or number of components in each vector that represents a token or position in the input sequence.
    
+   
+   <ul class="circle-list"><span style="color:#006400;"><strong><li> pos:</strong></span></ul> The position of the token in the sequence. It represents the index or order of the token in the input sequence.
 
    
-   <ul class="circle-list"><span style="color:#006400;"><strong><li> pos:</strong></span></ul> 
-   <p style="text-align: justify;"><span style="color:#000080;">The position of the token in the sequence. It represents the index or order of the token in the input sequence.</span></p>
-   
-
-   
-   <ul class="circle-list"><span style="color:#006400;"><strong><li> i:</strong></span></ul> 
-   <p style="text-align: justify;"><span style="color:#000080;">The position along the dimension of the embedding vector. For each dimension i, there is a corresponding sine term (for even indices) and cosine term (for odd indices) in the formula</span></p>
+   <ul class="circle-list"><span style="color:#006400;"><strong><li> i:</strong></span></ul> he position along the dimension of the embedding vector. For each dimension i, there is a corresponding sine term (for even indices) and cosine term (for odd indices) in the formula
    
   
 
