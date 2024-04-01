@@ -6,10 +6,6 @@ Pipeline
 
 
 
-.. figure:: /Documentation/images/log.png
-   :width:  100
-   :align: center
-   :alt: Alternative Text
 
 
 
