@@ -285,7 +285,7 @@ The Encoder
    &#10003;  The use of multiple heads allows the model to focus on different parts of the input sequence for different aspects or patterns, providing more flexibility and expressiveness.
    </span></p>
 .. figure:: /Documentation/images/multical.jpg
-   :width:  100
+   :width:  700
    :align: center
    :alt: Alternative Text
 
