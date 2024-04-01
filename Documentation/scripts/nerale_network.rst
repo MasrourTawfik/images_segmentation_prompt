@@ -214,6 +214,7 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
 * **DisplayDataInfo()** : Displays general information about the DataFrame.
 
 .. code-block:: python
+    
     print("\nData Info")
     explorer.DisplayDataInfo()
 
