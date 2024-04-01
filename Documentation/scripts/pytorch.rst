@@ -282,13 +282,10 @@ This code generates a grid of images with their corresponding labels from the Fa
 
 * **Creating a Custom Dataset for Your Files**
 
-.. raw:: html
 
 
-  <p style="text-align: justify;"><span style="color:#000080;">
+To create a custom Dataset class, you must implement three functions: __init__, __len__, and __getitem__. Below is an implementation example where the FashionMNIST images are stored in a directory (`img_dir`), and their labels are stored separately in a CSV file (`annotations_file`).
 
-    To create a custom Dataset class, you must implement three functions: __init__, __len__, and __getitem__. Below is an implementation example where the FashionMNIST images are stored in a directory (`img_dir`), and their labels are stored separately in a CSV file (`annotations_file`).
-    </span></p>
 
 .. code-block:: python
 
@@ -318,18 +315,15 @@ This code generates a grid of images with their corresponding labels from the Fa
             return image, label
 
 
-.. raw:: html
 
+__init__
 
-  <p style="text-align: justify;"><span style="color:#000080;">
-    __init__
+The `__init__` function is called once when instantiating the Dataset object. It initializes the directory containing the images, the annotations file, and both transforms.
 
-    The `__init__` function is called once when instantiating the Dataset object. It initializes the directory containing the images, the annotations file, and both transforms.
+__len__
 
-    __len__
+The `__len__` function returns the number of samples in the dataset.
 
-    The `__len__` function returns the number of samples in the dataset.
-    </span></p>
 
 Example:
 
@@ -339,13 +333,11 @@ Example:
         return len(self.img_labels)
 
 
-.. raw:: html
 
-  <p style="text-align: justify;"><span style="color:#000080;">
-    __getitem__
+__getitem__
 
-    The `__getitem__` function loads and returns a sample from the dataset at the given index `idx`. It identifies the image’s location on disk based on the index, converts that to a tensor using `read_image`, retrieves the corresponding label from the CSV data, applies transform functions (if applicable), and returns the tensor image and corresponding label in a tuple.
-    </span></p>
+The `__getitem__` function loads and returns a sample from the dataset at the given index `idx`. It identifies the image’s location on disk based on the index, converts that to a tensor using `read_image`, retrieves the corresponding label from the CSV data, applies transform functions (if applicable), and returns the tensor image and corresponding label in a tuple.
+
 
 
 Example:
@@ -389,7 +381,7 @@ Example:
     After loading the dataset into the DataLoader, you can iterate through the dataset as needed. Each iteration returns a batch of `train_features` and `train_labels`. Since `shuffle=True`, the data is shuffled after iterating over all batches.
     </span></p>
 
-    
+
 Example:
 
 .. code-block:: python
