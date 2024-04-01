@@ -3,6 +3,7 @@ Neural Network Wrapper
 
 1. dataset:
 ---------
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -23,6 +24,7 @@ Neural Network Wrapper
 -----------------------------
 
 1. `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__ : 
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -30,6 +32,7 @@ Neural Network Wrapper
     You can view the code and access  by clicking the `link to DataPreprocessing class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__.
    </span></p>
 2. `DataExploration <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ :
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -38,6 +41,7 @@ Neural Network Wrapper
    </span></p>
 
 3. `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__ : 
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -46,6 +50,7 @@ Neural Network Wrapper
    </span></p>
 
 4. `ModelEvaluation <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__ :
+
  
  .. raw:: html
 
@@ -55,6 +60,7 @@ Neural Network Wrapper
    </span></p>
 
 5. `NeuralNetwork <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__    :
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -100,7 +106,7 @@ information_help(): Their role is to display the methods existing in the DataExp
 
 
 .. code-block:: python
-    
+
     explorer = DataExploration(df)
     explorer.information_help()
 
