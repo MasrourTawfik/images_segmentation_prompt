@@ -408,5 +408,18 @@ The Encoder
    </span></p>
 
 
+**Mathematical Intuition**
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   Mathematically, if X represents the input, the feedforward layer can be expressed as:
+   </span></p>
+
+.. figure:: /Documentation/images/mathsfeed.jpg
+   :width:  100
+   :align: center
+   :alt: Alternative Text
+
 
 
