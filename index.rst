@@ -1,7 +1,7 @@
 
 
-Welcome to Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
-===============================================================================================
+Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
+===================================================================================
 
 `paper Foundation Model Assisted Weakly Supervised Semantic Segmentation <https://arxiv.org/pdf/2312.03585v2.pdf>`__
 
