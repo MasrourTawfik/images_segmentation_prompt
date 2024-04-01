@@ -389,8 +389,6 @@ The Encoder
    <p style="text-align: justify;"><span style="color:#000080;">
 
    Application of a non-linear activation function, typically a rectified linear unit (ReLU). 
-   </span></p>
-   <p style="text-align: justify;"><span style="color:#000080;">
 
    To introduces non-linearity to the model, allowing it to capture more complex patterns in the data.
    </span></p>
