@@ -184,7 +184,7 @@ This should print the version number of PyTorch that you just installed.
 
    <p style="text-align: justify;"><span style="color:#000080;">
     PyTorch provides two important primitives for working with datasets: torch.utils.data.Dataset and torch.utils.data.DataLoader. These enable us to decouple dataset processing from model training code, enhancing readability and modularity.
-    </span></p>
+    </p>
 * Dataset:
 .. raw:: html
 
@@ -282,10 +282,13 @@ This code generates a grid of images with their corresponding labels from the Fa
 
 * **Creating a Custom Dataset for Your Files**
 
+.. raw:: html
 
 
-To create a custom Dataset class, you must implement three functions: __init__, __len__, and __getitem__. Below is an implementation example where the FashionMNIST images are stored in a directory (`img_dir`), and their labels are stored separately in a CSV file (`annotations_file`).
+  <p style="text-align: justify;"><span style="color:#000080;">
 
+    To create a custom Dataset class, you must implement three functions: <span style="color:blue;">__init__</span>, <span style="color:blue;">__len__</span>, and <span style="color:blue;">__getitem__</span>. Below is an implementation example where the FashionMNIST images are stored in a directory (`img_dir`), and their labels are stored separately in a CSV file (`annotations_file`).
+    </span></p>
 
 .. code-block:: python
 
@@ -314,16 +317,24 @@ To create a custom Dataset class, you must implement three functions: __init__, 
                 label = self.target_transform(label)
             return image, label
 
-
-
 __init__
 
-The `__init__` function is called once when instantiating the Dataset object. It initializes the directory containing the images, the annotations file, and both transforms.
+.. raw:: html
 
+  <p style="text-align: justify;"><span style="color:#000080;">
+    
+
+    The <span style="color:blue;">__init__</span> function is called once when instantiating the Dataset object. It initializes the directory containing the images, the annotations file, and both transforms.
+    
+    </span></p>
 __len__
+.. raw:: html
 
-The `__len__` function returns the number of samples in the dataset.
-
+  <p style="text-align: justify;"><span style="color:#000080;">
+    
+    The <span style="color:blue;">__len__</span> function returns the number of samples in the dataset.
+    
+    </span></p>
 
 Example:
 
@@ -333,11 +344,14 @@ Example:
         return len(self.img_labels)
 
 
-
 __getitem__
 
-The `__getitem__` function loads and returns a sample from the dataset at the given index `idx`. It identifies the image’s location on disk based on the index, converts that to a tensor using `read_image`, retrieves the corresponding label from the CSV data, applies transform functions (if applicable), and returns the tensor image and corresponding label in a tuple.
+.. raw:: html
 
+  <p style="text-align: justify;"><span style="color:#000080;">
+    
+    The <span style="color:blue;">__getitem__</span> function loads and returns a sample from the dataset at the given index `idx`. It identifies the image’s location on disk based on the index, converts that to a tensor using `read_image`, retrieves the corresponding label from the CSV data, applies transform functions (if applicable), and returns the tensor image and corresponding label in a tuple.
+    </span></p>
 
 
 Example:
@@ -380,7 +394,6 @@ Example:
 
     After loading the dataset into the DataLoader, you can iterate through the dataset as needed. Each iteration returns a batch of `train_features` and `train_labels`. Since `shuffle=True`, the data is shuffled after iterating over all batches.
     </span></p>
-
 
 Example:
 
