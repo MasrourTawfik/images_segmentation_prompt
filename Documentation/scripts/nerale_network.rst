@@ -11,18 +11,19 @@ Neural Network Wrapper
     To read data from a CSV file using pandas (pd), you can use the read_csv function:
    </span></p>
 
+
+.. code-block:: python
+
+    import pandas as pd 
+    df = pd.read_csv('cancer_classification.csv')
+
 .. note::
     
     You can view the dataset and access  by clicking the `link to the dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__
 
     Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__ :
    
-.. code-block:: python
-
-    import pandas as pd 
-    df = pd.read_csv('cancer_classification.csv')
-
-
+   
 2. Training on a simple dataset
 -----------------------------
 
