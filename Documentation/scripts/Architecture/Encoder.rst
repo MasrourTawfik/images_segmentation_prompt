@@ -142,3 +142,54 @@ The Encoder
 
     To sum up, the process involves tokenizing the input sentence, looking up each token in the vocabulary to retrieve its ID, then using this ID to obtain the corresponding embedding vector. These embedding vectors are represented in a column-wise format, with each column representing a dimension of the embedding vector. Initially, these vectors are randomly initialized, and the Transformer model learns to optimize them during training.
    </span></p>
+
+
+3. Positional Encoding 
+------------------------
+
+.. figure:: /Documentation/images/position.jpg
+   :width:  500
+   :align: center
+   :alt: Alternative Text
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+   The significance of word position within a sentence is paramount. Depending on where a word is placed in a sentence, it can carry different meanings or implications. For instance, the word "not" might negate something if it appears in one part of the sentence, but it might have a different function elsewhere, such as merely continuing the speaker's thought without negating anything.
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">  
+
+   This variation in word meaning based on position emphasizes the importance of "position embedding." While word embeddings represent the meaning of a word, position embeddings represent the position of the word within the sentence. However, it's important to note that position embeddings are usually calculated only once and are not subject to training like word embeddings.
+   </span></p>
+
+   <p style="text-align: justify;"><span style="color:blue;">
+  
+   Mathematical Intuition
+   </span></p>
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+   
+   The idea behind positional encoding is to add a fixed-size vector to the embeddings of the input tokens, and this vector is determined based on the position of the token in the sequence. The positional encoding is designed in such a way that it reflects the position of a token in the sequence space, allowing the model to discern the order of tokens during processing.
+   </span></p>
+
+.. figure:: /Documentation/images/position2.jpg
+   :width:  500
+   :align: center
+   :alt: Alternative Text
+
+.. raw:: html
+   <ul class="circle-list">
+   <p style="text-align: justify;"><span style="color:#000080;">
+   
+   <li> d: The dimension of the embedding vector. This is the length or number of components in each vector that represents a token or position in the input sequence.
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">  
+
+   <li> pos: The position of the token in the sequence. It represents the index or order of the token in the input sequence.
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">  
+
+   <li> i: The position along the dimension of the embedding vector. For each dimension i, there is a corresponding sine term (for even indices) and cosine term (for odd indices) in the formula
+   </span></p>
+   </ul>
+
+
