@@ -216,7 +216,7 @@ The Encoder
 4. self Attention
 -------------------
 
-.. figure:: /Documentation/images/self.jpg
+.. figure:: /Documentation/images/self.png
    :width:  500
    :align: center
    :alt: Alternative Text
@@ -262,6 +262,31 @@ The Encoder
    More details in `paper Attention is all you need <https://arxiv.org/pdf/1706.03762.pdf>`__  : dot-product is “scaled”, residual connection, layer normalization
 
 
+5. Multi-Head Attention
+------------------------
 
+.. figure:: /Documentation/images/multi.jpg
+   :width:  700
+   :align: center
+   :alt: Alternative Text
 
+.. raw:: html
+      
+   <p style="text-align: justify;"><span style="color:#000080;">
+   &#10003;In multi-head attention, the attention mechanism is applied multiple times in parallel, with each instance referred to as a "head." 
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+   &#10003;For each head, three learnable linear projections (matrices) are applied to the input sequence to obtain separate projections for the query (Q), key (K), and value (V) vectors.
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+   &#10003;The attention mechanism is then applied independently to each of these query, key, and value projections. The resulting outputs from all heads are concatenated and linearly transformed to produce the final multi-head attention output.
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+   &#10003;The use of multiple heads allows the model to focus on different parts of the input sequence for different aspects or patterns, providing more flexibility and expressiveness.
+   </span></p>
 
+.. figure:: /Documentation/images/multii.png
+   :width:  700
+   :align: center
+   :alt: Alternative Text
+   
