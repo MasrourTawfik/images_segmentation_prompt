@@ -215,6 +215,12 @@ The Encoder
 
 4. self Attention
 -------------------
+
+.. figure:: /Documentation/images/self.jpg
+   :width:  500
+   :align: center
+   :alt: Alternative Text
+
 .. note:: 
 
    self-attention (sometimes KQV-attention) layer is central mechanism in transformer architecture introduced in `Attention Is All You Need paper<https://arxiv.org/pdf/1706.03762.pdf>`__ 
