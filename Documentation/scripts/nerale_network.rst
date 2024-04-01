@@ -23,7 +23,7 @@ Neural Network Wrapper
 
     Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__ :
    
-   
+
 2. Training on a simple dataset
 -----------------------------
 
@@ -129,7 +129,7 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
 ------------------------------------------------------------------------------------------------------------------------
 
 
-information_help(): Their role is to display the methods existing in the DataExploration class.
+* **information_help()**: Their role is to display the methods existing in the DataExploration class.
 
 
 .. code-block:: python
@@ -139,58 +139,61 @@ information_help(): Their role is to display the methods existing in the DataExp
 
 
 
- *output:*
 
-``` 
-* `DisplayData()`:Display the first few rows of the DataFrame.
-``` 
+*output:*
 
-``` 
-* `DisplayDataTypes() `:Display the data types of each column in the DataFrame.
-``` 
+ .. raw:: html
 
-``` 
-* `DisplayDataInfo() ` :Display information about the DataFrame, including number of rows, columns, and data types.
-``` 
+   <p style="text-align: justify;"><span style="color:#000080;">
 
-``` 
-* `DisplayDataDescription()`:Display descriptive statistics for each column of the DataFrame.
-``` 
+    <span style="color:blue;">DisplayData()</span>:Display the first few rows of the DataFrame.
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
 
-``` 
-* `DisplayCorrelationMatrix()  `:Display the correlation matrix between all numeric columns of the DataFrame.
-``` 
+    <span style="color:blue;">DisplayDataTypes() </span>:Display the data types of each column in the DataFrame.
+     </span></p>   
+    <p style="text-align: justify;"><span style="color:#000080;">
 
-``` 
-* `DisplayCorrelationWithColumn(column)`:correletion with a specific column
-``` 
+    <span style="color:blue;">DisplayDataInfo() </span>:Display information about the DataFrame, including number of rows, columns, and data types.
+     </span></p>   
+    <p style="text-align: justify;"><span style="color:#000080;">
+    <span style="color:blue;">DisplayDataDescription() </span>:Display descriptive statistics for each column of the DataFrame.
 
-``` 
-* `DisplayHeatMap()  `:Displays a heatmap of the correlation matrix.
-``` 
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+    <span style="color:blue;">DisplayCorrelationMatrix()</span> :Display the correlation matrix between all numeric columns of the DataFrame.
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
 
-``` 
-* `DisplayPairPlot() `:This method creates a pairplot, also known as a scatterplot matrix, which shows pairwise relationships between numerical columns 
-``` 
+    <span style="color:blue;">DisplayCorrelationWithColumn(column)</span>:correletion with a specific column
+    </span></p>
+     <p style="text-align: justify;"><span style="color:#000080;"> 
 
-``` 
-* `DisplayCountPlot() `:This method generates a countplot, which is a type of bar plot that shows the frequency of each category in a categorical column of the DataFrame
-``` 
+    <span style="color:blue;">DisplayHeatMap() </span>:Displays a heatmap of the correlation matrix.
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
 
-``` 
-* `DisplayBoxPlot() `:This method creates a boxplot for a numerical column in the DataFrame.
-``` 
+    <span style="color:blue;">DisplayPairPlot() </span>:This method creates a pairplot, also known as a scatterplot matrix, which shows pairwise relationships between numerical columns 
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
 
-``` 
-* `DisplayScatterPlot() `:This method generates a scatter plot between two numerical columns in the DataFrame
-``` 
+    <span style="color:blue;">DisplayCountPlot() </span>:This method generates a countplot, which is a type of bar plot that shows the frequency of each category in a categorical column of the DataFrame
+     </span></p>   
+    <p style="text-align: justify;"><span style="color:#000080;">
 
-``` 
-* `DisplayHistogram()`:This method creates a histogram for a numerical column in the DataFrame
-``` 
+    <span style="color:blue;">DisplayBoxPlot()</span>:This method creates a boxplot for a numerical column in the DataFrame.
 
+    <p style="text-align: justify;"><span style="color:#000080;">
 
-DisplayData(): Displays the head of the DataFrame.
+    <span style="color:blue;">DisplayScatterPlot() </span>:This method generates a scatter plot between two numerical columns in the DataFrame
+    </span></p>    
+    <p style="text-align: justify;"><span style="color:#000080;">
+    
+    <span style="color:blue;">DisplayHistogram()</span>:This method creates a histogram for a numerical column in the DataFrame
+    </span></p>
+    
+
+* **DisplayData()**: Displays the head of the DataFrame.
 
 
 .. code-block:: python
@@ -200,7 +203,7 @@ DisplayData(): Displays the head of the DataFrame.
     explorer.DisplayData()
 
 
-DisplayDataTypes(): Displays the data types of columns in the DataFrame.
+* **DisplayDataTypes()**: Displays the data types of columns in the DataFrame.
 
 .. code-block:: python
 
@@ -208,20 +211,20 @@ DisplayDataTypes(): Displays the data types of columns in the DataFrame.
     explorer.DisplayDataTypes()
 
 
-DisplayDataInfo() : Displays general information about the DataFrame.
+* **DisplayDataInfo()** : Displays general information about the DataFrame.
 
 .. code-block:: python
     print("\nData Info")
     explorer.DisplayDataInfo()
 
-DisplayDataDescription() : Displays statistical descriptions of the data.
+* **DisplayDataDescription()** : Displays statistical descriptions of the data.
 
 .. code-block:: python
 
     print("\nData Description")
     explorer.DisplayDataDescription()
 
-DisplayDataShape() :Displays the shape of the DataFrame.
+* **DisplayDataShape()** :Displays the shape of the DataFrame.
 
 .. code-block:: python
 
@@ -229,7 +232,7 @@ DisplayDataShape() :Displays the shape of the DataFrame.
     explorer.DisplayDataShape()
 
 
-DisplayMissingValues():Displays information about missing values in the DataFrame.
+* **DisplayMissingValues()**:Displays information about missing values in the DataFrame.
 
 
 .. code-block:: python
@@ -237,7 +240,7 @@ DisplayMissingValues():Displays information about missing values in the DataFram
     print("\nMissing Values")
     explorer.DisplayMissingValues()    
 
-DisplayCorrelationMatrix() :Displays the correlation matrix of numerical features in the DataFrame.
+* **DisplayCorrelationMatrix()** :Displays the correlation matrix of numerical features in the DataFrame.
 
 
 .. code-block:: python
@@ -245,14 +248,14 @@ DisplayCorrelationMatrix() :Displays the correlation matrix of numerical feature
     print("\nCorrelation Matrix")
     explorer.DisplayCorrelationMatrix()
 
-DisplayCorrelationWithColumn('benign_0__mal_1') :Displays the correlation of all features with the target column named 'benign_0__mal_1'.
+* **DisplayCorrelationWithColumn('benign_0__mal_1')** :Displays the correlation of all features with the target column named 'benign_0__mal_1'.
 
 .. code-block:: python
     
     print("\nCorrelation with 'target' column:")
     explorer.DisplayCorrelationWithColumn('benign_0__mal_1')
 
-DisplayHeatMap() :Displays a heatmap of the correlation matrix.
+* **DisplayHeatMap()** :Displays a heatmap of the correlation matrix.
 
 
 .. code-block:: python
