@@ -78,6 +78,12 @@ The Encoder
    &#10003; In such cases, these words are usually split into sub-words or characters to represent them using the available tokens in the vocabulary.
    </span></p>
 
+
+.. note::  
+
+   More details in `Tokenization in Machine Learning Explained<https://vaclavkosar.com/ml/Tokenization-in-Machine-Learning-Explained>`__  
+
+
 2. Input embedding
 -------------------
 
@@ -143,9 +149,19 @@ The Encoder
     To sum up, the process involves tokenizing the input sentence, looking up each token in the vocabulary to retrieve its ID, then using this ID to obtain the corresponding embedding vector. These embedding vectors are represented in a column-wise format, with each column representing a dimension of the embedding vector. Initially, these vectors are randomly initialized, and the Transformer model learns to optimize them during training.
    </span></p>
 
+.. note::  
+
+   More details in `Transformer Positional Embeddings and Encodings<https://vaclavkosar.com/ml/transformer-positional-embeddings-and-encodings>`__  
+
 
 3. Positional Encoding 
 ------------------------
+.. figure:: /Documentation/images/position1.jpg
+   :width:  600
+   :align: center
+   :alt: Alternative Text
+.. raw:: html
+
 
 .. figure:: /Documentation/images/position.jpg
    :width:  600
@@ -192,9 +208,16 @@ The Encoder
    </p>
 
 
+.. note::  
+
+   More details in `Transformer Positional Embeddings and Encodings<https://vaclavkosar.com/ml/transformer-positional-embeddings-and-encodings>`__  
+
+
 4. self Attention
 -------------------
+.. note:: 
 
+   self-attention (sometimes KQV-attention) layer is central mechanism in transformer architecture introduced in `Attention Is All You Need paper<https://arxiv.org/pdf/1706.03762.pdf>`__ 
 
 .. figure:: /Documentation/images/cal.jpg
    :width:  700
@@ -227,6 +250,12 @@ The Encoder
    <span style="color:#000080;">The attention scores obtained for each word are used to calculate a weighted sum of the corresponding Value vectors. This weighted sum represents the importance of each word in the context of the current word, capturing the dependencies in the sequence.</span>
 
    </p>
+
+.. note::  
+
+   More details in `paper Attention is all you need <https://arxiv.org/pdf/1706.03762.pdf>`__  : dot-product is “scaled”, residual connection, layer normalization
+
+
 
 
 
