@@ -237,19 +237,19 @@ The Encoder
    <span style="color:#000080;">Self-Attention compares all input sequence members with each other, and modifies the corresponding output sequence positions. In other words, self-attention layer differentiably key-value searches the input sequence for each inputs, and adds results to the output sequence.</span>
    
    </p>
-   <span style="color:blue;font-size: px;">Key</span>, <span style="color:blue;font-size: px;">Query</span>, and <span style="color:blue;font-size: px;">Value:</span>
+   <span style="color:blue;font-size: larger;">Key</span>, <span style="color:blue;font-size: larger;">Query</span>, and <span style="color:blue;font-size: larger;">Value:</span>
 
    <p style="text-align: justify;">
    <span style="color:#000080;">Each word in the input sequence is associated with three vectors: </span><span style="color:red;"><strong>Key (K)</strong></span>,<span style="color:red;"><strong> Query (Q)</strong></span>,<span style="color:#000080;"> and</span> <span style="color:red;"><strong>Value (V)</strong></span><span style="color:#000080;">. These vectors are learned parameters for each word. Vectors are used to compute attention scores, determining how much focus should be given to other words in the sequence.</span>
    
    </p>
-   <span style="color:blue;font-size: px;">Attention Scores:</span>
+   <span style="color:blue;font-size: larger;">Attention Scores:</span>
 
    <p style="text-align: justify;">
    <span style="color:#000080;"> For each word, the attention score with respect to other words is calculated by taking the dot product of the Query vector of the current word with the Key vectors of all other words. The scores are then scaled and passed through a softmax function to obtain a probability distribution, ensuring that the weights add up to 1.</span>
    
    </p>
-   <span style="color:blue; font-size: px;">Weighted Sum:</span>
+   <span style="color:blue; font-size: larger;">Weighted Sum:</span>
 
    <p style="text-align: justify;">
 
