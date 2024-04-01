@@ -18,7 +18,7 @@ The Encoder
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:blue;">
+    <p style="text-align: justify;font-size: larger;"><span style="color:blue;">
    Tokenization:
    </span></p>
 .. raw:: html
@@ -38,7 +38,7 @@ The Encoder
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:blue;">
+    <p style="text-align: justify;font-size: larger;"><span style="color:blue;">
    Vocabulary Building:
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -52,7 +52,7 @@ The Encoder
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:blue;">
+    <p style="text-align: justify;font-size: larger;"><span style="color:blue;">
    Token ID:
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -66,7 +66,7 @@ The Encoder
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:blue;">
+    <p style="text-align: justify;font-size: larger;"><span style="color:blue;">
    Vocabulary Limitations:
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -101,7 +101,7 @@ The Encoder
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:blue;">
+    <p style="text-align: justify;font-size: larger;"><span style="color:blue;">
    Tokenization:
    </span></p>
 
@@ -117,7 +117,7 @@ The Encoder
    </span></p>
 
 
-    <p style="text-align: justify;"><span style="color:blue;">
+    <p style="text-align: justify;font-size: larger;"><span style="color:blue;">
    Embedding Representation:
    </span></p>
 
@@ -127,7 +127,7 @@ The Encoder
    </span></p>
 
 
-    <p style="text-align: justify;"><span style="color:blue;">
+    <p style="text-align: justify;font-size: larger;"><span style="color:blue;">
    Vector Representation:
    </span></p>
 
@@ -137,7 +137,7 @@ The Encoder
    </span></p>
 
 
-    <p style="text-align: justify;"><span style="color:blue;">
+    <p style="text-align: justify;font-size: larger;"><span style="color:blue;">
    Random Initialization:
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">  
@@ -177,7 +177,7 @@ The Encoder
    This variation in word meaning based on position emphasizes the importance of "position embedding." While word embeddings represent the meaning of a word, position embeddings represent the position of the word within the sentence. However, it's important to note that position embeddings are usually calculated only once and are not subject to training like word embeddings.
    </span></p>
 
-   <p style="text-align: justify;"><span style="color:blue;">
+   <p style="text-align: justify;font-size: larger;"><span style="color:blue;">
   
    Mathematical Intuition
    </span></p>
