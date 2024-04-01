@@ -32,7 +32,7 @@ Please refer to the requirements.txt file for a list of necessary dependencies.
 
 
 ```python
-!pip install git+https://github.com/SAAD1190/ViT_Implementation.git
+!pip install git+https://github.com/MasrourTawfik/images_segmentation_prompt/tree/main/ViT_Implementation.git
 ```
 
 
