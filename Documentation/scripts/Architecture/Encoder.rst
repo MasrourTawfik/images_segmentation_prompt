@@ -496,38 +496,50 @@ The Encoder
 
    <p style="text-align: justify;"><span style="color:#000080;">
       
-   The document provides a detailed overview of the Transformer model encoder and the different stages and mechanisms used in data processing. 
+   The document provides a detailed overview of <strong>the Transformer model encoder</strong> and the different stages and mechanisms used in data processing. 
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
    
-   First, the tokenization process is explained, which involves dividing a text into smaller units called "tokens". These tokens are then converted into numerical identifiers that correspond to the model's vocabulary. 
+   First, the <strong>tokenization</strong> process is explained, which involves dividing a text into smaller units called "tokens". These tokens are then converted into numerical identifiers that correspond to the model's vocabulary. 
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
 
-   Next, input embedding is described, where tokens are converted into continuous vectors for processing by the model. These vectors are randomly initialized and optimized during training to better represent the meaning of the tokens. 
+   Next, <strong>input embedding</strong> is described, where tokens are converted into continuous vectors for processing by the model. These vectors are randomly initialized and optimized during training to better represent the meaning of the tokens. 
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
 
-   Positional encoding is discussed to account for the order of tokens in the sequence, which is crucial for capturing dependencies between words. 
+   <strong>Positional encoding </strong>is discussed to account for the order of tokens in the sequence, which is crucial for capturing dependencies between words. 
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
 
-   The self-attention mechanism is introduced as a method for calculating attention weights between tokens, allowing the model to focus on different parts of the sequence depending on the context. 
+   <strong>The self-attention mechanism</strong> is introduced as a method for calculating attention weights between tokens, allowing the model to focus on different parts of the sequence depending on the context. 
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
-   Next, multi-head attention is explained, which is an extension of self-attention that allows the model to combine knowledge from different attention heads to capture dependencies across different ranges within a sequence. 
-   </span></p>
-   <p style="text-align: justify;"><span style="color:#000080;">
-
-   The addition and normalization layer, as well as the feed-forward layer are discussed to improve stability and the model's ability to learn complex hierarchical representations. 
+   Next, <strong>multi-head attention </strong>is explained, which is an extension of self-attention that allows the model to combine knowledge from different attention heads to capture dependencies across different ranges within a sequence. 
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
 
-   Finally, residual connections are introduced to facilitate the flow of information through the encoder's layers. 
+   <strong>The addition and normalization layer</strong>, as well as the feed-forward layer are discussed to improve stability and the model's ability to learn complex hierarchical representations. 
    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
-   In conclusion, the document provides a comprehensive understanding of the internal workings of the Transformer encoder and highlights the importance of the various stages and mechanisms in effective data processing.
+
+   Finally, <strong>residual connections</strong> are introduced to facilitate the flow of information through the encoder's layers. 
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+   In<span style="color:blue;"> conclusion</span>, the document provides a comprehensive understanding of the internal workings of the Transformer encoder and highlights the importance of the various stages and mechanisms in effective data processing.
    </span></p>
 
 .. note::  
     * You can view more by clicking the  `"Transformer’s Encoder" <https://kikaben.com/transformers-encoder-decoder/#conclusion>`__ 
+
+
+.. BIBLIOGRAPHIC::
+   
+   For more information, please click on the links provided below
+   * `"transformers-important-architecture" <https://cash-ai.news/2024/03/01/what-are-transformers-important-architecture-details-by-akshitha-kumbam-mar-2024/>`__ 
+   * `"transformers-introduction" <https://pylessons.com/transformers-introduction>`__  
+   * `"Attention is all you need" youtube video <https://www.youtube.com/watch?v=sznZ78HquPc>`__ 
+   * `attention-mechanisms <https://d2l.ai/chapter_attention-mechanisms-and-transformers/transformer.html>`__ 
+
+
+
