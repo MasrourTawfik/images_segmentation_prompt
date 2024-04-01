@@ -81,7 +81,7 @@ The Encoder
 
 .. note::  
 
-   More details in `Tokenization in Machine Learning Explained<https://vaclavkosar.com/ml/Tokenization-in-Machine-Learning-Explained>`__  
+   More details in `Tokenization in Machine Learning Explained <https://vaclavkosar.com/ml/Tokenization-in-Machine-Learning-Explained>`__  
 
 
 2. Input embedding
@@ -151,7 +151,7 @@ The Encoder
 
 .. note::  
 
-   More details in `Transformer Positional Embeddings and Encodings<https://vaclavkosar.com/ml/transformer-positional-embeddings-and-encodings>`__  
+   More details in `Transformer Positional Embeddings and Encodings <https://vaclavkosar.com/ml/transformer-positional-embeddings-and-encodings>`__  
 
 
 3. Positional Encoding 
@@ -210,7 +210,7 @@ The Encoder
 
 .. note::  
 
-   More details in `Transformer Positional Embeddings and Encodings<https://vaclavkosar.com/ml/transformer-positional-embeddings-and-encodings>`__  
+   More details in `Transformer Positional Embeddings and Encodings <https://vaclavkosar.com/ml/transformer-positional-embeddings-and-encodings>`__  
 
 
 4. self Attention
