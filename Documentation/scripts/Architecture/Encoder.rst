@@ -484,8 +484,8 @@ The Encoder
 
 
 .. figure:: /Documentation/images/conc_encoder.png
-   :width: 500
-   :height: 100
+   :width: 700
+   :height: 500
    :align: center
    :alt: Alternative Text
 
