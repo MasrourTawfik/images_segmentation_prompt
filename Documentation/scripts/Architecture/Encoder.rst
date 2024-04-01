@@ -223,7 +223,7 @@ The Encoder
 
 .. note:: 
 
-   self-attention (sometimes KQV-attention) layer is central mechanism in transformer architecture introduced in `Attention Is All You Need paper<https://arxiv.org/pdf/1706.03762.pdf>`__ 
+   self-attention (sometimes KQV-attention) layer is central mechanism in transformer architecture introduced in `Attention Is All You Need paper <https://arxiv.org/pdf/1706.03762.pdf>`__ 
 
 .. figure:: /Documentation/images/cal.jpg
    :width:  700
@@ -289,4 +289,4 @@ The Encoder
    :width:  700
    :align: center
    :alt: Alternative Text
-   
+
