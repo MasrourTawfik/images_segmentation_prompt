@@ -1,14 +1,19 @@
 Introduction to  PyTorch
 ===================================
+.. raw:: html
 
-The purpose of this documentation is to provide a comprehensive introduction to tensors in PyTorch,
-emphasizing their importance and usage within the context of machine learning models.
-
+   <p style="text-align: justify;"><span style="color:#000080;">
+    The purpose of this documentation is to provide a comprehensive introduction to tensors in PyTorch,
+    emphasizing their importance and usage within the context of machine learning models.
+   </span></p>
 
 1. Installing PyTorch with Anaconda
 ---------------------------------
+.. raw:: html
 
-Open the Anaconda prompt or terminal.
+   <p style="text-align: justify;"><span style="color:#000080;">
+    Open the Anaconda prompt or terminal.
+   </span></p>
 
 Create a new conda environment for PyTorch by running the following command:
 
@@ -35,10 +40,13 @@ If you have a GPU and want to install the GPU version of PyTorch, replace `cpuon
 ```
 conda install pytorch torchvision cudatoolkit -c pytorch
 ```
+.. raw:: html
 
-This will install the necessary packages for PyTorch to run on your system.
+   <p style="text-align: justify;"><span style="color:#000080;">
+    This will install the necessary packages for PyTorch to run on your system.
 
-Verify that PyTorch is installed correctly by running the following command:
+    Verify that PyTorch is installed correctly by running the following command:
+    </span></p>
 
 ```
 python -c "import torch; print(torch.__version__)"
@@ -49,9 +57,12 @@ This should print the version number of PyTorch that you just installed.
 
 2. Introduction to Tensors
 ---------------------------
+.. raw:: html
 
-Tensors are specialized data structures similar to arrays and matrices, used to encode the inputs, outputs, and
-parameters of a model in PyTorch. They are optimized for computation on GPUs and automatic differentiation.
+   <p style="text-align: justify;"><span style="color:#000080;">
+    Tensors are specialized data structures similar to arrays and matrices, used to encode the inputs, outputs, and
+    parameters of a model in PyTorch. They are optimized for computation on GPUs and automatic differentiation.
+    </span></p>
 
 .. code-block:: python
 
@@ -63,10 +74,12 @@ parameters of a model in PyTorch. They are optimized for computation on GPUs and
 
 * **Initializing Tensors**
 
+.. raw:: html
 
-Tensors can be initialized in various ways, including directly from data, from NumPy arrays, or from other tensors.
-Initializing tensors is flexible and intuitive, simplifying the process of tensor creation.
-
+   <p style="text-align: justify;"><span style="color:#000080;">
+    Tensors can be initialized in various ways, including directly from data, from NumPy arrays, or from other tensors.
+    Initializing tensors is flexible and intuitive, simplifying the process of tensor creation.
+    </span></p>
 .. code-block:: python
 
     import torch
@@ -85,9 +98,12 @@ Initializing tensors is flexible and intuitive, simplifying the process of tenso
 
 * **Attributes of Tensors**
 
+.. raw:: html
 
-Tensor attributes include their shape, data type, and the device on which they are stored. These attributes are useful
-for understanding and manipulating tensors effectively.
+   <p style="text-align: justify;"><span style="color:#000080;">
+    Tensor attributes include their shape, data type, and the device on which they are stored. These attributes are useful
+    for understanding and manipulating tensors effectively.
+    </span></p>
 
 .. code-block:: python
 
@@ -104,9 +120,12 @@ for understanding and manipulating tensors effectively.
 * **Operations on Tensors**
 
 
+.. raw:: html
 
-PyTorch offers a wide range of tensor operations, including arithmetic operations, linear algebra, matrix manipulation,
-sampling, and more. Tensors can also be used for operations in GPU mode, providing optimized performance.
+   <p style="text-align: justify;"><span style="color:#000080;">
+    PyTorch offers a wide range of tensor operations, including arithmetic operations, linear algebra, matrix manipulation,
+    sampling, and more. Tensors can also be used for operations in GPU mode, providing optimized performance.
+    </span></p>
 
 .. code-block:: python
 
@@ -125,9 +144,12 @@ sampling, and more. Tensors can also be used for operations in GPU mode, providi
 
 * **Bridge with NumPy**
 
+.. raw:: html
 
-Tensors in PyTorch can share their underlying memory with NumPy arrays, enabling seamless conversion between the two.
-This allows for smooth integration between PyTorch and NumPy, facilitating work with data.
+   <p style="text-align: justify;"><span style="color:#000080;">
+    Tensors in PyTorch can share their underlying memory with NumPy arrays, enabling seamless conversion between the two.
+    This allows for smooth integration between PyTorch and NumPy, facilitating work with data.
+    </span></p>
 
 .. code-block:: python
 
@@ -158,25 +180,37 @@ This allows for smooth integration between PyTorch and NumPy, facilitating work 
 ---------------------------
 
 
+.. raw:: html
 
-PyTorch provides two important primitives for working with datasets: torch.utils.data.Dataset and torch.utils.data.DataLoader. These enable us to decouple dataset processing from model training code, enhancing readability and modularity.
-
+   <p style="text-align: justify;"><span style="color:#000080;">
+    PyTorch provides two important primitives for working with datasets: torch.utils.data.Dataset and torch.utils.data.DataLoader. These enable us to decouple dataset processing from model training code, enhancing readability and modularity.
+    </span></p>
 * Dataset:
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
     Stores samples and their corresponding labels.
     Allows for custom transformations.
     Subclasses can be created for specific datasets.
+    </span></p>
 
 * DataLoader:
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
     Wraps an iterable around the dataset.
     Facilitates easy access to samples during training.
 
+    </span></p>
 
 * **Loading a Dataset**
 
-PyTorch also offers pre-loaded datasets, such as FashionMNIST, for prototyping and benchmarking models. These datasets subclass torch.utils.data.Dataset and implement specific functions for handling the data.
-For example, to load the Fashion-MNIST dataset using TorchVision:
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+    PyTorch also offers pre-loaded datasets, such as FashionMNIST, for prototyping and benchmarking models. These datasets subclass torch.utils.data.Dataset and implement specific functions for handling the data.
+    For example, to load the Fashion-MNIST dataset using TorchVision:
+    </span></p>
 
 
 .. code-block:: python

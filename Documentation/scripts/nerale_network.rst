@@ -3,13 +3,15 @@ Neural Network Wrapper
 
 1. dataset:
 ---------
+.. raw:: html
 
-You can view the dataset and access  by clicking the `link to the dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__
+   <p style="text-align: justify;"><span style="color:#000080;">
+    You can view the dataset and access  by clicking the `link to the dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__
 
-Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__ :
+    Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__ :
 
-To read data from a CSV file using pandas (pd), you can use the read_csv function:
-
+    To read data from a CSV file using pandas (pd), you can use the read_csv function:
+   </span></p>
 
 .. code-block:: python
 
@@ -21,32 +23,44 @@ To read data from a CSV file using pandas (pd), you can use the read_csv functio
 -----------------------------
 
 1. `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__ : 
+.. raw:: html
 
-This module likely contains functions or classes for preparing your raw data for analysis. This can include tasks such as handling missing values, encoding categorical variables, scaling numerical features, and splitting the data into training and testing sets.
-You can view the code and access  by clicking the `link to DataPreprocessing class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__.
-
+   <p style="text-align: justify;"><span style="color:#000080;">
+    This module likely contains functions or classes for preparing your raw data for analysis. This can include tasks such as handling missing values, encoding categorical variables, scaling numerical features, and splitting the data into training and testing sets.
+    You can view the code and access  by clicking the `link to DataPreprocessing class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__.
+   </span></p>
 2. `DataExploration <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ :
+.. raw:: html
 
- This part of your pipeline focuses on understanding the structure and characteristics of your dataset. It might include functions or classes for displaying basic statistics (like mean, median, standard deviation), visualizations (like histograms, scatter plots, or correlation matrices), and checking for any anomalies or inconsistencies in the data.
- You can view the code and access  by clicking the  `link to the DataExploration class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ .
-
+   <p style="text-align: justify;"><span style="color:#000080;">
+    This part of your pipeline focuses on understanding the structure and characteristics of your dataset. It might include functions or classes for displaying basic statistics (like mean, median, standard deviation), visualizations (like histograms, scatter plots, or correlation matrices), and checking for any anomalies or inconsistencies in the data.
+    You can view the code and access  by clicking the  `link to the DataExploration class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ .
+   </span></p>
 
 3. `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__ : 
+.. raw:: html
 
-Here, you're training a machine learning model on your preprocessed data. This typically involves selecting an appropriate algorithm (like a neural network), defining a loss function, and optimizing model parameters using an optimization algorithm (like stochastic gradient descent).
-You can view the code and access  by clicking the  `link to the ModelTraining class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__.
-
+   <p style="text-align: justify;"><span style="color:#000080;">
+    Here, you're training a machine learning model on your preprocessed data. This typically involves selecting an appropriate algorithm (like a neural network), defining a loss function, and optimizing model parameters using an optimization algorithm (like stochastic gradient descent).
+    You can view the code and access  by clicking the  `link to the ModelTraining class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__.
+   </span></p>
 
 4. `ModelEvaluation <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__ :
- After training your model, you need to evaluate its performance. This module likely contains functions or classes for computing various evaluation metrics (like accuracy, precision, recall, or F1-score), generating confusion matrices, and visualizing prediction results.
- You can view the code and access  by clicking the `link to the ModelEvaluation class  <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__
+ 
+ .. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+    After training your model, you need to evaluate its performance. This module likely contains functions or classes for computing various evaluation metrics (like accuracy, precision, recall, or F1-score), generating confusion matrices, and visualizing prediction results.
+    You can view the code and access  by clicking the `link to the ModelEvaluation class  <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__
+   </span></p>
 
 5. `NeuralNetwork <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__    :
+.. raw:: html
 
- This appears to be a class for defining a neural network architecture using the PyTorch library. It specifies the layers, activation functions, and connections between neurons in the network.
- 'You can view the code and access by clicking the  `link to the NeuralNetwork class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__.
-
+   <p style="text-align: justify;"><span style="color:#000080;">
+    This appears to be a class for defining a neural network architecture using the PyTorch library. It specifies the layers, activation functions, and connections between neurons in the network.
+    'You can view the code and access by clicking the  `link to the NeuralNetwork class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__.
+   </span></p>
 
 .. code-block::python
     from DataPreprocessing import DataPreprocessing

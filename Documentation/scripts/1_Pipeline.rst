@@ -14,24 +14,25 @@ Pipeline
 
 
 
+
 .. raw:: html
 
-   <p style="text-align: justify;">
+   <p style="text-align: justify;"><span style="color:#000080;">
 
   PyTorch is a powerful open-source machine learning library developed by Facebook's AI Research lab (FAIR). It provides a flexible and intuitive framework for building, training, and deploying deep learning models. PyTorch stands out for its dynamic computation graph mechanism, allowing for efficient gradient computation and enabling users to define and modify models on-the-fly.
-  </p>
+  </span></p>
 
-  <p style="text-align: justify;">
+  <p style="text-align: justify;"><span style="color:#000080;">
   With PyTorch, developers can easily create various types of neural networks, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformers, among others. Its extensive collection of pre-built modules and utilities simplifies the process of building complex architectures for tasks such as image classification, object detection, natural language processing, and more.
-  </p>
+  </span></p>
 
- <p style="text-align: justify;">
+ <p style="text-align: justify;"><span style="color:#000080;">
   One of PyTorch's key strengths lies in its seamless integration with Python and NumPy, facilitating data manipulation and experimentation. Additionally, PyTorch provides support for GPU acceleration, enabling faster computation and training of deep learning models on compatible hardware.
-  </p>
+  </span></p>
 
- <p style="text-align: justify;">
+ <p style="text-align: justify;"><span style="color:#000080;">
   Whether you're a beginner exploring deep learning concepts or an experienced researcher developing cutting-edge models, PyTorch offers a rich ecosystem of tools, resources, and community support to accelerate your journey in the field of artificial intelligence.
- </p>
+ </span></p>
 
 
 .. _Neural_Network:
@@ -45,9 +46,9 @@ In this article, we will build a neural network from scratch and use it to class
 .. raw:: html
 
 
-  <p style="text-align: justify;">
+  <p style="text-align: justify;"><span style="color:#000080;">
     A neural network is a type of machine learning algorithm that forms the foundation of various artificial intelligence applications such as computer vision, forecasting, and speech recognition. It consists of multiple layers of neurons, with each layer being activated based on inputs from the previous layer. These layers are interconnected by weights and biases, which determine how information flows through the network. While neural networks are often compared to biological neural networks found in the brain, it's important to exercise caution when making such comparisons, as artificial neural networks are simplified representations designed for specific computational tasks.
-  </p>
+  </span></p>
 
 
 .. figure:: /Documentation/images/neral.webp
@@ -59,9 +60,9 @@ In this article, we will build a neural network from scratch and use it to class
 .. raw:: html
 
 
-  <p style="text-align: justify;">
+  <p style="text-align: justify;"><span style="color:#000080;">
     The first layer is the input layer. Input layer activations come from the input to the neural network. The final layer is the output layer. The activations in the output layer are the output of the neural network. The layers in between are called hidden layers.
-  </p>
+  </span></p>
 
 
 
@@ -80,6 +81,7 @@ The Transformer is a groundbreaking architecture in the field of natural languag
     * **Introduction (Attention is All You Need)**
 
     .. note::  
+
       This introduction highlights the basics of the Transformer, as described in the paper "Attention is All You Need".
          
        `paper Attention is all you need <https://arxiv.org/pdf/1706.03762.pdf>`__ 
@@ -87,24 +89,48 @@ The Transformer is a groundbreaking architecture in the field of natural languag
       
 
     * **Tokenization**
+.. raw:: html
 
-      Tokenization is the process of converting text into tokens, the basic units on which the model operates.
+  <p style="text-align: justify;"><span style="color:#000080;">
+   Tokenization is the process of converting text into tokens, the basic units on which the model operates.
+  </span></p>
+      
 
-    * **Embedding**
+* **Embedding**
+.. raw:: html
 
-      Embedding transforms tokens into dense vectors, which represent words numerically.
 
-    * **Positional encoding**
+  <p style="text-align: justify;"><span style="color:#000080;">
+  Embedding transforms tokens into dense vectors, which represent words numerically.
+  </span></p>
+      
 
-      Positional encoding adds information about the order of words in the sequence.
+* **Positional encoding**
+.. raw:: html
 
-    * **Transformer block**
 
-      The Transformer block is the centerpiece of this architecture, comprising layers of attention and fully connected neural networks.
+  <p style="text-align: justify;"><span style="color:#000080;">
+  Positional encoding adds information about the order of words in the sequence.
+  </span></p>
+      
 
-    * **Softmax**
+* **Transformer block**
+.. raw:: html
 
-      Softmax is an activation function used to compute probability scores on the model's output.
+
+  <p style="text-align: justify;"><span style="color:#000080;">
+  The Transformer block is the centerpiece of this architecture, comprising layers of attention and fully connected neural networks.
+  </span></p>
+      
+
+* **Softmax**
+.. raw:: html
+
+
+  <p style="text-align: justify;"><span style="color:#000080;">
+  Softmax is an activation function used to compute probability scores on the model's output.
+  </span></p>
+      
 
 .. _visual_transformer:
 
