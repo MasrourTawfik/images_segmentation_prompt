@@ -306,7 +306,7 @@ The Encoder
       
    <p style="text-align: justify;"><span style="color:#000080;">
 
-   In practice, to enhance the capability of attention mechanisms to capture dependencies of various ranges within a sequence, a technique called multi-head attention is employed. Instead of a single attention pooling operation, multi-head attention utilizes independently learned linear projections for queries, keys, and values. These projected queries, keys, and values are then simultaneously processed through attention pooling in parallel. Subsequently, the outputs from each attention pooling operation, referred to as heads, are concatenated and transformed using another learned linear projection to generate the final output. Multi-head attention allows the model to combine knowledge from different behaviors of the attention mechanism, thereby improving its ability to capture dependencies across different ranges within a sequence. This approach is illustrated in Figure 11.5.1, where fully connected layers are employed for learnable linear transformations.
+   In practice, to enhance the capability of attention mechanisms to capture dependencies of various ranges within a sequence, a technique called multi-head attention is employed. Instead of a single attention pooling operation, multi-head attention utilizes independently learned linear projections for queries, keys, and values. These projected queries, keys, and values are then simultaneously processed through attention pooling in parallel. Subsequently, the outputs from each attention pooling operation, referred to as heads, are concatenated and transformed using another learned linear projection to generate the final output. Multi-head attention allows the model to combine knowledge from different behaviors of the attention mechanism, thereby improving its ability to capture dependencies across different ranges within a sequence. This approach is illustrated in Figure  where fully connected layers are employed for learnable linear transformations.
    </span></p>
 
 
@@ -345,6 +345,65 @@ The Encoder
 
    <p style="text-align: justify;"><span style="color:#000080;">
    This normalization step helps stabilize the training process by ensuring that the model's inputs and outputs have similar magnitudes, which can be beneficial for convergence and generalization.
+   </span></p>
+
+7. Feed Forward
+----------------
+.. raw:: html
+      
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   A specific type of neural network layer that is used within each encoder and decoder block. The feedforward layer is responsible for processing the information captured by the self-attention mechanism in the model.
+   </span></p>
+
+
+.. figure:: /Documentation/images/feedforward.jpg
+   :width:  400
+   :align: center
+   :alt: Alternative Text
+
+
+.. raw:: html
+      
+   <p style="text-align: justify;">
+   <span style="color:blue;font-size: larger;">
+   Input
+   </span>
+   <span style="color:#000080;">
+
+   The output from the self-attention mechanism-Add & Norm Sublayer
+   </span>
+   <span style="color:blue;font-size: larger;">
+   Linear Transformation
+   </span>
+   <span style="color:#000080;">
+
+   Input is passed through a linear transformation
+   </span>
+   <span style="color:blue;font-size: larger;">
+   Activation Function
+   </span>
+   <span style="color:#000080;">
+
+   Application of a non-linear activation function, typically a rectified linear unit (ReLU). 
+   </span>
+   <span style="color:#000080;">
+
+   To introduces non-linearity to the model, allowing it to capture more complex patterns in the data.
+   </span>
+   <span style="color:blue;font-size: larger;">
+   Second Linear Transformation
+   </span>
+   <span style="color:#000080;">
+
+   The output from the activation function undergoes another linear transformation with a different weight matrix and bias term. This step further refines the information.
+   </span>
+   <span style="color:blue;font-size: larger;">
+   Output
+   </span>
+   <span style="color:#000080;">
+
+   The final result is the output of the feedforward layer, and it is passed on to subsequent layers in the model.
    </span></p>
 
 
