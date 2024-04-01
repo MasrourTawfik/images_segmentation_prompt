@@ -100,7 +100,8 @@ information_help(): Their role is to display the methods existing in the DataExp
 
 
 .. code-block:: python
-     
+    
+    explorer = DataExploration(df)
     explorer.information_help()
 
 
