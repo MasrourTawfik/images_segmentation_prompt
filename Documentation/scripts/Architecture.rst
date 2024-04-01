@@ -111,3 +111,13 @@ Transformer Architecture
 
 .. note::
    At each step the model is auto-regressive, consuming the previously generated symbols as additional input when generating the next.
+
+
+3. Key Components
+-------------------
+
+.. figure:: /Documentation/images/key.jpg
+   :width: 700
+   :height: 500
+   :align: center
+   :alt: Alternative text for the image
