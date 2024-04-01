@@ -180,14 +180,17 @@ The Encoder
 
 
    
-   <ul class="circle-list"><span style="color:#006400;"><strong><li> d:</strong></span></ul> The dimension of the embedding vector. This is the length or number of components in each vector that represents a token or position in the input sequence.
-   
-   
-   <ul class="circle-list"><span style="color:#006400;"><strong><li> pos:</strong></span></ul> The position of the token in the sequence. It represents the index or order of the token in the input sequence.
+   <ul class="circle-list"><span style="color:#006400;"><strong><li> d:</strong></span>
+   <p style="text-align: justify;"><span style="color:#000080;">The dimension of the embedding vector. This is the length or number of components in each vector that represents a token or position in the input sequence.</span></p>
+   </ul> 
 
    
-   <ul class="circle-list"><span style="color:#006400;"><strong><li> i:</strong></span></ul> he position along the dimension of the embedding vector. For each dimension i, there is a corresponding sine term (for even indices) and cosine term (for odd indices) in the formula
+   <ul class="circle-list"><span style="color:#006400;"><strong><li> pos:</strong></span> The position of the token in the sequence. It represents the index or order of the token in the input sequence.
+   </ul> 
+
    
+   <ul class="circle-list"><span style="color:#006400;"><strong><li> i:</strong></span>he position along the dimension of the embedding vector. For each dimension i, there is a corresponding sine term (for even indices) and cosine term (for odd indices) in the formula.
+   </ul> 
   
 
 
