@@ -336,6 +336,7 @@ The Encoder
    </span></p>
    
    <p style="text-align: justify;"><span style="color:#000080;">
+
    The layer normalization operation is typically expressed as  LayerNorm(Output) 
    </span></p>
    
@@ -365,43 +366,43 @@ The Encoder
 
 .. raw:: html
       
-   <p style="text-align: justify;">
+   
    <span style="color:blue;font-size: larger;">
    Input
    </span>
-   <span style="color:#000080;">
+   <p style="text-align: justify;"><span style="color:#000080;">
 
    The output from the self-attention mechanism-Add & Norm Sublayer
-   </span>
+   </span></p>
    <span style="color:blue;font-size: larger;">
    Linear Transformation
    </span>
-   <span style="color:#000080;">
+   <p style="text-align: justify;"><span style="color:#000080;">
 
    Input is passed through a linear transformation
-   </span>
+   </span></p>
    <span style="color:blue;font-size: larger;">
    Activation Function
    </span>
-   <span style="color:#000080;">
+   <p style="text-align: justify;"><span style="color:#000080;">
 
    Application of a non-linear activation function, typically a rectified linear unit (ReLU). 
-   </span>
-   <span style="color:#000080;">
+   </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
 
    To introduces non-linearity to the model, allowing it to capture more complex patterns in the data.
-   </span>
+   </span></p>
    <span style="color:blue;font-size: larger;">
    Second Linear Transformation
    </span>
-   <span style="color:#000080;">
+   <p style="text-align: justify;"><span style="color:#000080;">
 
    The output from the activation function undergoes another linear transformation with a different weight matrix and bias term. This step further refines the information.
-   </span>
+   </span></p>
    <span style="color:blue;font-size: larger;">
    Output
    </span>
-   <span style="color:#000080;">
+   <p style="text-align: justify;"><span style="color:#000080;">
 
    The final result is the output of the feedforward layer, and it is passed on to subsequent layers in the model.
    </span></p>
