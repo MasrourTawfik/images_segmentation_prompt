@@ -78,26 +78,39 @@ For more Understanding Vision Transformers
     Let’s explain how the vision transformer works step by step with an example.
 
 
-2. Patch Embedding 
------------------------
+2. Vision Transformers example
+-------------------------------
 
 
 * **example**
-
-.. figure:: /Documentation/images/Patch_embedding.jpg
-    :align: center
-    :alt: Alternative Text
-
-.. raw:: html
-      
-    <p style="text-align: justify;"><span style="color:#000080;">
-    Patch = Square region of the image (4 patches in the example above)
-    </span></p>
 
 .. figure:: /Documentation/images/Patch_embedding1.jpg
     :align: center
     :alt: Alternative Text
 .. raw:: html
+      
+    <p style="text-align: justify;">
+    
+    </p>
+
+      
+    <p style="text-align: justify;"><span style="color:#000080;">
+    Patch = Square region of the image (4 patches in the example above)
+    </span></p>
+      
+    <p style="text-align: justify;">
+    
+    </p>
+.. figure:: /Documentation/images/Patch_embedding2.jpg
+    :align: center
+    :alt: Alternative Text
+
+.. raw:: html
+      
+    <p style="text-align: justify;">
+    
+    </p>
+
       
     <p style="text-align: justify;"><i>
 
@@ -109,25 +122,185 @@ For more Understanding Vision Transformers
     <i>An additional concept is the stride, meaning how many pixels the sliding moves each time. The stride used in the original paper is also 16.  So there would be no overlap between the patches because stride is equal to the patch size.
     </i></span></p>
 
+      
+    <p style="text-align: justify;">
+    
+    </p>
+
+.. figure:: /Documentation/images/Patch_embedding3.jpg
+    :align: center
+    :alt: Alternative Text
+
+.. raw:: html
+      
+    <p style="text-align: justify;">
+    
+    </p>
+
+    <p style="text-align: justify;"><i>
+
+     Next step is to flatten those patches from 2D Vector to a 1D Vector. Each patch is treated as a separate input token.
+    </i></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    Now let's understand the tokenization and how image patches are flattened using the example above. In order for a computer to understand and analyze the image we need to break it down into smaller parts, these smaller parts are called image patches. Each patch contains a small portion of the image (the information). For example, one patch may contain hair, another patch may have nose or eye. Let's focus on one patch for a better understanding of the concept.
+    </span></p>
 
 
+      
+    <p style="text-align: justify;">
+    
+    </p>
 
-3. Flattening and Positional Encoding 
-----------------------------------------
+.. figure:: /Documentation/images/Patch_embedding4.jpg
+    :align: center
+    :alt: Alternative Text
 
+.. raw:: html
+      
+    <p style="text-align: justify;">
+    
+    </p>
 
-.. figure:: /Documentation/images/Patch_embedding2.jpg
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    Suppose we focus on one patch, the one containing the right eye. (it's like a mini picture of the <i> puzzle</i>). Instead of treating it like a picture, we want is we want that the computer to process it as a sequence of smaller elements called tokens. To do this we need to further <i> flatten</i> the patch. In this case, the patch size is a 16x16, which makes a sequence of (16x16=256) 256 tokens 
+    </span></p>
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+    
+    Now that we converted the image patch into a sequence of tokens. These tokenized patches will be served as<strong> the input to the Transformer model.</strong>
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    By breaking down the image into smaller patches and by converting them into a sequence of tokens the Transformer model can process and understand the different parts of the image.
+    </span></p>
+    <p style="text-align: justify;">
+    
+    </p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    Unlike the transformer model, Vision Transformer is an encoder only Transformer there is no<span style="color:red;"> decoder</span>.
+    </span></p>
+
+.. figure:: /Documentation/images/Patch_embedding5.jpg
     :align: center
     :alt: Alternative Text
 
 
+.. raw:: html
+      
+    <p style="text-align: justify;">
+    
+    </p>
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    So, let's explain Vision Transformer layers with the same example and more simplified dimensions. Starting with an image of size 32x32 pixels and four patches of size 16x16 and a stride of 16 to prevent overlapping. First step is to flatten patches. So, we take the 2D patch and then we flatten it into a one-dimensional vector of 256 tokens (16x16=256), each token represents a specific part of the patch like a pixel 
+    </span></p>
+
+.. figure:: /Documentation/images/Patch_embedding6.jpg
+    :align: center
+    :alt: Alternative Text
 
 
+.. raw:: html
+      
+    <p style="text-align: justify;">
+    
+    </p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    Next, we have linear projection working by transforming each 1D Vectorinto a lower dimensional Vector while preserving the relationships andimportant features.
+
+    </span></p>
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    The linear projection involves two main steps; first is weight matrix multiplication and the second one is bias addition. This is like the convolutional neural network when we multiply weights with the input and then we add bias. 
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    The same thing is happening in linear projection, so this involves multiplying each element of the flattened sequence by a weight and adding a bias term the weights and biases are learned during the training process.
+    </span></p>
+
+    <p style="text-align: justify;">
+
+    </span></p>
+
+.. figure:: /Documentation/images/Patch_embedding7.jpg
+    :align: center
+    :alt: Alternative Text
 
 
+.. raw:: html
+      
+    <p style="text-align: justify;">
+    
+    </p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    The result of these two steps is a transformed Vector of lower dimensionality. The meaning of a vector of lower dimensionality refers to a vector that has fewer elements compared to the original or it represents a reduction in the number of dimensions or features used to represent a particular object (patch).
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+    
+    Note that lower dimensional vectors require less memory and less computational resources making the process faster and more efficient. The other point is by reducing the dimensionality we can extract essential features and capture the most important information while discarding the less significant details and eliminating noise and irrelevant variations in the data preparation process.
+    </span></p>
+
+    <p style="text-align: justify;">
+
+    </span></p>
+
+.. figure:: /Documentation/images/Patch_embedding8.jpg
+    :align: center
+    :alt: Alternative Text
 
 
+.. raw:: html
+      
+    <p style="text-align: justify;">
+    
+    </p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    Next step is, positional embedding is added to each flattened image patch indicating each patch location in the image. Because, when we feed data to Transformer, we feed all the data at once, so Transformer doesn’t know the right order of the patches in the original image (which patch is first and which path should be the second part of the image). So, with positional embedding we provide the position information to the Transformer 
+    </span></p>
+
+    <p style="text-align: justify;">
+
+    </span></p>
+
+.. figure:: /Documentation/images/Patch_embedding9.jpg
+    :align: center
+    :alt: Alternative Text
 
 
+.. raw:: html
+      
+    <p style="text-align: justify;">
+    
+    </p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    
+    &#10003; The vector obtained after adding positional embedding is fed to the next layers of the Vision Transformer for further processing. The first layer of the encoder is self-attention layer.
+    </i>  </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
 
+    &#10003; Self-attention allows each patch to attend and gather information from other patches, it captures dependencies between the patches and enables the model to consider the global context.
+    </i>  </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    &#10003; After self-attention layer we have feed forward Network and the output of each patch is passed through a feed forward neural network, this helps capture complex non-linear relationships within the patches.
+    </i>  </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    &#10003; The final layer, MLP layer is a classification that maps the output of the transformer into the desired output format (image classification)
+    </i>  </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    &#10003; Instead of the decoder there is just the extra linear layer for final classification which is called MLP head. The absence of decoder is one of the key differences between the vision Transformer and the traditional Transformer architecture used in natural language processing where we perform translations or text Generations. In this context, we need decoder it is used to generate output sequences based on the Learned representations.
+    </i>  </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>    
+    &#10003; However, in computer vision tasks such as image classification or object detection the primary goal of vision Transformer is to extract meaningful feature and to understand their spatial relationships within the image so the encoder in a vision Transformer performs this task by leveraging self-attention mechanism mechanisms to capture both local and Global dependencies between image and patches.
+    </i>  </span></p>
 
