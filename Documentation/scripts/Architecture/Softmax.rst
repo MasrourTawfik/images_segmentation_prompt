@@ -36,7 +36,7 @@ Softmax in Transformers
    </span></p>
 
 .. figure:: /Documentation/images/softmax.jpg
-    :width: 400
+    :width: 500
     :align: center
     :alt: Alternative Text
 
@@ -50,7 +50,7 @@ Softmax in Transformers
       
    <p style="text-align: justify;"><span style="color:#000080;">
 
-    Here, :math:`Q` represents the query vector, :math:`K` represents the key vectors of the input tokens, and the exponential function (\exp) is used to transform the raw scores into positive values. The denominator ensures that the resulting values form a probability distribution.
+    Here, <span style="color:red;"><strong> Q </strong></span> represents the query vector, <span style="color:red;"><strong>K</strong></span> represents the key vectors of the input tokens, and the exponential function (\exp) is used to transform the raw scores into positive values. The denominator ensures that the resulting values form a probability distribution.
    </span></p>
     <p style="text-align: justify;"><span style="color:#000080;">
 
