@@ -544,6 +544,8 @@ The Encoder
 
       * `"what is a transformer" <https://medium.com/@francescofranco_39234/what-is-a-transformer-part-2-a2694745774a>`__
 
+      * `"Transformers-Encoder-Decoder" vidéo YouTube <https://www.youtube.com/watch?v=4Bdc55j80l8>`__ 
+
       * `"transformers-important-architecture" <https://cash-ai.news/2024/03/01/what-are-transformers-important-architecture-details-by-akshitha-kumbam-mar-2024/>`__
    
       * `"transformers-introduction" <https://pylessons.com/transformers-introduction>`__  
@@ -554,4 +556,3 @@ The Encoder
 
 
 
-https://www.youtube.com/watch?v=4Bdc55j80l8
