@@ -47,8 +47,8 @@ The Decoder
 
 
 .. figure:: /Documentation/images/DECODER1.png
-   :width: 500
-   :height: 300
+   :width: 600
+   :height: 500
    :align: center
    :alt: Alternative Text
 
@@ -73,7 +73,7 @@ The Decoder
 
 
 .. figure:: /Documentation/images/mask.jpg
-   :width: 500
+   :width: 300
    :height: 300
    :align: center
    :alt: Alternative Text
@@ -82,8 +82,8 @@ The Decoder
 --------------------------------
 
 .. figure:: /Documentation/images/mask_att.jpg
-   :width: 500
-   :height: 300
+   :width: 700
+   :height: 400
    :align: center
    :alt: Alternative Text
 
@@ -102,13 +102,13 @@ The Decoder
 
 .. figure:: /Documentation/images/maskk1.jpg
    :width: 500
-   :height: 300
+   :height: 500
    :align: center
    :alt: Alternative Text
 
 .. figure:: /Documentation/images/maskk.jpg
    :width: 500
-   :height: 300
+   :height: 500
    :align: center
    :alt: Alternative Text
 
@@ -122,7 +122,7 @@ The Decoder
 4. Multi-Head Attention
 -------------------------
 .. figure:: /Documentation/images/encoder_decoder.jpg
-   :width: 600
+   :width: 700
    :align: center
    :alt: Alternative Text
 
@@ -139,7 +139,7 @@ The Decoder
    </span></p>
 
 .. figure:: /Documentation/images/source_target.png
-   :width: 600
+   :width: 700
    :align: center
    :alt: Alternative Text
 
