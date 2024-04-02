@@ -2,6 +2,14 @@
 
 Softmax in Transformers
 =======================
+
+
+.. figure:: /Documentation/images/softmax1.jpg
+    :width: 400
+    :align: center
+    :alt: Alternative Text
+
+
 .. raw:: html
       
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -27,6 +35,11 @@ Softmax in Transformers
     The softmax function is typically applied to the raw attention scores obtained from the dot product of query and key vectors in the self-attention mechanism. The formula for computing the softmax attention weights for a given query token in a transformer is as follows:
    </span></p>
 
+.. figure:: /Documentation/images/softmax.jpg
+    :width: 400
+    :align: center
+    :alt: Alternative Text
+
 
 .. math::
 
@@ -47,3 +60,12 @@ Softmax in Transformers
 
     And the most important thing is the softmax is used to prevent exploding gradient or vanishing gradient problems.
    </span></p>
+
+
+.. admonition::  For more information
+
+   .. container:: blue-box
+    
+    * `"why do we use softmax in transformers" <https://medium.com/@maitydi567/why-do-we-use-softmax-in-transformers-fdfd50f5f4c1#:~:text=In%20summary%2C%20the%20softmax%20function,and%20relationships%20in%20the%20data.>`__
+    
+    * `"softmax paper link" <https://arxiv.org/pdf/2207.03341.pdf>`__
