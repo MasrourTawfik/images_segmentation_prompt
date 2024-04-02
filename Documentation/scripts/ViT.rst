@@ -83,19 +83,32 @@ For more Understanding Vision Transformers
 
 
 * **example**
+
 .. figure:: /Documentation/images/Patch_embedding.jpg
     :align: center
     :alt: Alternative Text
 
+.. raw:: html
+      
+    <p style="text-align: justify;"><span style="color:#000080;">
+    Patch = Square region of the image (4 patches in the example above)
+    </span></p>
 
 .. figure:: /Documentation/images/Patch_embedding1.jpg
     :align: center
     :alt: Alternative Text
+.. raw:: html
+      
+    <p style="text-align: justify;"><i>
 
+    In the example, we have an<span style="color:#000080;"> image size 224x224</span> pixels <span style="color:#000080;">the patch size is 16x16 pixels</span>, so we divide the width and height of the image by the patch size to get the total number of patches. In this case we would end up with <span style="color:#000080;">196 patches </span>covering the entire image.
+    </i></p>
 
-.. figure:: /Documentation/images/Patch_embedding2.jpg
-    :align: center
-    :alt: Alternative Text
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    <i>An additional concept is the stride, meaning how many pixels the sliding moves each time. The stride used in the original paper is also 16.  So there would be no overlap between the patches because stride is equal to the patch size.
+    </i></span></p>
+
 
 
 
