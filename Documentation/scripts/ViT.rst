@@ -34,7 +34,7 @@ For more Understanding Vision Transformers
 
 .. admonition:: link for more information
 
-   .. container:: custom-blue-box
+   .. container:: custom-red-box
 
       * `Vision Transformers <https://paperswithcode.com/method/vision-transformer>`__
 
