@@ -94,9 +94,9 @@ For more Understanding Vision Transformers
     </p>
 
       
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
     Patch = Square region of the image (4 patches in the example above)
-    </span></p>
+    </i></span></p>
       
     <p style="text-align: justify;">
     
@@ -141,10 +141,10 @@ For more Understanding Vision Transformers
 
      Next step is to flatten those patches from 2D Vector to a 1D Vector. Each patch is treated as a separate input token.
     </i></p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
 
     Now let's understand the tokenization and how image patches are flattened using the example above. In order for a computer to understand and analyze the image we need to break it down into smaller parts, these smaller parts are called image patches. Each patch contains a small portion of the image (the information). For example, one patch may contain hair, another patch may have nose or eye. Let's focus on one patch for a better understanding of the concept.
-    </span></p>
+    </i></span></p>
 
 
       
