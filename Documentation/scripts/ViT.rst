@@ -1,8 +1,16 @@
 Visual Transformer (ViT)
 ========================
 
+
+.. image::/Documentation/images/vit.gif
+    :width: 700
+    :align: center
+    :alt: Alternative Text
+
+
 1. introduction
 -----------------
+
 
 
 
@@ -15,7 +23,7 @@ Visual Transformer (ViT)
 
 
 .. figure:: /Documentation/images/ViT.png
-    :width: 400
+    :width: 700
     :align: center
     :alt: Alternative Text
 
