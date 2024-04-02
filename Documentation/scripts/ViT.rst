@@ -162,27 +162,29 @@ For more Understanding Vision Transformers
     
     </p>
 
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
-    Suppose we focus on one patch, the one containing the right eye. (it's like a mini picture of the <i> puzzle</i>). Instead of treating it like a picture, we want is we want that the computer to process it as a sequence of smaller elements called tokens. To do this we need to further <i> flatten</i> the patch. In this case, the patch size is a 16x16, which makes a sequence of (16x16=256) 256 tokens 
-    </span></p>
+    Suppose we focus on one patch, the one containing the right eye. (it's like a mini picture of the <strong> puzzle</strong>). Instead of treating it like a picture, we want is we want that the computer to process it as a sequence of smaller elements called tokens. To do this we need to further <strong> flatten</strong> the patch. In this case, the patch size is a 16x16, which makes a sequence of (16x16=256) 256 tokens 
+    </i> </span></p>
 
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
     
     Now that we converted the image patch into a sequence of tokens. These tokenized patches will be served as<strong> the input to the Transformer model.</strong>
-    </span></p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    </i> </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
     By breaking down the image into smaller patches and by converting them into a sequence of tokens the Transformer model can process and understand the different parts of the image.
-    </span></p>
+    </i> </span></p>
     <p style="text-align: justify;">
     
     </p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
-    Unlike the transformer model, Vision Transformer is an encoder only Transformer there is no<span style="color:red;"> decoder</span>.
-    </span></p>
-
+    Unlike the transformer model, Vision Transformer is an encoder only Transformer there is no</i> </span><span style="color:red;"> decoder</span>.
+    </p>
+    <p style="text-align: justify;">
+    
+    </p>
 .. figure:: /Documentation/images/Patch_embedding5.jpg
     :align: center
     :alt: Alternative Text
@@ -194,11 +196,13 @@ For more Understanding Vision Transformers
     
     </p>
 
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
     So, let's explain Vision Transformer layers with the same example and more simplified dimensions. Starting with an image of size 32x32 pixels and four patches of size 16x16 and a stride of 16 to prevent overlapping. First step is to flatten patches. So, we take the 2D patch and then we flatten it into a one-dimensional vector of 256 tokens (16x16=256), each token represents a specific part of the patch like a pixel 
-    </span></p>
-
+    </i></span></p>
+    <p style="text-align: justify;">
+    
+    </p>
 .. figure:: /Documentation/images/Patch_embedding6.jpg
     :align: center
     :alt: Alternative Text
@@ -209,20 +213,20 @@ For more Understanding Vision Transformers
     <p style="text-align: justify;">
     
     </p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
     Next, we have linear projection working by transforming each 1D Vectorinto a lower dimensional Vector while preserving the relationships andimportant features.
 
-    </span></p>
+    </i></span></p>
 
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
     The linear projection involves two main steps; first is weight matrix multiplication and the second one is bias addition. This is like the convolutional neural network when we multiply weights with the input and then we add bias. 
-    </span></p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
     The same thing is happening in linear projection, so this involves multiplying each element of the flattened sequence by a weight and adding a bias term the weights and biases are learned during the training process.
-    </span></p>
+    </i></span></p>
 
     <p style="text-align: justify;">
 
@@ -238,14 +242,14 @@ For more Understanding Vision Transformers
     <p style="text-align: justify;">
     
     </p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
     The result of these two steps is a transformed Vector of lower dimensionality. The meaning of a vector of lower dimensionality refers to a vector that has fewer elements compared to the original or it represents a reduction in the number of dimensions or features used to represent a particular object (patch).
-    </span></p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
     
     Note that lower dimensional vectors require less memory and less computational resources making the process faster and more efficient. The other point is by reducing the dimensionality we can extract essential features and capture the most important information while discarding the less significant details and eliminating noise and irrelevant variations in the data preparation process.
-    </span></p>
+    </i></span></p>
 
     <p style="text-align: justify;">
 
@@ -261,10 +265,10 @@ For more Understanding Vision Transformers
     <p style="text-align: justify;">
     
     </p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
-    Next step is, positional embedding is added to each flattened image patch indicating each patch location in the image. Because, when we feed data to Transformer, we feed all the data at once, so Transformer doesn’t know the right order of the patches in the original image (which patch is first and which path should be the second part of the image). So, with positional embedding we provide the position information to the Transformer 
-    </span></p>
+    * Next step is, positional embedding is added to each flattened image patch indicating each patch location in the image. Because, when we feed data to Transformer, we feed all the data at once, so Transformer doesn’t know the right order of the patches in the original image (which patch is first and which path should be the second part of the image). So, with positional embedding we provide the position information to the Transformer 
+    </i></span></p>
 
     <p style="text-align: justify;">
 
