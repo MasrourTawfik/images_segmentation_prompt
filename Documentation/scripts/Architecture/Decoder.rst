@@ -72,7 +72,7 @@ The Decoder
 
 
 .. figure:: /Documentation/images/mask.jpg
-   :width: 100
+   :width: 300
    :align: center
    :alt: Alternative Text
 
