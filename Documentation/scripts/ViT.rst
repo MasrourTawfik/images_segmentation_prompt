@@ -4,10 +4,13 @@ Visual Transformer (ViT)
 1. introduction
 -----------------
 
+
+
+
 .. raw:: html
       
-   <p style="text-align: justify;"><span style="color:#000080;"><i>
-    The text discusses "Vision Transformers," an emerging approach in the field of computer vision. These Vision Transformers are deep learning models inspired by the success of Transformer models in natural language processing. They are designed to address computer vision tasks using a technique called self-attention, which enables computers to understand relationships between different parts of an image. Unlike traditional approaches using convolutional neural networks (CNNs), Vision Transformers divide the image into small parts called "patches," which they treat as sequences of "tokens" for the inputs of the Transformer model. These "tokens" represent specific parts of each patch, allowing the model to understand details within the image. Vision Transformers use an encoder-only architecture without a decoder, focusing on extracting meaningful features and understanding spatial relationships within the image. By utilizing layers of self-attention, feed-forward neural networks, and a classification layer, Vision Transformers can be used for tasks such as image classification or object detection. In summary, Vision Transformers represent a promising new approach for computer vision tasks, leveraging sequence modeling techniques from Transformer models to capture spatial and contextual information in images.
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Vision Transformers are type of deep learning model and they are designed for computer vision tasks, they are inspired by the success of Transformer models in natural language processing. Traditionally computer used a technique called convolutional neural networks for computer vision tasks but now the vision Transformers are newer approach that gained a lot of attention.
     </i></span></p>
 
 
@@ -15,6 +18,15 @@ Visual Transformer (ViT)
     :width: 400
     :align: center
     :alt: Alternative Text
+
+
+.. admonition::  For more Understanding Vision Transformers
+
+   .. container:: blue-box
+
+    * `""Vision Transformers"" <https://paperswithcode.com/method/vision-transformer>`__
+
+
 
 
 
