@@ -39,6 +39,7 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
    Documentation/scripts/Architecture.rst
    Documentation/scripts/Architecture/Encoder.rst
    Documentation/scripts/Architecture/Decoder.rst
+   Documentation/scripts/Architecture/Softmax.rst
    Documentation/scripts/ViT.rst
    Documentation/scripts/DeTR.rst
 
