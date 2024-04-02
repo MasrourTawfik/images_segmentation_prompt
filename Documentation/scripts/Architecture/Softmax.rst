@@ -60,19 +60,19 @@ Softmax in Transformers
 
 
 .. raw:: html
-   <i>   
+      
    <p style="text-align: justify;"><span style="color:#000080;">
 
-    Here, <span style="color:red;"><strong> Q </strong></span> represents the query vector, <span style="color:red;"><strong>K</strong></span> represents the key vectors of the input tokens, and the exponential function (\exp) is used to transform the raw scores into positive values. The denominator ensures that the resulting values form a probability distribution.
+    <i>Here</i>, <span style="color:red;"><strong> Q </strong></span> <i>represents the query vector,</i> <span style="color:red;"><strong>K</strong></span><i> represents the key vectors of the input tokens, and the exponential function (\exp) is used to transform the raw scores into positive values. The denominator ensures that the resulting values form a probability distribution.</i>
    </span></p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
 
     In summary, the softmax function is a crucial component of transformers that enables them to learn how to weigh input tokens based on their relevance to the current context, making the model’s self-attention mechanism effective in capturing dependencies and relationships in the data.
-    </span></p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
 
     And the most important thing is the softmax is used to prevent exploding gradient or vanishing gradient problems.
-   </span></p></i>
+   </i></span></p>
 
 
 .. admonition::  For more information
