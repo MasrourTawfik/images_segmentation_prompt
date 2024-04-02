@@ -23,7 +23,7 @@ Visual Transformer (ViT)
     </i></span></p>
 
 
-.. figure:: /Documentation/images/ViT.png
+.. figure:: /Documentation/images/vit1.jpg
     :width: 700
     :align: center
     :alt: Alternative Text
