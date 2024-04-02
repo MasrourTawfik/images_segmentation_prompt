@@ -31,7 +31,7 @@ Visual Transformer (ViT)
 .. raw:: html
       
     <p style="text-align: justify;"><span style="color:#000080;">
-    '
+    
     </span></p>
 
 
