@@ -32,11 +32,11 @@ Visual Transformer (ViT)
 
 For more Understanding Vision Transformers
 
-.. admonition::  link form more information 
+.. admonition:: more information
 
-   .. container:: blue-box
+   .. container:: custom-blue-box
 
-    * `""Vision Transformers"" <https://paperswithcode.com/method/vision-transformer>`__
+      * `Vision Transformers <https://paperswithcode.com/method/vision-transformer>`__
 
 
 
