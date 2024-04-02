@@ -25,6 +25,11 @@ Softmax in Transformers
     :align: center
     :alt: Alternative Text
 
+    
+.. raw:: html
+      
+   <p style="text-align: justify;"><span style="color:#000080;">
+
     <p style="text-align: justify;">
     
      -<span style="color:blue;"> Attention Weights</span>: <span style="color:#000080;">Transformers use attention mechanisms to weigh the importance of different input tokens when generating an output. Softmax is used to convert the raw attention scores, often called “logits,” into a probability distribution over the input tokens. This distribution assigns higher attention weights to more relevant tokens and lower weights to less relevant ones.
