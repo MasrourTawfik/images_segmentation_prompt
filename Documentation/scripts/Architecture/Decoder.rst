@@ -73,8 +73,7 @@ The Decoder
 
 
 .. figure:: /Documentation/images/mask.jpg
-   :width: 300
-   :height: 300
+   :width: 100
    :align: center
    :alt: Alternative Text
 
@@ -83,7 +82,6 @@ The Decoder
 
 .. figure:: /Documentation/images/mask_att.jpg
    :width: 700
-   :height: 400
    :align: center
    :alt: Alternative Text
 
@@ -102,13 +100,11 @@ The Decoder
 
 .. figure:: /Documentation/images/maskk1.jpg
    :width: 500
-   :height: 500
    :align: center
    :alt: Alternative Text
 
 .. figure:: /Documentation/images/maskk.jpg
    :width: 500
-   :height: 500
    :align: center
    :alt: Alternative Text
 
