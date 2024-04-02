@@ -535,16 +535,20 @@ The Encoder
 
 10. BIBLIOGRAPHIC
 -------------------
-.. ::
-   For more information, please click on the links provided below
 
-   * `"transformers-important-architecture" <https://cash-ai.news/2024/03/01/what-are-transformers-important-architecture-details-by-akshitha-kumbam-mar-2024/>`__ 
+   For more information, please click on the links provided below
    
-   * `"transformers-introduction" <https://pylessons.com/transformers-introduction>`__  
+.. admonition:: Plus d'informations
+
+   .. container:: blue-box
+
+      * `"transformers-important-architecture" <https://cash-ai.news/2024/03/01/what-are-transformers-important-architecture-details-by-akshitha-kumbam-mar-2024/>`__
    
-   * `"Attention is all you need" youtube video <https://www.youtube.com/watch?v=sznZ78HquPc>`__ 
+      * `"transformers-introduction" <https://pylessons.com/transformers-introduction>`__  
    
-   * `attention-mechanisms <https://d2l.ai/chapter_attention-mechanisms-and-transformers/transformer.html>`__ 
+      * `"Attention is all you need" vidéo YouTube <https://www.youtube.com/watch?v=sznZ78HquPc>`__ 
+   
+      * `Mécanismes d'attention <https://d2l.ai/chapter_attention-mechanisms-and-transformers/transformer.html>`__ 
 
 
 
