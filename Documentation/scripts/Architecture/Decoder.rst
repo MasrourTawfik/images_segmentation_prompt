@@ -3,7 +3,8 @@ The Decoder
 
 
 .. figure:: /Documentation/images/decoder.webp
-   :width:  700
+   :width: 500
+   :height: 500
    :align: center
    :alt: Alternative Text
 
