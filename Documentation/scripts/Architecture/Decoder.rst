@@ -190,5 +190,9 @@ The Decoder
 
       * `"transformers-encoder-decoder" <https://kikaben.com/transformers-encoder-decoder/#conclusion>`__
       
-      * `"transformers-encoder-decoder" <https://machinelearningmastery.com/the-transformer-model/>`__
+      * `"the-transformer_decoder_model" <https://machinelearningmastery.com/the-transformer-model/>`__
+
+      * `"transformer-decoder" <https://www.scaler.com/topics/nlp/transformer-decoder/>`__
+
+      
 
