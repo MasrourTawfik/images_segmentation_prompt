@@ -28,6 +28,11 @@ Visual Transformer (ViT)
     :align: center
     :alt: Alternative Text
 
+.. raw:: html
+      
+    <p style="text-align: justify;"><span style="color:#000080;">
+    '
+    </span></p>
 
 
 For more Understanding Vision Transformers
