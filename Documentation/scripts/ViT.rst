@@ -45,11 +45,67 @@ For more Understanding Vision Transformers
 
 
 
+.. raw:: html
+      
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    The vision Transformer architecture. In this example, an image is split into nine patches. A special “<cls>” token and the nine flattened image patches are transformed via patch embedding and <strong><i> n </i></strong>Transformer encoder blocks into ten representations, respectively. The “<cls>” representation is further transformed into the output label.
+    
+    </i></span></p>
+
+.. figure:: /Documentation/images/Patch_embeddingint.jpg
+    :width: 700
+    :align: center
+    :alt: Alternative Text
+
+
+.. raw:: html
+      
+    <p style="text-align: justify;"><span style="color:#000080;">
+    
+    </span></p>
+
+For more Understanding Vision Transformers
+
+.. admonition:: link for more information
+
+   .. container:: custom-red-box
+
+      * `The vision Transformer architecture <https://d2l.ai/chapter_attention-mechanisms-and-transformers/vision-transformer.html#fig-vit>`__
+
+
+.. note::
+
+    Let’s explain how the vision transformer works step by step with an example.
+
+
+2. Patch Embedding 
+-----------------------
+
+
+* **example**
+.. figure:: /Documentation/images/Patch_embedding.jpg
+    :align: center
+    :alt: Alternative Text
+
+
+.. figure:: /Documentation/images/Patch_embedding1.jpg
+    :align: center
+    :alt: Alternative Text
+
+
+.. figure:: /Documentation/images/Patch_embedding2.jpg
+    :align: center
+    :alt: Alternative Text
 
 
 
+3. Flattening and Positional Encoding 
+----------------------------------------
 
 
+.. figure:: /Documentation/images/Patch_embedding2.jpg
+    :align: center
+    :alt: Alternative Text
 
 
 
