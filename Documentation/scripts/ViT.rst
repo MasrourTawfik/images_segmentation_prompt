@@ -267,7 +267,7 @@ For more Understanding Vision Transformers
     </p>
     <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
-    * Next step is, positional embedding is added to each flattened image patch indicating each patch location in the image. Because, when we feed data to Transformer, we feed all the data at once, so Transformer doesn’t know the right order of the patches in the original image (which patch is first and which path should be the second part of the image). So, with positional embedding we provide the position information to the Transformer 
+     Next step is, positional embedding is added to each flattened image patch indicating each patch location in the image. Because, when we feed data to Transformer, we feed all the data at once, so Transformer doesn’t know the right order of the patches in the original image (which patch is first and which path should be the second part of the image). So, with positional embedding we provide the position information to the Transformer 
     </i></span></p>
 
     <p style="text-align: justify;">
