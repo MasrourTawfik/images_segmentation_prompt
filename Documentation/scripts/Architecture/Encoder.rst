@@ -535,7 +535,7 @@ The Encoder
 
 10. BIBLIOGRAPHIC
 -------------------
-
+.. ::
    For more information, please click on the links provided below
 
    * `"transformers-important-architecture" <https://cash-ai.news/2024/03/01/what-are-transformers-important-architecture-details-by-akshitha-kumbam-mar-2024/>`__ 
