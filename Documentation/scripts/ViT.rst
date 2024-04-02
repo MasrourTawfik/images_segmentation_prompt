@@ -32,7 +32,7 @@ Visual Transformer (ViT)
 
 For more Understanding Vision Transformers
 
-.. admonition:: more information
+.. admonition:: link for more information
 
    .. container:: custom-blue-box
 
