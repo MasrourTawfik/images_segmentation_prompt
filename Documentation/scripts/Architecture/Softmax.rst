@@ -3,11 +3,14 @@
 Softmax in Transformers
 =======================
 
-
-.. figure:: /Documentation/images/softmax1.jpg
+.. figure:: /Documentation/images/softmax2.jpg
     :width: 400
     :align: center
     :alt: Alternative Text
+
+
+
+
 
 
 .. raw:: html
@@ -16,6 +19,11 @@ Softmax in Transformers
 
     In transformers, the softmax function is commonly used as part of the mechanism for calculating attention scores, which are critical for the self-attention mechanism that forms the basis of the model. It is essential for several reasons:
    </span></p>
+
+.. figure:: /Documentation/images/softmax1.jpg
+    :width: 400
+    :align: center
+    :alt: Alternative Text
 
     <p style="text-align: justify;">
     
