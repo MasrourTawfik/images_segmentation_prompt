@@ -29,7 +29,10 @@ Visual Transformer (ViT)
     :alt: Alternative Text
 
 
-.. admonition::  For more Understanding Vision Transformers
+
+For more Understanding Vision Transformers
+
+.. admonition::  link form more information 
 
    .. container:: blue-box
 
