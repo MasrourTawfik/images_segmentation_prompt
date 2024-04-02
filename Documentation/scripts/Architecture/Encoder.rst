@@ -536,9 +536,8 @@ The Encoder
 10. BIBLIOGRAPHIC
 -------------------
 
-   For more information, please click on the links provided below
-   
-.. admonition:: Plus d'informations
+
+.. admonition::  For more information
 
    .. container:: blue-box
 
