@@ -89,14 +89,17 @@ Project Introduction
 
 
 
-    <span style="color:blue;"><strong> </strong>Project building strategy:</span>
+    <span style="color:blue;"><strong>Project building strategy: </strong></span>
     <p style="text-align: justify;"><span style="color:#000080;"><i>
     Modular components
-
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
     Manual implementation: Each component is implemented manually for pedagogical reasons
-
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
     Build to last strategy : Simple, accessible documentation with practice examples
-
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
     Accuracy-oriented: Replacing manually implemented components with imported frameworks for more accuracy
-    
+
     </i></span></p>
