@@ -30,7 +30,11 @@ PyTorch
  </span></p>
 
 
-.. note::
+
+.. admonition::  For more information
+
+   .. container:: blue-box
+
     The purpose of this documentation is to provide a comprehensive introduction to tensors in PyTorch,emphasizing their importance and usage within the context of machine learning models.
 
 
