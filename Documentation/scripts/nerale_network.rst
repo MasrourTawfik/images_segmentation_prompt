@@ -2,7 +2,7 @@ Neural Network
 ===============
 
 
-2. Introduction
+1. Introduction
 ------------------
 
 In this article, we will build a neural network from scratch and use it to classify
