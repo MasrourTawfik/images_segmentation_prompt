@@ -14,7 +14,7 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
 
 .. toctree::
    :maxdepth: 3
-   :caption: Documentation
+   :caption: Key elements 
    
 
    
