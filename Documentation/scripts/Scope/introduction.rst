@@ -53,6 +53,8 @@ Project Introduction
    :align: center
    :alt: Alternative text for the image
 
+   
+.. raw:: html
 
 
     <span style="color:blue;"><strong> How were we able to do that ?</strong></span>
