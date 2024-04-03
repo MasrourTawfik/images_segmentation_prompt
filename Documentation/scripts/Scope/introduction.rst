@@ -34,7 +34,7 @@ Project Introduction.
 
     - <span style="color:blue;">Output : </span><span style="color:#000080;">The requested object, filtred and highlighted (segmented).
     </i></span></p>
-    &#10003;<span style="color:blue;"><strong>For example: </span></strong>
+    &#10003;<span style="color:blue;"><strong>  For example: </span></strong>
     <p style="text-align: justify;"><span style="color:#000080;"><i>
     the user has an image of people playing in the park, and wants to filter out dogs in the picture.
     </i></span></p>
@@ -47,7 +47,7 @@ Project Introduction.
     The output would be a processed images where dogs are highlighted
     </i></span></p>
 
-    &#10004;<span style="color:blue;">How were we able to do that ?</span>
+    &#10004;<span style="color:blue;"> How were we able to do that ?</span>
 
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
@@ -55,7 +55,7 @@ Project Introduction.
     Building from scratch a model, that is trained on a dataset according to the field of interest.
     </i></span></p>
 
-    &#10004;<span style="color:blue;">What's new about the project ?</span>
+    &#10004;<span style="color:blue;"> What's new about the project ?</span>
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
