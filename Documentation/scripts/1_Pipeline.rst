@@ -1,9 +1,9 @@
-
-
-
-
-Pytorch
+Key elements 
 =============
+
+
+1. Pytorch
+---------------------------
 
 
 .. figure:: /Documentation/images/log.png
@@ -37,8 +37,8 @@ Pytorch
 
 .. _Neural_Network:
 
-Neural Networks 
-==========================
+2. Neural Networks 
+--------------------
 
 
 In this article, we will build a neural network from scratch and use it to classify
@@ -68,8 +68,8 @@ In this article, we will build a neural network from scratch and use it to class
 
 .. _transformer_architecture:
 
-Transformer Architecture
-==========================
+3. Transformer Architecture
+-----------------------------
 
 .. figure:: /Documentation/images/arch1.png
    :width: 400
@@ -134,8 +134,8 @@ The Transformer is a groundbreaking architecture in the field of natural languag
 
 .. _visual_transformer:
 
-Visual Transformer (ViT)
-==========================
+4. Visual Transformer (ViT)
+----------------------------
 .. note::
   paper:  
   `AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE  <https://arxiv.org/pdf/2010.11929v2.pdf>`__

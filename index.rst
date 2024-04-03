@@ -17,8 +17,7 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
    :caption: Key elements 
    
 
-   
-   Documentation/scripts/1_Pipeline
+
    Documentation/scripts/pytorch.rst
    Documentation/scripts/nerale_network.rst
    

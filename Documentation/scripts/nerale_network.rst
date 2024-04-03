@@ -1,7 +1,36 @@
-Neural Network Wrapper
-=======================
+Neural Network
+===============
 
-1. dataset:
+
+2. Introduction
+------------------
+
+In this article, we will build a neural network from scratch and use it to classify
+
+.. raw:: html
+
+
+  <p style="text-align: justify;"><span style="color:#000080;">
+    A neural network is a type of machine learning algorithm that forms the foundation of various artificial intelligence applications such as computer vision, forecasting, and speech recognition. It consists of multiple layers of neurons, with each layer being activated based on inputs from the previous layer. These layers are interconnected by weights and biases, which determine how information flows through the network. While neural networks are often compared to biological neural networks found in the brain, it's important to exercise caution when making such comparisons, as artificial neural networks are simplified representations designed for specific computational tasks.
+  </span></p>
+
+
+.. figure:: /Documentation/images/neral.webp
+   :width:  700
+   :align: center
+   :alt: Alternative Text
+
+
+.. raw:: html
+
+
+  <p style="text-align: justify;"><span style="color:#000080;">
+    The first layer is the input layer. Input layer activations come from the input to the neural network. The final layer is the output layer. The activations in the output layer are the output of the neural network. The layers in between are called hidden layers.
+  </span></p>
+
+
+
+2. dataset:
 ---------
 
 .. raw:: html
@@ -24,7 +53,7 @@ Neural Network Wrapper
     Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__ :
    
 
-2. Training on a simple dataset
+3. Training on a simple dataset
 -----------------------------
 
 1. `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__ : 
@@ -105,7 +134,7 @@ Neural Network Wrapper
 
 
 
-3. Test the `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__  class
+4. Test the `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__  class
 -------------------------------------------------------------------------------------------------------------------------
 
 
@@ -125,7 +154,7 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
 
 
 
-4. test the `DataExploration <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ class:
+5. test the `DataExploration <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ class:
 ------------------------------------------------------------------------------------------------------------------------
 
 
@@ -268,7 +297,7 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
 
 
 
-4. test `the NeuralNetwork <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__  class
+5. test `the NeuralNetwork <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__  class
 -------------------------------------------------------------------------------------------------------------
 
 
@@ -320,7 +349,7 @@ Here's the explanation:
     <span style="color:blue;">print(neural_net)</span>: This line prints the architecture of the neural network instance `neural_net`. The architecture of the neural network is typically defined by the layers and their configurations, which are specified within the `NeuralNetwork` class. Therefore, printing `neural_net` will display its architecture, including the layers, activation functions, and other configurations specified during its initialization.
     </span></p>
 
-5. Testing the  `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__  class
+6. Testing the  `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__  class
 --------------------------------------------------------------------------------------------------------------------
 
 This code snippet demonstrates setting up the neural network model, defining the loss function and optimizer, and then training the model using a ModelTrainer class. During training, it collects the training and testing losses for each epoch.
@@ -355,7 +384,7 @@ plot train_losses and test_losses
 
 
 
-6. test the `ModelEvaluation <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__  class 
+7. test the `ModelEvaluation <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__  class 
 ------------------------------------------------------------------------------------------------------------------------
 
 

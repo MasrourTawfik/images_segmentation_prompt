@@ -1,13 +1,42 @@
 Introduction to  PyTorch
 ===================================
+
+.. figure:: /Documentation/images/log.png
+   :width:  100
+   :align: center
+   :alt: Alternative Text
+
+
+1. Introduction
+------------------
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
-    The purpose of this documentation is to provide a comprehensive introduction to tensors in PyTorch,
-    emphasizing their importance and usage within the context of machine learning models.
-   </span></p>
 
-1. Installing PyTorch with Anaconda
+  PyTorch is a powerful open-source machine learning library developed by Facebook's AI Research lab (FAIR). It provides a flexible and intuitive framework for building, training, and deploying deep learning models. PyTorch stands out for its dynamic computation graph mechanism, allowing for efficient gradient computation and enabling users to define and modify models on-the-fly.
+  </span></p>
+
+  <p style="text-align: justify;"><span style="color:#000080;">
+  With PyTorch, developers can easily create various types of neural networks, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformers, among others. Its extensive collection of pre-built modules and utilities simplifies the process of building complex architectures for tasks such as image classification, object detection, natural language processing, and more.
+  </span></p>
+
+ <p style="text-align: justify;"><span style="color:#000080;">
+  One of PyTorch's key strengths lies in its seamless integration with Python and NumPy, facilitating data manipulation and experimentation. Additionally, PyTorch provides support for GPU acceleration, enabling faster computation and training of deep learning models on compatible hardware.
+  </span></p>
+
+ <p style="text-align: justify;"><span style="color:#000080;">
+  Whether you're a beginner exploring deep learning concepts or an experienced researcher developing cutting-edge models, PyTorch offers a rich ecosystem of tools, resources, and community support to accelerate your journey in the field of artificial intelligence.
+ </span></p>
+
+
+.. note::
+    The purpose of this documentation is to provide a comprehensive introduction to tensors in PyTorch,emphasizing their importance and usage within the context of machine learning models.
+
+
+
+
+2. Installing PyTorch with Anaconda
 ---------------------------------
 .. raw:: html
 
@@ -55,7 +84,7 @@ python -c "import torch; print(torch.__version__)"
 This should print the version number of PyTorch that you just installed.
 
 
-2. Introduction to Tensors
+3. Introduction to Tensors
 ---------------------------
 .. raw:: html
 
@@ -176,7 +205,7 @@ This should print the version number of PyTorch that you just installed.
 
 
 
-3. Datasets & DataLoaders
+4. Datasets & DataLoaders
 ---------------------------
 
 

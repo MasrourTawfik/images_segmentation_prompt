@@ -1,11 +1,24 @@
 Transformer Architecture
 ========================
 
-.. _Introduction:
+
+
 
 1. introduction
 -----------------
+
+
+.. figure:: /Documentation/images/arch1.png
+   :width: 400
+   :align: center
+   :alt: Alternative Text
 .. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#00008B;">
+   The Transformer is a groundbreaking architecture in the field of natural language processing. In this context, we will explain the various aspects of this architecture.
+
+   </span></p>
+
 
    <p style="text-align: justify;"><span style="color:#00008B;">
    
@@ -119,3 +132,5 @@ Transformer Architecture
    :width: 700
    :align: center
    :alt: Alternative text for the image
+
+
