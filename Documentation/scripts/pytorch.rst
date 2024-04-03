@@ -31,7 +31,7 @@ PyTorch
 
 
 
-.. admonition::  For more information
+.. admonition::  Purpose
 
    .. container:: blue-box
 
