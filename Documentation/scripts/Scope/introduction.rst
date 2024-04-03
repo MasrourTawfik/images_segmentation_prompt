@@ -48,7 +48,7 @@ Project Introduction.
     The output would be a processed images where dogs are highlighted
     </i></span></p>
 
-    &#10004;<span style="color:blue;"> How were we able to do that ?</span>
+    &#10004;<span style="color:blue;"><strong> How were we able to do that ?</strong></span>
 
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
@@ -56,7 +56,7 @@ Project Introduction.
     Building from scratch a model, that is trained on a dataset according to the field of interest.
     </i></span></p>
 
-    &#10004;<span style="color:blue;"> What's new about the project ?</span>
+    &#10004;<span style="color:blue;"><strong> What's new about the project ?</strong></span>
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
