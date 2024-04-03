@@ -126,6 +126,5 @@ Transformer Architecture
 
 .. figure:: /Documentation/images/intro.jpg
    :width: 700
-   :height: 500
    :align: center
    :alt: Alternative text for the image
