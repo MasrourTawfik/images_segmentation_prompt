@@ -6,10 +6,6 @@ Project Introduction.
 
 eifalzbjkzefbvjedfbz
 
-.. figure:: /Documentation/images/ViT.png
-   :width: 300
-   :align: center
-   :alt: NO image
 
 .. figure:: /Documentation/images/intro.jpg
    :width: 700
