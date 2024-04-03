@@ -57,7 +57,7 @@ Project Introduction
 .. raw:: html
 
     <p style="text-align: justify;">
-    
+
     </p>
 
     <span style="color:blue;"><strong> How were we able to do that ?</strong></span>
@@ -89,3 +89,14 @@ Project Introduction
 
 
 
+    <span style="color:blue;"><strong> </strong>Project building strategy:</span>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Modular components
+
+    Manual implementation: Each component is implemented manually for pedagogical reasons
+
+    Build to last strategy : Simple, accessible documentation with practice examples
+
+    Accuracy-oriented: Replacing manually implemented components with imported frameworks for more accuracy
+    
+    </i></span></p>
