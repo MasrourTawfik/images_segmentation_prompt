@@ -33,7 +33,7 @@ Project Introduction
   
 
 
-    -<span style="color:blue;"><strong>  For example: </span></strong>
+    <span style="color:blue;"><strong>  For example: </span></strong>
     <span style="color:#000080;"><i>
     the user has an image of people playing in the park, and wants to filter out dogs in the picture.
     </i></span>
@@ -43,7 +43,7 @@ Project Introduction
     in order to do so, the user inserts the picture and writes this query: "highlight dogs in the picture"
 
     </i></span>
-    
+
     <span style="color:#000080;"><i> 
 
     The output would be a processed images where dogs are highlighted
