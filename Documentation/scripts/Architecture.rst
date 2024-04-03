@@ -44,7 +44,6 @@ Transformer Architecture
 
 .. figure:: /Documentation/images/translation.png
    :width: 700
-   :height: 500
    :align: center
    :alt: Alternative text for the image
 
@@ -91,7 +90,6 @@ Transformer Architecture
 
 .. figure:: /Documentation/images/transf_arch.webp
    :width: 700
-   :height: 500
    :align: center
    :alt: Alternative text for the image
 
@@ -119,6 +117,5 @@ Transformer Architecture
 
 .. figure:: /Documentation/images/key.jpg
    :width: 700
-   :height: 500
    :align: center
    :alt: Alternative text for the image
