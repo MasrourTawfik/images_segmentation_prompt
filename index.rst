@@ -13,6 +13,12 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
    ..
 
 
+.. toctree::
+   :maxdepth: 3
+   :caption: Introduction
+
+   Documentation/scripts/Scope/introduction.rst
+   
 
 .. toctree::
    :maxdepth: 3
@@ -47,11 +53,7 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
 
 
 
-.. toctree::
-   :maxdepth: 3
-   :caption: Introduction
 
-   Documentation/scripts/Scope/introduction.rst
 
 
 .. figure:: /Documentation/images/logo.jpg
