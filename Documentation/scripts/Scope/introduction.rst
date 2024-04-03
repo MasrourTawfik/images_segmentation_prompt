@@ -4,7 +4,6 @@ Project Introduction.
 1. introduction
 -----------------
 
-eifalzbjkzefbvjedfbz
 
 
 .. figure:: /Documentation/images/intro.jpg
