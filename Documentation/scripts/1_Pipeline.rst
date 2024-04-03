@@ -1,9 +1,9 @@
-Pipeline
+Key elements 
 =============
 
-1. Introduction to pytorch
----------------------------
 
+1. Pytorch
+---------------------------
 
 
 .. figure:: /Documentation/images/log.png
@@ -37,8 +37,8 @@ Pipeline
 
 .. _Neural_Network:
 
-2. Neural Networks wrapper
-----------------------------
+2. Neural Networks 
+--------------------
 
 
 In this article, we will build a neural network from scratch and use it to classify
@@ -69,7 +69,7 @@ In this article, we will build a neural network from scratch and use it to class
 .. _transformer_architecture:
 
 3. Transformer Architecture
--------------------------------------
+-----------------------------
 
 .. figure:: /Documentation/images/arch1.png
    :width: 400
@@ -150,19 +150,3 @@ Explain the functioning and usage of the Visual Transformer.
 
 .. _detection_transformer(DeTR):
 
-5. Detection Transformer
--------------------------
-
-DEtection TRansformer (DETR) model trained end-to-end on COCO 2017 object detection (118k annotated images). It was introduced in the paper `End-to-End Object Detection with Transformers <https://arxiv.org/abs/2005.12872>`__
- by Carion et al.
-
-.. note::
-  The  first released in this repository. `repository <https://github.com/facebookresearch/detr>`__
-
-
-Explain the functioning and usage of the Detection Transformer (DeTR).
-
-.. figure:: /Documentation/images/DTR.jpg
-    :width: 400
-    :align: center
-    :alt: Alternative Text

@@ -3,14 +3,6 @@
 Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
 ===================================================================================
 
-`paper Foundation Model Assisted Weakly Supervised Semantic Segmentation <https://arxiv.org/pdf/2312.03585v2.pdf>`__
-
-.. figure:: /Documentation/images/prompt.png
-   :width: 100%
-   :alt: Alternative text for the image
-   :name: logo
-
-   ..
 
 
 .. toctree::
@@ -18,7 +10,7 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
    :caption: Introduction
 
    Documentation/scripts/Scope/introduction.rst
-   
+
 
 .. toctree::
    :maxdepth: 3
@@ -47,7 +39,7 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
    Documentation/scripts/Architecture/Decoder.rst
    Documentation/scripts/Architecture/Softmax.rst
    Documentation/scripts/ViT.rst
-   Documentation/scripts/DeTR.rst
+
 
 
 
