@@ -1,5 +1,5 @@
-Introduction to  PyTorch
-===================================
+PyTorch
+===========
 
 .. figure:: /Documentation/images/log.png
    :width:  100
