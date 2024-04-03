@@ -34,7 +34,7 @@ Project Introduction.
 
     - <span style="color:blue;">Output : </span><span style="color:#000080;">The requested object, filtred and highlighted (segmented).
     </i></span></p>
-    &#10003;<span style="color:blue;">For example: </span>
+    &#10003;<span style="color:blue;"><strong>For example: </span></strong>
     <p style="text-align: justify;"><span style="color:#000080;"><i>
     the user has an image of people playing in the park, and wants to filter out dogs in the picture.
     </i></span></p>
@@ -47,9 +47,32 @@ Project Introduction.
     The output would be a processed images where dogs are highlighted
     </i></span></p>
 
-> How were we able to do that ?
+    &#10004;<span style="color:blue;">How were we able to do that ?</span>
 
 
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    Building from scratch a model, that is trained on a dataset according to the field of interest.
+    </i></span></p>
+
+    &#10004;<span style="color:blue;">What's new about the project ?</span>
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    Preparing an image dataset for training a model on segmentation is a time and energy consuming task, this process is done manually where one has to draw a contour on each object and label it.
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    The bridge, the connection or the model we are building from scratch uses FOUNDATION MODELS for training (look at like a human sitting on a computer, drawing contours and labeling each object on the image). This enable optimization of time and labor resources and open doors to the use of large-scale datasets for training and application purposes using flexible prompt.
+
+    </i></span></p>
+
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    
+    This project goes way beyond the scope of detecting dogs in parks and may be used to perform object detection on any image in any field.
+
+    </i></span></p>
 
 
 
