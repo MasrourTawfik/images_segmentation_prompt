@@ -1,9 +1,6 @@
 Project Introduction.
 ====================
 
-1. introduction
------------------
-
 
 
 .. figure:: /Documentation/images/intro.jpg
