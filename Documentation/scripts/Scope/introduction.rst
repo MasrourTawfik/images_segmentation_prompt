@@ -34,8 +34,9 @@ Project Introduction.
 
     - <span style="color:blue;">Output : </span><span style="color:#000080;">The requested object, filtred and highlighted (segmented).
     </i></span></p>
+    <p style="text-align: justify;">
     &#10003;<span style="color:blue;"><strong>  For example: </span></strong>
-    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    <span style="color:#000080;"><i>
     the user has an image of people playing in the park, and wants to filter out dogs in the picture.
     </i></span></p>
     <p style="text-align: justify;"><span style="color:#000080;"><i>
