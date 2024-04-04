@@ -4,9 +4,9 @@
 .. raw:: html
 
    <p>
-      <span style="color:#000080; font-size: 20px;">
+      <span style="color:#000080; font-size: 30px;"><strong>
          Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
-      </span>
+      </strong></span>
    </p>
 
 
