@@ -142,13 +142,15 @@ ______________________
 2. The Encoder
 -------------------
 
+
+
 .. figure:: /Documentation/images/encoder.webp
    :width:  700
    :align: center
    :alt: Alternative Text
 
 
- *Tokenizer *
+*Tokenizer *
 ______________________
 
 
@@ -156,6 +158,7 @@ ______________________
    :width:  500
    :align: center
    :alt: Alternative Text
+
 
 .. raw:: html
 
