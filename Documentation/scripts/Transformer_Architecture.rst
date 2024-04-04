@@ -11,7 +11,7 @@ _______________________________________
 
 
 .. figure:: /Documentation/images/arch1.png
-   :width: 400
+   :width: 700
    :align: center
    :alt: Alternative Text
 .. raw:: html
