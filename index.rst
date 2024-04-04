@@ -11,7 +11,8 @@
 
 
 .. image:: /Documentation/images/segmentationgif.gif
-   :width: 600
+   :width: 500
+   :height: 700
    :align: center
    :alt: Alternative Text
 
