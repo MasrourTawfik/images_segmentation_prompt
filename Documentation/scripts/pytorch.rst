@@ -9,7 +9,7 @@ PyTorch
 
 1. Introduction
 ------------------
-    a. Introduction
+a. Introduction
 ------------------
 
 .. raw:: html
