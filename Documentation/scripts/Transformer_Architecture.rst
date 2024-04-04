@@ -510,7 +510,7 @@ ______________________
 
 
 .. figure:: /Documentation/images/multi_head_3.jpg
-   :width:  400
+   :width:  700
    :align: center
    :alt: Alternative Text
 
