@@ -43,7 +43,7 @@ Overview
 
 
 
-2. The purpose of Transformer networks
+The purpose of Transformer networks
 ----------------------------------------
 
 
@@ -89,7 +89,7 @@ Overview
      </span></p>
 
 
-3.  The Transformer Architecture
+The Transformer Architecture
 ------------------------------------
 
 .. raw:: html
@@ -125,7 +125,7 @@ Overview
    At each step the model is auto-regressive, consuming the previously generated symbols as additional input when generating the next.
 
 
-3. Key Components
+Key Components
 -------------------
 
 .. figure:: /Documentation/images/key.jpg
