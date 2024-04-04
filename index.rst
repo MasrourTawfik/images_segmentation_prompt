@@ -11,10 +11,16 @@
 
 
 .. image:: /Documentation/images/segmentationgif.gif
-   :width: 700
+   :width: 600
    :align: center
    :alt: Alternative Text
 
+.. raw:: html
+
+   <p>
+
+
+   </p>
 
 .. toctree::
    :maxdepth: 3
