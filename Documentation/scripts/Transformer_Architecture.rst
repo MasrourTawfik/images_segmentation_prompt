@@ -5,7 +5,12 @@ Transformer Architecture
 1. General Introduction
 ---------------------------
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 *Overview*
 _______________________________________
 
@@ -14,6 +19,11 @@ _______________________________________
    :width: 700
    :align: center
    :alt: Alternative Text
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+    </span></p>
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#00008B;">
@@ -41,8 +51,15 @@ _______________________________________
    :align: center
    :alt: Alternative text for the image
    :name: Architecture
+.. raw:: html
 
 
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 
 
 *The purpose of Transformer networks*
@@ -90,7 +107,12 @@ _______________________________________
       The Transformer Network is powerful for tasks such as language understanding, due to its ability to capture long-range dependencies between elements that may be far apart from each other. This means that the relationships and dependencies between words in a sentence can be captured, even if they appear earlier or later in that sentence. This is important because the meaning of a word can depend on the words that appear before or after it.
      </span></p>
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 *The Transformer Architecture*
 _______________________________________
 
@@ -125,7 +147,12 @@ _______________________________________
 
 .. note::
    At each step the model is auto-regressive, consuming the previously generated symbols as additional input when generating the next.
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 
 *Key Components*
 ______________________
@@ -186,20 +213,40 @@ ______________________
 
 
 
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 
 
+   <p style="text-align: justify;"><span style="color:#000080;">
 
+   
+    </span></p>
 
 2. The Encoder
 -------------------
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+    </span></p>
 .. figure:: /Documentation/images/encoder.webp
    :width:  700
    :align: center
    :alt: Alternative Text
+.. raw:: html
 
 
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 *Tokenizer*
 ______________________
 
@@ -277,7 +324,12 @@ ______________________
 
    More details in `Tokenization in Machine Learning Explained <https://vaclavkosar.com/ml/Tokenization-in-Machine-Learning-Explained>`__  
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 *Input embedding*
 ______________________
 
@@ -346,7 +398,12 @@ ______________________
 .. note::  
 
    More details in `Transformer Positional Embeddings and Encodings <https://vaclavkosar.com/ml/transformer-positional-embeddings-and-encodings>`__  
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 
 *Positional Encoding*
 ______________________
@@ -409,7 +466,12 @@ ______________________
 
    More details in `Transformer Positional Embeddings and Encodings <https://vaclavkosar.com/ml/transformer-positional-embeddings-and-encodings>`__  
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 *self Attention*
 ______________________
 
@@ -457,7 +519,12 @@ ______________________
 .. note::  
 
    More details in `paper Attention is all you need <https://arxiv.org/pdf/1706.03762.pdf>`__  : dot-product is “scaled”, residual connection, layer normalization
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 
 *Multi-Head Attention*
 ______________________
@@ -515,7 +582,12 @@ ______________________
    :alt: Alternative Text
 
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 
 * *Add and norm - Norm*
 ________________________
@@ -550,6 +622,13 @@ ________________________
    <p style="text-align: justify;"><span style="color:#000080;">
    This normalization step helps stabilize the training process by ensuring that the model's inputs and outputs have similar magnitudes, which can be beneficial for convergence and generalization.
    </span></p>
+
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 
 * *Feed Forward*
 ______________________
@@ -650,7 +729,12 @@ ______________________
       <p style="text-align: justify;">
       The feedforward layer plays a crucial role in capturing complex patterns and relationships in the input data, allowing the model to learn and represent hierarchical features effectively.
       </p>
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 *Residual Connections*
 ______________________
 
@@ -683,6 +767,12 @@ ______________________
    </span></p>
 
 
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+
+    </span></p>
 *Conclusion*
 ______________________
 
@@ -735,7 +825,12 @@ ______________________
 .. note::  
     * You can view more by clicking the  `"Transformer’s Encoder" <https://kikaben.com/transformers-encoder-decoder/#conclusion>`__ 
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 *BIBLIOGRAPHIC*
 ______________________
 
