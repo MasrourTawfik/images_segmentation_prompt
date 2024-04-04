@@ -131,7 +131,7 @@ _______________________________________
 ______________________
 
 .. figure:: /Documentation/images/key.jpg
-   :width: 700
+   :width: 900
    :align: center
    :alt: Alternative text for the image
 
