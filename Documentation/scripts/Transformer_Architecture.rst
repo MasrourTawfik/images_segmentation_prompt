@@ -139,9 +139,59 @@ ______________________
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 2. The Encoder
 -------------------
-
 
 
 .. figure:: /Documentation/images/encoder.webp
@@ -150,7 +200,7 @@ ______________________
    :alt: Alternative Text
 
 
-*Tokenizer *
+*Tokenizer*
 ______________________
 
 
@@ -704,6 +754,34 @@ ______________________
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 3. The Decoder
 ----------------
 
@@ -898,6 +976,24 @@ _________________
       * `"transformer-decoder" <https://www.scaler.com/topics/nlp/transformer-decoder/>`__
 
       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
