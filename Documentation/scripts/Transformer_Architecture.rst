@@ -205,7 +205,7 @@ ______________________
 
 
 .. figure:: /Documentation/images/token.jpg
-   :width:  500
+   :width:  700
    :align: center
    :alt: Alternative Text
 
