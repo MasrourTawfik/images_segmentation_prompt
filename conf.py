@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'image segmetation prompt'
+project = 'image segmentation prompt'
 copyright = '2024, GIIADS'
 author = 'image_segmentation_prompt'
 
