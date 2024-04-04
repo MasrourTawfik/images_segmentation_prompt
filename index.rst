@@ -4,8 +4,8 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
 ===================================================================================
 .. raw:: html
 
-   <p style="text-align: justify;">
-      <span style="color:#000080; font-size: 50px;">
+   <p>
+      <span style="color:#000080; font-size: 20px;">
          Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
       </span>
    </p>
