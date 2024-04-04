@@ -126,3 +126,7 @@ Explain the functioning and usage of the Visual Transformer.
    :width: 700
    :align: center
    :alt: Alternative Text
+
+
+   Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
+===================================================================================

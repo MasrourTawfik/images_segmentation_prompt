@@ -1,7 +1,6 @@
 
 
-Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
-===================================================================================
+
 .. raw:: html
 
    <p>
