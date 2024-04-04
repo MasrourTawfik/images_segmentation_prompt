@@ -4,6 +4,11 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
 ===================================================================================
 
 
+.. image:: /Documentation/images/segmentationgif.gif
+   :width: 700
+   :align: center
+   :alt: Alternative Text
+
 
 .. toctree::
    :maxdepth: 3
