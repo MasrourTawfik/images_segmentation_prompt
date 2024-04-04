@@ -22,35 +22,28 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
    Documentation/scripts/nerale_network.rst
    Documentation/scripts/Transformer_Architecture.rst
    
+
+   
 .. toctree::
    :maxdepth: 3
    :caption: Attention
 
    Documentation/scripts/attention_is_all_you_need.rst
 
-.. toctree::
-   :maxdepth: 3
-   :caption: architecture
-
-
-   Documentation/scripts/Architecture.rst
-   Documentation/scripts/Architecture/Encoder.rst
-   Documentation/scripts/Architecture/Decoder.rst
-   Documentation/scripts/Architecture/Softmax.rst
-   Documentation/scripts/ViT.rst
 
 
 
 
 
 
-
-
-
-.. figure:: /Documentation/images/logo.jpg
+.. figure:: /Documentation/images/prompt.png
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
 
-   ..
 
+
+.. figure:: /Documentation/images/prompt.png
+   :width: 100%
+   :alt: Alternative text for the image
+   :name: logo
