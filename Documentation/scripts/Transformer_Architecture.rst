@@ -586,7 +586,9 @@ ______________________
 
    <p style="text-align: justify;"><span style="color:#000080;">
 
-   
+    </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+
     </span></p>
 
 **Add and norm - Norm**
@@ -627,9 +629,10 @@ ________________________
 
    <p style="text-align: justify;"><span style="color:#000080;">
 
-   
     </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
 
+    </span></p>
 **Feed Forward**
 ______________________
 
@@ -735,6 +738,9 @@ ______________________
 
    
     </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+    </span></p>
 *Residual Connections*
 ______________________
 
@@ -771,6 +777,9 @@ ______________________
 
    <p style="text-align: justify;"><span style="color:#000080;">
 
+
+    </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
 
     </span></p>
 *Conclusion*
@@ -830,6 +839,9 @@ ______________________
    <p style="text-align: justify;"><span style="color:#000080;">
 
    
+    </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+
     </span></p>
 *BIBLIOGRAPHIC*
 ______________________
