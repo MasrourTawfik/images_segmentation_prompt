@@ -91,7 +91,7 @@ The Transformer is a groundbreaking architecture in the field of natural languag
   </span></p>
       
 
-
+.. 
 Visual Transformer (ViT)
 ==========================
 .. note::
@@ -107,3 +107,22 @@ Explain the functioning and usage of the Visual Transformer.
     :alt: Alternative Text
 
 .. _detection_transformer(DeTR):
+
+
+
+.. image:: /Documentation/images/image2.gif
+   :width: 700
+   :align: center
+   :alt: Alternative Text
+
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
+
+.. image:: /Documentation/images/segmentationgif.gif
+   :width: 700
+   :align: center
+   :alt: Alternative Text
