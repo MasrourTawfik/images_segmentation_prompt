@@ -3,6 +3,17 @@
 Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
 ===================================================================================
 
+.. image:: /Documentation/images/image2.gif
+   :width: 700
+   :align: center
+   :alt: Alternative Text
+   
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 
 .. image:: /Documentation/images/segmentationgif.gif
    :width: 700

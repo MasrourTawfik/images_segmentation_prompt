@@ -952,7 +952,12 @@ ________________________
 
    The decoder and encoder share several similarities, but they differ in their input. We will explain this difference in the next section.
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 b. *difference between decoder and encoder*
 ________________________________________________
 
@@ -972,7 +977,12 @@ ________________________________________________
    :align: center
    :alt: Alternative Text
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 
 c. *Masked multi-head attention*
 ______________________________
@@ -1011,7 +1021,12 @@ ______________________________
 
       <span style="color:#000080;">Causal Model:</span> The model must not be able to see the future words
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 d. *Multi-Head Attention*
 ________________________
 .. figure:: /Documentation/images/encoder_decoder.jpg
@@ -1036,7 +1051,12 @@ ________________________
    :align: center
    :alt: Alternative Text
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 e. *Feed Forward*
 _________________
 
@@ -1054,7 +1074,12 @@ _________________
 
 
 
+.. raw:: html
 
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+   
+    </span></p>
 f. *Conclusion*
 _________________
 
