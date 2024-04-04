@@ -517,15 +517,8 @@ ______________________
 
 
 
-*Add and norm - Norm*
-______________________
-
-
-.. figure:: /Documentation/images/add_norm.jpg
-   :width:  400
-   :align: center
-   :alt: Alternative Text
-
+* *Add and norm - Norm*
+________________________
 
 .. raw:: html
       
@@ -534,6 +527,17 @@ ______________________
    Following the addition operation, layer normalization is applied to normalize the combined result. Layer normalization normalizes the activations across the feature dimension (e.g., the dimension of the embedding vectors) for each position in the sequence.
    </span></p>
    
+
+
+.. figure:: /Documentation/images/add_norm.jpg
+   :width:  500
+   :align: center
+   :alt: Alternative Text
+
+
+.. raw:: html
+      
+
    <p style="text-align: justify;"><span style="color:#000080;">
 
    The layer normalization operation is typically expressed as  LayerNorm(Output) 
@@ -547,8 +551,12 @@ ______________________
    This normalization step helps stabilize the training process by ensuring that the model's inputs and outputs have similar magnitudes, which can be beneficial for convergence and generalization.
    </span></p>
 
-*Feed Forward*
+* *Feed Forward*
 ______________________
+
+
+
+
 .. raw:: html
       
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -558,7 +566,7 @@ ______________________
 
 
 .. figure:: /Documentation/images/feedforward.jpg
-   :width:  400
+   :width:  500
    :align: center
    :alt: Alternative Text
 
@@ -662,8 +670,7 @@ ______________________
 
    
 .. figure:: /Documentation/images/residual.jpg
-   :width: 500
-   :height: 100
+   :width: 600
    :align: center
    :alt: Alternative Text
 
@@ -682,7 +689,6 @@ ______________________
 
 .. figure:: /Documentation/images/conc_encoder.png
    :width: 700
-   :height: 500
    :align: center
    :alt: Alternative Text
 
