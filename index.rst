@@ -20,7 +20,6 @@ Weakly Supervised Image Prompt Segmentation with Foundation Models documentation
 
    Documentation/scripts/pytorch.rst
    Documentation/scripts/nerale_network.rst
-   Documentation/scripts/Architecture.rst
    Documentation/scripts/Transformer_Architecture.rst
    
 .. toctree::
