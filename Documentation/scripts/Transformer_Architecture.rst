@@ -11,7 +11,7 @@ Transformer Architecture
 
    
     </span></p>
-*Overview*
+a. *Overview*
 _______________________________________
 
 
@@ -62,7 +62,7 @@ _______________________________________
     </span></p>
 
 
-*The purpose of Transformer networks*
+b. *The purpose of Transformer networks*
 _______________________________________
 
 
@@ -113,7 +113,7 @@ _______________________________________
 
    
     </span></p>
-*The Transformer Architecture*
+c. *The Transformer Architecture*
 _______________________________________
 
 .. raw:: html
@@ -154,7 +154,7 @@ _______________________________________
    
     </span></p>
 
-*Key Components*
+d. *Key Components*
 ______________________
 
 .. figure:: /Documentation/images/key.jpg
@@ -247,7 +247,7 @@ ______________________
 
    
     </span></p>
-*Tokenizer*
+a. *Tokenizer*
 ______________________
 
 
@@ -330,7 +330,7 @@ ______________________
 
    
     </span></p>
-*Input embedding*
+b. *Input embedding*
 ______________________
 
 .. figure:: /Documentation/images/input_embe.jpg
@@ -405,7 +405,7 @@ ______________________
    
     </span></p>
 
-*Positional Encoding*
+c. *Positional Encoding*
 ______________________
 
 
@@ -472,7 +472,7 @@ ______________________
 
    
     </span></p>
-*self Attention*
+d. *self Attention*
 ______________________
 
 .. figure:: /Documentation/images/self.png
@@ -526,7 +526,7 @@ ______________________
    
     </span></p>
 
-*Multi-Head Attention*
+e. *Multi-Head Attention*
 ______________________
 
 .. figure:: /Documentation/images/multi.jpg
@@ -591,7 +591,7 @@ ______________________
 
     </span></p>
 
-**Add and norm - Norm**
+f. **Add and norm - Norm**
 ________________________
 
 .. raw:: html
@@ -633,7 +633,7 @@ ________________________
    <p style="text-align: justify;"><span style="color:#000080;">
 
     </span></p>
-**Feed Forward**
+g. **Feed Forward**
 ______________________
 
 
@@ -741,7 +741,7 @@ ______________________
    <p style="text-align: justify;"><span style="color:#000080;">
 
     </span></p>
-*Residual Connections*
+h. *Residual Connections*
 ______________________
 
 .. raw:: html
@@ -782,7 +782,7 @@ ______________________
    <p style="text-align: justify;"><span style="color:#000080;">
 
     </span></p>
-*Conclusion*
+i. *Conclusion*
 ______________________
 
 
@@ -843,7 +843,7 @@ ______________________
    <p style="text-align: justify;"><span style="color:#000080;">
 
     </span></p>
-*BIBLIOGRAPHIC*
+j. *BIBLIOGRAPHIC*
 ______________________
 
 
@@ -921,7 +921,7 @@ ______________________
          </span></p>
       
 
-*Introduction*
+a. *Introduction*
 ________________________
 .. raw:: html
 
@@ -953,7 +953,7 @@ ________________________
    The decoder and encoder share several similarities, but they differ in their input. We will explain this difference in the next section.
 
 
-*difference between decoder and encoder*
+b. *difference between decoder and encoder*
 ________________________________________________
 
 .. raw:: html
@@ -974,7 +974,7 @@ ________________________________________________
 
 
 
-*Masked multi-head attention*
+c. *Masked multi-head attention*
 ______________________________
 
 .. figure:: /Documentation/images/mask_att.jpg
@@ -1012,7 +1012,7 @@ ______________________________
       <span style="color:#000080;">Causal Model:</span> The model must not be able to see the future words
 
 
-*Multi-Head Attention*
+d. *Multi-Head Attention*
 ________________________
 .. figure:: /Documentation/images/encoder_decoder.jpg
    :width: 700
@@ -1037,7 +1037,7 @@ ________________________
    :alt: Alternative Text
 
 
-*Feed Forward*
+e. *Feed Forward*
 _________________
 
 .. raw:: html
@@ -1055,7 +1055,7 @@ _________________
 
 
 
-*Conclusion*
+f. *Conclusion*
 _________________
 
 .. raw:: html
