@@ -45,7 +45,7 @@
 
 .. toctree::
    :maxdepth: 4
-   :caption: Foundation Models in computer vision
+   :caption: Foundation Models 
    
    Documentation/scripts/foundation-models/Definition.rst
    Documentation/scripts/foundation-models/Famous-Models.rst
