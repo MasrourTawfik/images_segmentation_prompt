@@ -12,6 +12,7 @@ PASCAL VOC
    :align: left
    :alt: Alternative text for the image
 
+
 .. raw:: html
 
     <p>
@@ -58,6 +59,7 @@ One annotation:
    :width: 700
    :align: center
    :alt: Alternative text for the image
+
 
 .. raw:: html
 
@@ -116,7 +118,7 @@ One annotation:
     </span></p>
 
 
-.. figure:: /Documentation/images/References/pascale3.jpg
+.. figure:: /Documentation/images/References/pascale4.jpg
    :width: 300
    :height: 200
    :align: right
