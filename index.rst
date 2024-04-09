@@ -9,6 +9,11 @@
       </strong></span>
    </p>
 
+.. figure:: /Documentation/images/SAM.png
+   :width: 100%
+   :alt: Alternative text for the image
+   :name: logo
+
 
 .. image:: /Documentation/images/Opin1.gif
    :width: 700
@@ -78,7 +83,7 @@
 
 
 
-.. figure:: /Documentation/images/logo.jpg
+.. figure:: /Documentation/images/logoindex.avif
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
