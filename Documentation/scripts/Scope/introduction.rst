@@ -2,7 +2,7 @@ Project Introduction
 ====================
 
 image segmentation prompt
---------------------------
+___________________________
 
 
 .. figure:: /Documentation/images/intro.jpg
@@ -115,7 +115,7 @@ image segmentation prompt
 
 
 the axes for documentation
-----------------------------
+_________________________
 
 .. figure:: /Documentation/images/introduction/3.jpg
    :width: 700
