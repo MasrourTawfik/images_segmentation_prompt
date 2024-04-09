@@ -9,9 +9,9 @@ Objectives of the Paper
     <p style="text-align: justify;"><span style="color:blue;">  
 
     What problem is the paper tackling?
-    </span>
+    </span></p>
     
-    <span style="color:#00008B;">  
+    <p style="text-align: justify;"><span style="color:#00008B;">  
 
     The paper addresses the challenge of applying Transformer architecture to Computer Vision tasks, aiming to reduce the heavy reliance on Convolutional Neural Networks (CNNs) in the field. It argues that this transition would yield comparable results to traditional CNNs while requiring fewer computational resources for training.
     </span></p>
@@ -19,8 +19,8 @@ Objectives of the Paper
 
     <p style="text-align: justify;"><span style="color:blue;">  
     What is the relevant background for this problem?
-    </span>
-    <span style="color:#00008B;">
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#00008B;">
 
     Transformers have been extensively used for Natural Language Processing (NLP) tasks, exemplified by state-of-the-art models like BERT and GPT. While there has been some exploration of using transformers for image tasks, it has generally been resource-intensive.
     </span></p>
@@ -34,8 +34,8 @@ Paper Contributions
     <p style="text-align: justify;"><span style="color:blue;"> 
     What methods did the paper propose to address the problem?
     
-    </span>
-    <span style="color:#00008B;">
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#00008B;">
 
     The Vision Transformer (ViT) revolutionizes image processing by converting images into a sequence of flattened 2D patches, to which a learnable embedding token is added. This token functions similarly to the class token in BERT, while positional embeddings are added to retain spatial information. The transformer encoder is employed to process these sequences, with alternating layers of multi-head self-attention and MLP blocks. During pre-training and fine-tuning, a classification MLP head is attached to the encoder output. The model is pre-trained on large datasets and then fine-tuned for specific tasks by replacing the pre-trained prediction head with a newly initialized zero-initialized layer.    
     </span></p>
@@ -43,8 +43,8 @@ Paper Contributions
     <p style="text-align: justify;"><span style="color:blue;"> 
 
     How are the paper’s contributions different from previous related works?
-    </span>
-    <span style="color:#00008B;">
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#00008B;">
 
     The Vision Transformer (ViT) stands out as one of the first successful applications of standalone transformers for computer vision. Unlike previous models like DETR that used transformers in conjunction with CNNs, ViT operates independently. Its main advantage lies in its ability to achieve similar accuracy to previous models like Noisy Student, but requiring approximately five times less training time. In summary, ViT offers comparable accuracy with significantly reduced computation time, making it a more efficient option for computer vision tasks.
     </span></p>
@@ -92,7 +92,6 @@ link for more information
       * You can view more by clicking the  `link to the paper "An Image is Worth 16x16 Words:" <https://arxiv.org/pdf/1706.03762.pdf>`__ 
         
       * or simply clicking the picture
-
     
 .. image:: /Documentation/images/References/examples.png
    :width: 700
