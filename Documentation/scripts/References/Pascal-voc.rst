@@ -26,15 +26,8 @@ PASCAL VOC
    <p>
     |
     </p>
-    <p>
-    |
-    </p>
-    <p>
-    |
-    </p>
-    <p>
-    |
-    </p>
+
+    
 Introduction
 --------------
 
