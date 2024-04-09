@@ -29,28 +29,55 @@ Objectives of the Paper
 Paper Contributions
 ---------------------
 
-What methods did the paper propose to address the problem?
+.. raw:: html   
 
-The paper proposes reshaping 2D images into a sequence of flattened 2D patches to adapt the image input for transformers. A learnable embedding is added to the sequence, akin to BERT's [class] token, and position embeddings are incorporated to retain positional information. The transformer encoder comprises alternating layers of multi-headed self-attention and MLP blocks, and during pre-training and fine-tuning, a classification head is attached to the output. The Vision Transformer (ViT) is pre-trained on large datasets and fine-tuned for downstream tasks.
+    <p style="text-align: justify;"><span style="color:blue;"> 
+    What methods did the paper propose to address the problem?
+    
+    </span>
+    <span style="color:#00008B;">
 
-How are the paper’s contributions different from previous related works?
+    The Vision Transformer (ViT) revolutionizes image processing by converting images into a sequence of flattened 2D patches, to which a learnable embedding token is added. This token functions similarly to the class token in BERT, while positional embeddings are added to retain spatial information. The transformer encoder is employed to process these sequences, with alternating layers of multi-head self-attention and MLP blocks. During pre-training and fine-tuning, a classification MLP head is attached to the encoder output. The model is pre-trained on large datasets and then fine-tuned for specific tasks by replacing the pre-trained prediction head with a newly initialized zero-initialized layer.    
+    </span></p>
+
+    <p style="text-align: justify;"><span style="color:blue;"> 
+
+    How are the paper’s contributions different from previous related works?
+    </span>
+    <span style="color:#00008B;">
+
+    The Vision Transformer (ViT) stands out as one of the first successful applications of standalone transformers for computer vision. Unlike previous models like DETR that used transformers in conjunction with CNNs, ViT operates independently. Its main advantage lies in its ability to achieve similar accuracy to previous models like Noisy Student, but requiring approximately five times less training time. In summary, ViT offers comparable accuracy with significantly reduced computation time, making it a more efficient option for computer vision tasks.
+    </span></p>
 
 
-While not the first to apply transformers to Computer Vision (CV), this paper distinguishes itself by successfully employing standalone transformers for CV tasks. Unlike previous approaches, ViT achieves comparable accuracy to CNNs with significantly reduced training time. Additionally, ViT does not rely on convolutions, showcasing the potential of transformers for CV tasks.
+.. image:: /Documentation/images/References/images16.webp
+   :width: 700
+   :align: center
+   :alt: Alternative Text
 
-How did the paper assess its results?
-
-
-The methodology was evaluated on multiple datasets, and results were measured through few-shot or fine-tuning accuracy. ViT was compared against popular benchmarks and configurations, demonstrating promising results in image classification tasks. Preliminary studies on self-supervised training showed further accuracy improvements.
-
-
-
-Paper Limitations, Further Research, and/or Potential Applications
-------------------------------------------------------------
-
-While ViT shows promise, its performance in vision-based tasks beyond classification, such as detection and segmentation, remains unexplored. Further pre-training and scalability studies are suggested to unlock the full potential of transformers in CV. The paper hints at the possibility of transformers becoming universal models, capable of scaling with data across various human tasks, but acknowledges that this vision is yet to be fully realized.
+ 
+.. raw:: html  
 
 
+    <p style="text-align: justify;"><span style="color:#00008B;">
+
+    The Vision Transformer (ViT) represents a departure from traditional convolutional neural network (CNN) models by omitting convolutions. While Multilayer Perceptrons (MLPs) theoretically offer superior performance, their practical efficacy has been limited by data constraints. However, ViT overcomes this hurdle by leveraging a large dataset, eliminating the need for the inductive bias inherent in CNNs. Unlike traditional MLPs, transformers employ self-attention as their core mechanism, allowing them to understand input relationships. In Natural Language Processing (NLP), transformers compute bidirectional relations between words, resulting in less strict ordering compared to unidirectional Recurrent Neural Networks (RNNs).
+    </span></p>
+
+    <p style="text-align: justify;"><span style="color:#00008B;">
+
+    The paper evaluates the effectiveness of the Vision Transformer (ViT) by examining its internal representations through attention heads analysis. It finds that ViT encodes spatial relations between patches and integrates global information even in lower layers. Quantitative performance analysis and qualitative visualization of attention maps further supplement the study.
+    </span></p>
+
+Paper Limitations, Further Research
+------------------------------------
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#00008B;">
+
+    The paper introduces Vision Transformers (ViT) as an alternative to CNNs or hybrid approaches for image tasks. While the results are promising, they lack performance evaluation for tasks beyond classification, such as detection and segmentation. Unlike previous studies, the performance improvement for transformers is more limited compared to CNNs. However, the authors suggest that further pre-training could enhance performance, as ViT is scalable compared to other models. Additionally, scaling laws presented by Kaplan et al. for transformers in NLP suggest potential scalability to larger datasets in computer vision (CV). This hints at the possibility of transformers becoming a universal model capable of learning various human tasks and scaling with data. While this vision is not yet realized, the paper suggests a potential future trend in the field.
+    </span></p>
 
 
 
