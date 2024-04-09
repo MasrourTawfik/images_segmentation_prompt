@@ -44,7 +44,7 @@ Introduction
 
     In response to the inaugural 2005 challenge, the PASCAL VOC XML format was introduced, quickly becoming a standard labeling format within the field. Unlike the COCO JSON format, which uses a single annotation file for all images within a dataset, the VOC format assigns an individual XML file to each image. This approach offers a fine-grained and image-specific annotation process, facilitating detailed object detection and recognition tasks.
    </span></p>
-   
+
     </i>
 
 
@@ -127,8 +127,8 @@ One annotation:
 
 
 .. figure:: /Documentation/images/References/pascale4.jpg
-   :width: 300
-   :height: 200
+   :width: 200
+   :height: 205
    :align: right
    :alt: Alternative text for the image
 
