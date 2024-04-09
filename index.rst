@@ -32,21 +32,31 @@
 
 .. toctree::
    :maxdepth: 4
-   :caption: Key elements 
+   :caption: Building Blocks
    
 
 
-   Documentation/scripts/pytorch.rst
-   Documentation/scripts/nerale_network.rst
-   Documentation/scripts/Transformer_Architecture.rst
-   Documentation/scripts/ViT.rst
+   Documentation/scripts/building-Blocks/pytorch.rst
+   Documentation/scripts/building-Blocks/nerale_network.rst
+   Documentation/scripts/building-Blocks/Transformer_Architecture.rst
+   Documentation/scripts/building-Blocks/ViT.rst
+
+
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Foundation Models in computer vision
    
+
+
+
+
+
 .. toctree::
    :maxdepth: 3
-   :caption: Attention
+   :caption: References
 
-   Documentation/scripts/attention_is_all_you_need.rst
-
+   Documentation/scripts/References/attention_is_all_you_need.rst
 
 
 
