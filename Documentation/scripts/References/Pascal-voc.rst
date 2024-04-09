@@ -98,8 +98,12 @@ One annotation:
 
         * 	Width
 
+    </p>
+    <p style="text-align: justify;">
         *	Height
 
+    </p>
+    <p style="text-align: justify;">
         *	Depth: 3 RGB channels
 
     </span></p>
