@@ -8,8 +8,6 @@ Project Introduction
    :align: center
    :alt: Alternative text for the image
 
-
-
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;">

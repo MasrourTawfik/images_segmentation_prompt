@@ -13,13 +13,16 @@
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
-
+   
 
 .. image:: /Documentation/images/Opin1.gif
    :width: 700
    :height: 500
    :align: center
    :alt: Alternative Text
+   
+   
+   Text Prompt: "highlight Dogs in the gif"
 
 
 .. raw:: html
