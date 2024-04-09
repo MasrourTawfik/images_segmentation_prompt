@@ -10,7 +10,7 @@
    </p>
 
 
-.. image:: /Documentation/images/segmentationgif.gif
+.. image:: /Documentation/images/Opin1.gif
    :width: 700
    :height: 500
    :align: center
