@@ -13,8 +13,14 @@
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
-   
 
+.. raw:: html
+
+   <p>
+      
+   </p>
+   
+Text Prompt: "highlight Dogs in the gif"
 .. image:: /Documentation/images/Opin1.gif
    :width: 700
    :height: 500
@@ -22,7 +28,7 @@
    :alt: Alternative Text
    
    
-   Text Prompt: "highlight Dogs in the gif"
+   
 
 
 .. raw:: html

@@ -1,12 +1,22 @@
 PASCAL VOC
 ==========
 
+.. raw:: html
+
+    <p>
+
+    </p>
+
 .. figure:: /Documentation/images/pascale1.jpg
    :width: 400
    :align: left
    :alt: Alternative text for the image
 
+.. raw:: html
 
+    <p>
+
+    </p>
 Introduction
 --------------
 
@@ -26,4 +36,37 @@ Introduction
 
 One annotation:
 ----------------
+.. raw:: html
+
+    <p>
+
+    </p>
+.. figure:: /Documentation/images/pascale2.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+.. raw:: html
+
+    <p>
+
+    </p>
+.. figure:: /Documentation/images/pascale3.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    The XML format is structured hierarchically, resembling a tree, and encapsulates all essential information within an 'annotation' tag. Key fields include:   
+    </span></p>
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+    
+    notice the open and closed bracket for annotation containing all the necessary information:
+    </span></p>
+
+
 
