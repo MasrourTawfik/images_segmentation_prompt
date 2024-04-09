@@ -127,8 +127,8 @@ One annotation:
 
 
 .. figure:: /Documentation/images/References/pascale4.jpg
-   :width: 200
-   :height: 205
+   :width: 150
+   :height: 165
    :align: right
    :alt: Alternative text for the image
 
