@@ -83,7 +83,7 @@
 
 
 
-.. figure:: /Documentation/images/logoindex.avif
+.. figure:: /Documentation/images/text-prompt.avif
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
