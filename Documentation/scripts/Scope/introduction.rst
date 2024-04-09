@@ -1,7 +1,9 @@
 Project Introduction
 ====================
 
-Prompt-Based-Image-Segmentation 
+image segmentation prompt
+--------------------------
+
 
 .. figure:: /Documentation/images/intro.jpg
    :width: 700
@@ -105,3 +107,22 @@ Prompt-Based-Image-Segmentation
     </i></span></p>
 
 
+.. raw:: html
+
+    <p style="text-align: justify;">
+
+    </p>
+
+
+the axes for documentation
+----------------------------
+
+.. figure:: /Documentation/images/introduction/3.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+.. figure:: /Documentation/images/introduction/4.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
