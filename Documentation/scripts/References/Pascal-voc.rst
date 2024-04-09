@@ -96,6 +96,8 @@ One annotation:
 
     &#10003; Data about the image:</span> <span style="color:#000080;">
 
+    </p>
+    <p style="text-align: justify;">
         * 	Width
 
     </p>
