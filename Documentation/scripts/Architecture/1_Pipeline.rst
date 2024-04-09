@@ -127,10 +127,15 @@ The Transformer is a groundbreaking architecture in the field of natural languag
 .. raw:: html
 
 
+
+
+
   <p style="text-align: justify;"><span style="color:#000080;">
   Softmax is an activation function used to compute probability scores on the model's output.
   </span></p>
       
+
+
 
 .. _visual_transformer:
 
@@ -139,6 +144,9 @@ The Transformer is a groundbreaking architecture in the field of natural languag
 .. note::
   paper:  
   `AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE  <https://arxiv.org/pdf/2010.11929v2.pdf>`__
+
+
+
 
 
 Explain the functioning and usage of the Visual Transformer.

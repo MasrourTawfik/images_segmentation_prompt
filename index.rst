@@ -47,7 +47,19 @@
    :maxdepth: 4
    :caption: Foundation Models in computer vision
    
+   Documentation/scripts/foundation-models/Definition.rst
+   Documentation/scripts/foundation-models/Famous-Models.rst
+   Documentation/scripts/foundation-models/Role-in-the-Project.rst
 
+
+.. toctree::
+   :maxdepth: 3
+   :caption: image Segmentation
+
+   Documentation/scripts/Image-Segmentation/definition.rst
+   Documentation/scripts/Image-Segmentation/State-Art.rst
+   Documentation/scripts/Image-Segmentation/Datasets.rst
+   Documentation/scripts/Image-Segmentation/Role_in_the_project.rst
 
 
 
@@ -57,7 +69,8 @@
    :caption: References
 
    Documentation/scripts/References/attention_is_all_you_need.rst
-
+   Documentation/scripts/References/AN-IMAGE-IS-WORTH.rst
+   Documentation/scripts/References/Pascal-voc.rst
 
 
 
