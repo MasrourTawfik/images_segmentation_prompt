@@ -78,6 +78,51 @@ One annotation:
     
     notice the open and closed bracket for annotation containing all the necessary information:
     </span></p>
+    <p style="text-align: justify;"><span style="color:blue;">
 
+    &#10003; Folder name (not important)
+    </span></p>
+    <p style="text-align: justify;"><span style="color:blue;">
+
+	&#10003; File name (Extremely important): the file name in the voc xml annotation links the image to the annotation.
+    </span></p>
+    <p style="text-align: justify;"><span style="color:blue;">
+
+    &#10003; Data about the image:</span> <span style="color:#000080;">
+
+        * 	Width
+
+        *	Height
+
+        *	Depth: 3 RGB channels
+
+    </span></p>
+
+    <p style="text-align: justify;"><span style="color:blue;">
+
+	&#10003; Object: </span> <span style="color:#000080;">specifies where objects are annotated. 
+
+
+        *	Bounding box <bnd box> these tags are very important, because it stores the coordinates for the bounding box in the corresponding image.
+
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+    	*  The box is created with two coordinates: two points in space and then we connect them.
+
+    </span></p>
+
+
+.. figure:: /Documentation/images/pascale3.jpg
+   :width: 200
+   :height: 200
+   :align: right
+   :alt: Alternative text for the image
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+        *	In pascal voc you get the upper left-hand corner of the box and the bottom right-hand corner of the box so the upper left and bottom right if you draw lines between them then you get a nice neat box.
+        
+    </span></p>
 
 
