@@ -52,6 +52,8 @@ One annotation:
     <p>
 
     </p>
+
+
 .. figure:: /Documentation/images/References/pascale2.jpg
    :width: 700
    :align: center
@@ -62,6 +64,8 @@ One annotation:
     <p>
 
     </p>
+
+
 .. figure:: /Documentation/images/References/pascale3.jpg
    :width: 700
    :align: center
@@ -113,7 +117,7 @@ One annotation:
 
 
 .. figure:: /Documentation/images/References/pascale3.jpg
-   :width: 200
+   :width: 300
    :height: 200
    :align: right
    :alt: Alternative text for the image
