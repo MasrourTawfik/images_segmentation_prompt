@@ -1,7 +1,7 @@
 Project Introduction
 ====================
 
-
+Prompt-Based-Image-Segmentation 
 
 .. figure:: /Documentation/images/intro.jpg
    :width: 700
@@ -103,3 +103,5 @@ Project Introduction
     Accuracy-oriented: Replacing manually implemented components with imported frameworks for more accuracy
 
     </i></span></p>
+
+
