@@ -21,7 +21,7 @@
    </p>
 
 
-Text Prompt: "highlight Dogs in the gif"
+* **Text Prompt: "highlight Dogs in the gif"**
 
 .. image:: /Documentation/images/Opin1.gif
    :width: 700
