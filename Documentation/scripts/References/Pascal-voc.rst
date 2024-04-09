@@ -7,7 +7,7 @@ PASCAL VOC
 
     </p>
 
-.. figure:: /Documentation/images/pascale1.jpg
+.. figure:: /Documentation/images/References/pascale1.jpg
    :width: 400
    :align: left
    :alt: Alternative text for the image
@@ -52,7 +52,7 @@ One annotation:
     <p>
 
     </p>
-.. figure:: /Documentation/images/pascale2.jpg
+.. figure:: /Documentation/images/References/pascale2.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -62,7 +62,7 @@ One annotation:
     <p>
 
     </p>
-.. figure:: /Documentation/images/pascale3.jpg
+.. figure:: /Documentation/images/References/pascale3.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -112,7 +112,7 @@ One annotation:
     </span></p>
 
 
-.. figure:: /Documentation/images/pascale3.jpg
+.. figure:: /Documentation/images/References/pascale3.jpg
    :width: 200
    :height: 200
    :align: right
