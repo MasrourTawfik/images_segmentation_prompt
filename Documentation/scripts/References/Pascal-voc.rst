@@ -112,7 +112,7 @@ One annotation:
 
     <p style="text-align: justify;"><span style="color:blue;">
 
-	&#10003; Object: </span> <span style="color:#000080;">specifies where objects are annotated. 
+	  Object: </span> <span style="color:#000080;">specifies where objects are annotated. 
 
 
         *	Bounding box <bnd box> these tags are very important, because it stores the coordinates for the bounding box in the corresponding image.
