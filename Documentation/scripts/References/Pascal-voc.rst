@@ -1,35 +1,23 @@
-PASCAL VOC
-==========
 
-.. raw:: html
-
-    <p>
-
-    </p>
 
 .. figure:: /Documentation/images/References/pascale1.jpg
    :width:  100
    :align: right
    :alt: Alternative Text
 
+PASCAL VOC
+==========
 
 
 .. raw:: html
 
     <p>
-    |
+    
     </p>
     <p>
-    |
-    </p>
-    <p>
-    |
-    </p>
-   <p>
-    |
+    
     </p>
 
-    
 1. Introduction
 --------------
 
