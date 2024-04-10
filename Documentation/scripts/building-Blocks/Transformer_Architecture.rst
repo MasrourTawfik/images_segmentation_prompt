@@ -15,7 +15,7 @@ a. *Overview*
 _______________________________________
 
 
-.. figure:: /Documentation/images/arch1.png
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/arch1.png
    :width: 700
    :align: center
    :alt: Alternative Text
@@ -46,7 +46,7 @@ _______________________________________
    </span></p>
 
 
-.. figure:: /Documentation/images/arch.png
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/arch.png
    :width: 100%
    :align: center
    :alt: Alternative text for the image
@@ -74,7 +74,7 @@ _______________________________________
     
      </span></p>
 
-.. figure:: /Documentation/images/translation.png
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/translation.png
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -125,7 +125,7 @@ _______________________________________
 
 
 
-.. figure:: /Documentation/images/transf_arch.webp
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/transf_arch.webp
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -157,7 +157,7 @@ _______________________________________
 d. *Key Components*
 ______________________
 
-.. figure:: /Documentation/images/key.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/key.jpg
    :width: 900
    :align: center
    :alt: Alternative text for the image
@@ -234,7 +234,7 @@ ______________________
    <p style="text-align: justify;"><span style="color:#000080;">
 
     </span></p>
-.. figure:: /Documentation/images/encoder.webp
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/encoder.webp
    :width:  700
    :align: center
    :alt: Alternative Text
@@ -251,7 +251,7 @@ a. *Tokenizer*
 ______________________
 
 
-.. figure:: /Documentation/images/token.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/token.jpg
    :width:  700
    :align: center
    :alt: Alternative Text
@@ -333,7 +333,7 @@ ______________________
 b. *Input embedding*
 ______________________
 
-.. figure:: /Documentation/images/input_embe.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/input_embe.jpg
    :width:  500
    :align: center
    :alt: Alternative Text
@@ -351,7 +351,7 @@ ______________________
    Tokenization:
    </span></p>
 
-.. figure:: /Documentation/images/input.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/input.jpg
    :width:  500
    :align: center
    :alt: Alternative Text
@@ -410,14 +410,14 @@ ______________________
 
 
 
-.. figure:: /Documentation/images/position1.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/position1.jpg
    :width:  600
    :align: center
    :alt: Alternative Text
 .. raw:: html
 
 
-.. figure:: /Documentation/images/position.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/position.jpg
    :width:  600
    :align: center
    :alt: Alternative Text
@@ -441,7 +441,7 @@ ______________________
    The idea behind positional encoding is to add a fixed-size vector to the embeddings of the input tokens, and this vector is determined based on the position of the token in the sequence. The positional encoding is designed in such a way that it reflects the position of a token in the sequence space, allowing the model to discern the order of tokens during processing.
    </span></p>
 
-.. figure:: /Documentation/images/position2.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/position2.jpg
    :width:  600
    :align: center
    :alt: Alternative Text
@@ -475,7 +475,7 @@ ______________________
 d. *self Attention*
 ______________________
 
-.. figure:: /Documentation/images/self.png
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/self.png
    :width:  500
    :align: center
    :alt: Alternative Text
@@ -484,7 +484,7 @@ ______________________
 
    self-attention (sometimes KQV-attention) layer is central mechanism in transformer architecture introduced in `Attention Is All You Need paper<https://arxiv.org/pdf/1706.03762.pdf>`__ 
 
-.. figure:: /Documentation/images/cal.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/cal.jpg
    :width:  700
    :align: center
    :alt: Alternative Text
@@ -529,7 +529,7 @@ ______________________
 e. *Multi-Head Attention*
 ______________________
 
-.. figure:: /Documentation/images/multi.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/multi.jpg
    :width:  700
    :align: center
    :alt: Alternative Text
@@ -548,7 +548,7 @@ ______________________
    <p style="text-align: justify;"><span style="color:#000080;">
    &#10003;  The use of multiple heads allows the model to focus on different parts of the input sequence for different aspects or patterns, providing more flexibility and expressiveness.
    </span></p>
-.. figure:: /Documentation/images/multical.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/multical.jpg
    :width: 500
    :height: 100
    :align: center
@@ -556,13 +556,13 @@ ______________________
 
 
 
-.. figure:: /Documentation/images/multii.png
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/multii.png
    :width:  400
    :align: center
    :alt: Alternative Text
 
 
-.. figure:: /Documentation/images/multi_head.png
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/multi_head.png
    :width:  400
    :align: center
    :alt: Alternative Text
@@ -576,7 +576,7 @@ ______________________
    </span></p>
 
 
-.. figure:: /Documentation/images/multi_head_3.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/multi_head_3.jpg
    :width:  700
    :align: center
    :alt: Alternative Text
@@ -603,7 +603,7 @@ ________________________
    
 
 
-.. figure:: /Documentation/images/add_norm.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/add_norm.jpg
    :width:  500
    :align: center
    :alt: Alternative Text
@@ -647,7 +647,7 @@ ______________________
    </span></p>
 
 
-.. figure:: /Documentation/images/feedforward.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/feedforward.jpg
    :width:  500
    :align: center
    :alt: Alternative Text
@@ -706,7 +706,7 @@ ______________________
    </span></p>
 
 
-.. figure:: /Documentation/images/mathsfeed.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/mathsfeed.jpg
    :width: 500
    :height: 100
    :align: center
@@ -759,7 +759,7 @@ ______________________
       </p>
 
    
-.. figure:: /Documentation/images/residual.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/residual.jpg
    :width: 600
    :align: center
    :alt: Alternative Text
@@ -786,7 +786,7 @@ i. *Conclusion*
 ______________________
 
 
-.. figure:: /Documentation/images/conc_encoder.png
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/conc_encoder.png
    :width: 700
    :align: center
    :alt: Alternative Text
@@ -903,7 +903,7 @@ ______________________
    The decoder block is similar to the encoder block, except it calculates the source-target attention.
 
 
-.. figure:: /Documentation/images/decoder.webp
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/decoder.webp
    :width: 700
    :align: center
    :alt: Alternative Text
@@ -942,7 +942,7 @@ ________________________
 
 
 
-.. figure:: /Documentation/images/DECODER1.png
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/DECODER1.png
    :width: 600
    :height: 500
    :align: center
@@ -972,7 +972,7 @@ ________________________________________________
    </span></p>
 
 
-.. figure:: /Documentation/images/mask.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/mask.jpg
    :width: 600
    :align: center
    :alt: Alternative Text
@@ -987,7 +987,7 @@ ________________________________________________
 c. *Masked multi-head attention*
 ______________________________
 
-.. figure:: /Documentation/images/mask_att.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/mask_att.jpg
    :width: 700
    :align: center
    :alt: Alternative Text
@@ -1005,12 +1005,12 @@ ______________________________
    Intuitively, it is as if we were gradually increasing the visibility of input sentences by the masks:
    </span></p>
 
-.. figure:: /Documentation/images/maskk1.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/maskk1.jpg
    :width: 500
    :align: center
    :alt: Alternative Text
 
-.. figure:: /Documentation/images/maskk.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/maskk.jpg
    :width: 500
    :align: center
    :alt: Alternative Text
@@ -1029,7 +1029,7 @@ ______________________________
     </span></p>
 d. *Multi-Head Attention*
 ________________________
-.. figure:: /Documentation/images/encoder_decoder.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/encoder_decoder.jpg
    :width: 700
    :align: center
    :alt: Alternative Text
@@ -1046,7 +1046,7 @@ ________________________
     The source-target attention is another multi-head attention that calculates the attention values between the features (embeddings) from the input sentence and the features from the output (yet partial) sentence.
    </span></p>
 
-.. figure:: /Documentation/images/source_target.png
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/source_target.png
    :width: 700
    :align: center
    :alt: Alternative Text
@@ -1095,7 +1095,7 @@ _________________
    </span></p>
 
 
-.. figure:: /Documentation/images/conclusion.png
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/conclusion.png
    :width: 600
    :align: center
    :alt: Alternative Text
@@ -1139,7 +1139,7 @@ _________________
 3. Softmax in Transformers
 -----------------------------
 
-.. figure:: /Documentation/images/softmax2.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/softmax2.jpg
     :width: 400
     :align: center
     :alt: Alternative Text
@@ -1156,7 +1156,7 @@ _________________
     In transformers, the softmax function is commonly used as part of the mechanism for calculating attention scores, which are critical for the self-attention mechanism that forms the basis of the model. It is essential for several reasons:
    </i></span></p>
 
-.. figure:: /Documentation/images/softmax1.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/softmax1.jpg
     :width: 400
     :align: center
     :alt: Alternative Text
@@ -1184,7 +1184,7 @@ _________________
     The softmax function is typically applied to the raw attention scores obtained from the dot product of query and key vectors in the self-attention mechanism. The formula for computing the softmax attention weights for a given query token in a transformer is as follows:
    </i></span></p>
 
-.. figure:: /Documentation/images/softmax.jpg
+.. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/softmax.jpg
     :width: 500
     :align: center
     :alt: Alternative Text

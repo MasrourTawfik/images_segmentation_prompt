@@ -1,7 +1,7 @@
 PyTorch
 ===========
 
-.. figure:: /Documentation/images/log.png
+.. figure:: /Documentation/images/Building-Blocks/log.png
    :width:  100
    :align: center
    :alt: Alternative Text
@@ -307,7 +307,7 @@ This should print the version number of PyTorch that you just installed.
 * output
 This code generates a grid of images with their corresponding labels from the Fashion-MNIST dataset. Each image represents a clothing item, and the labels indicate the category of the clothing.
 
-.. figure:: /Documentation/images/output.jpg
+.. figure:: /Documentation/images/Building-Blocks/output.jpg
    :width: 400
    :align: center
    :alt: Alternative Text
@@ -446,7 +446,7 @@ Example:
 
 This code segment outputs a batch of training features and their corresponding labels from the train_dataloader.
 
-.. figure:: /Documentation/images/output1.jpg
+.. figure:: /Documentation/images/Building-Blocks/output1.jpg
    :width: 400
    :align: center
    :alt: Alternative Text

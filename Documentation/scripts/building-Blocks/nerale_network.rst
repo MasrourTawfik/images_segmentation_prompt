@@ -15,7 +15,7 @@ In this article, we will build a neural network from scratch and use it to class
   </span></p>
 
 
-.. figure:: /Documentation/images/neral.webp
+.. figure:: /Documentation/images/Building-Blocks/neral.webp
    :width:  700
    :align: center
    :alt: Alternative Text
@@ -318,7 +318,7 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
 Neural Network Architecture:
 
 
-.. figure:: /Documentation/images/neuralnetwork_output.jpg
+.. figure:: /Documentation/images/Building-Blocks/neuralnetwork_output.jpg
    :width: 100%
    :align: center
    :alt: Alternative text for the image
@@ -376,7 +376,7 @@ plot train_losses and test_losses
 
 
 
-.. figure:: /Documentation/images/training.jpg
+.. figure:: /Documentation/images/Building-Blocks/training.jpg
    :width: 50%
    :alt: Alternative text for the image
    :name: logo
@@ -408,7 +408,7 @@ plot train_losses and test_losses
 
 
 
-.. figure:: /Documentation/images/conf.jpg
+.. figure:: /Documentation/images/Building-Blocks/conf.jpg
    :width: 50%
    :alt: Alternative text for the image
    :name: logo
