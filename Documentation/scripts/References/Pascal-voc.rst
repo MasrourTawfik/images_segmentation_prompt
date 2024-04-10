@@ -29,7 +29,7 @@ PASCAL VOC
     </p>
 
     
-Introduction
+1. Introduction
 --------------
 
 .. raw:: html
@@ -48,7 +48,7 @@ Introduction
     
 
 
-One annotation:
+2. One annotation:
 ----------------
 .. raw:: html
 
@@ -190,7 +190,7 @@ One annotation:
 
     </p>
 
-Multiple annotations:
+3. Multiple annotations:
 -----------------------
 
 .. figure:: /Documentation/images/References/pascale6.jpg
@@ -214,7 +214,7 @@ Multiple annotations:
     </i></span></p>
 
 
-Additional fields:
+4. Additional fields:
 ------------------
 
 
@@ -246,7 +246,7 @@ Additional fields:
     &#10003;	Difficult: The "difficult" field is a binary flag (typically 0 or 1) that marks whether an object is difficult to recognize. "Difficult" objects might be very small, heavily occluded, or blurry. This flag helps in training and evaluating models by allowing them to optionally ignore or pay special attention to these challenging cases.
     </i></span></p>
 
-Conclusion
+5. Conclusion
 -------------
 
 .. raw:: html

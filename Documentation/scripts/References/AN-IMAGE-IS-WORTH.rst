@@ -1,8 +1,8 @@
 AN IMAGE IS WORTH 16X16 WORDS
 =============================
 
-Objectives of the Paper
--------------------------
+1. Objectives of the Paper
+---------------------------
  
 .. raw:: html
 
@@ -26,8 +26,8 @@ Objectives of the Paper
     </i> </span></p>
 
 
-Paper Contributions
----------------------
+2. Paper Contributions
+-----------------------
 
 .. raw:: html   
 
@@ -69,8 +69,8 @@ Paper Contributions
     The paper evaluates the effectiveness of the Vision Transformer (ViT) by examining its internal representations through attention heads analysis. It finds that ViT encodes spatial relations between patches and integrates global information even in lower layers. Quantitative performance analysis and qualitative visualization of attention maps further supplement the study.
     </i></span></p>
 
-Paper Limitations, Further Research
-------------------------------------
+3. Paper Limitations, Further Research
+----------------------------------------
 
 .. raw:: html
 
@@ -82,8 +82,8 @@ Paper Limitations, Further Research
 
 
 
-link for more information
----------------------------
+4. link for more information
+------------------------------
 .. admonition::  For more information
 
    .. container:: blue-box
