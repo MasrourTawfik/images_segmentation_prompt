@@ -11,12 +11,10 @@ PASCAL VOC
 
 .. raw:: html
 
-    <p>
-    
-    </p>
-    <p>
-    
-    </p>
+    <p><span style="color:white;">
+    '
+    </p></span>
+
 
 1. Introduction
 --------------
