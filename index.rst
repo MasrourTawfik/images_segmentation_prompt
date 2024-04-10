@@ -1,8 +1,11 @@
 Image Segmentation Prompt
 ===========================
 
-
 .. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+
+
 
    <p>
       <span style="color:#000080; font-size: 30px;"><strong>
