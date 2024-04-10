@@ -8,9 +8,10 @@ PASCAL VOC
     </p>
 
 .. figure:: /Documentation/images/References/pascale1.jpg
-   :width: 400
-   :align: left
-   :alt: Alternative text for the image
+   :width:  100
+   :align: right
+   :alt: Alternative Text
+
 
 
 .. raw:: html
