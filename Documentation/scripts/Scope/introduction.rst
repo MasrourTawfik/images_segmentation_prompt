@@ -5,7 +5,7 @@ image segmentation prompt
 ___________________________
 
 
-.. figure:: /Documentation/images/introduction/intro.jpg
+.. figure:: /Documentation/images/scope/intro.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -50,7 +50,7 @@ ___________________________
 
 
 
-.. figure:: /Documentation/images/introduction/exmpl.jpg
+.. figure:: /Documentation/images/scope/exmpl.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -117,12 +117,12 @@ ___________________________
 The axes for documentation
 _________________________
 
-.. figure:: /Documentation/images/introduction/3.jpg
+.. figure:: /Documentation/images/scope/3.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
 
-.. figure:: /Documentation/images/introduction/4.jpg
+.. figure:: /Documentation/images/scope/4.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
