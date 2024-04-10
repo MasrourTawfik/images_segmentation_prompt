@@ -185,3 +185,46 @@ One annotation:
    </span></p>
 
 
+Multiple annotations:
+-----------------------
+
+.. figure:: /Documentation/images/References/pascale6.jpg
+   :width: 700
+   :align: right
+   :alt: Alternative text for the image
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+     	For an image containing multiple objects and corresponding annotations, the pascal voc xml file contains annotation names and coordinates of the bounding boxes of all the objects in the image.
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+     	In the example above we have the black_bipshop chess piece object and the black_king object with their corresponding information.
+
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+     	Note that it is possible to generate a pascal voc xml file with no annotation in the case of an image with no objects in it, so we would end up with an empty annotation xml file.
+
+    </span></p>
+
+
+Additional fields:
+------------------
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    In the context of PASCAL VOC XML annotation files, there are fields that provide additional information about the state or condition of the annotated objects. These fields include "pose," "truncated," "occluded," and "difficult," each offering insights that help in understanding the challenges involved in detecting and recognizing the objects within an image. 
+    </span></p>
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    	Pose: This field describes the orientation or the pose of the object in the image. It could indicate whether the object is facing forward, to the side, or in any specific direction relative to the camera. Understanding the pose can be crucial for models that are sensitive to the orientation of objects.
+    </span></p>
+
+
+
+
