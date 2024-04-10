@@ -220,11 +220,13 @@ Additional fields:
     In the context of PASCAL VOC XML annotation files, there are fields that provide additional information about the state or condition of the annotated objects. These fields include "pose," "truncated," "occluded," and "difficult," each offering insights that help in understanding the challenges involved in detecting and recognizing the objects within an image. 
     </span></p>
 
-    
+    <p style="text-align: justify;"><span style="color:#000080;">
 
-    &#10003;<p style="text-align: justify;"><span style="color:#000080;">	Pose: This field describes the orientation or the pose of the object in the image. It could indicate whether the object is facing forward, to the side, or in any specific direction relative to the camera. Understanding the pose can be crucial for models that are sensitive to the orientation of objects. </span></p>
-    
+    &#10003;	Pose: This field describes the orientation or the pose of the object in the image. It could indicate whether the object is facing forward, to the side, or in any specific direction relative to the camera. Understanding the pose can be crucial for models that are sensitive to the orientation of objects.
+    </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
 
-    &#10003;<p style="text-align: justify;"><span style="color:#000080;">	Truncated: The "truncated" field indicates whether the object is partially out of the image frame. If an object is cut off by the edge of the image (i.e., only a portion of the object is visible), it is considered truncated. This information is important because detecting and recognizing truncated objects can be more challenging than fully visible ones.</span></p>
+    &#10003;	Truncated: The "truncated" field indicates whether the object is partially out of the image frame. If an object is cut off by the edge of the image (i.e., only a portion of the object is visible), it is considered truncated. This information is important because detecting and recognizing truncated objects can be more challenging than fully visible ones.
+    </span></p>
 
 
