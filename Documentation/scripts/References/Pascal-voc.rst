@@ -8,12 +8,9 @@
 PASCAL VOC
 ==========
 
-
 .. raw:: html
 
-    <p><span style="color:white;">
-    '
-    </p></span>
+    <p><span style="color:white;">'</p></span>
 
 
 1. Introduction
