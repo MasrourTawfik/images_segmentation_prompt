@@ -57,15 +57,26 @@ conda create --name pytorch_env
 
 This will create a new environment named `pytorch_env`.
 
+.. raw:: html
 
-Activate the new environment by running the following command:
+   <p style="text-align: justify;"><span style="color:#000080;">
 
+    Activate the new environment by running the following command:
+    </span></p>
 
 ```
 conda activate pytorch_env
 ```
 
-Install PyTorch using conda. The following command installs the CPU version of PyTorch:
+
+
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+    Install PyTorch using conda. The following command installs the CPU version of PyTorch:
+    </span></p>
+
 
 ```
 conda install pytorch torchvision cpuonly -c pytorch
