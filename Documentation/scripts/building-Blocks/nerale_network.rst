@@ -378,7 +378,7 @@ plot train_losses and test_losses
 
 
 .. figure:: /Documentation/images/Building-Blocks/training.jpg
-   :width: 50%
+   :width: 100%
    :alt: Alternative text for the image
    :name: logo
 
@@ -410,7 +410,7 @@ plot train_losses and test_losses
 
 
 .. figure:: /Documentation/images/Building-Blocks/conf.jpg
-   :width: 50%
+   :width: 100%
    :alt: Alternative text for the image
    :name: logo
 
