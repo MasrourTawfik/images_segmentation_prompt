@@ -13,7 +13,7 @@ Transformer: Attention Is All You Need
 
 
 
-.. figure:: /Documentation/images/attention1.webp
+.. figure:: /Documentation/images/References/attention1.webp
    :width: 700
    :height: 200   
    :align: center
@@ -50,7 +50,7 @@ Transformer: Attention Is All You Need
 ------------------------------
 
 
-.. figure:: /Documentation/images/self_att.webp
+.. figure:: /Documentation/images/References/self_att.webp
    :width: 700 
    :align: center
    :alt: Alternative Text.
@@ -131,7 +131,7 @@ Transformer: Attention Is All You Need
 -----------
 
 
-.. figure:: /Documentation/images/attention.webp
+.. figure:: /Documentation/images/References/attention.webp
    :width:  700
    :align: center
    :alt: Alternative Text
@@ -172,7 +172,7 @@ Summary
       * or simply clicking the picture
 
 
-.. image:: /Documentation/images/attention2.webp
+.. image:: /Documentation/images/References/attention2.webp
    :width: 700
    :height: 200
    :align: center
