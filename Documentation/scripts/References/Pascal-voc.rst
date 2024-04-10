@@ -1,7 +1,7 @@
 
 
 .. figure:: /Documentation/images/References/pascale1.jpg
-   :width:  100
+   :width:  300
    :align: right
    :alt: Alternative Text
 
