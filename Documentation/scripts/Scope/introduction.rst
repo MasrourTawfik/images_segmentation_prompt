@@ -114,7 +114,7 @@ ___________________________
     </p>
 
 
-the axes for documentation
+The axes for documentation
 _________________________
 
 .. figure:: /Documentation/images/introduction/3.jpg

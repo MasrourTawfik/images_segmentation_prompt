@@ -82,8 +82,10 @@ AN IMAGE IS WORTH 16X16 WORDS
 
 
 
-4. link for more information
-------------------------------
+Summary
+------------
+
+
 .. admonition::  For more information
 
    .. container:: blue-box
