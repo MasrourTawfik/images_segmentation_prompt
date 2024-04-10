@@ -48,17 +48,23 @@ PyTorch
    <p style="text-align: justify;"><span style="color:#000080;">
     Open the Anaconda prompt or terminal.
    </span></p>
+   <p style="text-align: justify;"><span style="color:#000080;">
+    Create a new conda environment for PyTorch by running the following command:
+   </span></p>
 
-Create a new conda environment for PyTorch by running the following command:
+
 
 ```
 conda create --name pytorch_env
 ```
 
-This will create a new environment named `pytorch_env`.
 
 .. raw:: html
+    
+    <p style="text-align: justify;"><span style="color:#000080;">   
+    This will create a new environment named `pytorch_env`.
 
+    </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
 
     Activate the new environment by running the following command:
@@ -69,7 +75,6 @@ conda activate pytorch_env
 ```
 
 
-
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -78,11 +83,19 @@ conda activate pytorch_env
     </span></p>
 
 
+
 ```
 conda install pytorch torchvision cpuonly -c pytorch
 ```
 
-If you have a GPU and want to install the GPU version of PyTorch, replace `cpuonly` with `cudatoolkit`. For example:
+
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+    If you have a GPU and want to install the GPU version of PyTorch, replace `cpuonly` with `cudatoolkit`. For example:
+    </span></p>
+
 
 
 ```
@@ -105,11 +118,21 @@ conda install pytorch torchvision cudatoolkit -c pytorch
     </span></p>
 
 
+
 ```
 python -c "import torch; print(torch.__version__)"
 ```
 
-This should print the version number of PyTorch that you just installed.
+
+
+
+.. raw:: html
+
+   <p style="text-align: justify;"><span style="color:#000080;">
+
+    This should print the version number of PyTorch that you just installed.
+    </span></p>
+
 
 
 3. Introduction to Tensors
@@ -123,6 +146,7 @@ This should print the version number of PyTorch that you just installed.
     parameters of a model in PyTorch. They are optimized for computation on GPUs and automatic differentiation.
     </span></p>
 
+
 .. code-block:: python
 
     import torch
@@ -131,7 +155,9 @@ This should print the version number of PyTorch that you just installed.
     x = torch.tensor([[1, 2], [3, 4]])
     print(x)
 
+
 * **Initializing Tensors**
+
 
 .. raw:: html
 
@@ -139,6 +165,7 @@ This should print the version number of PyTorch that you just installed.
     Tensors can be initialized in various ways, including directly from data, from NumPy arrays, or from other tensors.
     Initializing tensors is flexible and intuitive, simplifying the process of tensor creation.
     </span></p>
+
 
 
 .. code-block:: python
@@ -157,7 +184,9 @@ This should print the version number of PyTorch that you just installed.
     print(x_data)
     print(x_np)
 
+
 * **Attributes of Tensors**
+
 
 .. raw:: html
 
@@ -165,6 +194,7 @@ This should print the version number of PyTorch that you just installed.
     Tensor attributes include their shape, data type, and the device on which they are stored. These attributes are useful
     for understanding and manipulating tensors effectively.
     </span></p>
+
 
 .. code-block:: python
 
@@ -177,6 +207,7 @@ This should print the version number of PyTorch that you just installed.
     print(f"Shape of tensor: {tensor.shape}")
     print(f"Datatype of tensor: {tensor.dtype}")
     print(f"Device tensor is stored on: {tensor.device}")
+
 
 * **Operations on Tensors**
 
