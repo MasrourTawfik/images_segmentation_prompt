@@ -52,6 +52,7 @@ In this article, we will build a neural network from scratch and use it to class
 
     Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__ :
    
+   
 
 3. Training on a simple dataset
 -----------------------------
