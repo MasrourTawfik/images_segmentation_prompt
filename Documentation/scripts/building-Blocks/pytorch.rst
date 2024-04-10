@@ -57,7 +57,9 @@ conda create --name pytorch_env
 
 This will create a new environment named `pytorch_env`.
 
+
 Activate the new environment by running the following command:
+
 
 ```
 conda activate pytorch_env
@@ -71,17 +73,26 @@ conda install pytorch torchvision cpuonly -c pytorch
 
 If you have a GPU and want to install the GPU version of PyTorch, replace `cpuonly` with `cudatoolkit`. For example:
 
+
 ```
 conda install pytorch torchvision cudatoolkit -c pytorch
 ```
 
+
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
+
     This will install the necessary packages for PyTorch to run on your system.
+    </span></p>
+
+   <p style="text-align: justify;"><span style="color:#000080;">
 
     Verify that PyTorch is installed correctly by running the following command:
+    
     </span></p>
+
 
 ```
 python -c "import torch; print(torch.__version__)"
