@@ -893,7 +893,12 @@ ______________________
 
 
 
+.. raw:: html
+      
+   <p style="text-align: justify;">
 
+
+   </p>
 
 3. The Decoder
 ----------------
@@ -1131,10 +1136,12 @@ _________________
 
 
 
+.. raw:: html
+      
+   <p style="text-align: justify;">
 
 
-
-
+   </p>
 
 3. Softmax in Transformers
 -----------------------------
@@ -1183,6 +1190,7 @@ _________________
 
     The softmax function is typically applied to the raw attention scores obtained from the dot product of query and key vectors in the self-attention mechanism. The formula for computing the softmax attention weights for a given query token in a transformer is as follows:
    </i></span></p>
+
 
 .. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/softmax.jpg
     :width: 500
