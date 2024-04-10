@@ -62,7 +62,7 @@ conda create --name pytorch_env
 .. raw:: html
     
     <p style="text-align: justify;"><span style="color:#000080;">   
-    This will create a new environment named `pytorch_env`.
+    This will create a new environment named <strong> pytorch_env </strong> .
 
     </span></p>
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -93,7 +93,7 @@ conda install pytorch torchvision cpuonly -c pytorch
 
    <p style="text-align: justify;"><span style="color:#000080;">
 
-    If you have a GPU and want to install the GPU version of PyTorch, replace `cpuonly` with `cudatoolkit`. For example:
+    If you have a GPU and want to install the GPU version of PyTorch, replace <strong>cpuonly</strong> with <strong>cudatoolkit</strong>. For example:
     </span></p>
 
 
