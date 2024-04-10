@@ -1,7 +1,12 @@
 Transformer Architecture
 ===========================
 
+.. raw:: html
+      
+   <p style="text-align: justify;">
 
+
+   </p>
 1. General Introduction
 ---------------------------
 
