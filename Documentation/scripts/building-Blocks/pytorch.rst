@@ -1,11 +1,20 @@
 
 .. figure:: /Documentation/images/Building-Blocks/log.png
    :width:  100
-   :align: left
+   :align: right
    :alt: Alternative Text
 
 PyTorch
 ===========
+
+.. raw:: html
+
+   <p style="text-align: justify;">
+    |
+   </p>
+   <p style="text-align: justify;">
+    |
+   </p>
 
 1. Introduction
 ------------------
