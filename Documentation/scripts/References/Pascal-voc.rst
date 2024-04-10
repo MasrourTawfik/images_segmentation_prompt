@@ -139,9 +139,9 @@ One annotation:
         -  In pascal voc you get the upper left-hand corner of the box and the bottom right-hand corner of the box so the upper left and bottom right if you draw lines between them then you get a nice neat box.
         
     </span></p>
+    <p style="text-align: justify;">
 
-
-
+    </p>
 .. figure:: /Documentation/images/References/pascale5.jpg
    :width: 700
    :align: right
@@ -152,22 +152,22 @@ One annotation:
 
     <p style="text-align: justify;"><span style="color:#000080;">
 
-         	In pascal voc the image is considered as a grid, with the origin (0,0) in the upper left-hand portion of the image.      
+         &#10003;	In pascal voc the image is considered as a grid, with the origin (0,0) in the upper left-hand portion of the image.      
     </span></p>
 
     <p style="text-align: justify;"><span style="color:#000080;">
 
-        	If an annotation starts in the upper left-hand corner, it would have a xmin=0 and ymin=0 
+         &#10003;	If an annotation starts in the upper left-hand corner, it would have a xmin=0 and ymin=0 
     </span></p>
 
     <p style="text-align: justify;"><span style="color:#000080;">
 
-        	If the annotation ends at the bottom right-hand corner xmax=640 and ymax=480 could say have
+        &#10003;	If the annotation ends at the bottom right-hand corner xmax=640 and ymax=480 could say have
    </span></p>
 
     <p style="text-align: justify;"><span style="color:#000080;">
 
-        	For the red square we would have the following coordinates:
+        &#10003;	For the red square we would have the following coordinates:
    </span></p>
 
     <p style="text-align: justify;"><span style="color:#000080;">
@@ -197,14 +197,14 @@ Multiple annotations:
 
     <p style="text-align: justify;"><span style="color:#000080;">
 
-     	For an image containing multiple objects and corresponding annotations, the pascal voc xml file contains annotation names and coordinates of the bounding boxes of all the objects in the image.
+     &#10003;	For an image containing multiple objects and corresponding annotations, the pascal voc xml file contains annotation names and coordinates of the bounding boxes of all the objects in the image.
     </span></p>
     <p style="text-align: justify;"><span style="color:#000080;">
-     	In the example above we have the black_bipshop chess piece object and the black_king object with their corresponding information.
+     &#10003;	In the example above we have the black_bipshop chess piece object and the black_king object with their corresponding information.
 
     </span></p>
     <p style="text-align: justify;"><span style="color:#000080;">
-     	Note that it is possible to generate a pascal voc xml file with no annotation in the case of an image with no objects in it, so we would end up with an empty annotation xml file.
+     &#10003;	Note that it is possible to generate a pascal voc xml file with no annotation in the case of an image with no objects in it, so we would end up with an empty annotation xml file.
 
     </span></p>
 
@@ -220,13 +220,11 @@ Additional fields:
     In the context of PASCAL VOC XML annotation files, there are fields that provide additional information about the state or condition of the annotated objects. These fields include "pose," "truncated," "occluded," and "difficult," each offering insights that help in understanding the challenges involved in detecting and recognizing the objects within an image. 
     </span></p>
 
-    <p style="text-align: justify;"><span style="color:#000080;">
+    
 
-    	Pose: This field describes the orientation or the pose of the object in the image. It could indicate whether the object is facing forward, to the side, or in any specific direction relative to the camera. Understanding the pose can be crucial for models that are sensitive to the orientation of objects.
-    </span></p>
-    <p style="text-align: justify;"><span style="color:#000080;">
+    &#10003;<p style="text-align: justify;"><span style="color:#000080;">	Pose: This field describes the orientation or the pose of the object in the image. It could indicate whether the object is facing forward, to the side, or in any specific direction relative to the camera. Understanding the pose can be crucial for models that are sensitive to the orientation of objects. </span></p>
+    
 
-    	Truncated: The "truncated" field indicates whether the object is partially out of the image frame. If an object is cut off by the edge of the image (i.e., only a portion of the object is visible), it is considered truncated. This information is important because detecting and recognizing truncated objects can be more challenging than fully visible ones.
-    </span></p>
+    &#10003;<p style="text-align: justify;"><span style="color:#000080;">	Truncated: The "truncated" field indicates whether the object is partially out of the image frame. If an object is cut off by the edge of the image (i.e., only a portion of the object is visible), it is considered truncated. This information is important because detecting and recognizing truncated objects can be more challenging than fully visible ones.</span></p>
 
 
