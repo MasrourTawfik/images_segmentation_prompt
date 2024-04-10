@@ -5,7 +5,7 @@ image segmentation prompt
 ___________________________
 
 
-.. figure:: /Documentation/images/intro.jpg
+.. figure:: /Documentation/images/introduction/intro.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -50,7 +50,7 @@ ___________________________
 
 
 
-.. figure:: /Documentation/images/exmpl.jpg
+.. figure:: /Documentation/images/introduction/exmpl.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
