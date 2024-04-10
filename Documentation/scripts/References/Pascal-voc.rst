@@ -141,3 +141,47 @@ One annotation:
     </span></p>
 
 
+
+.. figure:: /Documentation/images/References/pascale5.jpg
+   :width: 700
+   :align: right
+   :alt: Alternative text for the image
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+         	In pascal voc the image is considered as a grid, with the origin (0,0) in the upper left-hand portion of the image.      
+    </span></p>
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+        	If an annotation starts in the upper left-hand corner, it would have a xmin=0 and ymin=0 
+    </span></p>
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+        	If the annotation ends at the bottom right-hand corner xmax=640 and ymax=480 could say have
+   </span></p>
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+        	For the red square we would have the following coordinates:
+   </span></p>
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+    <strong>- xmin =98</strong>
+   </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+    <strong>- ymin 345</strong>
+   </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+    <strong>- xmax = 420</strong>
+   </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
+    <strong>- ymax = 462</strong>
+   </span></p>
+
+
