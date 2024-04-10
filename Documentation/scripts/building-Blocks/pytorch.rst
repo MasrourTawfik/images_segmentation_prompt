@@ -42,6 +42,7 @@ PyTorch
 
 2. Installing PyTorch with Anaconda
 ---------------------------------
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -73,6 +74,7 @@ If you have a GPU and want to install the GPU version of PyTorch, replace `cpuon
 ```
 conda install pytorch torchvision cudatoolkit -c pytorch
 ```
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -90,6 +92,8 @@ This should print the version number of PyTorch that you just installed.
 
 3. Introduction to Tensors
 ---------------------------
+
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -113,6 +117,8 @@ This should print the version number of PyTorch that you just installed.
     Tensors can be initialized in various ways, including directly from data, from NumPy arrays, or from other tensors.
     Initializing tensors is flexible and intuitive, simplifying the process of tensor creation.
     </span></p>
+
+
 .. code-block:: python
 
     import torch
@@ -218,7 +224,10 @@ This should print the version number of PyTorch that you just installed.
    <p style="text-align: justify;"><span style="color:#000080;">
     PyTorch provides two important primitives for working with datasets: torch.utils.data.Dataset and torch.utils.data.DataLoader. These enable us to decouple dataset processing from model training code, enhancing readability and modularity.
     </p>
+
 * Dataset:
+
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
@@ -228,7 +237,10 @@ This should print the version number of PyTorch that you just installed.
     </span></p>
 
 * DataLoader:
+
+
 .. raw:: html
+
 
    <p style="text-align: justify;"><span style="color:#000080;">
     Wraps an iterable around the dataset.
@@ -238,7 +250,9 @@ This should print the version number of PyTorch that you just installed.
 
 * **Loading a Dataset**
 
+
 .. raw:: html
+
 
    <p style="text-align: justify;"><span style="color:#000080;">
     PyTorch also offers pre-loaded datasets, such as FashionMNIST, for prototyping and benchmarking models. These datasets subclass torch.utils.data.Dataset and implement specific functions for handling the data.
@@ -273,12 +287,15 @@ This should print the version number of PyTorch that you just installed.
 
 * **Iterating and Visualizing the Dataset**
 
+
 .. raw:: html
 
 
   <p style="text-align: justify;"><span style="color:#000080;">
     We can index Datasets manually like a list: training_data[index]. We use matplotlib to visualize some samples in our training data.
     </span></p>
+
+
 .. code-block:: python
 
     labels_map = {
@@ -323,6 +340,7 @@ This code generates a grid of images with their corresponding labels from the Fa
     To create a custom Dataset class, you must implement three functions: <span style="color:blue;">__init__</span>, <span style="color:blue;">__len__</span>, and <span style="color:blue;">__getitem__</span>. Below is an implementation example where the FashionMNIST images are stored in a directory (`img_dir`), and their labels are stored separately in a CSV file (`annotations_file`).
     </span></p>
 
+
 .. code-block:: python
 
     import os
@@ -352,6 +370,7 @@ This code generates a grid of images with their corresponding labels from the Fa
 
 __init__
 
+
 .. raw:: html
 
   <p style="text-align: justify;"><span style="color:#000080;">
@@ -361,6 +380,8 @@ __init__
     
     </span></p>
 __len__
+
+
 .. raw:: html
 
   <p style="text-align: justify;"><span style="color:#000080;">
@@ -368,6 +389,7 @@ __len__
     The <span style="color:blue;">__len__</span> function returns the number of samples in the dataset.
     
     </span></p>
+
 
 Example:
 
@@ -378,6 +400,7 @@ Example:
 
 
 __getitem__
+
 
 .. raw:: html
 
@@ -404,6 +427,7 @@ Example:
 
 * **Preparing Your Data for Training with DataLoaders**
 
+
 .. raw:: html
 
   <p style="text-align: justify;"><span style="color:#000080;">
@@ -420,6 +444,7 @@ Example:
     test_dataloader = DataLoader(test_data, batch_size=64, shuffle=True)
 
 * **Iterate Through the DataLoader**
+
 
 .. raw:: html
 
