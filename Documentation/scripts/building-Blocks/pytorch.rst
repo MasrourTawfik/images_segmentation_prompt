@@ -10,11 +10,9 @@ PyTorch
 .. raw:: html
 
    <p style="text-align: justify;">
-    |
+
    </p>
-   <p style="text-align: justify;">
-    |
-   </p>
+
 
 1. Introduction
 ------------------
