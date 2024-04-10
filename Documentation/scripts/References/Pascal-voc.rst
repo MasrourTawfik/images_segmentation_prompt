@@ -224,7 +224,9 @@ Additional fields:
 
     	Pose: This field describes the orientation or the pose of the object in the image. It could indicate whether the object is facing forward, to the side, or in any specific direction relative to the camera. Understanding the pose can be crucial for models that are sensitive to the orientation of objects.
     </span></p>
+    <p style="text-align: justify;"><span style="color:#000080;">
 
-
+    	Truncated: The "truncated" field indicates whether the object is partially out of the image frame. If an object is cut off by the edge of the image (i.e., only a portion of the object is visible), it is considered truncated. This information is important because detecting and recognizing truncated objects can be more challenging than fully visible ones.
+    </span></p>
 
 
