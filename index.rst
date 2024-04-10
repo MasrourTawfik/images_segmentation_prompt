@@ -20,9 +20,7 @@ Image Segmentation Prompt
 
 .. raw:: html
 
-   <p>
-      
-   </p>
+    <p><span style="color:white;">'</p></span>
 
 
 * **Text Prompt: "highlight Dogs in the gif"**
@@ -39,10 +37,7 @@ Image Segmentation Prompt
 
 .. raw:: html
 
-   <p>
-
-
-   </p>
+    <p><span style="color:white;">'</p></span>
 
 .. toctree::
    :maxdepth: 3
@@ -50,19 +45,22 @@ Image Segmentation Prompt
 
    Documentation/scripts/Scope/introduction.rst
 
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
 
 .. toctree::
    :maxdepth: 4
    :caption: Building Blocks
    
-
-
    Documentation/scripts/building-Blocks/pytorch.rst
    Documentation/scripts/building-Blocks/nerale_network.rst
    Documentation/scripts/building-Blocks/Transformer_Architecture.rst
    Documentation/scripts/building-Blocks/ViT.rst
 
+.. raw:: html
 
+    <p><span style="color:white;">'</p></span>
 
 .. toctree::
    :maxdepth: 4
@@ -71,6 +69,10 @@ Image Segmentation Prompt
    Documentation/scripts/foundation-models/Definition.rst
    Documentation/scripts/foundation-models/Famous-Models.rst
    Documentation/scripts/foundation-models/Role-in-the-Project.rst
+
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
 
 
 .. toctree::
@@ -84,6 +86,10 @@ Image Segmentation Prompt
 
 
 
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+
 
 .. toctree::
    :maxdepth: 3
@@ -95,7 +101,9 @@ Image Segmentation Prompt
 
 
 
+.. raw:: html
 
+    <p><span style="color:white;">'</p></span>
 
 
 
@@ -104,5 +112,4 @@ Image Segmentation Prompt
    :alt: Alternative text for the image
    :name: logo
 
-   ..
 
