@@ -1,11 +1,11 @@
-PyTorch
-===========
 
 .. figure:: /Documentation/images/Building-Blocks/log.png
    :width:  100
-   :align: center
+   :align: left
    :alt: Alternative Text
 
+PyTorch
+===========
 
 1. Introduction
 ------------------
