@@ -2,7 +2,7 @@ Visual Transformer (ViT)
 ========================
 
 
-.. image:: /Documentation/images/vit.gif
+.. image:: /Documentation/images/Building-Blocks/ViT/vit.gif
    :width: 700
    :align: center
    :alt: Alternative Text
@@ -23,7 +23,7 @@ Visual Transformer (ViT)
     </i></span></p>
 
 
-.. figure:: /Documentation/images/vit1.jpg
+.. figure:: /Documentation/images/Building-Blocks/ViT/vit1.jpg
     :width: 700
     :align: center
     :alt: Alternative Text
@@ -52,7 +52,8 @@ For more Understanding Vision Transformers
     
     </i></span></p>
 
-.. figure:: /Documentation/images/Patch_embeddingint.jpg
+
+.. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embeddingint.jpg
     :width: 700
     :align: center
     :alt: Alternative Text
@@ -84,11 +85,13 @@ For more Understanding Vision Transformers
 
 * **example**
 
-.. figure:: /Documentation/images/Patch_embedding1.jpg
+
+.. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embedding1.jpg
     :align: center
     :alt: Alternative Text
 .. raw:: html
       
+
     <p style="text-align: justify;">
     
     </p>
@@ -101,9 +104,12 @@ For more Understanding Vision Transformers
     <p style="text-align: justify;">
     
     </p>
-.. figure:: /Documentation/images/Patch_embedding2.jpg
+
+
+.. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embedding2.jpg
     :align: center
     :alt: Alternative Text
+
 
 .. raw:: html
       
@@ -127,9 +133,11 @@ For more Understanding Vision Transformers
     
     </p>
 
-.. figure:: /Documentation/images/Patch_embedding3.jpg
+
+.. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embedding3.jpg
     :align: center
     :alt: Alternative Text
+
 
 .. raw:: html
       
@@ -152,9 +160,11 @@ For more Understanding Vision Transformers
     
     </p>
 
-.. figure:: /Documentation/images/Patch_embedding4.jpg
+
+.. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embedding4.jpg
     :align: center
     :alt: Alternative Text
+
 
 .. raw:: html
       
@@ -185,7 +195,9 @@ For more Understanding Vision Transformers
     <p style="text-align: justify;">
     
     </p>
-.. figure:: /Documentation/images/Patch_embedding5.jpg
+
+
+.. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embedding5.jpg
     :align: center
     :alt: Alternative Text
 
@@ -203,7 +215,7 @@ For more Understanding Vision Transformers
     <p style="text-align: justify;">
     
     </p>
-.. figure:: /Documentation/images/Patch_embedding6.jpg
+.. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embedding6.jpg
     :align: center
     :alt: Alternative Text
 
@@ -232,7 +244,7 @@ For more Understanding Vision Transformers
 
     </span></p>
 
-.. figure:: /Documentation/images/Patch_embedding7.jpg
+.. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embedding7.jpg
     :align: center
     :alt: Alternative Text
 
@@ -255,9 +267,11 @@ For more Understanding Vision Transformers
 
     </span></p>
 
-.. figure:: /Documentation/images/Patch_embedding8.jpg
+
+.. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embedding8.jpg
     :align: center
     :alt: Alternative Text
+
 
 
 .. raw:: html
@@ -274,9 +288,11 @@ For more Understanding Vision Transformers
 
     </span></p>
 
-.. figure:: /Documentation/images/Patch_embedding9.jpg
+
+.. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embedding9.jpg
     :align: center
     :alt: Alternative Text
+
 
 
 .. raw:: html
