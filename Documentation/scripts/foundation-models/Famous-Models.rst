@@ -4,7 +4,12 @@ Famous Models
 Grounding DINO
 -------------------
 
-.. figure:: /Documentation/images/foundation-models/grounding DINO/1.jpg
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+    
+
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/1.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -41,14 +46,14 @@ _________________________
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
-    Below we see two images visualizing predictions made with</span><span style="color:red;"><s> Grounding DINO</span><s><span style="color:#000080;"> — the new SOTA zero-shot object detection model.
+    Below we see two images visualizing predictions made with</span><span style="color:red;"><strong> Grounding DINO</span></strong><span style="color:#000080;"> — the new SOTA zero-shot object detection model.
    </i></span></p>
 
 
 
 
 
-   
+
     <p><span style="color:white;">'</p></span>
 Segment Anyting Model
 -------------------------
