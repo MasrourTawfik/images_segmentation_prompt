@@ -115,7 +115,7 @@ ___________________________
     </p>
 
 
-The axes for documentation
+Documentation axes
 _________________________
 
 .. figure:: /Documentation/images/scope/3.jpg
