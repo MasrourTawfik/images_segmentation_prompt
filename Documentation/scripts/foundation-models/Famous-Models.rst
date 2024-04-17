@@ -11,12 +11,8 @@ Famous Models
    :align: center
    :alt: Alternative text for the image
 
-DINO
-------
-
-.. raw:: html
-
-    <p><span style="color:white;">'</p></span>
+grounding DINO
+---------------
 
 .. raw:: html
 
@@ -58,7 +54,7 @@ _________________________
 
     <p><span style="color:white;">'</p></span>
 
-   <strong> text prompt :</strong>['piano', 'guitar','phone','hat'] 
+   <strong> text prompt :</strong>['<span style="color:blue;">piano</span>', '<span style="color:blue;">guitar</span>', '<span style="color:blue;">phone</span>', '<span style="color:blue;">hat</span>'] 
 
 
 .. figure:: /Documentation/images/foundation-models/grounding-DINO/2.jpg
