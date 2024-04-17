@@ -16,11 +16,7 @@ grounding DINO
 
 .. raw:: html
 
-    <p><span style="color:white;">'</p></span>
-
     <p style="text-align: justify;"><span style="color:#000080;"><i>
-
-
     As of March 2023, there is a new SOTA zero-shot object detection model - Grounding DINO. In this post, we will talk about the advantages of Grounding DINO, analyze the model architecture, and provide real prompt examples. 
    </i></span></p>
 
