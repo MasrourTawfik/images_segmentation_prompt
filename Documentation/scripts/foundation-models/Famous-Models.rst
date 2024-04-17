@@ -154,7 +154,19 @@ ________________________________
     </p></span></i> 
 
 
-.. figure:: /Documentation/images/foundation-models/grounding-DINO/6.png
+
+
+.. raw:: html
+
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    The output of these two streams are fed into a feature enhancer for transforming the two sets of features into a single unified representation space. The feature enhancer includes multiple feature enhancer layers. Deformable self-attention is utilized to enhance image features, and regular self-attention is used for text feature enhancers.
+    </p></span></i>    
+
+
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/7.webp
+   :width: 700
    :align: center
    :alt: Alternative text for the image
 
