@@ -129,3 +129,82 @@ ________________________________
 
     <p><span style="color:white;">'</p></span>
 
+
+4. Grounding DINO Architecture
+________________________________
+
+
+
+.. raw:: html
+
+    <span style="color:blue;"><streams>Model architecture</strong></span>
+    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    Grounding DINO aims to merge concepts found in the </span><span style="color:blue;">DINO</span><span style="color:#000080;"> and </span><span style="color:blue;">GLIP</span><span style="color:#000080;"> papers. DINO, a transformer-based detection method, </span><span style="color:blue;">offers state-of-the-art object detection performance</span><span style="color:#000080;"> and end-to-end optimization, eliminating the need for handcrafted modules like NMS (Non-Maximum Suppression).
+    </p></span></i>    
+  
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    On the other hand, GLIP focuses on </span><span style="color:blue;">phrase grounding.</span><span style="color:#000080;"> This task involves associating phrases or words from a given text with corresponding visual elements in an image or video, effectively linking textual descriptions to their respective visual representations.
+    </p></span></i>    
+
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    Text backbone and Image backbone </span><span style="color:#000080;"> — Multiscale image features are extracted using an image backbone like Swin Transformer, and text features are extracted with a text backbone like BERT.
+    </p></span></i> 
+
+
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/6.png
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+.. raw:: html
+
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    The output of these two streams are fed into a feature enhancer for transforming the two sets of features into a single unified representation space. The feature enhancer includes multiple feature enhancer layers. Deformable self-attention is utilized to enhance image features, and regular self-attention is used for text feature enhancers.
+    </p></span></i>    
+
+
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/7.webp
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+   Grounding DINO aims to detect objects from an image specified by an input text. In order to effectively leverage the input text for object detection, a language-guided query selection is used to select most relevant features from both the image and text inputs. These queries guide the decoder in identifying the locations of objects in the image and assigning them appropriate labels based on the text descriptions.
+   </p></span></i>    
+
+
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/8.webp
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    A cross-modality decoder is then used to integrate text and image modality features. The cross-modality decoder operates by processing the fused features and decoder queries through a series of attention layers and feed-forward networks. These layers allow the decoder to effectively capture the relationships between the visual and textual information, enabling it to refine the object detections and assign appropriate labels. After this step, the model proceedes with the final steps in the object detection including bounding box prediction, class specific confidence filtering and label assignment.
+   </p></span></i> 
+
+    <p><span style="color:white;">'</p></span>
+
+    <span style="color:blue;"><streams>How it works?</strong></span>
+
+Here is how Grounding DINO would work on this image:
+
+
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/8.webp
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
