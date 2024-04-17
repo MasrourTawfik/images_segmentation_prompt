@@ -89,7 +89,7 @@ _______________________________
     
 *GLIP T vs. Grounding DINO T speed and mAP comparison*
 
-.. figure:: /Documentation/images/foundation-models/grounding-DINO/5.jpg
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/5.webp
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -113,7 +113,14 @@ ________________________________
     Elimination of Hand-Designed Components like NMS — Grounding DINO simplifies the object detection pipeline by removing the need for hand-designed components, such as Non-Maximum Suppression (NMS). This streamlines the model architecture and training process while improving efficiency and performance.
     </p></span></i>
 
+    <p><span style="color:white;">'</p></span>
 
+
+
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/5.webp
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
 
 
 
