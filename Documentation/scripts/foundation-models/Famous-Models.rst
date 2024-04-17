@@ -121,8 +121,9 @@ ________________________________
 
    .. container:: blue-box
     
-    * `"Non-Maximum Suppression (NMS)." <https://blog.roboflow.com/grounding-dino-zero-shot-object-detection/#introduction>`__
+    * `Find the link to "Non-Maximum Suppression (NMS)." <ot-object-detection/#introduction>`__
 
+    * `Find the link to "How to Code Non-Maximum Suppression (NMS) in Plain NumPy." <https://blog.roboflow.com/how-to-code-non-maximum-suppression-nms-in-plain-numpy/>`__
 
 
 .. raw:: html
@@ -232,6 +233,15 @@ Here is how Grounding DINO would work on this image:
     <p style="text-align: justify;"><span style="color:#000080;"><i>
     In this case, the model would likely detect the two dogs and the stick in the image. The model would also likely score the two dogs higher than the stick, because the dogs are larger and more prominent in the image.
    </p></span></i>  
+
+
+.. admonition::  For more information 
+
+   .. container:: blue-box
+    
+    * `Find the link to "Grounded Language-Image Pre-training." <https://arxiv.org/pdf/2112.03857.pdf?ref=blog.roboflow.com>`__
+    * `Find the link to "DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection" <https://arxiv.org/pdf/2203.03605.pdf?ref=blog.roboflow.com>`__
+
 
 
     <p><span style="color:white;">'</p></span>
