@@ -44,7 +44,7 @@ _________________________
    </i></span></p>
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
-    In the case of the images below, we asked the model to identify the class <strong>" '</span><span style="color:red;">piano</span><span style="color:#000080;">', '</span><span style="color:red;">guitar</span><span style="color:#000080;">','</span><span style="color:red;">phone</span><span style="color:#000080;">','</span><span style="color:red;">hat</span><span style="color:#000080;">' "</span></strong> <span style="color:#000080;">- a class belonging to the COCO dataset. The model successfully detected all objects of this class without any issues.
+    In the case of the images below, we asked the model to identify the class <strong>" '</span><span style="color:red;">piano</span><span style="color:#000080;">', '</span><span style="color:red;">guitar</span><span style="color:#000080;">','</span><span style="color:red;">phone</span><span style="color:#000080;">','</span><span style="color:red;">hat</span><span style="color:#000080;">' "</span></strong> <span style="color:#000080;"> a class belonging to the COCO dataset. The model successfully detected all objects of this class without any issues.
    </i></span></p>
 
     <p><span style="color:white;">'</p></span>
