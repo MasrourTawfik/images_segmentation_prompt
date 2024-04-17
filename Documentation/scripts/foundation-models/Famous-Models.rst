@@ -242,7 +242,7 @@ Here is how Grounding DINO would work on this image:
     * `Find the link to "Grounded Language-Image Pre-training." <https://arxiv.org/pdf/2112.03857.pdf?ref=blog.roboflow.com>`__
     * `Find the link to "DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection" <https://arxiv.org/pdf/2203.03605.pdf?ref=blog.roboflow.com>`__
 
-
+.. raw:: html
 
     <p><span style="color:white;">'</p></span>
 
