@@ -13,25 +13,11 @@ Image Segmentation Prompt
       </strong></span>
    </p>
 
-.. figure:: /Documentation/images/SAM.png
+.. figure:: /Documentation/images/logo.jpg
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
-
-.. raw:: html
-
-    <p><span style="color:white;">'</p></span>
-
-
-* **Text Prompt: "highlight Dogs in the gif"**
-
-.. image:: /Documentation/images/Opin1.gif
-   :width: 700
-   :height: 500
-   :align: center
-   :alt: Alternative Text
-   
-   
+  
    
 
 
