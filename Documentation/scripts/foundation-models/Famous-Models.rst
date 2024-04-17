@@ -80,5 +80,25 @@ _________________________
     <p><span style="color:white;">'</p></span>
 
 
+2. Grounding DINO Performance
+_______________________________
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Grounding DINO achieves a <strong>52.5 AP</strong> on the COCO detection zero-shot transfer benchmark — without any training data from COCO. After finetuning with COCO data, Grounding DINO reaches <strong>63.0 AP</strong> . It sets a new record on the ODinW zero-shot benchmark with a mean of <strong>26.1 AP</strong>.
+    </p></span></i>
+
+
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/5.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+  
 Segment Anyting Model
 -------------------------
