@@ -153,8 +153,8 @@ ________________________________
     Text backbone and Image backbone </span><span style="color:#000080;"> — Multiscale image features are extracted using an image backbone like Swin Transformer, and text features are extracted with a text backbone like BERT.
     </p></span></i> 
 
+
 .. figure:: /Documentation/images/foundation-models/grounding-DINO/6.png
-   :width: 700
    :align: center
    :alt: Alternative text for the image
 
