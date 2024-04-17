@@ -53,12 +53,11 @@ _________________________
     In the case of the images below, we asked the model to identify the class <strong>" '</span><span style="color:red;">piano</span><span style="color:#000080;">', '</span><span style="color:red;">guitar</span><span style="color:#000080;">','</span><span style="color:red;">phone</span><span style="color:#000080;">','</span><span style="color:red;">hat</span><span style="color:#000080;">' " </strong> - a class belonging to the COCO dataset. The model successfully detected all objects of this class without any issues.
    </i></span></p>
 
-
-.. raw:: html
-
     <p><span style="color:white;">'</p></span>
 
    <strong> text prompt :</strong>['piano', 'guitar','phone','hat'] 
+
+   
 .. figure:: /Documentation/images/foundation-models/grounding-DINO/2.jpg
    :width: 700
    :align: center
@@ -76,15 +75,17 @@ _________________________
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
-    
+
 
 .. figure:: /Documentation/images/foundation-models/grounding-DINO/4.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
 
-
+.. raw:: html
 
     <p><span style="color:white;">'</p></span>
+
+
 Segment Anyting Model
 -------------------------
