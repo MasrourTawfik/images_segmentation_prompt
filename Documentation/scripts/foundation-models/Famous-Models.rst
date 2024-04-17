@@ -1,8 +1,18 @@
 Famous Models
 ===============
 
-Grounding DINO
--------------------
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+
+
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/1.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+DINO
+------
 
 .. raw:: html
 
@@ -57,7 +67,7 @@ _________________________
 
    <strong> text prompt :</strong>['piano', 'guitar','phone','hat'] 
 
-   
+
 .. figure:: /Documentation/images/foundation-models/grounding-DINO/2.jpg
    :width: 700
    :align: center
