@@ -28,8 +28,6 @@ _________________________
 
 .. raw:: html
 
-    <p><span style="color:white;">'</p></span>
-
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
     Most object detection models are trained to identify a narrow predetermined collection of classes. The main problem with this is the lack of flexibility. Every time you want to expand or change the set of recognizable objects, you have to collect data, label it, and train the model again. This — of course — is  time-consuming and expensive.
@@ -117,7 +115,7 @@ ________________________________
 
 
 
-.. figure:: /Documentation/images/foundation-models/grounding-DINO/5.webp
+.. figure:: /Documentation/images/foundation-models/grounding-DINO/6.png
    :width: 700
    :align: center
    :alt: Alternative text for the image
