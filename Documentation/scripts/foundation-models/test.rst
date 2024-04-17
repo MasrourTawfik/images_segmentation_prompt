@@ -33,6 +33,10 @@
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
+
+
+
+
     A cross-modality decoder is then used to integrate text and image modality features. The cross-modality decoder operates by processing the fused features and decoder queries through a series of attention layers and feed-forward networks. These layers allow the decoder to effectively capture the relationships between the visual and textual information, enabling it to refine the object detections and assign appropriate labels. After this step, the model proceedes with the final steps in the object detection including bounding box prediction, class specific confidence filtering and label assignment.
    </p></span></i> 
 
@@ -47,5 +51,18 @@ Here is how Grounding DINO would work on this image:
    :width: 700
    :align: center
    :alt: Alternative text for the image
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
