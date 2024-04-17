@@ -96,8 +96,36 @@ _______________________________
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
-
+    
   
 3. Advantages of Grounding DINO
 ________________________________
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Zero-Shot Object Detection — Grounding DINO excels at detecting objects even when they are not part of the predefined set of classes in the training data. This unique capability enables the model to adapt to novel objects and scenarios, making it highly versatile and applicable to various real-world tasks.
+    </p></span></i>    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Referring Expression Comprehension (REC) — Identifying and localizing a specific object or region within an image is based on a given textual description. In other words, instead of detecting people and chairs in an image and then writing custom logic to determine whether a chair is occupied, prompt engineering can be used to ask the model to detect only those chairs where a person is sitting. This requires the model to possess a deep understanding of both the language and the visual content, as well as the ability to associate words or phrases with corresponding visual elements.
+    </p></span></i>    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Elimination of Hand-Designed Components like NMS — Grounding DINO simplifies the object detection pipeline by removing the need for hand-designed components, such as Non-Maximum Suppression (NMS). This streamlines the model architecture and training process while improving efficiency and performance.
+    </p></span></i>
+
+    <p><span style="color:white;">'</p></span>
+
+
+.. admonition::  For more information 
+
+   .. container:: blue-box
+    
+    * `"Non-Maximum Suppression (NMS)." <https://blog.roboflow.com/grounding-dino-zero-shot-object-detection/#introduction>`__
+
+
+
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
 
