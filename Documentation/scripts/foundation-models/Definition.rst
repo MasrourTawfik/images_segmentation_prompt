@@ -142,7 +142,9 @@ Applications of Foundation Models
     </i></span></p>
 
 * **Semantic Search**
-Documentation\images\foundation-models\
+
+
+
 .. figure:: /Documentation/images/foundation-models/definition/DIF2.webp
    :width: 700
    :align: center
