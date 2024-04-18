@@ -330,9 +330,25 @@ ___________________
 
 
 
+
+
+
+
+
 .. figure:: /Documentation/images/Building-Blocks/ViT/image.png
-    :align: center
-    :alt: Alternative Text
+   :width: 100%
+   :alt: Alternative text for the image
+   :name: image
+
+
+
+
+
+
+
+
+
+
 
 
 
