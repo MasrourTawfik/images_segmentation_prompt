@@ -257,6 +257,16 @@ Here is how Grounding DINO would work on this image:
 --------------------------------------------------------------------------------------
 
 
+
+
+
+.. figure:: /Documentation/images/foundation-models/SAM/samm.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+
 Segment Anyting Model
 -------------------------
 
