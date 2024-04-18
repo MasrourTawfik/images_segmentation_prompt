@@ -17,26 +17,51 @@ ViT  project  implemention
 * **Table of Contents**
 
 
-> [Vision Transformer - Pytorch](#vision-transformer---pytorch)
-
-> [Install](#install)
-
-> [Dataset preparation](#Dataset-preparation)
-
-- [Image processors for resizing and converting image into tensor](#Resize_Tensorize)
-
-- [Sample Visualisation](#Sample_Viz)
-
-> [ViT components](#ViT-components)
-- [Datasets and dataloaders](#Datasets-DataLoaders)
 
 
-- [Patch embedding](#PatchEmbedding)
-- [Positional Embedding](#Positional-Embedding)
-- [Multihead Self-Attention Block](#MultiheadSelfAttentionBlock)
-- [Multi-Layer Perceptron Block](#MLPBlock) 
-- [Transformer Encoder Block](#TransformerEncoderBlock)
-- [ViT assembled](#ViT)
+
+* **Vision Transformer - Pytorch**
+
+* **Install**
+
+* **Dataset preparation**
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - Image processors for resizing and converting image into tensor
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - Sample Visualisation
+    </i></span></p>
+
+* **ViT components**
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>    
+    - Datasets and dataloaders
+
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - Patch embedding
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - Positional Embedding
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+
+    - Multihead Self-Attention Block
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - Multi-Layer Perceptron Block
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - Transformer Encoder Block
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - ViT assembled
+    </i></span></p>
 
 
 1. Vision Transformer - Pytorch
