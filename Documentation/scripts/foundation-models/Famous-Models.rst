@@ -1,6 +1,10 @@
 Famous Models
 ===============
+
 ------------------------------------------------------------------------------
+
+
+
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
@@ -10,7 +14,11 @@ Famous Models
    :width: 700
    :align: center
    :alt: Alternative text for the image
+
+
 ---------------------------------------------------------------------------------
+
+
 grounding DINO
 ---------------
 
@@ -246,9 +254,12 @@ Here is how Grounding DINO would work on this image:
 
     <p><span style="color:white;">'</p></span>
 
-__________________________________________________________________________________________________________________________
+--------------------------------------------------------------------------------------
+
+
 Segment Anyting Model
 -------------------------
+
 
 .. figure:: /Documentation/images/foundation-models/SAM/SAM.png
    :width: 700
@@ -266,6 +277,8 @@ Segment Anyting Model
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
+
+    
 Introduction to SAM:
 _________________________
 
