@@ -5,6 +5,41 @@ Famous Models
 
 
 
+
+.. admonition::  contents 
+
+   .. container:: blue-box
+    
+    * `grounding DINO <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#grounding-dino>`__
+
+         1. `Introduction <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#introduction>`__
+
+         2. `Grounding DINO Performance <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#grounding-dino-performance>`__
+
+         3. `Advantages of Grounding DINO <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#advantages-of-grounding-dino>`__
+
+         4.  `Grounding DINO Architecture <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#grounding-dino-architecture>`__
+
+
+    * `Segment Anyting Model <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#segment-anyting-model>`__
+
+         1. `Introduction to SAM <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#introduction-to-sam>`__
+
+         2. `What is the Segment Anything Model? <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#what-is-the-segment-anything-model>`__
+
+         3. `SAM’s network architecture <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#sam-s-network-architecture>`__
+         
+         4. `How does SAM support real-life cases <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#how-does-sam-support-real-life-cases>`__
+
+         5. `Reference <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/foundation-models/Famous-Models.html#reference>`__
+
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
