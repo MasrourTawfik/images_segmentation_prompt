@@ -44,7 +44,7 @@ What are Foundation Models ?
 
 
 
-.. admonition::  
+.. admonition:: ChatGPT
 
    .. container:: blue-box
            
@@ -99,14 +99,14 @@ Types of Foundation Models
     </i></span></p>
 
 
-.. admonition::  
+.. admonition::  NLP
 
    .. container:: blue-box
            
      `Natural language processing <https://www.xenonstack.com/blog/nlp-best-practices>`__   is a field of artificial intelligence that helps computers understand, interpret and manipulate human language.
 
 
-.. raw:: html
+.. raw:: html 
 
     <p><span style="color:white;">'</p></span>
 
