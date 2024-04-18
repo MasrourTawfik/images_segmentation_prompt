@@ -248,3 +248,204 @@ Here is how Grounding DINO would work on this image:
 
 Segment Anyting Model
 -------------------------
+
+.. figure:: /Documentation/images/foundation-models/SAM/SAM.png
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Welcome to the cutting edge of image segmentation with the Segment Anything model, or SAM. This groundbreaking model has changed the game by introducing real-time image segmentation, setting new standards in the field.
+    </p></span>
+
+
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+Introduction to SAM:
+_________________________
+
+
+.. figure:: /Documentation/images/foundation-models/SAM/1.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    The Segment Anything model, or SAM, is a cutting-edge image segmentation model that allows for fast segmentation, offering unparalleled versatility in image analysis tasks. SAM is at the core of the Segment Anything initiative, a groundbreaking project that introduces a new model, a new task, and a new dataset for image segmentation.
+    </p></span></i>
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    SAM's advanced software design enables it to adapt to new image distributions and tasks without prior knowledge, a feature known as zero-shot transfer. Trained on the extensive SA-1B dataset, which contains over a billion masks spread across 11 million carefully selected images, SAM has displayed impressive performance in image absence, surpassing in many cases previous fully supervised results.
+    </p></span></i>
+
+
+
+.. admonition::  source
+
+   .. container:: blue-box
+    
+    * `Find the link to "SA-1B Dataset." <https://ai.meta.com/datasets/segment-anything/>`__
+    
+
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    In this article, we’ll provide SAM’s technical breakdown, take a look at its current use cases, and talk about its impact on the future of computer vision.
+    </p></span></i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Here’s what we’ll cover:
+    </p></span></i>
+    <span style="color:#000080;"><i>
+
+    - What is the Segment Anything Model?
+
+    - SAM’s network architecture
+
+
+    - How does SAM support real-life cases?
+
+    </span></i>
+
+
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+What is the Segment Anything Model?
+_______________________________________
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    SAM is designed to revolutionize the way we approach image analysis by providing a versatile and adaptable</span><span style="color:red;"> foundation model </span><span style="color:#000080;">for segmenting objects and regions within images. 
+    </p></span></i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    Unlike traditional </span><span style="color:red;">image segmentation </span><span style="color:#000080;">models that require extensive task-specific modeling expertise, SAM eliminates the need for such specialization. Its primary objective is to simplify the segmentation process by serving as a foundational model that can be prompted with various inputs, including clicks, boxes, or text, making it accessible to a broader range of users and applications.
+    </p></span></i>
+
+
+.. admonition::  source
+
+   .. container:: blue-box
+    
+    * `Find the link to "image segmentation" <https://www.v7labs.com/blog/image-segmentation-guide>`__
+    
+    * `Find the link to "foundation models guide" <https://www.v7labs.com/blog/foundation-models-guide>`__
+ 
+
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+
+
+.. figure:: /Documentation/images/foundation-models/SAM/2.webp
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    
+    What sets SAM apart is its ability to generalize to new tasks and image domains without the need for custom data annotation or extensive retraining. SAM accomplishes this by being trained on a diverse dataset of over 1 billion </span><span style="color:red;">segmentation masks</span><span style="color:#000080;">, collected as part of the Segment Anything project. This massive dataset enables SAM to adapt to specific segmentation tasks, similar to how prompting is used in natural language processing models.
+    </p></span></i>
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    SAM's versatility, real-time interaction capabilities, and zero-shot transfer make it an invaluable tool for various industries, including content creation, scientific research, augmented reality, and more, where accurate image segmentation is a critical component of data analysis and decision-making processes.
+    </p></span></i>
+
+
+.. admonition::  source
+
+   .. container:: blue-box
+    
+    * `Find the link to "segmentation masks" <https://www.v7labs.com/product-update/masks>`__
+     
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+
+SAM's network architecture
+_____________________________
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    SAM’s revolutionary capabilities are primarily based on its revolutionary architecture, which consists of three main components: the image encoder, prompt encoder, and mask decoder
+    </p></span></i>
+
+
+.. figure:: /Documentation/images/foundation-models/SAM/3.png
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    The Segment Anything (SA) project introduces a new task, model, and dataset for image segmentation
+    </p></span></i>
+
+    <p style="text-align: justify;"><span style="color:blue;"><strong>
+    * Image Encoder
+    </strong></p></span>
+
+
+
+
+
+    <p style="text-align: justify;"><span style="color:blue;"><strong>
+    * prompt Encoder
+    </strong></p></span>
+
+
+
+
+
+
+
+
+
+
+
+
+    <p style="text-align: justify;"><span style="color:blue;"><strong>
+    * Mask Decoder
+    </strong></p></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.. admonition::  source
+
+   .. container:: blue-box
+    
+    * `Read more at "segment anything model sam explained" < https://viso.ai/deep-learning/segment-anything-model-sam-explained/>`__
+     
+
+
+
