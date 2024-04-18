@@ -1,2 +1,2 @@
-Implemention groundingsam in the Project
+Groundingsam project implemention 
 ========================================
