@@ -702,6 +702,7 @@ Real-Time Interaction:
     
     * `Find the link to "NLP models" <https://viso.ai/deep-learning/natural-language-processing/>`__
  
-
+    * `Find the link to "segment anything model" <https://www.v7labs.com/blog/segment-anything-model-sam#h1>`__
+ 
 
 
