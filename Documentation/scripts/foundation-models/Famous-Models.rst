@@ -322,10 +322,12 @@ _________________________
 
     In this article, we’ll provide SAM’s technical breakdown, take a look at its current use cases, and talk about its impact on the future of computer vision.
     </p></span></i>
-    <span style="color:#000080;"><i>
-    <p style="text-align: justify;">
-    Here’s what we’ll cover:</p>
-    </p></span></i>
+
+
+*Here’s what we’ll cover:
+
+.. raw:: html
+
     <span style="color:#000080;"><i>
     <p style="text-align: justify;">
     - What is the Segment Anything Model?</p>
@@ -413,12 +415,12 @@ _____________________________
    :align: center
    :alt: Alternative text for the image
 
+
+*The Segment Anything (SA) project introduces a new task, model, and dataset for image segmentation
+
+
 .. raw:: html
 
-
-    <p style="text-align: justify;"><i>
-    The Segment Anything (SA) project introduces a new task, model, and dataset for image segmentation
-    </p></i>
     <p><span style="color:white;">'</p></span>
 
 
@@ -427,15 +429,11 @@ _____________________________
    :align: center
    :alt: Alternative text for the image
 
+*The architecture of the segment anything model (SAM). The SAM consists of the following components: An Image Encoder, a Decoder, and a Mask Decoder
 
 .. raw:: html
 
-    <p style="text-align: justify;"><i>
-    The architecture of the segment anything model (SAM). The SAM consists of the following components: An Image Encoder, a Decoder, and a Mask Decoder
-    </p></i>
-
     <p><span style="color:white;">'</p></span>
-
 
 
     <p style="text-align: justify;"><span style="color:blue;"><strong>
