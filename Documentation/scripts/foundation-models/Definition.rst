@@ -44,8 +44,10 @@ What are Foundation Models ?
 
 
 
-.. container:: blue-box
-    
+.. admonition::  
+
+   .. container:: blue-box
+           
     Click here to know that how `ChatGPT <https://www.xenonstack.com/blog/chatgpt-model-working>`__  utilizes self-attention and encoding mechanisms to process user prompts and generate human-like responses. 
 
 
