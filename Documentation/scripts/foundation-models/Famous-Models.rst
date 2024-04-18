@@ -261,6 +261,10 @@ Segment Anyting Model
 -------------------------
 
 
+------------------------------------------------------------------------------------
+
+
+
 .. figure:: /Documentation/images/foundation-models/SAM/SAM.png
    :width: 700
    :align: center
@@ -399,7 +403,7 @@ _____________________________
 
     SAM’s revolutionary capabilities are primarily based on its revolutionary architecture, which consists of three main components: the image encoder, prompt encoder, and mask decoder
     </p></span></i>
-
+    <p><span style="color:white;">'</p></span>
 
 .. figure:: /Documentation/images/foundation-models/SAM/3.png
    :width: 700
@@ -411,6 +415,24 @@ _____________________________
     <p style="text-align: justify;"><span style="color:#000080;"><i>
     The Segment Anything (SA) project introduces a new task, model, and dataset for image segmentation
     </p></span></i>
+    <p><span style="color:white;">'</p></span>
+
+
+.. figure:: /Documentation/images/foundation-models/SAM/4.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    The architecture of the segment anything model (SAM). The SAM consists of the following components: An Image Encoder, a Decoder, and a Mask Decoder
+    </p></span></i>
+
+    <p><span style="color:white;">'</p></span>
+
+
 
     <p style="text-align: justify;"><span style="color:blue;"><strong>
     . Image Encoder
