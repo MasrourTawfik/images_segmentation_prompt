@@ -197,7 +197,10 @@ Conclusion
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
 
-    The future of foundation models appears promising as they continue to evolve and transform the landscape of Artificial Intelligence. In the upcoming years, we can expect the development of even more powerful and versatile models, capable of handling complex tasks across various domains with unprecedented accuracy. Advancements in computing infrastructure, the availability of vast and diverse datasets, and ongoing research efforts are set to drive the growth of these models.
+    The future of foundation models appears promising as they continue to evolve and transform the landscape of Artificial Intelligence. 
+    In the upcoming years, we can expect the development of even more powerful and versatile models, capable of handling complex tasks 
+    across various domains with unprecedented accuracy. Advancements in computing infrastructure, the availability of vast and diverse datasets,
+     and ongoing research efforts are set to drive the growth of these models.
     </i></span></p>
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
