@@ -702,6 +702,19 @@ _________
 
 
 
+.. admonition::  Code source  
+
+   .. container:: blue-box
+
+
+    **For more practice and to learn more, we can visit this tutorial.**
+
+
+        * Find the link to github repository `"project" <https://github.com/MasrourTawfik/images_segmentation_prompt.git>`__
+
+        * Find the link to github repository `"ViT_Implementation" <https://github.com/MasrourTawfik/images_segmentation_prompt/tree/main/ViT_Implementation>`__
+
+        * Find the link to `colab notebook <https://colab.research.google.com/github/imadmlf/Convolutional-Neural-Network/blob/main/ViT_Implementation/ViT_Implemented.ipynb>`__
 
 
 

@@ -43,6 +43,7 @@ Image Segmentation Prompt
    Documentation/scripts/building-Blocks/nerale_network.rst
    Documentation/scripts/building-Blocks/Transformer_Architecture.rst
    Documentation/scripts/building-Blocks/ViT.rst
+   Documentation/scripts/building-Blocks/Vitimpl.rst
 
 .. raw:: html
 
