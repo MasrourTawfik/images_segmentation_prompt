@@ -369,20 +369,6 @@ _________________________
     </p></span></i>
 
 
-Here’s what we’ll cover:
-
-.. raw:: html
-
-    <span style="color:#000080;"><i>
-    <p style="text-align: justify;">
-    - What is the Segment Anything Model?</p>
-    <p style="text-align: justify;">
-    - SAM’s network architecture</p>
-    <p style="text-align: justify;"> 
-    - How does SAM support real-life cases?</p>
-
-    </span></i>
-
 
 .. raw:: html
 
