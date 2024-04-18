@@ -52,17 +52,34 @@ What are Foundation Models ?
 
 
 
+History of Foundation Models 
+-----------------------------
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    The history of foundation models has witnessed significant milestones over the years. In the 1980s, the first models based on feedforward neural networks emerged, enabling the learning of simple patterns. The 1990s saw the development of recurrent neural networks (RNNs), capable of learning sequential patterns like text. Word embeddings, introduced in the 2000s, facilitated the understanding of semantic relationships between words. The 2010s brought attention to mechanisms, enhancing model performance by focusing on relevant parts of input data.
 
 
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    2018 marked two major breakthroughs: the introduction of the GPT (Generative Pre-trained Transformer) model, pre-trained on a vast text dataset, and the BERT (Bidirectional Encoder Representations from Transformers) model, pre-trained on an extensive text and code dataset. In the 2020s, foundation models continued to advance rapidly, with the introduction of even larger and more powerful models surpassing GPT and BERT. These models achieved state-of-the-art results in various natural language processing tasks. 
 
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    The development of foundation models remains ongoing, promising the emergence of more potent and versatile models in the future. 
 
+    </i></span></p>
 
+Types of Foundation Models
+---------------------------
+.. raw:: html
 
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
 
-
-
-
-
+    There are many different types of foundation models, but they can be broadly categorized into three types:  
+    </i></span></p>
 
 
 
