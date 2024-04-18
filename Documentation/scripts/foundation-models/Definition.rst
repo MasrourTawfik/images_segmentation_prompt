@@ -1,7 +1,7 @@
 Definition
 =============
 
------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 .. figure:: /Documentation/images/foundation-models/definition/1.webp
@@ -28,6 +28,12 @@ Introduction to Foundation  models
     Foundation models form the basis of generative AI, empowering them to generate text, music, and images by predicting the next item in a sequence based on a given prompt. The future of foundation models is bright, driven by factors like the availability of extensive datasets, advancements in computing infrastructure, and the growing demand for AI applications. Google's LLM Jurassic-1 Jumbo, released in 2022, is the largest language model to date, with an astonishing 1.75 trillion parameters. OpenAI's DALL-E 2, introduced in 2023, is a text-to-image diffusion model that produces realistic images from textual descriptions, enabling diverse visual content creation. 
     </i></span></p>
     <p><span style="color:white;">'</p></span>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 What are Foundation Models ?
 -------------------------------
 
@@ -54,6 +60,11 @@ What are Foundation Models ?
 
     <p><span style="color:white;">'</p></span>
 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
 History of Foundation Models 
 -----------------------------
 
@@ -75,6 +86,9 @@ History of Foundation Models
     </i></span></p>
 
     <p><span style="color:white;">'</p></span>
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Types of Foundation Models
 ---------------------------
@@ -110,4 +124,89 @@ Types of Foundation Models
 
     <p><span style="color:white;">'</p></span>
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 
+
+Applications of Foundation Models
+------------------------------------
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    The foundation model of learning about big data, being unregistered and penalized
+    Large foundation models, such as DeepMind's Alphacode, have demonstrated the effectiveness of code generation, achieving impressive scores in programming competitions. Filtering model outputs and implementing verification processes can significantly enhance accuracy. Code generation tools like Github Copilot and Replit's coding tool have gained popularity. Recent research shows that large language models can improve by generating their own synthetic puzzles for learning to code. Playing with systems like GPT-3 showcases their remarkable code-generation abilities.  
+    </i></span></p>
+
+* **Semantic Search**
+
+.. figure:: /Documentation/images/foundation-models/definition/2.webp
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Semantic search utilizes large language models to embed text into vectors, allowing for easy semantic overlap detection through cosine similarity. Implementing this search is challenging due to intensive computations on large vectors. Companies like Google and Facebook have developed libraries like FAISS and ScaNN. Open-source options include Haystack, Jina.AI, and vendor options like Pinecone and Weaviate. 
+    </i></span></p>
+
+   <p><span style="color:white;">'</p></span>
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Limitations of Foundation Models 
+-----------------------------------
+.. raw:: html
+
+   
+    <p style="text-align: justify;"><i>
+
+    <span style="color:blue;"><strong>Dataset Bias:</strong></span><span style="color:#000080;"> Foundation models are trained on large-scale datasets that may contain biases present in the data. These biases can be reflected in the model's outputs, potentially leading to unfair or biased results. 
+    
+     </i></span></p>
+    <p style="text-align: justify;"><i>
+    <span style="color:blue;"><strong>Lack of Domain Specificity:</strong></span><span style="color:#000080;"> Foundation models are trained on diverse data sources, which can limit their performance in specific domains or industries.
+    
+     </i></span></p>
+    <p style="text-align: justify;"><i>
+    <span style="color:blue;"><strong>Interpretability Challenges: </strong></span><span style="color:#000080;">It can be difficult to understand and explain the inner workings of these models, making it challenging to trust their decision-making process and identify potential errors or biases.
+    
+     </i></span></p>
+    <p style="text-align: justify;"><i>
+    <span style="color:blue;"><strong>High Computational Requirements:</strong></span><span style="color:#000080;"> Training and utilizing foundation models often require significant computational resources, including powerful hardware and extensive memory. 
+    
+     </i></span></p>
+    <p style="text-align: justify;"><i>
+    <span style="color:blue;"><strong>Lack of Contextual Understanding:</strong></span><span style="color:#000080;"> While foundation models have impressive language generation capabilities, they may still struggle with nuanced understanding of context, humor, sarcasm, or cultural references.
+    </i></span></p>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Conclusion  
+-----------
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+
+    The future of foundation models appears promising as they continue to evolve and transform the landscape of Artificial Intelligence. In the upcoming years, we can expect the development of even more powerful and versatile models, capable of handling complex tasks across various domains with unprecedented accuracy. Advancements in computing infrastructure, the availability of vast and diverse datasets, and ongoing research efforts are set to drive the growth of these models.
+    </i></span></p>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+
+    Moreover, ensuring the privacy and security of these massive models and the data they handle remains critical. Striking a balance between model size and environmental impact is another challenge, as energy consumption rises with larger models. Addressing these challenges will be crucial to harnessing the full potential of foundation models in the years to come. 
+    </i></span></p>
+
+
+.. figure:: /Documentation/images/foundation-models/definition/3.png
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
