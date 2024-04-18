@@ -695,21 +695,21 @@ ___________________
    .. container:: blue-box
 
 
-    * `Find the link to "segment anything model sam explained" <https://viso.ai/deep-learning/segment-anything-model-sam-explained/>`__
+    * Find the link to `"segment anything model sam explained" <https://viso.ai/deep-learning/segment-anything-model-sam-explained/>`__
     
-    * `Find the link to "segment anything model sam paper" <https://z-p3-scontent.frba4-3.fna.fbcdn.net/v/t39.2365-6/10000000_900554171201033_1602411987825904100_n.pdf?_nc_cat=100&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=3a825h6H-LoAb6e2O96&_nc_ht=z-p3-scontent.frba4-3.fna&oh=00_AfCfVdPoNOxMVqYMEliAbm9RPmlxS0LomF8k0OWGHfB2Kg&oe=66263EA7>`__
+    * Find the link to `"segment anything model sam paper" <https://z-p3-scontent.frba4-3.fna.fbcdn.net/v/t39.2365-6/10000000_900554171201033_1602411987825904100_n.pdf?_nc_cat=100&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=3a825h6H-LoAb6e2O96&_nc_ht=z-p3-scontent.frba4-3.fna&oh=00_AfCfVdPoNOxMVqYMEliAbm9RPmlxS0LomF8k0OWGHfB2Kg&oe=66263EA7>`__
       
-    * `Find the link to "SA-1B Dataset." <https://ai.meta.com/datasets/segment-anything/>`__
+    * Find the link to `"SA-1B Dataset." <https://ai.meta.com/datasets/segment-anything/>`__
      
-    * `Find the link to "image segmentation" <https://www.v7labs.com/blog/image-segmentation-guide>`__
+    * Find the link to `"image segmentation" <https://www.v7labs.com/blog/image-segmentation-guide>`__
     
-    * `Find the link to "foundation models guide" <https://www.v7labs.com/blog/foundation-models-guide>`__
+    * Find the link to `"foundation models guide" <https://www.v7labs.com/blog/foundation-models-guide>`__
     
-    * `Find the link to "segmentation masks" <https://www.v7labs.com/product-update/masks>`__
+    * Find the link to `"segmentation masks" <https://www.v7labs.com/product-update/masks>`__
     
-    * `Find the link to "NLP models" <https://viso.ai/deep-learning/natural-language-processing/>`__
+    * Find the link to `"NLP models" <https://viso.ai/deep-learning/natural-language-processing/>`__
  
-    * `Find the link to "segment anything model" <https://www.v7labs.com/blog/segment-anything-model-sam#h1>`__
+    * Find the link to `"segment anything model" <https://www.v7labs.com/blog/segment-anything-model-sam#h1>`__
  
 
 
