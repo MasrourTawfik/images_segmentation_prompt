@@ -426,7 +426,7 @@ _____________________________
    :alt: Alternative text for the image
 
 
-*The Segment Anything (SA) project introduces a new task, model, and dataset for image segmentation
+*The Segment Anything (SA) project introduces a new task, model, and dataset for image segmentation*
 
 
 .. raw:: html
@@ -439,7 +439,7 @@ _____________________________
    :align: center
    :alt: Alternative text for the image
 
-*The architecture of the segment anything model (SAM). The SAM consists of the following components: An Image Encoder, a Decoder, and a Mask Decoder
+*The architecture of the segment anything model (SAM). The SAM consists of the following components: An Image Encoder, a Decoder, and a Mask Decoder*
 
 .. raw:: html
 
