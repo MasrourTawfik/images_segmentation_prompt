@@ -4,10 +4,9 @@ Definition
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-.. figure:: /Documentation/images/foundation-models/definition/defff.jpg
-   :width: 700
-   :align: center
-   :alt: Alternative text for the image
+
+
+
 
 .. raw:: html
 
@@ -144,12 +143,6 @@ Applications of Foundation Models
 * **Semantic Search**
 
 
-
-.. figure:: /Documentation/images/foundation-models/definition/1.jpg
-   :width: 700
-   :align: center
-   :alt: Alternative text for the image
-
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
@@ -217,7 +210,3 @@ Conclusion
     </i></span></p>
 
 
-.. figure:: /Documentation/images/foundation-models/definition/DIF2.png
-   :width: 700
-   :align: center
-   :alt: Alternative text for the image
