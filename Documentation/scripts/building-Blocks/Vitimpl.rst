@@ -333,7 +333,7 @@ ___________________
 
 
 
-.. figure:: /Documentation/images/Building-Blocks/ViT/image.png
+.. figure::/Documentation/images/Building-Blocks/ViT/image.png
    :width: 700
    :align: center
    :alt: Alternative text for the image
