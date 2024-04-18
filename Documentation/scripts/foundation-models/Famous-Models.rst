@@ -278,12 +278,30 @@ Here is how Grounding DINO would work on this image:
    </p></span></i>  
 
 
-.. admonition::  For more information 
+
+
+5. Reference
+_____________________
+
+
+
+
+.. admonition::  source
 
    .. container:: blue-box
+
+
+    * Find the link to `"Grounded Language-Image Pre-training." <https://arxiv.org/pdf/2112.03857.pdf?ref=blog.roboflow.com>`__
     
-    * `Find the link to "Grounded Language-Image Pre-training." <https://arxiv.org/pdf/2112.03857.pdf?ref=blog.roboflow.com>`__
-    * `Find the link to "DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection" <https://arxiv.org/pdf/2203.03605.pdf?ref=blog.roboflow.com>`__
+    * Find the link to `"DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection" <https://arxiv.org/pdf/2203.03605.pdf?ref=blog.roboflow.com>`__
+    
+    * Find the link to `"Non-Maximum Suppression (NMS)." <ot-object-detection/#introduction>`__
+
+    * Find the link to `"How to Code Non-Maximum Suppression (NMS) in Plain NumPy." <https://blog.roboflow.com/how-to-code-non-maximum-suppression-nms-in-plain-numpy/>`__
+
+   
+
+
 
 .. raw:: html
 
@@ -299,7 +317,6 @@ Here is how Grounding DINO would work on this image:
    :width: 700
    :align: center
    :alt: Alternative text for the image
-
 
 
 Segment Anyting Model
