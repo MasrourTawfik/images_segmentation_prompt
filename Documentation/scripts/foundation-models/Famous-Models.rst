@@ -278,8 +278,8 @@ Segment Anyting Model
 
     <p><span style="color:white;">'</p></span>
 
-    
-Introduction to SAM:
+
+1. Introduction to SAM:
 _________________________
 
 
@@ -334,7 +334,7 @@ _________________________
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
-What is the Segment Anything Model?
+2. What is the Segment Anything Model?
 _______________________________________
 .. raw:: html
 
@@ -391,7 +391,7 @@ _______________________________________
 
     <p><span style="color:white;">'</p></span>
 
-SAM's network architecture
+3. SAM's network architecture
 _____________________________
 .. raw:: html
 
