@@ -681,6 +681,13 @@ Real-Time Interaction:
     * *SAM's versatility, adaptability, and real-time capabilities make it a valuable tool for addressing real-life image segmentation challenges across diverse industries and applications.*
 
 
+.. raw:: html
+
+  <p><span style="color:white;">'</p></span>
+
+5. Reference
+___________________
+
 
 
 .. admonition::  source
