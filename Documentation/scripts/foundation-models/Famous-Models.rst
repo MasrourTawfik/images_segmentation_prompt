@@ -449,16 +449,18 @@ _____________________________
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
-
+    The image encoder is at the core of SAM’s architecture, a sophisticated component responsible for processing and transforming input images into a comprehensive set of features. 
+    </p></span></i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Using a transformer-based approach, like what’s seen in advanced </span><span style="color:red;">NLP models</span><span style="color:#000080;">, this encoder compresses images into a dense feature matrix. This matrix forms the foundational understanding from which the model identifies various image elements.  
     </p></span></i>
 
+.. admonition::  source
 
-
-
-
-
-
-
+   .. container:: blue-box
+    
+    * `Find the link to "NLP models" <https://viso.ai/deep-learning/natural-language-processing/>`__
+    
 
 
 
@@ -481,9 +483,17 @@ _____________________________
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
+    The prompt encoder is a unique aspect of SAM that sets it apart from traditional image segmentation models. 
     </p></span></i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
 
+    It interprets various forms of input prompts, be they text-based, points, rough masks, or a combination thereof. 
+    </p></span></i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
 
+    This encoder translates these prompts into an embedding that guides the segmentation process. This enables the model to focus on specific areas or objects within an image as the input dictates.  
+
+    </p></span></i>
 
 
 
@@ -519,22 +529,35 @@ _____________________________
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
-
+    The mask decoder is where the magic of segmentation takes place. It synthesizes the information from both the image and prompt encoders to produce accurate segmentation masks. 
+    </p></span></i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+  
+    This component is responsible for the final output, determining the precise contours and areas of each segment within the image. 
+    </p></span></i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+  
+    How these components interact with each other is equally vital for effective image segmentation as their capabilities: 
+    </p></span></i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    
+    The image encoder first creates a detailed understanding of the entire image, breaking it down into features that the engine can analyze. 
+    </p></span></i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    
+    The prompt encoder then adds context, focusing the model’s attention based on the provided input, whether a simple point or a complex text description. 
+     </p></span></i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+   
+    Finally, the mask decoder uses this combined information to segment the image accurately, ensuring that the output aligns with the input prompt’s intent.
     </p></span></i>
 
 
 
 
+.. raw:: html
 
-
-
-
-
-
-
-
-
-
+  <p><span style="color:white;">'</p></span>
 .. admonition::  source
 
    .. container:: blue-box
