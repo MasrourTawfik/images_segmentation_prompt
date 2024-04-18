@@ -4,7 +4,7 @@ Definition
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-.. figure:: /Documentation/images/foundation-models/definition/1.webp
+.. figure:: /Documentation/images/foundation-models/definition/3.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
