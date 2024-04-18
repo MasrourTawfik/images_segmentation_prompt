@@ -89,6 +89,8 @@ For more Understanding Vision Transformers
 .. figure:: /Documentation/images/Building-Blocks/ViT/Patch_embedding1.jpg
     :align: center
     :alt: Alternative Text
+
+    
 .. raw:: html
       
 
