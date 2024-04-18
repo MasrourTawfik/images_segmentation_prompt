@@ -210,3 +210,8 @@ Conclusion
     </i></span></p>
 
 
+
+.. figure:: /Documentation/images/foundation-models/definition/DIF2.png
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
