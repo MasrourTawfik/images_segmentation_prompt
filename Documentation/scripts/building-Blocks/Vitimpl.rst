@@ -14,10 +14,10 @@ ViT  project  implemention
     <p><span style="color:white;">'</p></span>
 
 
+
+
 Table of Contents
--------------------
-
-
+--------------
 
 
 
@@ -330,25 +330,9 @@ ___________________
 
 
 
-
-
-
-
-
 .. figure:: /Documentation/images/Building-Blocks/ViT/image.png
-   :width: 100%
-   :alt: Alternative text for the image
-   :name: image
-
-
-
-
-
-
-
-
-
-
+    :align: center
+    :alt: Alternative Text
 
 
 
