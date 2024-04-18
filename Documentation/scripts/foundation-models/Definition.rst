@@ -4,7 +4,7 @@ Definition
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-.. figure:: /Documentation/images/foundation-models/definition/3.jpg
+.. figure:: /Documentation/images/foundation-models/definition/defff.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
