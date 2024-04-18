@@ -322,6 +322,7 @@ ___________________
     sample_viz.visualize_sample(train_dataloader, class_names)
 
 
+
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
@@ -333,10 +334,6 @@ ___________________
 
 
 
-.. figure::/Documentation/images/Building-Blocks/ViT/image.png
-   :width: 700
-   :align: center
-   :alt: Alternative text for the image
 
 
 
