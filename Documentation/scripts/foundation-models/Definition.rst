@@ -4,7 +4,10 @@ Definition
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-
+.. figure:: /Documentation/images/foundation-models/definition/defff.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
 
 
 
@@ -143,6 +146,13 @@ Applications of Foundation Models
 * **Semantic Search**
 
 
+
+
+
+
+
+
+
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
@@ -208,6 +218,7 @@ Conclusion
     Striking a balance between model size and environmental impact is another challenge, as energy consumption rises with larger models. 
     Addressing these challenges will be crucial to harnessing the full potential of foundation models in the years to come. 
     </i></span></p>
+
 
 
 
