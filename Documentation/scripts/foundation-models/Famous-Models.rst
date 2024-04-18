@@ -480,7 +480,7 @@ _____________________________
 
    .. container:: blue-box
     
-    * `Read more at "segment anything model sam explained" < https://viso.ai/deep-learning/segment-anything-model-sam-explained/>`__
+    * `Read more at "segment anything model sam explained" <https://viso.ai/deep-learning/segment-anything-model-sam-explained/>`__
      
 
 
