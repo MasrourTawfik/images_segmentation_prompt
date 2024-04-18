@@ -334,7 +334,7 @@ _________________________
     </p></span></i>
 
 
-*Here’s what we’ll cover:
+Here’s what we’ll cover:
 
 .. raw:: html
 
