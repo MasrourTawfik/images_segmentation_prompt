@@ -136,7 +136,9 @@ Applications of Foundation Models
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
     The foundation model of learning about big data, being unregistered and penalized
-    Large foundation models, such as DeepMind's Alphacode, have demonstrated the effectiveness of code generation, achieving impressive scores in programming competitions. Filtering model outputs and implementing verification processes can significantly enhance accuracy. Code generation tools like Github Copilot and Replit's coding tool have gained popularity. Recent research shows that large language models can improve by generating their own synthetic puzzles for learning to code. Playing with systems like GPT-3 showcases their remarkable code-generation abilities.  
+    Large foundation models, such as DeepMind's Alphacode, have demonstrated the effectiveness of code generation, achieving impressive scores in programming competitions. 
+    Filtering model outputs and implementing verification processes can significantly enhance accuracy. Code generation tools like Github Copilot and Replit's coding tool have gained popularity. 
+    Recent research shows that large language models can improve by generating their own synthetic puzzles for learning to code. Playing with systems like GPT-3 showcases their remarkable code-generation abilities.  
     </i></span></p>
 
 * **Semantic Search**
@@ -149,7 +151,9 @@ Documentation\images\foundation-models\
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
-    Semantic search utilizes large language models to embed text into vectors, allowing for easy semantic overlap detection through cosine similarity. Implementing this search is challenging due to intensive computations on large vectors. Companies like Google and Facebook have developed libraries like FAISS and ScaNN. Open-source options include Haystack, Jina.AI, and vendor options like Pinecone and Weaviate. 
+    Semantic search utilizes large language models to embed text into vectors, allowing for easy semantic overlap detection through cosine similarity. 
+    Implementing this search is challenging due to intensive computations on large vectors. Companies like Google and Facebook have developed libraries like FAISS and ScaNN. 
+    Open-source options include Haystack, Jina.AI, and vendor options like Pinecone and Weaviate. 
     </i></span></p>
 
    <p><span style="color:white;">'</p></span>
@@ -205,7 +209,9 @@ Conclusion
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
 
-    Moreover, ensuring the privacy and security of these massive models and the data they handle remains critical. Striking a balance between model size and environmental impact is another challenge, as energy consumption rises with larger models. Addressing these challenges will be crucial to harnessing the full potential of foundation models in the years to come. 
+    Moreover, ensuring the privacy and security of these massive models and the data they handle remains critical. 
+    Striking a balance between model size and environmental impact is another challenge, as energy consumption rises with larger models. 
+    Addressing these challenges will be crucial to harnessing the full potential of foundation models in the years to come. 
     </i></span></p>
 
 
