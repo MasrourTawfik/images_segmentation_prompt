@@ -145,7 +145,7 @@ Applications of Foundation Models
 
 
 
-.. figure:: /Documentation/images/foundation-models/definition/DIF2.webp
+.. figure:: /Documentation/images/foundation-models/definition/1.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
