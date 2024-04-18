@@ -11,6 +11,7 @@ Definition
 
 
 
+
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
@@ -148,6 +149,11 @@ Applications of Foundation Models
 
 
 
+
+.. figure:: /Documentation/images/foundation-models/definition/semantic.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
 
 
 
