@@ -273,6 +273,8 @@ Segment Anyting Model
 
 .. raw:: html
 
+    <p><span style="color:white;">'</p></span>
+
     <p style="text-align: justify;"><span style="color:#000080;"><i>
     Welcome to the cutting edge of image segmentation with the Segment Anything model, or SAM. This groundbreaking model has changed the game by introducing real-time image segmentation, setting new standards in the field.
     </p></span>
@@ -320,17 +322,17 @@ _________________________
 
     In this article, we’ll provide SAM’s technical breakdown, take a look at its current use cases, and talk about its impact on the future of computer vision.
     </p></span></i>
-    <p style="text-align: justify;"><span style="color:#000080;"><i>
-    Here’s what we’ll cover:
+    <span style="color:#000080;"><i>
+    <p style="text-align: justify;">
+    Here’s what we’ll cover:</p>
     </p></span></i>
     <span style="color:#000080;"><i>
-
-    - What is the Segment Anything Model?
-
-    - SAM’s network architecture
-
-
-    - How does SAM support real-life cases?
+    <p style="text-align: justify;">
+    - What is the Segment Anything Model?</p>
+    <p style="text-align: justify;">
+    - SAM’s network architecture</p>
+    <p style="text-align: justify;"> 
+    - How does SAM support real-life cases?</p>
 
     </span></i>
 
@@ -338,6 +340,7 @@ _________________________
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
+
 2. What is the Segment Anything Model?
 _______________________________________
 .. raw:: html
@@ -412,9 +415,10 @@ _____________________________
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    <p style="text-align: justify;"><i>
     The Segment Anything (SA) project introduces a new task, model, and dataset for image segmentation
-    </p></span></i>
+    </p></i>
     <p><span style="color:white;">'</p></span>
 
 
@@ -426,26 +430,60 @@ _____________________________
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    <p style="text-align: justify;"><i>
     The architecture of the segment anything model (SAM). The SAM consists of the following components: An Image Encoder, a Decoder, and a Mask Decoder
-    </p></span></i>
+    </p></i>
 
     <p><span style="color:white;">'</p></span>
 
 
 
     <p style="text-align: justify;"><span style="color:blue;"><strong>
-    . Image Encoder
+     &#10003; Image Encoder
     </strong></p></span>
 
+.. figure:: /Documentation/images/foundation-models/SAM/10.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+
+    </p></span></i>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.. raw:: html
 
     <p style="text-align: justify;"><span style="color:blue;"><strong>
-    . prompt Encoder
+     &#10003; prompt Encoder
     </strong></p></span>
 
+.. figure:: /Documentation/images/foundation-models/SAM/11.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    </p></span></i>
 
 
 
@@ -455,13 +493,36 @@ _____________________________
 
 
 
-
+.. raw:: html
 
     <p style="text-align: justify;"><span style="color:blue;"><strong>
-    . Mask Decoder
+     &#10003; Mask Decoder
     </strong></p></span>
 
 
+.. figure:: /Documentation/images/foundation-models/SAM/8.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+
+.. raw:: html
+
+  <p><span style="color:white;">'</p></span>
+
+
+.. figure:: /Documentation/images/foundation-models/SAM/9.png
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    </p></span></i>
 
 
 
