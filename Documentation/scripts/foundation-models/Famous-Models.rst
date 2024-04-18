@@ -138,7 +138,7 @@ ________________________________
 
 .. raw:: html
 
-    <span style="color:blue;"><streams>Model architecture</strong></span>
+    <p style="text-align: justify;"><span style="color:blue;"><strong>Model architecture</strong></span></p>
     
     <p style="text-align: justify;"><span style="color:#000080;"><i>
 
@@ -200,7 +200,7 @@ ________________________________
 
     <p><span style="color:white;">'</p></span>
 
-    <span style="color:blue;"><streams>How it works?</strong></span>
+    <p style="text-align: justify;"><span style="color:blue;"><strong>How it works?</strong></span></p>
 
 Here is how Grounding DINO would work on this image:
 
@@ -246,6 +246,7 @@ Here is how Grounding DINO would work on this image:
 
     <p><span style="color:white;">'</p></span>
 
+__________________________________________________________________________________________________________________________
 Segment Anyting Model
 -------------------------
 
@@ -399,7 +400,7 @@ _____________________________
     </p></span></i>
 
     <p style="text-align: justify;"><span style="color:blue;"><strong>
-    * Image Encoder
+    . Image Encoder
     </strong></p></span>
 
 
@@ -407,7 +408,7 @@ _____________________________
 
 
     <p style="text-align: justify;"><span style="color:blue;"><strong>
-    * prompt Encoder
+    . prompt Encoder
     </strong></p></span>
 
 
@@ -422,7 +423,7 @@ _____________________________
 
 
     <p style="text-align: justify;"><span style="color:blue;"><strong>
-    * Mask Decoder
+    . Mask Decoder
     </strong></p></span>
 
 
