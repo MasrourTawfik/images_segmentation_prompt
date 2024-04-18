@@ -9,10 +9,13 @@ ViT  project  implemention
    :align: center
    :alt: Alternative Text
 
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
 
 
-Table of Contents
-----------------
+* **Table of Contents**
+
 
 > [Vision Transformer - Pytorch](#vision-transformer---pytorch)
 
@@ -35,7 +38,8 @@ Table of Contents
 - [Transformer Encoder Block](#TransformerEncoderBlock)
 - [ViT assembled](#ViT)
 
-Vision Transformer - Pytorch
+
+1. Vision Transformer - Pytorch
 --------------------------------
 
 
@@ -64,7 +68,7 @@ Vision Transformer - Pytorch
 
  
 
-Install
+2. Install
 ----------
 
 .. raw:: html
@@ -141,7 +145,7 @@ Install
     print(f'Using device: {device}')
 
 
-Dataset preparation
+3. Dataset preparation
 --------------------
 
 
@@ -319,7 +323,7 @@ ___________________
 
 
 
-ViT components
+4. ViT components
 ---------------------
 
 
@@ -691,6 +695,8 @@ ____________________________
 
 ViT
 _________
+
+
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
@@ -701,8 +707,11 @@ _________
     
 
 
+5. code source
+--------------
 
-.. admonition::  Code source  
+
+.. admonition::  Link to github repository and colab applications  
 
    .. container:: blue-box
 
