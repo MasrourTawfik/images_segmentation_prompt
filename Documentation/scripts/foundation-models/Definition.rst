@@ -27,7 +27,7 @@ Introduction to Foundation  models
 
     Foundation models form the basis of generative AI, empowering them to generate text, music, and images by predicting the next item in a sequence based on a given prompt. The future of foundation models is bright, driven by factors like the availability of extensive datasets, advancements in computing infrastructure, and the growing demand for AI applications. Google's LLM Jurassic-1 Jumbo, released in 2022, is the largest language model to date, with an astonishing 1.75 trillion parameters. OpenAI's DALL-E 2, introduced in 2023, is a text-to-image diffusion model that produces realistic images from textual descriptions, enabling diverse visual content creation. 
     </i></span></p>
-
+    <p><span style="color:white;">'</p></span>
 What are Foundation Models ?
 -------------------------------
 
@@ -50,7 +50,9 @@ What are Foundation Models ?
            
     Click here to know that how `ChatGPT <https://www.xenonstack.com/blog/chatgpt-model-working>`__  utilizes self-attention and encoding mechanisms to process user prompts and generate human-like responses. 
 
+.. raw:: html
 
+    <p><span style="color:white;">'</p></span>
 
 History of Foundation Models 
 -----------------------------
@@ -72,8 +74,11 @@ History of Foundation Models
 
     </i></span></p>
 
+    <p><span style="color:white;">'</p></span>
+
 Types of Foundation Models
 ---------------------------
+
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
@@ -81,16 +86,28 @@ Types of Foundation Models
     There are many different types of foundation models, but they can be broadly categorized into three types:  
     </i></span></p>
 
+    
+    <p style="text-align: justify;"><i>
+
+    <span style="color:blue;"><strong>Language models:</strong></span><span style="color:#000080;"> These models are designed to process and understand natural language, allowing them to perform tasks like language translation, question answering, and text generation. Examples of popular language models include BERT, GPT-3, and T5.  
+    </i></span></p>
+    <p style="text-align: justify;"><i>
+    <span style="color:blue;"><strong>Computer vision models:</strong></span><span style="color:#000080;"> These models are designed to process and understand visual data, allowing them to perform tasks like image classification, object detection, and scene understanding. Examples of popular computer vision models include ResNet, VGG, and Inception.  
+    </i></span></p>
+    <p style="text-align: justify;"><i>
+    <span style="color:blue;"><strong>Multimodal models:</strong></span><span style="color:#000080;"> These models are designed to process and understand both natural language and visual data, allowing them to perform tasks like text-to-image synthesis, image captioning, and visual question answering. Examples of popular multimodal models include DALL-E 2, Flamingo, and Florence. 
+    </i></span></p>
 
 
+.. admonition::  
+
+   .. container:: blue-box
+           
+     `Natural language processing <https://www.xenonstack.com/blog/nlp-best-practices>`__   is a field of artificial intelligence that helps computers understand, interpret and manipulate human language.
 
 
+.. raw:: html
 
-
-
-
-
-
-
+    <p><span style="color:white;">'</p></span>
 
 
