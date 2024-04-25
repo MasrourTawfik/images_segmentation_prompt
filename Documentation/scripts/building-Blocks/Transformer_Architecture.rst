@@ -24,11 +24,13 @@ _______________________________________
    :width: 700
    :align: center
    :alt: Alternative Text
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#000080;">
 
     </span></p>
+
 .. raw:: html
 
    <p style="text-align: justify;"><span style="color:#00008B;">
@@ -79,6 +81,7 @@ _______________________________________
     
      </span></p>
 
+
 .. figure:: /Documentation/images/Building-Blocks/Transformer-architecture/translation.png
    :width: 700
    :align: center
@@ -118,8 +121,11 @@ _______________________________________
 
    
     </span></p>
+
+
 c. *The Transformer Architecture*
 _______________________________________
+
 
 .. raw:: html
 
