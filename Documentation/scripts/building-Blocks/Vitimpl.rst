@@ -327,6 +327,7 @@ ___________________
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
     The output would be a random image from dataset plotted with class name above it.
+    
     </i></span></p>
 
 
