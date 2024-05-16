@@ -19,7 +19,7 @@ Prompt Generator / Analyzer
 
 
 .. figure:: /Documentation/images/IMAGE/promptAnalyzer.jpg
-   :width: 400
+   :width: 100
    :align: center
    :alt: Alternative text for the image
 
@@ -43,7 +43,8 @@ Prompt Gemini Generator
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:blue;"><i>
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    The prompt_generator class is designed to automate the creation of textual prompts for images using </span><span style="color:blue;">Gemini pro Vision API.
 
     </i></span></p>
 
