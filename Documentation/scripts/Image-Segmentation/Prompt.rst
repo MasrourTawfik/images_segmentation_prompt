@@ -19,7 +19,7 @@ Prompt Generator / Analyzer
 
 
 .. figure:: /Documentation/images/IMAGE/promptAnalyzer.jpg
-   :width: 700
+   :width: 400
    :align: center
    :alt: Alternative text for the image
 
