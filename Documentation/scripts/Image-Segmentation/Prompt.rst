@@ -38,3 +38,13 @@ Overview
 
     <p><span style="color:white;">'</p></span>
     
+Prompt Gemini Generator
+-------------------------
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+
+    </i></span></p>
+
+    <p><span style="color:white;">'</p></span>
