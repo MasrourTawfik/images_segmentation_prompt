@@ -70,6 +70,7 @@ Image Segmentation Prompt
    Documentation/scripts/Image-Segmentation/State-Art.rst
    Documentation/scripts/Image-Segmentation/Datasets.rst
    Documentation/scripts/Image-Segmentation/Role_in_the_project.rst
+   Documentation/scripts/Image-Segmentation/Prompt.rst
 
 
 
