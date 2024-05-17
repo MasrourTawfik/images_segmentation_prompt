@@ -15,7 +15,7 @@ Prompt Generator / Analyzer
 
     * `Features <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#features>`__
 
-        - `Prompt pre-processing <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#prompt-processing>`__
+        - `Prompt pre-processing <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#prompt-pre-processing>`__
 
         - `Similarity Reduction <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#similarity-reduction>`__
 
@@ -26,6 +26,7 @@ Prompt Generator / Analyzer
     * `Prompt Generator Example <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#prompt-generator-example>`__
 
     * `Prompt Analyzer Exemple <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#prompt-analyzer-exemple>`__
+
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
