@@ -9,10 +9,23 @@ Prompt Generator / Analyzer
 
    .. container:: blue-box
 
+    * `Overview <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#overview>`__
+    
+    * `Prompt Gemini Generator <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#prompt-gemini-generator>`__
 
+    * `Features <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#features>`__
 
+        - `Prompt pre-processing <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#prompt-processing>`__
 
+        - `Similarity Reduction <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#similarity-reduction>`__
 
+         `Complexity Analysis <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#complexity-analysis>`__
+
+        - `Readability Analysis<https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#readability-analysis>`__
+
+    * `Prompt Generator Example <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#prompt-generator-example>`__
+
+    * `Prompt Analyzer Exemple <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#prompt-analyzer-exemple>`__
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
@@ -163,8 +176,8 @@ Features
          </i></span></p>
 
 
-Prompt processing
--------------------
+Prompt pre-processing
+______________________
 
 .. code-block:: python
 
@@ -217,7 +230,7 @@ Prompt processing
         </i></span></p>
 
 Similarity Reduction
---------------------
+______________________
 
 
 .. code-block:: python
@@ -288,7 +301,7 @@ Similarity Reduction
         </i></span></p>
 
 Complexity Analysis
---------------------
+________________________
 
 .. code-block:: python
 
@@ -352,7 +365,7 @@ Complexity Analysis
 
 
 Readability Analysis
----------------------
+_____________________
 
 .. code-block:: python
 
