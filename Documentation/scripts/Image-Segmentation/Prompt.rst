@@ -19,9 +19,9 @@ Prompt Generator / Analyzer
 
         - `Similarity Reduction <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#similarity-reduction>`__
 
-         `Complexity Analysis <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#complexity-analysis>`__
+        - `Complexity Analysis <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#complexity-analysis>`__
 
-        - `Readability Analysis<https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#readability-analysis>`__
+        - `Readability Analysis <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#readability-analysis>`__
 
     * `Prompt Generator Example <https://images-segmmentation-prompt.readthedocs.io/fr/latest/Documentation/scripts/Image-Segmentation/Prompt.html#prompt-generator-example>`__
 
