@@ -353,3 +353,173 @@ Complexity Analysis
 
 Readability Analysis
 ---------------------
+
+.. code-block:: python
+
+    def readability(self):
+
+
+
+.. raw:: html
+    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    
+    The readability method calculates the readability of a text prompt using the Flesch Reading Ease formula, a widely recognized method to evaluate the ease of understanding of a text.
+
+    </i></span></p>
+
+* **Functionality**
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong>Sentence and Word Tokenization: </strong></span><span style="color:#000080;">The method first tokenizes the input prompt into sentences and words using NLTK's sent_tokenize and word_tokenize.
+        </i></span></p>
+
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong> Syllable Counting: </strong></span><span style="color:#000080;">Retrieves the CMU Pronouncing Dictionary (cmudict) to count syllables. For each word, it extracts the pronunciation and counts the number of syllable markers (digits in the pronunciation).
+        </i></span></p>
+        
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong>Flesch Score Calculation: </strong></span><span style="color:#000080;"> Computes the total number of sentences, words, and syllables in the prompt. Applies the Flesch Reading Ease formula 206.835 - 1.015 * (num_words / num_sentences) - 84.6 * (num_syllables / num_words). Rounds the result to two decimal places.
+        </i></span></p>
+
+
+* **Output**
+
+
+.. raw:: html
+    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    Returns the Flesch Reading Ease score for the prompt, where higher scores indicate texts that are easier to read, and lower scores indicate texts that are more difficult.
+    </i></span></p>
+
+
+* **Use Case**
+
+.. raw:: html
+    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    This method is particularly useful for ensuring text content is appropriate for the intended audience's reading level, such as in educational materials, marketing content, or publishing, where readability can impact engagement and comprehension.
+
+    </i></span></p>
+
+
+Prompt processing
+-------------------
+
+
+.. raw:: html
+    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    The process_prompts method in performs several operations to analyze and rank text prompts based on either their complexity or readability (user's choice), and then records the top results. Here's a brief overview:
+    </i></span></p>
+
+* **Functionality**
+
+.. raw:: html
+
+    
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong>Initialization:  </strong></span><span style="color:#000080;">It initializes an empty list to store results.
+        </i></span></p>
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong>Loop Through Prompts:  </strong></span><span style="color:#000080;">Iterates through each set of prompts associated with an image
+        </i></span></p>
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong>Similarity Removal:</strong></span><span style="color:#000080;">First removes similar prompts to ensure diversity using the prompts_similarity method. Scoring and Sorting
+        </i></span></p>
+
+    <p style="text-align: justify;"><i>
+    - <span style="color:#000080;">If complexity is True, it calculates complexity scores using prompt_complexity and sorts prompts from most to least complex.
+        </i></span></p>
+
+    <p style="text-align: justify;"><i>
+    - <span style="color:#000080;">If readability is True, it calculates readability scores using prompt_readability and sorts prompts from easiest to hardest to read.
+        </i></span></p>
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong> Selection of Top Prompts:</strong></span><span style="color:#000080;">Extracts the top three prompts. If there are fewer than three, fills the remaining slots with "N/A".
+        </i></span></p>
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong>Recording Results:</strong></span><span style="color:#000080;">Compiles results into a dictionary for each image, including the image name and the top three prompts.
+        </i></span></p>
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong>Output to CSV:</strong></span><span style="color:#000080;">Calls write_to_csv to write the results to a CSV file.
+        </i></span></p>
+
+
+* **Parameter:**
+
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong>readability (bool):</strong></span><span style="color:#000080;">Determines if prompts should be analyzed and sorted by readability.
+        </i></span></p>
+    <p style="text-align: justify;"><span style="color:blue;"><i>
+    - <strong>Complexity (bool):</strong></span><span style="color:#000080;">Determines if prompts should be analyzed and sorted by complexity.
+        </i></span></p> 
+
+
+
+* **Output:**
+
+.. raw:: html
+    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+
+    Writes a CSV file named prompt_results.csv with headers image_name, best_prompt1, best_prompt2, and best_prompt3, documenting the top three prompts for each image.
+
+    </i></span></p>
+
+
+* **Use Case**
+
+.. raw:: html
+    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+        This method is useful for preparing prompt datasets where the best prompts need to be identified and cataloged based on specific criteria like readability or complexity. It's particularly valuable in scenarios where prompt quality impacts user engagement or educational outcomes, ensuring that the most suitable prompts are used for further applications or studies.
+    </i></span></p>
+
+
+Prompt Generator Example
+------------------------
+.. raw:: html
+    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+        Here is a simple example to demonstrate how to use the prompt_generator class:
+    </i></span></p>
+
+
+.. code-block:: python
+
+    API_Key=input("Enter your API Key")
+    prompts=prompt_generator('gemini-pro-vision',API_Key)
+    prompts_dict=prompts.generate_prompts(number_of_prompts=10)
+
+
+Prompt Analyzer Exemple
+------------------------
+
+.. raw:: html
+    
+    <p style="text-align: justify;"><span style="color:#000080;"><i>
+    Here is a simple example to demonstrate how to use the prompt_analyzer class:
+    </i></span></p>
+
+
+.. code-block:: python
+
+    prompts_dict = {
+        'image1.jpg': ['An early morning', 'Sunrise at the beach', 'Dawn breaks over the ocean']
+    }
+    analyzer = prompt_analyzer(prompts_dict)
+    analyzer.process_prompts(complexity=True)
+
