@@ -82,3 +82,10 @@ Softmax in Transformers
     * `"why do we use softmax in transformers" <https://medium.com/@maitydi567/why-do-we-use-softmax-in-transformers-fdfd50f5f4c1#:~:text=In%20summary%2C%20the%20softmax%20function,and%20relationships%20in%20the%20data.>`__
     
     * `"softmax paper link" <https://arxiv.org/pdf/2207.03341.pdf>`__
+
+
+
+
+
+
+
