@@ -9,7 +9,7 @@ Segment Anything
     <p><span style="color:white;">'</p></span>
 
 .. figure:: /Documentation/images/References/S1.PNG
-   :width:  300
+   :width:  700
    :align: center
    :alt: Alternative Text
 

@@ -6,9 +6,9 @@ Grounding DINO
 
 .. raw:: html
 
-    <div style="font-size: 30px;">
+    <div style="font-size: 30px;"><span style="color:red;">
         Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection
-    </div>
+    </span></div>
 
 
 -----------------------------------------------------------------------------------
@@ -18,7 +18,7 @@ Grounding DINO
     <p><span style="color:white;">'</p></span>
 
 .. figure:: /Documentation/images/References/G1.PNG
-   :width:  300
+   :width:  700
    :align: center
    :alt: Alternative Text
 
