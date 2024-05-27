@@ -19,7 +19,7 @@ Grounding DINO
 
 .. figure:: /Documentation/images/References/G1.PNG
    :width:  300
-   :align: right
+   :align: center
    :alt: Alternative Text
 
 
