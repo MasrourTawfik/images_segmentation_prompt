@@ -6,7 +6,7 @@ Grounding DINO
 
 .. raw:: html
 
-    <div style="font-size: 18px;">
+    <div style="font-size: 30px;">
         Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection
     </div>
 
