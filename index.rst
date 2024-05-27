@@ -86,7 +86,7 @@ Image Segmentation Prompt
    Documentation/scripts/References/attention_is_all_you_need.rst
    Documentation/scripts/References/AN-IMAGE-IS-WORTH.rst
    Documentation/scripts/References/Pascal-voc.rst
-
+   Documentation/scripts/References/DINO.rst
 
 
 .. raw:: html
