@@ -87,7 +87,7 @@ Image Segmentation Prompt
    Documentation/scripts/References/AN-IMAGE-IS-WORTH.rst
    Documentation/scripts/References/Pascal-voc.rst
    Documentation/scripts/References/DINO.rst
-
+   Documentation/scripts/References/SAM.rst
 
 .. raw:: html
 
