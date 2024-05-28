@@ -27,6 +27,7 @@ Introduction
     <p style="text-align: justify;"><span style="color:#000080;"><i>  
 
     The Segment Anything (SA) project introduces a novel approach to image segmentation, incorporating a new task, model, and dataset designed to revolutionize the field. This project aims to create a foundation model for segmentation that generalizes well to new tasks and image distributions without requiring extensive retraining.
+    <p style="text-align: justify;"><span style="color:#000080;"><i>  
    </i></span></p>
 
 .. raw:: html
