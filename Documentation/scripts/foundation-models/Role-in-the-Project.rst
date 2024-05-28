@@ -302,39 +302,14 @@ Importing and Initializing
 Detection, Annotation, and Segmentation
 ---------------------------------------
 
+
+
 .. code-block:: python
 
+    from GroundingSam import *
     detections = groundingsam.get_detections()
-    
-
-.. figure:: /Documentation/images/foundation-models/imp/1.PNG
-   :width:  700
-   :align: center
-   :alt: Alternative Text
-
-
-.. code-block:: python
-
     groundingsam.annotate_images()
-
-
-
-.. figure:: /Documentation/images/foundation-models/imp/2.png
-   :width:  700
-   :align: center
-   :alt: Alternative Text
-
-
-.. code-block:: python
-
     groundingsam.get_masks()
-
-
-.. figure:: /Documentation/images/foundation-models/imp/3.png
-   :width:  700
-   :align: center
-   :alt: Alternative Text
-
 
 .. raw:: html
 
@@ -361,6 +336,54 @@ Detection, Annotation, and Segmentation
        </i></span></p> 
 
     <p><span style="color:white;">'</p></span>
+
+
+
+
+
+.. code-block:: python
+
+    from GroundingSam import *
+    detections = groundingsam.get_detections()
+    
+
+.. figure:: /Documentation/images/foundation-models/imp/1.PNG
+   :width:  700
+   :align: center
+   :alt: Alternative Text
+
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+
+
+.. code-block:: python
+
+    groundingsam.annotate_images()
+
+
+
+.. figure:: /Documentation/images/foundation-models/imp/2.png
+   :width:  700
+   :align: center
+   :alt: Alternative Text
+
+
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+
+
+.. code-block:: python
+
+    groundingsam.get_masks()
+
+
+.. figure:: /Documentation/images/foundation-models/imp/3.png
+   :width:  700
+   :align: center
+   :alt: Alternative Text
+
 
 
 
