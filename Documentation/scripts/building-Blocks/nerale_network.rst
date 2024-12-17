@@ -48,16 +48,16 @@ In this article, we will build a neural network from scratch and use it to class
 
 .. note::
     
-    You can view the dataset and access  by clicking the `link to the dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__
+    You can view the dataset and access  by clicking the `link to the dataset <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/cancer_classification.csv>`__
 
-    Read the `dataset <https://github.com/imadmlf/taskes/blob/main/cancer_classification.csv>`__ :
+    Read the `dataset <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/cancer_classification.csv>`__ :
    
    
 
 3. Training on a simple dataset
 -----------------------------
 
-1. `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__ : 
+1. `DataPreprocessing <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__ : 
 
 .. raw:: html
 
@@ -67,9 +67,9 @@ In this article, we will build a neural network from scratch and use it to class
     </span></p>
 .. note::
 
-    You can view the code and access  by clicking the. `link to DataPreprocessing class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__
+    You can view the code and access  by clicking the. `link to DataPreprocessing class <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__
     
-2. `DataExploration <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ :
+2. `DataExploration <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ :
 
 .. raw:: html
 
@@ -81,10 +81,10 @@ In this article, we will build a neural network from scratch and use it to class
 .. note::
 
     You can view the code and access  by clicking the.
-     `link to the DataExploration class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__
+     `link to the DataExploration class <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataExploration.py>`__
 
 
-3. `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__ : 
+3. `ModelTraining <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__ : 
 
 .. raw:: html
 
@@ -95,10 +95,10 @@ In this article, we will build a neural network from scratch and use it to class
 
 .. note::
 
-    You can view the code and access  by clicking the  `link to the ModelTraining class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__.
+    You can view the code and access  by clicking the  `link to the ModelTraining class <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__.
 
     
-4. `ModelEvaluation <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__ :
+4. `ModelEvaluation <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__ :
 
  
  .. raw:: html
@@ -109,10 +109,10 @@ In this article, we will build a neural network from scratch and use it to class
    </span></p>
 .. note:: 
 
-     You can view the code and access  by clicking the `link to the ModelEvaluation class  <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__
+     You can view the code and access  by clicking the `link to the ModelEvaluation class  <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__
 
 
-5. `NeuralNetwork <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__    :
+5. `NeuralNetwork <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/neural_network.py>`__    :
 
 .. raw:: html
 
@@ -122,7 +122,7 @@ In this article, we will build a neural network from scratch and use it to class
    </span></p>
 .. note::
 
-    'You can view the code and access by clicking the  `link to the NeuralNetwork class <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__.
+    'You can view the code and access by clicking the  `link to the NeuralNetwork class <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/neural_network.py>`__.
 
 
 .. code-block::python
@@ -135,7 +135,7 @@ In this article, we will build a neural network from scratch and use it to class
 
 
 
-4. Test the `DataPreprocessing <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__  class
+4. Test the `DataPreprocessing <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__  class
 -------------------------------------------------------------------------------------------------------------------------
 
 
@@ -148,14 +148,14 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
     x_train, x_test = preprocessor.normalize_data()
     x_train_tensor, x_test_tensor, y_train_tensor, y_test_tensor = preprocessor.tensorize_data()
 
-.. _`DataPreprocessing`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py
-.. _`split_data()`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
-.. _`normalize_data()`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
-.. _`tensorize_data()`: https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
+.. _`DataPreprocessing`: https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataPreprocessing.py
+.. _`split_data()`: https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
+.. _`normalize_data()`: https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
+.. _`tensorize_data()`: https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataPreprocessing.py#LX
 
 
 
-5. test the `DataExploration <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ class:
+5. test the `DataExploration <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ class:
 ------------------------------------------------------------------------------------------------------------------------
 
 
@@ -298,7 +298,7 @@ The `preprocessor` object is created using the `DataPreprocessing`_ class, which
 
 
 
-5. test `the NeuralNetwork <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/neural_network.py>`__  class
+5. test `the NeuralNetwork <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/neural_network.py>`__  class
 -------------------------------------------------------------------------------------------------------------
 
 
@@ -350,7 +350,7 @@ Here's the explanation:
     <span style="color:blue;">print(neural_net)</span>: This line prints the architecture of the neural network instance `neural_net`. The architecture of the neural network is typically defined by the layers and their configurations, which are specified within the `NeuralNetwork` class. Therefore, printing `neural_net` will display its architecture, including the layers, activation functions, and other configurations specified during its initialization.
     </span></p>
 
-6. Testing the  `ModelTraining <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__  class
+6. Testing the  `ModelTraining <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/modeltrainer.py>`__  class
 --------------------------------------------------------------------------------------------------------------------
 
 This code snippet demonstrates setting up the neural network model, defining the loss function and optimizer, and then training the model using a ModelTrainer class. During training, it collects the training and testing losses for each epoch.
@@ -385,7 +385,7 @@ plot train_losses and test_losses
 
 
 
-7. test the `ModelEvaluation <https://github.com/imadmlf/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__  class 
+7. test the `ModelEvaluation <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/ModelEvaluation.py>`__  class 
 ------------------------------------------------------------------------------------------------------------------------
 
 
@@ -423,12 +423,12 @@ Link  to github repository and colab applications:
     
     **For more practice and to learn more, we can visit this tutorial.**
 
-    `Find the link to github repository <https://github.com/imadmlf/Neural_Network_Wrapper>`__
+    `Find the link to github repository <https://github.com/imadmaalouf02/Neural_Network_Wrapper>`__
 
 
-    `Link to Colab notebook <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/test.ipynb>`__
+    `Link to Colab notebook <https://colab.research.google.com/github/imadmaalouf02/Learn_PyTorch_for_beginners/blob/main/test.ipynb>`__
 
 
-    `Link to Colab notebook  <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/NereulNe.ipynb>`__ 
+    `Link to Colab notebook  <https://colab.research.google.com/github/imadmaalouf02/Learn_PyTorch_for_beginners/blob/main/NereulNe.ipynb>`__ 
 
 
