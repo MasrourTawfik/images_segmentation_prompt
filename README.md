@@ -28,6 +28,12 @@ Make sure you have Python installed on your system.
    ```bash
    https://images-segmentation-prompt.readthedocs.io/en/latest/index.html
    ```
+
+4. Here is the link to *SegmaVisionPro* version 2 :
+
+   ```bash
+   https://github.com/MasrourTawfik/SegmaVisionPro
+   ```
 Now you're ready to start working on the documentation!
 
 
