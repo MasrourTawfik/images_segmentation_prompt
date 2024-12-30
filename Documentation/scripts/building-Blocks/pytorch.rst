@@ -269,9 +269,9 @@ python -c "import torch; print(torch.__version__)"
 
     **For more practice and to learn more, we can visit this tutorial.**
 
-    `Find the link to github repository <https://github.com/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
+    `Find the link to github repository <https://github.com/imadmaalouf02/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
 
-    `Find the link to colab <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
+    `Find the link to colab <https://colab.research.google.com/github/imadmaalouf02/Learn_PyTorch_for_beginners./blob/main/lpytorch/tensors.ipynb>`__
 
 
 
@@ -540,9 +540,9 @@ This code segment outputs a batch of training features and their corresponding l
 
     **For more practice and to learn more, we can visit this tutorial.** 
 
-    `Find the link to Github repository <https://github.com/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/data.ipynb>`__
+    `Find the link to Github repository <https://github.com/imadmaalouf02/Learn_PyTorch_for_beginners./blob/main/lpytorch/data.ipynb>`__
     
-    `Find the link to colab <https://colab.research.google.com/github/imadmlf/Learn_PyTorch_for_beginners./blob/main/lpytorch/data.ipynb>`__
+    `Find the link to colab <https://colab.research.google.com/github/imadmaalouf02/Learn_PyTorch_for_beginners./blob/main/lpytorch/data.ipynb>`__
 
 
  

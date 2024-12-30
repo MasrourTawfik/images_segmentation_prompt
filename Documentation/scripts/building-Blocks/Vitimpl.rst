@@ -754,7 +754,7 @@ _________
 
         * Find the link to github repository `"ViT_Implementation" <https://github.com/MasrourTawfik/images_segmentation_prompt/tree/main/ViT_Implementation>`__
 
-        * Find the link to `colab notebook <https://colab.research.google.com/github/imadmlf/Convolutional-Neural-Network/blob/main/ViT_Implementation/ViT_Implemented.ipynb>`__
+        * Find the link to `colab notebook <https://colab.research.google.com/github/imadmaalouf02/Convolutional-Neural-Network/blob/main/ViT_Implementation/ViT_Implemented.ipynb>`__
 
 
 
