@@ -13,18 +13,18 @@ Make sure you have Python installed on your system.
 1. Clone the repository to your local machine:
 
    ```bash
-  
+  git clone https://github.com/MasrourTawfik/images_segmentation_prompt.git
    ```
 
 1. Install the required dependencies using pip:
 
    ```bash
-
+   pip install -r requirements.txt
    ```
 1. Here is the link to the documentation.:
 
    ```bash
-   
+   https://images-segmentation-prompt.readthedocs.io/en/latest/index.html
    ```
 Now you're ready to start working on the documentation!
 
@@ -33,4 +33,4 @@ Now you're ready to start working on the documentation!
 
 ## Accessing the Documentation Online
 
-The documentation for the image segmentation prompt  is hosted on ReadTheDocs. You can access it online by following this [link](https://images-segmmentation-prompt.readthedocs.io/fr/latest/index.html). Feel free to explore and learn more about the project.
+The documentation for the image segmentation prompt  is hosted on ReadTheDocs. You can access it online by following this [link](https://images-segmentation-prompt.readthedocs.io/en/latest/index.html). Feel free to explore and learn more about the project.
