@@ -267,14 +267,6 @@ python -c "import torch; print(torch.__version__)"
 
     print(tensor)
 
-.. note::
-
-    **For more practice and to learn more, we can visit this tutorial.**
-
-    `Find the link to github repository <https://github.com/imadmaalouf02/Learn_PyTorch_for_beginners/blob/main/lpytorch/tensors.ipynb>`__
-
-    `Find the link to colab <https://colab.research.google.com/github/imadmaalouf02/Learn_PyTorch_for_beginners/blob/main/lpytorch/tensors.ipynb>`__
-
 
 
 4. Datasets & DataLoaders
@@ -538,13 +530,13 @@ This code segment outputs a batch of training features and their corresponding l
    :align: center
    :alt: Alternative Text
 
+
+
 .. note::
 
     **For more practice and to learn more, we can visit this tutorial.** 
 
-    `Find the link to Github repository <https://github.com/imadmaalouf02/Learn_PyTorch_for_beginners/blob/main/lpytorch/data.ipynb>`__
+    `Find the link to Github repository <https://github.com/imadmaalouf02/Learn_PyTorch_for_beginners>`__
     
-    `Find the link to colab <https://colab.research.google.com/github/imadmaalouf02/Learn_PyTorch_for_beginners/blob/main/lpytorch/data.ipynb>`__
-
-
+   
  
