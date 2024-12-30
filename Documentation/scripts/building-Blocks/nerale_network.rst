@@ -30,6 +30,8 @@ In this article, we will build a neural network from scratch and use it to class
 
 
 
+
+
 2. dataset:
 ---------
 
