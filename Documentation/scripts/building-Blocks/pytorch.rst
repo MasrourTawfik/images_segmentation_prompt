@@ -203,6 +203,7 @@ python -c "import torch; print(torch.__version__)"
     </span></p>
 
 
+
 .. code-block:: python
 
     import torch
@@ -217,6 +218,7 @@ python -c "import torch; print(torch.__version__)"
 
 
 * **Operations on Tensors**
+
 
 
 .. raw:: html
