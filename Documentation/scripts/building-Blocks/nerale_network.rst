@@ -71,7 +71,7 @@ In this article, we will build a neural network from scratch and use it to class
 
     You can view the code and access  by clicking the. `link to DataPreprocessing class <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataPreprocessing.py>`__
     
-2. `DataExploration <https://github.com/imadmaalouf02/Neural_Network_Wrapper/blob/main/DataExploration.py>`__ :
+2. `DataExploration <https://github.com/MasrourTawfik/images_segmentation_prompt/blob/main/Neural_Network/NeuralNetwork/DataExploration.py>`__ :
 
 .. raw:: html
 
